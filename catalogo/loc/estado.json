@@ -1,10 +1,10 @@
 {
- "parte": 4,
- "en_parte": 11051,
- "guardados": 91051,
+ "parte": 6,
+ "en_parte": 683,
+ "guardados": 120683,
  "descartados": 0,
- "terminado": false,
- "pagina": 36,
+ "terminado": true,
+ "pagina": 1,
  "modo": "tramos",
- "tramo": 26
+ "tramo": 39
 }
