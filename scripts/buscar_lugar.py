@@ -78,6 +78,44 @@ def coincide(r, ts, z=None):
     return None
 
 
+def resolver_paises(lugar):
+    """Convierte la consulta en códigos ISO3 usando los mismos nombres que el clasificador
+    (nombres actuales en 25+ idiomas y nombres históricos)."""
+    sys.path.insert(0, str(RAIZ / "scripts"))
+    import comprender
+    paises, _, _, _, terminos, _ = comprender.cargar_paises()
+    q = norm(lugar)
+    isos = {iso for iso, _ in terminos.get(q, set())}
+    if not isos:
+        isos = {iso for iso, d in paises.items() if norm(d["nombre_es"] or "") == q}
+    return sorted(isos), paises
+
+
+def desde_biblioteca(isos, a):
+    res = []
+    for iso in isos:
+        ruta = RAIZ / "catalogo/biblioteca/paises" / f"{iso}.jsonl.gz"
+        if not ruta.exists():
+            continue
+        with gzip.open(ruta, "rt", encoding="utf-8") as f:
+            for linea in f:
+                r = json.loads(linea)
+                anio = r.get("anio")
+                if a.desde and (not anio or anio < a.desde):
+                    continue
+                if a.hasta and (not anio or anio > a.hasta):
+                    continue
+                if a.siglo and a.siglo not in (r.get("siglos") or []):
+                    continue
+                if a.tipo and norm(a.tipo) not in norm(r.get("tipo") or ""):
+                    continue
+                if (r.get("relevancia") or 0) < a.relevancia:
+                    continue
+                r["coincidencia"] = r.get("via")
+                res.append(r)
+    return res
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("lugar")
@@ -85,33 +123,42 @@ def main():
     ap.add_argument("--hasta", type=int)
     ap.add_argument("--siglo", type=int)
     ap.add_argument("--max", type=int, default=2000)
+    ap.add_argument("--tipo", help="portulano, carta náutica, ptolemaico, mapamundi, plano urbano, topográfico…")
+    ap.add_argument("--relevancia", type=float, default=0.0,
+                    help="mínimo (1 = el mapa nombra el país; 0,3 = el país ocupa al menos el 30 %% del mapa)")
     a = ap.parse_args()
-    fragmentos = sorted((RAIZ / "catalogo/indice").glob("mapas-*.jsonl.gz"))
-    if not fragmentos:
-        sys.exit("No hay índice: ejecuta el flujo 'Catálogo' o scripts/indexar_catalogo.py")
-    ts, pais = terminos(a.lugar)
-    z = zona(pais)
-    res = []
-    for frag in fragmentos:
-      with gzip.open(frag, "rt", encoding="utf-8") as f:
-        for linea in f:
-            r = json.loads(linea)
-            como = coincide(r, ts, z)
-            if not como:
-                continue
-            anio = r.get("anio")
-            if a.desde and (not anio or anio < a.desde):
-                continue
-            if a.hasta and (not anio or anio > a.hasta):
-                continue
-            if a.siglo and a.siglo not in r.get("siglos", []):
-                continue
-            r["coincidencia"] = como
-            res.append(r)
+    isos, _ = resolver_paises(a.lugar)
+    if isos and (RAIZ / "catalogo/biblioteca/paises").exists():
+        ts = isos
+        res = desde_biblioteca(isos, a)
+    else:
+        # Región que no es un país (p. ej. "Mediterráneo", "Ptolomeo"): búsqueda por texto en el índice.
+        fragmentos = sorted((RAIZ / "catalogo/indice").glob("mapas-*.jsonl.gz"))
+        if not fragmentos:
+            sys.exit("No hay índice: ejecuta el flujo 'Catálogo' o scripts/indexar_catalogo.py")
+        ts, pais = terminos(a.lugar)
+        z = zona(pais)
+        res = []
+        for frag in fragmentos:
+            with gzip.open(frag, "rt", encoding="utf-8") as f:
+                for linea in f:
+                    r = json.loads(linea)
+                    como = coincide(r, ts, z)
+                    if not como:
+                        continue
+                    anio = r.get("anio")
+                    if a.desde and (not anio or anio < a.desde):
+                        continue
+                    if a.hasta and (not anio or anio > a.hasta):
+                        continue
+                    if a.siglo and a.siglo not in r.get("siglos", []):
+                        continue
+                    r["coincidencia"] = como
+                    res.append(r)
     res.sort(key=lambda r: (r.get("anio") or 9999, r["t"]))
-    print(f"«{a.lugar}» -> términos {ts}: {len(res)} mapas")
+    print(f"«{a.lugar}» -> {ts}: {len(res)} mapas")
     for r in res[:60]:
-        print(f"  {r.get('anio') or '¿?':>5}  {r['t'][:75]}  [{r.get('fuente', 'commons')}; {r['lic'][:30]}]")
+        print(f"  {r.get('anio') or '¿?':>5}  {(r.get('t') or '')[:70]}  [{r.get('tipo', '')}; {r.get('fuente', 'commons')}; por {r['coincidencia']}]")
     if len(res) > 60:
         print(f"  … y {len(res) - 60} más (ver la galería)")
 

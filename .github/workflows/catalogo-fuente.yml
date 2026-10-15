@@ -58,13 +58,17 @@ jobs:
           python-version: "3.12"
       - name: Índice
         run: python scripts/indexar_catalogo.py
+      - name: Comprender (países, tipos, escalas) y documentar
+        run: |
+          pip install -q "shapely>=2.0"
+          python scripts/comprender.py
       - name: Guardar y relanzar si falta
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "cartographer-bot"
           git config user.email "cartographer-bot@users.noreply.github.com"
-          git add -A catalogo/indice
+          git add -A catalogo/indice catalogo/biblioteca BIBLIOTECA.md
           git diff --cached --quiet || git commit -qm "Catálogo: índice actualizado [skip ci]"
           for i in 1 2 3 4 5; do git pull --rebase -q origin main && git push -q && break; sleep 10; done
           pendiente=$(python - <<'PY'
