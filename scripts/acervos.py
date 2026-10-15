@@ -202,10 +202,16 @@ def ogm_registro(s, d):
 
 
 # ---------------------------------------------------------------- Library of Congress
+TRAMOS_LOC = [f"{a}/{a + 49}" for a in range(1000, 1800, 50)] + [f"{a}/{a + 9}" for a in range(1800, 2030, 10)]
+
+
 def loc(s, fin):
-    pagina = s.e.setdefault("pagina", 1)
-    while time.time() < fin:
-        d = pedir_json(f"https://www.loc.gov/maps/?fo=json&c=150&sp={pagina}&at=results,pagination")
+    """Recorre loc.gov/maps por tramos de años: la API deja de paginar pasadas ~400 páginas por consulta."""
+    if s.e.get("modo") != "tramos":
+        s.e.update(modo="tramos", tramo=0, pagina=1, terminado=False)
+    while time.time() < fin and s.e["tramo"] < len(TRAMOS_LOC):
+        tramo = TRAMOS_LOC[s.e["tramo"]]
+        d = pedir_json(f"https://www.loc.gov/maps/?fo=json&c=150&sp={s.e['pagina']}&dates={tramo}&at=results,pagination")
         if not d:
             break
         for r in d.get("results", []):
@@ -216,15 +222,17 @@ def loc(s, fin):
             s.poner({
                 "id": r.get("id"), "t": (r.get("title") or "")[:300], "url": r.get("id"),
                 "th": imgs[0] if imgs else None, "iiif": None, "lic": lic,
-                "autor": "; ".join(r.get("contributor") or [])[:150], "fecha": str(fecha)[:40],
-                "anio": anio_de(fecha, r.get("dates")), "lugares": (r.get("location") or [])[:12], "bbox": None,
+                "autor": "; ".join(lista(r.get("contributor")))[:150], "fecha": str(fecha)[:40],
+                "anio": anio_de(fecha, r.get("dates")), "lugares": lista(r.get("location"))[:12], "bbox": None,
             })
-        if not (d.get("pagination") or {}).get("next"):
-            s.e["terminado"] = True
-            break
-        pagina += 1
-        s.e["pagina"] = pagina
-        time.sleep(3)  # la API de loc.gov limita la frecuencia
+        if (d.get("pagination") or {}).get("next"):
+            s.e["pagina"] += 1
+        else:
+            print("LoC tramo", tramo, "terminado en página", s.e["pagina"])
+            s.e["tramo"] += 1
+            s.e["pagina"] = 1
+        time.sleep(3)
+    s.e["terminado"] = s.e["tramo"] >= len(TRAMOS_LOC)
 
 
 # ---------------------------------------------------------------- Internet Archive
@@ -376,11 +384,25 @@ def bne(s, fin):
                  "Referer": "https://datos.gob.es/"}
     urls = sorted(set(urls), key=lambda u: (not u.endswith("utf8.zip"), u))
     for url in urls:
-        try:
-            req = urllib.request.Request(url, headers=navegador)
-            datos = urllib.request.urlopen(req, timeout=300).read()
-        except Exception as e:
-            print("no se pudo descargar", url, e)
+        datos = None
+        vias = [("directa", url), ("Wayback", "https://web.archive.org/web/2026id_/" + url),
+                ("Wayback-2025", "https://web.archive.org/web/2025id_/" + url)]
+        for via, u in vias:
+            try:
+                datos = urllib.request.urlopen(urllib.request.Request(u, headers=navegador), timeout=300).read()
+            except Exception as e:
+                print("no se pudo descargar", via, u, e)
+                r = subprocess.run(["curl", "-sSL", "--fail", "-A", navegador["User-Agent"], "--max-time", "300", u],
+                                   capture_output=True)
+                if r.returncode == 0 and r.stdout[:2] == b"PK":
+                    datos = r.stdout
+                else:
+                    print("curl tampoco", via, r.returncode)
+            if datos and datos[:2] == b"PK":
+                print("BNE descargado vía", via)
+                break
+            datos = None
+        if not datos:
             continue
         if url.endswith(".zip"):
             z = zipfile.ZipFile(io.BytesIO(datos))
@@ -408,7 +430,7 @@ def bne(s, fin):
                 "bbox": None,
             })
         break
-    s.e["terminado"] = True
+    s.e["terminado"] = s.e["guardados"] > 0
 
 
 # ---------------------------------------------------------------- Allmaps (mapas georreferenciados por la comunidad)
