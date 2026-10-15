@@ -29,10 +29,15 @@ POR_PARTE = 20000
 RE_ANIO = re.compile(r"(?<!\d)(1[0-9]{3}|[5-9][0-9]{2})(?!\d)")
 
 
-def pedir_json(url, intentos=6):
+NAVEGADOR = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+             "Accept": "application/json,text/html;q=0.9,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.9,es;q=0.8"}
+
+
+def pedir_json(url, intentos=6, navegador=False):
     for i in range(intentos):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
+            cab = dict(NAVEGADOR) if navegador else {"User-Agent": UA, "Accept": "application/json"}
+            req = urllib.request.Request(url, headers=cab)
             with urllib.request.urlopen(req, timeout=120) as r:
                 return json.load(r)
         except Exception as e:
@@ -285,9 +290,13 @@ def europeana(s, fin):
 def dc(s, fin):
     pagina = s.e.setdefault("pagina", 1)
     while time.time() < fin:
-        url = ("https://www.digitalcommonwealth.org/search.json?" + urllib.parse.urlencode(
-            [("f[genre_basic_ssim][]", "Maps"), ("per_page", "100"), ("page", str(pagina))]))
-        d = pedir_json(url)
+        base = s.e.get("base", "https://collections.leventhalmap.org/search.json?")
+        url = base + urllib.parse.urlencode([("per_page", "100"), ("page", str(pagina)), ("q", ""),
+                                             ("search_field", "all_fields")])
+        d = pedir_json(url, navegador=True)
+        if not d and pagina == 1 and "leventhal" in base:
+            s.e["base"] = base = "https://www.digitalcommonwealth.org/search.json?f%5Bgenre_basic_ssim%5D%5B%5D=Maps&"
+            d = pedir_json(base + urllib.parse.urlencode([("per_page", "100"), ("page", "1")]), navegador=True)
         if not d:
             break
         docs = (d.get("response") or {}).get("docs") or d.get("data") or []
@@ -308,11 +317,12 @@ def dc(s, fin):
             ident = r.get("id")
             lugares = lista(val("subject_geographic_sim") or val("subject_geo_city_sim") or val("subject_geo_country_sim"))
             coords = val("subject_coordinates_geospatial") or val("subject_bbox_geospatial")
+            dominio = "https://collections.leventhalmap.org" if "leventhal" in s.e.get("base", "leventhal") else "https://www.digitalcommonwealth.org"
             s.poner({
                 "id": ident, "t": " ".join(lista(val("title_info_primary_tsi")))[:300],
-                "url": f"https://www.digitalcommonwealth.org/search/{ident}",
-                "th": f"https://www.digitalcommonwealth.org/search/{ident}/thumbnail",
-                "iiif": f"https://www.digitalcommonwealth.org/search/{ident}/manifest.json",
+                "url": f"{dominio}/search/{ident}",
+                "th": f"{dominio}/search/{ident}/thumbnail",
+                "iiif": f"{dominio}/search/{ident}/manifest.json",
                 "lic": lic, "autor": "; ".join(lista(val("name_tsim")))[:150], "fecha": fecha[:40], "anio": anio,
                 "lugares": lugares[:12], "bbox": bbox_envelope(" ".join(lista(coords))) if coords else None,
                 "proveedor": " ".join(lista(val("institution_name_ssi"))),
