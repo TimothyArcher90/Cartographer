@@ -1,0 +1,21 @@
+{
+  "id": "mappa-mundi-hereford",
+  "titulo": "Mappa mundi de Hereford (hacia 1300)",
+  "autor": "Richard of Haldingham",
+  "anio": 1300,
+  "fecha_segun_commons": "circa 1300date QS:P,+1300-00-00T00:00:00Z/9,P1480,Q5727902",
+  "fuente": "wikimedia-commons",
+  "commons_archivo": "File:Hereford Mappa Mundi.jpg",
+  "url": "https://commons.wikimedia.org/wiki/File:Hereford_Mappa_Mundi.jpg",
+  "licencia": "Public domain",
+  "licencia_verificada": false,
+  "uso_en_video": "si",
+  "imagen_original": "original.jpg",
+  "descarga_ancho": 3000,
+  "metodo": null,
+  "modo": "decorativo",
+  "calidad": "por evaluar",
+  "notas": "Imagen real escaneada del original o de su edición histórica. Licencia y autor según la API oficial de Commons (campo commons).",
+  "gcp": [],
+  "anio_aproximado": true
+}

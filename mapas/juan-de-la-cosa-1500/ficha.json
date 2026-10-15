@@ -1,0 +1,21 @@
+{
+  "id": "juan-de-la-cosa-1500",
+  "titulo": "Carta de Juan de la Cosa (1500)",
+  "autor": "Juan de la Cosa",
+  "anio": 1500,
+  "fecha_segun_commons": "1500date QS:P571,+1500-00-00T00:00:00Z/9",
+  "fuente": "wikimedia-commons",
+  "commons_archivo": "File:1500 map by Juan de la Cosa rotated.jpg",
+  "url": "https://commons.wikimedia.org/wiki/File:1500_map_by_Juan_de_la_Cosa_rotated.jpg",
+  "licencia": "Public domain",
+  "licencia_verificada": false,
+  "uso_en_video": "si",
+  "imagen_original": "original.jpg",
+  "descarga_ancho": 3000,
+  "metodo": null,
+  "modo": "decorativo",
+  "calidad": "por evaluar",
+  "notas": "Imagen real escaneada del original o de su edición histórica. Licencia y autor según la API oficial de Commons (campo commons).",
+  "gcp": [],
+  "anio_aproximado": false
+}
