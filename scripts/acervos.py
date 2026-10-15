@@ -264,10 +264,19 @@ def ia(s, fin):
 
 
 # ---------------------------------------------------------------- Europeana
+CONSULTA_EUROPEANA = ("title:(map OR maps OR mapa OR mapas OR mappa OR carte OR karte OR landkarte OR kaart OR "
+                      "atlas OR plan OR plano OR pianta OR stadtplan OR plattegrond OR chart OR portolan OR "
+                      "messtischblatt OR mappemonde OR planisphere)")
+
+
 def europeana(s, fin):
+    if s.e.get("consulta") != CONSULTA_EUROPEANA:
+        s.e["consulta"] = CONSULTA_EUROPEANA
+        s.e["cursor"] = "*"
+        s.e["terminado"] = False
     cursor = s.e.get("cursor", "*")
     while time.time() < fin and cursor:
-        p = [("wskey", "api2demo"), ("query", "what:(map OR maps OR carte OR karte OR mapa OR kaart OR atlas)"),
+        p = [("wskey", "api2demo"), ("query", CONSULTA_EUROPEANA),
              ("qf", "TYPE:IMAGE"), ("reusability", "open"), ("rows", "100"), ("profile", "rich"), ("cursor", cursor)]
         d = pedir_json("https://api.europeana.eu/record/v2/search.json?" + urllib.parse.urlencode(p))
         if not d or not d.get("success", True):
