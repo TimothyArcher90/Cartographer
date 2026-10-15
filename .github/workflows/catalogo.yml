@@ -4,6 +4,10 @@ name: Catálogo de mapas libres (todas las fuentes)
 # el flujo se relanza solo.
 on:
   workflow_dispatch:
+    inputs:
+      minutos:
+        description: Minutos de rastreo por fuente
+        default: "300"
   push:
     branches: [main]
     paths:
@@ -36,9 +40,9 @@ jobs:
       - name: Rastrear ${{ matrix.fuente }}
         run: |
           if [ "${{ matrix.fuente }}" = commons ]; then
-            python scripts/catalogar_commons.py --minutos 300
+            python scripts/catalogar_commons.py --minutos ${{ inputs.minutos || 300 }}
           else
-            python scripts/acervos.py ${{ matrix.fuente }} --minutos 300
+            python scripts/acervos.py ${{ matrix.fuente }} --minutos ${{ inputs.minutos || 300 }}
           fi
       - name: Guardar
         run: |
