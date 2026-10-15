@@ -1,0 +1,40 @@
+name: Biblioteca (índice + clasificación)
+
+# Reconstruye el índice y la clasificación por país/región/tipo. Corre aparte del rastreo para no
+# detenerlo; si llega otra petición mientras corre, la anterior se cancela y vale la más reciente.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: biblioteca
+  cancel-in-progress: true
+
+jobs:
+  construir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Índice
+        run: python scripts/indexar_catalogo.py
+      - name: Comprender (países, regiones, tipos, escalas) y documentar
+        run: |
+          pip install -q "shapely>=2.0"
+          python scripts/comprender.py
+      - name: Guardar
+        run: |
+          git config user.name "cartographer-bot"
+          git config user.email "cartographer-bot@users.noreply.github.com"
+          git add -A catalogo/indice catalogo/biblioteca BIBLIOTECA.md
+          git diff --cached --quiet && exit 0
+          git commit -qm "Biblioteca: índice y clasificación actualizados [skip ci]"
+          for i in 1 2 3 4 5 6 7 8; do git pull --rebase -q -X theirs origin main && git push -q && exit 0; sleep $((i*10)); done
+          exit 1
