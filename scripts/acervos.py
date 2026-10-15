@@ -333,9 +333,13 @@ def bne(s, fin):
     urls = re.findall(r'https?://[^"\s]+?\.(?:csv|json|xml|zip)', json.dumps(meta or {}))
     print("distribuciones:", urls)
     import csv, io, zipfile
+    navegador = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
+                               "Chrome/126.0 Safari/537.36", "Accept": "*/*", "Accept-Language": "es-ES,es;q=0.9",
+                 "Referer": "https://datos.gob.es/"}
+    urls = sorted(set(urls), key=lambda u: (not u.endswith("utf8.zip"), u))
     for url in urls:
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            req = urllib.request.Request(url, headers=navegador)
             datos = urllib.request.urlopen(req, timeout=300).read()
         except Exception as e:
             print("no se pudo descargar", url, e)
@@ -371,8 +375,21 @@ def bne(s, fin):
 
 # ---------------------------------------------------------------- Allmaps (mapas georreferenciados por la comunidad)
 def allmaps(s, fin):
-    candidatos = ["https://annotations.allmaps.org/maps.ndjson", "https://annotations.allmaps.org/maps.geojsonl",
-                  "https://annotations.allmaps.org/maps.json", "https://allmaps.org/data/maps.ndjson"]
+    candidatos = []
+    for pagina in ["https://allmaps.org/", "https://allmaps.org/docs/", "https://dev.allmaps.org/",
+                   "https://allmaps.org/docs/open-data/", "https://allmaps.org/open-data/"]:
+        try:
+            html_ = urllib.request.urlopen(urllib.request.Request(pagina, headers={"User-Agent": UA}), timeout=60).read().decode("utf-8", "replace")
+        except Exception as e:
+            print("Allmaps: no se pudo leer", pagina, e)
+            continue
+        enlaces = re.findall(r'href="([^"]+\.(?:ndjson|geojsonl|geojson|json)(?:\?[^"]*)?)"', html_)
+        print("Allmaps: enlaces en", pagina, enlaces[:30])
+        for e in enlaces:
+            candidatos.append(urllib.parse.urljoin(pagina, e))
+    # Preferir los formatos de una línea por mapa
+    candidatos = sorted(set(candidatos), key=lambda u: (not u.split("?")[0].endswith(("ndjson", "geojsonl")), "maps" not in u, u))
+    print("Allmaps: candidatos", candidatos)
     for url in candidatos:
         try:
             req = urllib.request.Request(url, headers={"User-Agent": UA})
