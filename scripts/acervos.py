@@ -371,65 +371,74 @@ def dc(s, fin):
 
 
 # ---------------------------------------------------------------- Biblioteca Nacional de España (datos.gob.es)
+def bne_descargar(url, navegador):
+    """Intenta la descarga directa, con curl y desde copias del Internet Archive."""
+    vias = [("directa", url)] + [(f"Wayback {a}", f"https://web.archive.org/web/{a}id_/{url}")
+                                 for a in ("2026", "2025", "2024", "2023")]
+    for via, u in vias:
+        try:
+            datos = urllib.request.urlopen(urllib.request.Request(u, headers=navegador), timeout=300).read()
+        except Exception:
+            r = subprocess.run(["curl", "-sSL", "--fail", "-A", navegador["User-Agent"], "--max-time", "300", u],
+                               capture_output=True)
+            datos = r.stdout if r.returncode == 0 else None
+        if datos and datos[:2] == b"PK":
+            print("BNE:", url.rsplit("/", 1)[-1], "descargado vía", via, len(datos) // 1024, "KB")
+            yield via, datos
+
+
+def bne_filas(nombre, contenido):
+    import csv, io
+    csv.field_size_limit(10 ** 9)
+    if nombre.endswith(".json"):
+        d = json.loads(contenido.decode("utf-8", "replace"))
+        return d if isinstance(d, list) else next((v for v in d.values() if isinstance(v, list)), [])
+    if nombre.endswith(".csv") or nombre.endswith(".txt"):
+        texto = contenido.decode("utf-8", "replace") if b"\xef\xbb\xbf" in contenido[:3] or "utf8" in nombre \
+            else contenido.decode("cp1252", "replace")
+        cab = texto[:5000].splitlines()[0] if texto else ""
+        sep = max([";", ",", "\t", "|"], key=cab.count)
+        return list(csv.DictReader(io.StringIO(texto), delimiter=sep))
+    return []
+
+
 def bne(s, fin):
-    """Conjunto 'Biblioteca Digital. Tipo de material: Material cartográfico' de datos.gob.es.
-    Las obras en dominio público de la BNE se reutilizan con CC BY 4.0 (citar a la BNE)."""
-    meta = pedir_json("https://datos.gob.es/apidata/catalog/dataset/ea0019768-biblioteca-digital-tipo-de-material-material-cartografico1.json")
-    print("metadatos datos.gob.es:", json.dumps(meta)[:2000] if meta else None)
-    urls = re.findall(r'https?://[^"\s]+?\.(?:csv|json|xml|zip)', json.dumps(meta or {}))
-    print("distribuciones:", urls)
-    import csv, io, zipfile
-    navegador = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
-                               "Chrome/126.0 Safari/537.36", "Accept": "*/*", "Accept-Language": "es-ES,es;q=0.9",
-                 "Referer": "https://datos.gob.es/"}
-    urls = sorted(set(urls), key=lambda u: (not u.endswith("utf8.zip"), u))
-    for url in urls:
-        datos = None
-        vias = [("directa", url), ("Wayback", "https://web.archive.org/web/2026id_/" + url),
-                ("Wayback-2025", "https://web.archive.org/web/2025id_/" + url)]
-        for via, u in vias:
+    """Conjunto 'BNE Digital: material cartográfico' de datos.gob.es (la BNE bloquea la descarga
+    directa desde GitHub; se usa la copia del Internet Archive). Dominio público, reutilización CC BY 4.0."""
+    import io, zipfile
+    navegador = {"User-Agent": NAVEGADOR["User-Agent"], "Accept": "*/*", "Referer": "https://datos.gob.es/"}
+    base = "https://www.bne.es/media/datosgob/bdh/tipodoc/material_cartografico_"
+    mejor = []
+    for fmt in ("json", "csv-utf8", "txt", "csv-cp1252"):
+        for via, datos in bne_descargar(f"{base}{fmt}.zip", navegador):
             try:
-                datos = urllib.request.urlopen(urllib.request.Request(u, headers=navegador), timeout=300).read()
-            except Exception as e:
-                print("no se pudo descargar", via, u, e)
-                r = subprocess.run(["curl", "-sSL", "--fail", "-A", navegador["User-Agent"], "--max-time", "300", u],
-                                   capture_output=True)
-                if r.returncode == 0 and r.stdout[:2] == b"PK":
-                    datos = r.stdout
-                else:
-                    print("curl tampoco", via, r.returncode)
-            if datos and datos[:2] == b"PK":
-                print("BNE descargado vía", via)
-                break
-            datos = None
-        if not datos:
-            continue
-        if url.endswith(".zip"):
-            z = zipfile.ZipFile(io.BytesIO(datos))
-            nombre = next((n for n in z.namelist() if n.endswith(".csv")), None)
-            if not nombre:
+                z = zipfile.ZipFile(io.BytesIO(datos))
+            except Exception:
                 continue
-            datos = z.read(nombre)
-        if not (url.endswith(".csv") or url.endswith(".zip")):
-            continue
-        texto = datos.decode("utf-8", "replace")
-        sep = ";" if texto[:2000].count(";") > texto[:2000].count(",") else ","
-        filas = list(csv.DictReader(io.StringIO(texto), delimiter=sep))
-        print("filas BNE:", len(filas), "columnas:", list(filas[0].keys()) if filas else None)
-        for f in filas:
-            g = {k.lower().strip(): (v or "").strip() for k, v in f.items() if k}
-            titulo = g.get("título") or g.get("titulo") or g.get("title") or ""
-            fecha = g.get("fecha") or g.get("fecha de publicación") or g.get("date") or ""
-            enlace = g.get("enlace") or g.get("url") or g.get("pid") or g.get("enlace a la biblioteca digital") or ""
-            s.poner({
-                "id": enlace or titulo, "t": titulo[:300], "url": enlace, "th": None, "iiif": None,
-                "lic": "CC BY 4.0 (obras de dominio público de la BNE; citar 'Biblioteca Nacional de España')",
-                "autor": (g.get("autor") or g.get("autores") or "")[:150], "fecha": fecha[:40],
-                "anio": anio_de(fecha, titulo),
-                "lugares": [x for x in re.split(r"[;|]", g.get("lugar") or g.get("materia geográfica") or g.get("tema geográfico") or "") if x][:12],
-                "bbox": None,
-            })
-        break
+            for n in z.namelist():
+                try:
+                    filas = bne_filas(n, z.read(n))
+                except Exception as e:
+                    print("BNE: no se pudo leer", n, e)
+                    continue
+                print("BNE:", fmt, via, n, len(filas), "filas")
+                if len(filas) > len(mejor):
+                    mejor = filas
+    print("BNE: filas finales", len(mejor))
+    for f in mejor:
+        g = {str(k).strip().lower(): (str(v) if v is not None else "").strip() for k, v in f.items() if k}
+        titulo = g.get("título") or g.get("titulo") or ""
+        fecha = g.get("fecha de publicación") or ""
+        enlace = g.get("version_digital") or ""
+        enlace = enlace.split(" ")[0] if enlace else ""
+        lugares = [x.strip() for x in re.split(r"[;|/]", " ; ".join([g.get("lugar relacionado", ""), g.get("tema", "")])) if x.strip()]
+        s.poner({
+            "id": g.get("idbne") or enlace or titulo, "t": titulo[:300], "url": enlace, "th": None, "iiif": None,
+            "lic": "CC BY 4.0 (obras de dominio público de la BNE; citar 'Biblioteca Nacional de España')",
+            "autor": (g.get("autor personas") or g.get("autor entidades") or "")[:150], "fecha": fecha[:40],
+            "anio": anio_de(fecha, titulo), "lugares": lugares[:12], "bbox": None,
+            "escala": g.get("escala del mapa", "")[:60],
+        })
     s.e["terminado"] = s.e["guardados"] > 0
 
 
@@ -499,7 +508,7 @@ def main():
     ap.add_argument("--minutos", type=float, default=300)
     a = ap.parse_args()
     s = Salida(a.fuente)
-    if s.e.get("terminado"):
+    if s.e.get("terminado") and not (a.fuente == "loc" and s.e.get("modo") != "tramos"):
         print(a.fuente, "ya terminado")
         return
     try:
