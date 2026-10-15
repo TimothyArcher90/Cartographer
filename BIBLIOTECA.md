@@ -2,11 +2,11 @@
 
 Documento generado por `scripts/comprender.py`. No editar a mano.
 
-- Mapas analizados: **671,687** · con país asignado: **440,009** · sin país: 231,678
+- Mapas analizados: **671,785** · con país asignado: **440,024** · sin país: 231,761
   (sobre todo mapamundis, cartas oceánicas o registros sin datos de lugar).
 - Países con mapas: **243**.
-- Tipos: general 419,151, topográfico 201,640, plano urbano 23,258, militar 8,358, histórico/temático 6,633, ferroviario/viario 4,397, mapamundi 4,382, carta náutica 3,262, portulano 445, ptolemaico 161.
-- Escalas: desconocida 401,891, local o ciudad 245,025, provincia o comarca 14,152, región o país 6,100, continente 2,997, mundo 1,522.
+- Tipos: general 419,211, topográfico 201,640, plano urbano 23,258, militar 8,358, histórico/temático 6,633, mapamundi 4,420, ferroviario/viario 4,397, carta náutica 3,262, portulano 445, ptolemaico 161.
+- Escalas: desconocida 401,989, local o ciudad 245,025, provincia o comarca 14,152, región o país 6,100, continente 2,997, mundo 1,522.
 
 Cómo se asigna un país: por **nombre** actual (25+ idiomas, Natural Earth), por **nombre histórico**
 (`catalogo/nombres_historicos.json`) o por **coordenadas** de la cobertura del mapa. Cada mapa guarda
@@ -76,17 +76,17 @@ Mapas de un país: `catalogo/biblioteca/paises/<ISO3>.jsonl.gz` o
 | Dominica | DMA | 15 |  |  |  |  |  |  |  |  |  |  | 12 | 2 |  |
 | ESB | ESB | 1 |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | Ecuador | ECU | 251 |  |  |  |  |  |  |  |  | 7 | 19 | 36 | 65 | 85 |
-| Egipto | EGY | 1,890 |  |  |  |  |  |  |  | 3 | 43 | 39 | 114 | 758 | 748 |
+| Egipto | EGY | 1,891 |  |  |  |  |  | 1 |  | 3 | 43 | 39 | 114 | 758 | 748 |
 | El Salvador | SLV | 109 |  |  |  |  |  |  |  |  |  | 1 | 3 | 44 | 54 |
 | Emiratos Árabes Unidos | ARE | 53 |  |  |  |  |  |  |  | 3 | 7 | 6 | 12 | 13 | 6 |
 | Eritrea | ERI | 398 |  |  |  |  |  |  |  |  | 1 | 6 | 7 | 99 | 260 |
 | Eslovaquia | SVK | 490 |  |  |  |  |  |  |  | 2 | 16 | 13 | 19 | 94 | 97 |
 | Eslovenia | SVN | 300 |  |  |  |  |  |  |  | 2 | 20 | 6 | 3 | 15 | 106 |
-| España | ESP | 6,880 | 6 |  |  |  |  |  | 1 | 12 | 94 | 285 | 1,364 | 2,638 | 890 |
+| España | ESP | 6,882 | 6 |  |  |  | 1 | 1 | 1 | 12 | 94 | 285 | 1,364 | 2,638 | 890 |
 | Estados Federados de Micronesia | FSM | 44 |  |  |  |  |  |  |  |  |  | 1 | 1 | 11 | 25 |
 | Estados Unidos | USA | 337,143 | 2 |  |  |  |  |  |  | 2 | 26 | 516 | 4,940 | 92,176 | 208,028 |
 | Estonia | EST | 954 |  |  |  |  |  |  |  |  | 2 | 11 | 14 | 79 | 489 |
-| Etiopía | ETH | 419 |  |  |  |  |  |  |  | 1 | 10 | 15 | 12 | 104 | 202 |
+| Etiopía | ETH | 420 |  |  |  |  |  | 1 |  | 1 | 10 | 15 | 12 | 104 | 202 |
 | Filipinas | PHL | 365 |  |  |  |  |  |  |  |  | 4 | 5 | 56 | 72 | 179 |
 | Finlandia | FIN | 201 |  |  |  |  |  |  |  | 1 | 8 | 15 | 18 | 32 | 29 |
 | Fiyi | FJI | 43 |  |  |  |  |  |  |  |  |  | 1 |  | 29 | 10 |
@@ -130,8 +130,8 @@ Mapas de un país: `catalogo/biblioteca/paises/<ISO3>.jsonl.gz` o
 | Islas Turcas y Caicos | TCA | 6 |  |  |  |  |  |  |  |  |  |  | 2 | 2 | 2 |
 | Islas Vírgenes Británicas | VGB | 9 |  |  |  |  |  |  |  |  |  |  | 3 | 1 | 5 |
 | Islas Vírgenes de los Estados Unidos | VIR | 101 |  |  |  |  |  |  |  |  |  | 1 | 49 | 2 | 44 |
-| Israel | ISR | 1,227 |  |  |  |  |  |  | 1 | 9 | 51 | 61 | 154 | 424 | 109 |
-| Italia | ITA | 4,599 | 2 |  |  |  | 1 |  |  | 10 | 189 | 337 | 305 | 1,159 | 357 |
+| Israel | ISR | 1,228 |  |  |  |  |  | 1 | 1 | 9 | 51 | 61 | 154 | 424 | 109 |
+| Italia | ITA | 4,600 | 2 |  |  |  | 1 | 1 |  | 10 | 189 | 337 | 305 | 1,159 | 357 |
 | Jamaica | JAM | 744 |  |  |  |  |  |  |  | 1 | 1 | 15 | 115 | 543 | 46 |
 | Japón | JPN | 1,103 |  |  |  |  |  |  |  | 1 | 4 | 41 | 129 | 291 | 225 |
 | Jersey | JEY | 13 |  |  |  |  |  |  |  |  |  | 4 |  | 8 |  |
@@ -192,7 +192,7 @@ Mapas de un país: `catalogo/biblioteca/paises/<ISO3>.jsonl.gz` o
 | Polonia | POL | 2,689 |  |  |  |  |  |  | 1 | 6 | 40 | 52 | 155 | 525 | 448 |
 | Portugal | PRT | 2,416 | 1 |  |  |  |  |  |  | 2 | 48 | 129 | 461 | 970 | 204 |
 | Puerto Rico | PRI | 1,040 |  |  |  |  |  |  |  | 1 |  | 10 | 70 | 38 | 897 |
-| Reino Unido | GBR | 8,200 |  |  |  |  |  |  |  | 1 | 54 | 428 | 644 | 2,168 | 432 |
+| Reino Unido | GBR | 8,213 |  |  |  |  | 2 | 8 |  | 1 | 54 | 428 | 644 | 2,169 | 432 |
 | República Centroafricana | CAF | 155 |  |  |  |  |  |  |  |  |  | 2 | 3 | 8 | 112 |
 | República Checa | CZE | 1,089 |  |  |  |  |  |  |  | 1 | 16 | 31 | 57 | 189 | 213 |
 | República Democrática del Congo | COD | 224 |  |  |  |  |  |  |  |  | 3 | 6 | 9 | 31 | 128 |

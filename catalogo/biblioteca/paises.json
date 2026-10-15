@@ -174,15 +174,17 @@
  "GBR": {
   "nombre_es": "Reino Unido",
   "continente": "Europe",
-  "total": 8200,
+  "total": 8213,
   "por_siglo": {
+   "12": 2,
+   "13": 8,
    "15": 1,
    "16": 54,
    "17": 428,
    "18": 644,
-   "19": 2168,
+   "19": 2169,
    "20": 432,
-   "sin siglo": 4473
+   "sin siglo": 4475
   },
   "por_tipo": {
    "general": 6645,
@@ -191,20 +193,20 @@
    "ferroviario/viario": 258,
    "histórico/temático": 183,
    "militar": 112,
-   "mapamundi": 81,
+   "mapamundi": 94,
    "carta náutica": 67,
    "portulano": 7,
    "ptolemaico": 6
   },
   "por_via": {
    "coordenadas": 724,
-   "historico": 6438,
+   "historico": 6451,
    "region": 8,
    "nombre": 1030
   },
   "por_fuente": {
    "allmaps": 3361,
-   "commons": 982,
+   "commons": 995,
    "dc": 270,
    "europeana": 2917,
    "ia": 51,
@@ -216,10 +218,12 @@
  "ESP": {
   "nombre_es": "España",
   "continente": "Europe",
-  "total": 6880,
+  "total": 6882,
   "por_siglo": {
    "5": 5,
    "7": 1,
+   "12": 1,
+   "13": 1,
    "14": 1,
    "15": 12,
    "16": 94,
@@ -230,14 +234,14 @@
    "sin siglo": 1590
   },
   "por_tipo": {
-   "general": 4265,
+   "general": 4266,
    "plano urbano": 1263,
    "topográfico": 915,
    "histórico/temático": 119,
    "carta náutica": 101,
    "militar": 98,
    "ferroviario/viario": 74,
-   "mapamundi": 17,
+   "mapamundi": 18,
    "ptolemaico": 16,
    "portulano": 12
   },
@@ -245,12 +249,12 @@
    "coordenadas": 518,
    "region": 3,
    "nombre": 5033,
-   "historico": 1326
+   "historico": 1328
   },
   "por_fuente": {
    "allmaps": 343,
    "bne": 14,
-   "commons": 200,
+   "commons": 202,
    "dc": 86,
    "europeana": 4332,
    "ia": 7,
@@ -344,10 +348,11 @@
  "ITA": {
   "nombre_es": "Italia",
   "continente": "Europe",
-  "total": 4599,
+  "total": 4600,
   "por_siglo": {
    "6": 2,
    "12": 1,
+   "13": 1,
    "15": 10,
    "16": 189,
    "17": 337,
@@ -364,20 +369,20 @@
    "ferroviario/viario": 52,
    "militar": 39,
    "carta náutica": 24,
-   "mapamundi": 12,
+   "mapamundi": 13,
    "ptolemaico": 11,
    "portulano": 7
   },
   "por_via": {
    "coordenadas": 1130,
    "region": 25,
-   "historico": 1346,
+   "historico": 1347,
    "nombre": 2098
   },
   "por_fuente": {
    "allmaps": 937,
    "bne": 2,
-   "commons": 412,
+   "commons": 413,
    "dc": 277,
    "europeana": 2162,
    "ia": 16,
@@ -683,8 +688,9 @@
  "EGY": {
   "nombre_es": "Egipto",
   "continente": "Africa",
-  "total": 1890,
+  "total": 1891,
   "por_siglo": {
+   "13": 1,
    "15": 3,
    "16": 43,
    "17": 39,
@@ -701,7 +707,7 @@
    "ferroviario/viario": 24,
    "carta náutica": 17,
    "militar": 15,
-   "mapamundi": 9,
+   "mapamundi": 10,
    "ptolemaico": 8,
    "portulano": 1
   },
@@ -709,11 +715,11 @@
    "coordenadas": 176,
    "region": 28,
    "nombre": 627,
-   "historico": 1059
+   "historico": 1060
   },
   "por_fuente": {
    "allmaps": 124,
-   "commons": 1060,
+   "commons": 1061,
    "dc": 35,
    "europeana": 352,
    "ia": 10,
@@ -1019,8 +1025,9 @@
  "ISR": {
   "nombre_es": "Israel",
   "continente": "Asia",
-  "total": 1227,
+  "total": 1228,
   "por_siglo": {
+   "13": 1,
    "14": 1,
    "15": 9,
    "16": 51,
@@ -1036,7 +1043,7 @@
    "topográfico": 85,
    "histórico/temático": 20,
    "ferroviario/viario": 11,
-   "mapamundi": 8,
+   "mapamundi": 9,
    "militar": 3,
    "carta náutica": 2,
    "ptolemaico": 1
@@ -1044,12 +1051,12 @@
   "por_via": {
    "coordenadas": 360,
    "region": 13,
-   "historico": 456,
+   "historico": 457,
    "nombre": 398
   },
   "por_fuente": {
    "allmaps": 345,
-   "commons": 48,
+   "commons": 49,
    "dc": 24,
    "europeana": 482,
    "ia": 7,
@@ -2199,8 +2206,9 @@
  "ETH": {
   "nombre_es": "Etiopía",
   "continente": "Africa",
-  "total": 419,
+  "total": 420,
   "por_siglo": {
+   "13": 1,
    "15": 1,
    "16": 10,
    "17": 15,
@@ -2214,21 +2222,21 @@
    "topográfico": 82,
    "militar": 9,
    "histórico/temático": 6,
+   "mapamundi": 3,
    "carta náutica": 3,
    "plano urbano": 3,
    "ptolemaico": 3,
-   "mapamundi": 2,
    "ferroviario/viario": 1
   },
   "por_via": {
    "coordenadas": 163,
    "region": 4,
    "historico": 60,
-   "nombre": 192
+   "nombre": 193
   },
   "por_fuente": {
    "allmaps": 43,
-   "commons": 96,
+   "commons": 97,
    "dc": 8,
    "europeana": 53,
    "ia": 1,
