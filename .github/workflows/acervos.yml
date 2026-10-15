@@ -32,6 +32,7 @@ jobs:
         run: |
           git config user.name "cartographer-bot"
           git config user.email "cartographer-bot@users.noreply.github.com"
-          git add fuentes/commons mapas
+          git add -A fuentes/commons
+          if [ -d mapas ]; then git add -A mapas; fi
           git diff --cached --quiet || git commit -m "Acervos: resultados de búsqueda y descargas [skip ci]"
           git push
