@@ -1,10 +1,11 @@
 {
- "mapas": 14287,
- "lugares_distintos": 478,
+ "mapas": 207288,
+ "lugares_distintos": 7254,
  "por_fuente": {
-  "ia": 14287
+  "ia": 14287,
+  "ogm": 193001
  },
- "con_cobertura_geografica": 0,
+ "con_cobertura_geografica": 192774,
  "por_siglo": {
   "5": 15,
   "6": 291,
@@ -13,25 +14,25 @@
   "9": 36,
   "10": 101,
   "11": 14,
-  "12": 31,
+  "12": 32,
   "13": 14,
-  "14": 34,
-  "15": 33,
-  "16": 109,
-  "17": 264,
-  "18": 749,
-  "19": 7264,
-  "20": 3569,
-  "sin siglo": 1538
+  "14": 35,
+  "15": 53,
+  "16": 819,
+  "17": 1509,
+  "18": 2239,
+  "19": 20549,
+  "20": 177131,
+  "sin siglo": 4225
  },
  "licencias": {
-  "Dominio público por antigüedad (anterior a 1900; inferido, verificar)": 7692,
-  "Dominio público / sin restricciones conocidas": 5710,
-  "CC0": 325,
-  "CC BY 4.0": 319,
+  "Dominio público / sin restricciones conocidas": 190383,
+  "Dominio público por antigüedad (anterior a 1900; inferido, verificar)": 15564,
+  "CC0": 708,
+  "CC BY 4.0": 320,
   "CC BY-SA 4.0": 213,
+  "CC BY 3.0": 80,
   "CC BY-SA 3.0": 11,
-  "CC BY 3.0": 8,
   "CC BY 2.5": 6,
   "CC BY-SA 2.0": 2,
   "CC BY 2.0": 1
