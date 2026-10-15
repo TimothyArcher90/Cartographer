@@ -41,6 +41,18 @@ def pedir_json(url, intentos=6):
     return None
 
 
+def lista(v):
+    if v is None:
+        return []
+    return [str(x) for x in v] if isinstance(v, list) else [str(v)]
+
+
+def por_antiguedad(anio):
+    """Obras publicadas antes de 1900: dominio público por antigüedad en casi todos los países.
+    Se marca como inferido para que no se confunda con una licencia declarada."""
+    return "Dominio público por antigüedad (anterior a 1900; inferido, verificar)" if anio and anio < 1900 else None
+
+
 def anio_de(*textos):
     for t in textos:
         m = RE_ANIO.search(str(t or ""))
@@ -109,58 +121,64 @@ def bbox_envelope(t):
 
 
 def ogm(s, fin):
-    repos = s.e.setdefault("repos_pendientes", None)
+    repos = s.e.get("repos_pendientes")
     if repos is None:
-        lista = []
+        nombres = []
         for pagina in range(1, 6):
             d = pedir_json(f"https://api.github.com/orgs/OpenGeoMetadata/repos?per_page=100&page={pagina}") or []
-            lista += [r["name"] for r in d if not r.get("archived")]
+            nombres += [r["name"] for r in d if not r.get("archived")]
             if len(d) < 100:
                 break
-        s.e["repos_pendientes"] = repos = sorted(x for x in lista if "." in x)
+        repos = sorted(x for x in nombres if "." in x)
+        s.e["repos_pendientes"] = repos
     while repos and time.time() < fin:
-        repo = repos[0]
+        repo = repos.pop(0)
         with tempfile.TemporaryDirectory() as tmp:
             r = subprocess.run(["git", "clone", "-q", "--depth", "1", f"https://github.com/OpenGeoMetadata/{repo}", tmp])
-            if r.returncode == 0:
-                for ruta in Path(tmp).rglob("*.json"):
-                    if ruta.name not in ("geoblacklight.json",) and "aardvark" not in str(ruta):
-                        continue
-                    try:
-                        d = json.loads(ruta.read_text(encoding="utf-8"))
-                    except Exception:
-                        continue
-                    if not isinstance(d, dict):
-                        continue
-                    clases = d.get("gbl_resourceClass_sm") or []
-                    tipo = d.get("dc_type_s") or d.get("layer_geom_type_s") or ""
-                    if "Maps" not in clases and not (not clases and tipo in ("Image", "Scanned Map")):
-                        continue
-                    lic = libre(" ".join((d.get("dct_license_sm") or []) + (d.get("dct_rights_sm") or [])
-                                         + (d.get("dct_rightsHolder_sm") or []) + [d.get("dc_rights_s") or ""]))
-                    if not lic:
-                        s.e["descartados"] += 1
-                        continue
-                    refs = d.get("dct_references_s") or "{}"
-                    try:
-                        refs = json.loads(refs)
-                    except Exception:
-                        refs = {}
-                    fecha = d.get("dct_issued_s") or " ".join(map(str, d.get("gbl_indexYear_im") or []))
-                    s.poner({
-                        "id": d.get("id"), "t": (d.get("dct_title_s") or d.get("dc_title_s") or "")[:300],
-                        "url": refs.get("http://schema.org/url") or (d.get("dct_identifier_sm") or [None])[0],
-                        "iiif": refs.get("http://iiif.io/api/presentation#manifest") or refs.get("http://iiif.io/api/image"),
-                        "th": refs.get("http://schema.org/thumbnailUrl"),
-                        "lic": lic, "autor": "; ".join((d.get("dct_creator_sm") or d.get("dc_creator_sm") or []))[:150],
-                        "fecha": str(fecha)[:40], "anio": anio_de(fecha, d.get("dct_temporal_sm")),
-                        "lugares": (d.get("dct_spatial_sm") or d.get("dct_spatial_sm") or [])[:12],
-                        "bbox": bbox_envelope(d.get("dcat_bbox") or d.get("locn_geometry") or d.get("solr_geom")),
-                        "proveedor": d.get("schema_provider_s") or d.get("dct_provenance_s"),
-                    })
-        repos.pop(0)
+            if r.returncode != 0:
+                continue
+            for ruta in Path(tmp).rglob("*.json"):
+                if ruta.name != "geoblacklight.json" and "aardvark" not in str(ruta):
+                    continue
+                try:
+                    d = json.loads(ruta.read_text(encoding="utf-8"))
+                    if isinstance(d, dict):
+                        ogm_registro(s, d)
+                except Exception as e:
+                    print("registro con formato inesperado:", ruta, e)
         print("repo", repo, "listo; guardados", s.e["guardados"])
     s.e["terminado"] = not repos
+
+
+def ogm_registro(s, d):
+    clases = lista(d.get("gbl_resourceClass_sm"))
+    tipo = " ".join(lista(d.get("dc_type_s") or d.get("layer_geom_type_s")))
+    if "Maps" not in clases and not (not clases and tipo in ("Image", "Scanned Map")):
+        return
+    fecha = " ".join(lista(d.get("dct_issued_s"))) or " ".join(lista(d.get("gbl_indexYear_im")))
+    anio = anio_de(fecha, " ".join(lista(d.get("dct_temporal_sm"))))
+    derechos = " ".join(lista(d.get("dct_license_sm")) + lista(d.get("dct_rights_sm"))
+                        + lista(d.get("dct_rightsHolder_sm")) + lista(d.get("dc_rights_s")))
+    restringido = re.search(r"(?i)\brestricted|by-nc|non-?commercial|by-nd|all rights reserved", derechos)
+    lic = libre(derechos) or (None if restringido else por_antiguedad(anio))
+    if not lic:
+        s.e["descartados"] += 1
+        return
+    try:
+        refs = json.loads(d.get("dct_references_s") or "{}")
+    except Exception:
+        refs = {}
+    s.poner({
+        "id": d.get("id"), "t": " ".join(lista(d.get("dct_title_s") or d.get("dc_title_s")))[:300],
+        "url": refs.get("http://schema.org/url") or (lista(d.get("dct_identifier_sm")) or [None])[0],
+        "iiif": refs.get("http://iiif.io/api/presentation#manifest") or refs.get("http://iiif.io/api/image"),
+        "th": refs.get("http://schema.org/thumbnailUrl"),
+        "lic": lic, "autor": "; ".join(lista(d.get("dct_creator_sm") or d.get("dc_creator_sm")))[:150],
+        "fecha": fecha[:40], "anio": anio,
+        "lugares": lista(d.get("dct_spatial_sm") or d.get("dc_coverage_sm"))[:12],
+        "bbox": bbox_envelope(" ".join(lista(d.get("dcat_bbox") or d.get("locn_geometry") or d.get("solr_geom")))),
+        "proveedor": " ".join(lista(d.get("schema_provider_s") or d.get("dct_provenance_s"))),
+    })
 
 
 # ---------------------------------------------------------------- Library of Congress
@@ -202,7 +220,10 @@ def ia(s, fin):
         if not d:
             break
         for r in d.get("items", []):
-            lic = libre(" ".join(map(str, [r.get("licenseurl") or "", r.get("rights") or ""])))
+            derechos = " ".join(lista(r.get("licenseurl")) + lista(r.get("rights")))
+            anio = anio_de(r.get("year"), r.get("date"), r.get("title"))
+            restringido = re.search(r"(?i)by-nc|non-?commercial|by-nd|all rights reserved|copyright \d", derechos)
+            lic = libre(derechos) or (None if restringido else por_antiguedad(anio))
             if not lic:
                 s.e["descartados"] += 1
                 continue
@@ -212,7 +233,7 @@ def ia(s, fin):
                 "id": ident, "t": str(r.get("title") or "")[:300], "url": f"https://archive.org/details/{ident}",
                 "th": f"https://archive.org/services/img/{ident}", "iiif": f"https://iiif.archive.org/iiif/{ident}/manifest.json",
                 "lic": lic, "autor": str(r.get("creator") or "")[:150], "fecha": str(r.get("date") or r.get("year") or "")[:40],
-                "anio": anio_de(r.get("year"), r.get("date"), r.get("title")),
+                "anio": anio,
                 "lugares": (lugares if isinstance(lugares, list) else [lugares])[:12], "bbox": None,
             })
         cursor = d.get("cursor")
