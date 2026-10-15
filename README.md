@@ -51,6 +51,9 @@ antiguos de licencia libre de varios acervos, que se rastrea solo en GitHub Acti
 | Library of Congress (`acervos.py loc`) | Colección de mapas de la LoC | La LoC indica que, en general, no conoce restricciones; **comprobar el registro** |
 | Internet Archive (`acervos.py ia`) | Mapas y atlas escaneados | Licencia declarada; o anterior a 1900 sin restricciones (inferido) |
 | Europeana (`acervos.py europeana`) | Agregador de archivos europeos | Filtro oficial «reutilización abierta» + declaración de derechos |
+| Digital Commonwealth (`acervos.py dc`) | Bibliotecas de Massachusetts, incluido el Leventhal Map Center (Boston) | Derechos declarados; o anterior a 1900 sin restricciones (inferido) |
+| Allmaps (`acervos.py allmaps`) | Mapas de muchas bibliotecas **georreferenciados por la comunidad** (contorno real sobre el terreno) | La georreferencia es abierta; la imagen conserva la licencia de su institución (verificar) |
+| Biblioteca Nacional de España (`acervos.py bne`) | Conjunto «Material cartográfico» de datos.gob.es | **Bloqueado**: el servidor de la BNE rechaza las descargas automáticas desde GitHub (error 403). Pendiente de otra vía |
 
 - Resultado: `catalogo/indice/` → `mapas-NNN.jsonl.gz` (un mapa por línea), `lugares.json` y `resumen.json` (totales por fuente, siglo y licencia).
 - Las imágenes **no** se guardan en el repositorio (serían terabytes): cada registro tiene enlace, miniatura e IIIF cuando existe. Para usar un mapa en vídeo se crea su ficha en `mapas/` y se descarga.
