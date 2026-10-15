@@ -8,13 +8,6 @@ on:
       minutos:
         description: Minutos de rastreo por fuente
         default: "300"
-  push:
-    branches: [main]
-    paths:
-      - catalogo/config.json
-      - scripts/catalogar_commons.py
-      - scripts/acervos.py
-      - .github/workflows/catalogo.yml
 
 permissions:
   contents: write
@@ -56,7 +49,7 @@ jobs:
 
   indexar:
     needs: rastrear
-    if: always()
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
