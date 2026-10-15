@@ -46,6 +46,21 @@ def pedir_json(url, intentos=6, navegador=False):
     return None
 
 
+RE_MAPA = re.compile(r"(?i)\b(map|maps|mapa|mapas|mappa|carte|cartes|karte|karten|landkarte|kaart|kaarten|"
+                     r"plan|plano|planta|pianta|plattegrond|stadtplan|atlas|chart|portolan\w*|portulan\w*|"
+                     r"me(?:ss|ß)tischbl\w*|topograph\w*|cartograph\w*|kartograf\w*|mappemonde|planisph\w*|"
+                     r"globus|globe|sheet|blatt|feuille|hoja|1\s*:\s*\d[\d .,]{2,})\b")
+
+
+RE_NO_MAPA = re.compile(r"(?i)postcard|carte postale|cartes postales|ansichtskarte|postkarte|vykort|"
+                        r"\bfa[țt][ăa]\s*:|\bvedere\b|fotograf|photograph|\bphoto\b|portrait|retrato|bildnis")
+
+
+def es_mapa(*textos):
+    texto = " ".join(str(t) for t in textos if t)
+    return bool(RE_MAPA.search(texto)) and not RE_NO_MAPA.search(texto)
+
+
 def lista(v):
     if v is None:
         return []
@@ -258,6 +273,10 @@ def europeana(s, fin):
         if not d or not d.get("success", True):
             break
         for r in d.get("items", []):
+            if not es_mapa(" ".join(r.get("title") or []), " ".join(lista(r.get("dcTypeLangAware"))),
+                           " ".join(lista(r.get("dcType")))):
+                s.e["no_mapa"] = s.e.get("no_mapa", 0) + 1
+                continue
             lic = libre(" ".join(r.get("rights") or []))
             if not lic:
                 s.e["descartados"] += 1

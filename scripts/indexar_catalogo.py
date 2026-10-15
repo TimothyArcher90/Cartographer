@@ -8,11 +8,24 @@ Salida:
 """
 import gzip
 import json
+import re
 from collections import Counter
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 DIR = RAIZ / "catalogo"
+
+
+RE_MAPA = re.compile(r"(?i)\b(map|maps|mapa|mapas|mappa|carte|cartes|karte|karten|landkarte|kaart|kaarten|"
+                     r"plan|plano|planta|pianta|plattegrond|stadtplan|atlas|chart|portolan\w*|portulan\w*|"
+                     r"me(?:ss|ß)tischbl\w*|topograph\w*|cartograph\w*|kartograf\w*|mappemonde|planisph\w*|"
+                     r"globus|globe|sheet|blatt|feuille|hoja|1\s*:\s*\d[\d .,]{2,})\b")
+RE_NO_MAPA = re.compile(r"(?i)postcard|carte postale|cartes postales|ansichtskarte|postkarte|vykort|"
+                        r"\bfa[țt][ăa]\s*:|\bvedere\b|fotograf|photograph|\bphoto\b|portrait|retrato|bildnis")
+
+
+# Fuentes generalistas: solo se admite el registro si el título indica que es un mapa.
+FUENTES_GENERALISTAS = {"europeana", "ia"}
 
 
 def siglo_de_anio(a):
@@ -30,6 +43,8 @@ def main():
                 except json.JSONDecodeError:
                     continue
                 r.setdefault("fuente", fuente)
+                if fuente in FUENTES_GENERALISTAS and (not RE_MAPA.search(r.get("t") or "") or RE_NO_MAPA.search(r.get("t") or "")):
+                    continue
                 if fuente == "commons":
                     r.setdefault("url", "https://commons.wikimedia.org/wiki/File:" + r["t"].replace(" ", "_"))
                 clave = (fuente, r.get("pid") or r.get("id") or r["t"])
