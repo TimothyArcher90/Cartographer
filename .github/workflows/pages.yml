@@ -1,0 +1,36 @@
+name: Estudio web (GitHub Pages)
+on:
+  push:
+    branches: [main]
+    paths: ["studio/**", "catalogo/biblioteca/**", "paquetes/cartographer/epocas/**", "visor/vendor/**", ".github/workflows/pages.yml"]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Armar el sitio
+        run: |
+          mkdir -p sitio/biblioteca
+          cp studio/index.html studio/app.js sitio/
+          cp -r studio/datos visor/vendor paquetes/cartographer/epocas sitio/
+          cp -r catalogo/biblioteca/paises sitio/biblioteca/
+          touch sitio/.nojekyll
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: sitio
+      - id: despliegue
+        uses: actions/deploy-pages@v4

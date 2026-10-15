@@ -180,3 +180,10 @@ opacidad animada, y un selector de épocas que lea `catalogo.json`. Ver `paquete
 ## Licencias
 
 Ver [LICENCIAS.md](LICENCIAS.md). Los datos de fronteras derivan de historical-basemaps (GPL-3.0).
+
+## Estudio web
+
+`studio/` es un estudio en el navegador: buscar mapas por país o región, superponerlos con opacidad,
+fronteras de época (100, 1000, 1492), marcadores, rutas, áreas, textos, pintar países, relieve 3D,
+fotogramas clave de cámara, exportar vídeo (WebM/MP4) y PNG, y guardar/abrir proyectos.
+Se publica con `.github/workflows/pages.yml`. Datos ligeros: `python scripts/construir_studio.py`.
