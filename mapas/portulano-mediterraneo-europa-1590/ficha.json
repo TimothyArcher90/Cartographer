@@ -15,9 +15,192 @@
   "descarga_ancho": 5000,
   "metodo": "tps",
   "modo": "superpuesto",
-  "calidad": "por evaluar",
-  "notas": "Imagen real escaneada del original. Licencia y autor según la API oficial de Commons (campo commons).",
-  "gcp": [],
+  "calidad": "media (mapa del siglo XVI-XVII: deformación propia del original)",
+  "notas": "Imagen real escaneada del original. Licencia y autor según la API oficial de Commons (campo commons). GCP marcados a ojo sobre accidentes costeros identificables; coordenadas modernas aproximadas.",
+  "gcp": [
+    {
+      "px": 1106,
+      "py": 1147,
+      "lon": -9.27,
+      "lat": 42.88,
+      "etiqueta": "Cabo Finisterre"
+    },
+    {
+      "px": 1138,
+      "py": 1488,
+      "lon": -8.99,
+      "lat": 37.02,
+      "etiqueta": "Cabo de San Vicente"
+    },
+    {
+      "px": 1302,
+      "py": 1581,
+      "lon": -5.6,
+      "lat": 36.0,
+      "etiqueta": "Estrecho de Gibraltar"
+    },
+    {
+      "px": 1559,
+      "py": 1543,
+      "lon": -2.19,
+      "lat": 36.72,
+      "etiqueta": "Cabo de Gata"
+    },
+    {
+      "px": 1595,
+      "py": 1389,
+      "lon": 0.23,
+      "lat": 38.73,
+      "etiqueta": "Cabo de la Nao"
+    },
+    {
+      "px": 1717,
+      "py": 1131,
+      "lon": 3.3,
+      "lat": 42.32,
+      "etiqueta": "Cabo de Creus"
+    },
+    {
+      "px": 1450,
+      "py": 1106,
+      "lon": -1.79,
+      "lat": 43.37,
+      "etiqueta": "Fuenterrabía"
+    },
+    {
+      "px": 2346,
+      "py": 1288,
+      "lon": 15.63,
+      "lat": 38.25,
+      "etiqueta": "Estrecho de Mesina"
+    },
+    {
+      "px": 2186,
+      "py": 1349,
+      "lon": 12.5,
+      "lat": 38.02,
+      "etiqueta": "Trapani"
+    },
+    {
+      "px": 2334,
+      "py": 1410,
+      "lon": 15.13,
+      "lat": 36.69,
+      "etiqueta": "Cabo Passero"
+    },
+    {
+      "px": 1993,
+      "py": 1066,
+      "lon": 9.4,
+      "lat": 43.0,
+      "etiqueta": "Cabo Corso"
+    },
+    {
+      "px": 1980,
+      "py": 1327,
+      "lon": 8.64,
+      "lat": 38.87,
+      "etiqueta": "Sur de Cerdeña"
+    },
+    {
+      "px": 2128,
+      "py": 1417,
+      "lon": 11.05,
+      "lat": 37.08,
+      "etiqueta": "Cabo Bon"
+    },
+    {
+      "px": 2289,
+      "py": 1449,
+      "lon": 14.4,
+      "lat": 35.9,
+      "etiqueta": "Malta"
+    },
+    {
+      "px": 2494,
+      "py": 1166,
+      "lon": 18.37,
+      "lat": 39.8,
+      "etiqueta": "Santa Maria di Leuca"
+    },
+    {
+      "px": 2160,
+      "py": 829,
+      "lon": 12.33,
+      "lat": 45.44,
+      "etiqueta": "Venecia"
+    },
+    {
+      "px": 2806,
+      "py": 1391,
+      "lon": 23.55,
+      "lat": 35.3,
+      "etiqueta": "Extremo occidental de Creta"
+    },
+    {
+      "px": 2950,
+      "py": 1375,
+      "lon": 26.3,
+      "lat": 35.2,
+      "etiqueta": "Extremo oriental de Creta"
+    },
+    {
+      "px": 3024,
+      "py": 1269,
+      "lon": 28.0,
+      "lat": 36.2,
+      "etiqueta": "Rodas"
+    },
+    {
+      "px": 3253,
+      "py": 1301,
+      "lon": 32.3,
+      "lat": 34.8,
+      "etiqueta": "Pafos (Chipre)"
+    },
+    {
+      "px": 3404,
+      "py": 1262,
+      "lon": 34.58,
+      "lat": 35.69,
+      "etiqueta": "Cabo Andreas (Chipre)"
+    },
+    {
+      "px": 3455,
+      "py": 1214,
+      "lon": 36.17,
+      "lat": 36.59,
+      "etiqueta": "Golfo de Iskenderun"
+    },
+    {
+      "px": 3449,
+      "py": 1465,
+      "lon": 34.75,
+      "lat": 32.05,
+      "etiqueta": "Jaffa"
+    },
+    {
+      "px": 2709,
+      "py": 1317,
+      "lon": 22.48,
+      "lat": 36.39,
+      "etiqueta": "Cabo Matapán"
+    },
+    {
+      "px": 1529,
+      "py": 700,
+      "lon": 1.4,
+      "lat": 51.15,
+      "etiqueta": "Kent"
+    },
+    {
+      "px": 1250,
+      "py": 725,
+      "lon": -5.7,
+      "lat": 50.07,
+      "etiqueta": "Land's End"
+    }
+  ],
   "commons": {
     "pagina": "https://commons.wikimedia.org/wiki/File:1590_Portolan_chart_of_the_Mediterranean_Sea_and_Europe.png",
     "url_original": "https://upload.wikimedia.org/wikipedia/commons/3/39/1590_Portolan_chart_of_the_Mediterranean_Sea_and_Europe.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -31,5 +214,33 @@
     "fecha": "1590",
     "credito": "https://brbl-dl.library.yale.edu/vufind/Record/4545352",
     "consultado": "2026-10-15"
-  }
+  },
+  "salida": {
+    "cog": "salida/mapa.tif",
+    "vista": "salida/vista.png",
+    "crs": "EPSG:3857",
+    "ancho": 3840,
+    "alto": 3081
+  },
+  "limites": [
+    [
+      -35.624148,
+      62.811614
+    ],
+    [
+      48.271979,
+      62.811614
+    ],
+    [
+      48.271979,
+      13.886322
+    ],
+    [
+      -35.624148,
+      13.886322
+    ]
+  ],
+  "error_medio_km": 66.92,
+  "error_max_km": 186.3,
+  "error_metodo": "validación cruzada dejando un GCP fuera"
 }

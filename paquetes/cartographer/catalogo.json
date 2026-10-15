@@ -52,5 +52,186 @@
       "licencia": "GPL-3.0"
     }
   ],
-  "mapas": []
+  "mapas": [
+    {
+      "id": "atlas-catalan-1375",
+      "titulo": "Atlas catalán de Cresques Abraham (1375)",
+      "autor": "Cresques Abraham",
+      "anio": 1375,
+      "anio_aproximado": false,
+      "modo": "decorativo",
+      "imagen": "mapas/atlas-catalan-1375.jpg",
+      "esquinas": null,
+      "error_medio_km": null,
+      "licencia": "Public domain",
+      "licencia_verificada": true,
+      "uso_en_video": "si",
+      "url": "https://commons.wikimedia.org/wiki/File:1375_Atlas_Catalan_Abraham_Cresques.jpg",
+      "calidad": "decorativo"
+    },
+    {
+      "id": "juan-de-la-cosa-1500",
+      "titulo": "Carta de Juan de la Cosa (1500)",
+      "autor": "Juan de la Cosa",
+      "anio": 1500,
+      "anio_aproximado": false,
+      "modo": "decorativo",
+      "imagen": "mapas/juan-de-la-cosa-1500.jpg",
+      "esquinas": null,
+      "error_medio_km": null,
+      "licencia": "Public domain",
+      "licencia_verificada": true,
+      "uso_en_video": "si",
+      "url": "https://commons.wikimedia.org/wiki/File:1500_map_by_Juan_de_la_Cosa_rotated.jpg",
+      "calidad": "decorativo"
+    },
+    {
+      "id": "mapa-t-o-ziner-1472",
+      "titulo": "Mapa T-O de las Etimologías de Isidoro (impresión de Günther Zainer, 1472)",
+      "autor": "Isidore of Seville",
+      "anio": 1472,
+      "anio_aproximado": false,
+      "modo": "decorativo",
+      "imagen": "mapas/mapa-t-o-ziner-1472.jpg",
+      "esquinas": null,
+      "error_medio_km": null,
+      "licencia": "Public domain",
+      "licencia_verificada": true,
+      "uso_en_video": "si",
+      "url": "https://commons.wikimedia.org/wiki/File:T_and_O_map_Guntherus_Ziner_1472.jpg",
+      "calidad": "decorativo"
+    },
+    {
+      "id": "mappa-mundi-hereford",
+      "titulo": "Mappa mundi de Hereford (hacia 1300)",
+      "autor": "Richard of Haldingham",
+      "anio": 1300,
+      "anio_aproximado": true,
+      "modo": "decorativo",
+      "imagen": "mapas/mappa-mundi-hereford.jpg",
+      "esquinas": null,
+      "error_medio_km": null,
+      "licencia": "Public domain",
+      "licencia_verificada": true,
+      "uso_en_video": "si",
+      "url": "https://commons.wikimedia.org/wiki/File:Hereford_Mappa_Mundi.jpg",
+      "calidad": "decorativo"
+    },
+    {
+      "id": "ortelius-romani-imperii-imago-1603",
+      "titulo": "Abraham Ortelius, «Romani Imperii Imago»",
+      "autor": "Abraham Ortelius",
+      "anio": 1603,
+      "anio_aproximado": false,
+      "modo": "superpuesto",
+      "imagen": "mapas/ortelius-romani-imperii-imago-1603.png",
+      "esquinas": [
+        [
+          -36.538375,
+          62.549143
+        ],
+        [
+          66.344206,
+          62.549143
+        ],
+        [
+          66.344206,
+          11.627001
+        ],
+        [
+          -36.538375,
+          11.627001
+        ]
+      ],
+      "esquinas_orden": "noroeste, noreste, sureste, suroeste (lon, lat)",
+      "error_medio_km": 85.22,
+      "licencia": "Public domain",
+      "licencia_verificada": true,
+      "uso_en_video": "si",
+      "url": "https://commons.wikimedia.org/wiki/File:Romani_Imperii_Imago.jpg",
+      "calidad": "media (mapa del siglo XVI-XVII: deformación propia del original)"
+    },
+    {
+      "id": "ortelius-typus-orbis-terrarum-1570",
+      "titulo": "Abraham Ortelius, «Typus Orbis Terrarum» (1570)",
+      "autor": "Abraham Ortelius",
+      "anio": 1570,
+      "anio_aproximado": false,
+      "modo": "decorativo",
+      "imagen": "mapas/ortelius-typus-orbis-terrarum-1570.jpg",
+      "esquinas": null,
+      "error_medio_km": null,
+      "licencia": "Public domain",
+      "licencia_verificada": true,
+      "uso_en_video": "si",
+      "url": "https://commons.wikimedia.org/wiki/File:1570_Typus_Ortelius_cropped.jpg",
+      "calidad": "decorativo"
+    },
+    {
+      "id": "portulano-mediterraneo-europa-1590",
+      "titulo": "Carta portulana del Mediterráneo y Europa (1590)",
+      "autor": "Joan Riezo figlo de mastro dominico [Olives] in missina año 1590.",
+      "anio": 1590,
+      "anio_aproximado": false,
+      "modo": "superpuesto",
+      "imagen": "mapas/portulano-mediterraneo-europa-1590.png",
+      "esquinas": [
+        [
+          -35.624148,
+          62.811614
+        ],
+        [
+          48.271979,
+          62.811614
+        ],
+        [
+          48.271979,
+          13.886322
+        ],
+        [
+          -35.624148,
+          13.886322
+        ]
+      ],
+      "esquinas_orden": "noroeste, noreste, sureste, suroeste (lon, lat)",
+      "error_medio_km": 66.92,
+      "licencia": "Public domain",
+      "licencia_verificada": true,
+      "uso_en_video": "si",
+      "url": "https://commons.wikimedia.org/wiki/File:1590_Portolan_chart_of_the_Mediterranean_Sea_and_Europe.png",
+      "calidad": "media (mapa del siglo XVI-XVII: deformación propia del original)"
+    },
+    {
+      "id": "portulano-mediterraneo-siglo-xiv",
+      "titulo": "Carta portulana del Mediterráneo (siglo XIV)",
+      "autor": "anonymous, probably Genoan",
+      "anio": 1320,
+      "anio_aproximado": true,
+      "modo": "decorativo",
+      "imagen": "mapas/portulano-mediterraneo-siglo-xiv.jpg",
+      "esquinas": null,
+      "error_medio_km": null,
+      "licencia": "Public domain",
+      "licencia_verificada": true,
+      "uso_en_video": "si",
+      "url": "https://commons.wikimedia.org/wiki/File:Mediterranean_chart_fourteenth_century2.jpg",
+      "calidad": "decorativo"
+    },
+    {
+      "id": "tabula-peutingeriana-onb-01",
+      "titulo": "Tabula Peutingeriana, segmento 1 (copia medieval, ÖNB)",
+      "autor": "Unknown authorUnknown author Peutinger, Konrad (1465-1547)",
+      "anio": 1150,
+      "anio_aproximado": true,
+      "modo": "decorativo",
+      "imagen": "mapas/tabula-peutingeriana-onb-01.jpg",
+      "esquinas": null,
+      "error_medio_km": null,
+      "licencia": "Public domain",
+      "licencia_verificada": true,
+      "uso_en_video": "si",
+      "url": "https://commons.wikimedia.org/wiki/File:Tabula_Peutingeriana_(%C3%96NB)_01-Rodez-Lyon.jpg",
+      "calidad": "decorativo"
+    }
+  ]
 }

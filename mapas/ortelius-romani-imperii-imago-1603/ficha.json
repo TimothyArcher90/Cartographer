@@ -14,7 +14,7 @@
   "descarga_ancho": 4000,
   "metodo": "tps",
   "modo": "superpuesto",
-  "calidad": "por evaluar",
+  "calidad": "media (mapa del siglo XVI-XVII: deformación propia del original)",
   "notas": "Imagen real escaneada del original o de su edición histórica. Licencia y autor según la API oficial de Commons (campo commons). GCP marcados a ojo sobre accidentes costeros identificables; coordenadas modernas aproximadas.",
   "gcp": [
     {

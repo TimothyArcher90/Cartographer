@@ -14,7 +14,7 @@
   "descarga_ancho": 3000,
   "metodo": null,
   "modo": "decorativo",
-  "calidad": "por evaluar",
+  "calidad": "decorativo",
   "notas": "Imagen real escaneada del original o de su edición histórica. Licencia y autor según la API oficial de Commons (campo commons).",
   "gcp": [],
   "anio_aproximado": false,

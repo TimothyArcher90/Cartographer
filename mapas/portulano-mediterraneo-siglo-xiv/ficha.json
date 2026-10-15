@@ -14,7 +14,7 @@
   "descarga_ancho": 4000,
   "metodo": null,
   "modo": "decorativo",
-  "calidad": "por evaluar",
+  "calidad": "decorativo",
   "notas": "Imagen real escaneada del original o de su edición histórica. Licencia y autor según la API oficial de Commons (campo commons). Tinta de costas muy desvaída: no se pueden identificar puntos de control con fiabilidad, así que se usa como decorativo.",
   "gcp": [],
   "anio_aproximado": true,

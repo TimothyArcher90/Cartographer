@@ -6,6 +6,8 @@ import shutil
 import sys
 from pathlib import Path
 
+from PIL import Image
+
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from comun import AVISO_FRONTERAS, RAIZ, escribir_json, fuente, leer_json  # noqa: E402
 
@@ -36,15 +38,26 @@ def main():
     mapas = []
     for ficha_ruta in sorted((RAIZ / "mapas").glob("*/ficha.json")):
         m = leer_json(ficha_ruta)
-        if m.get("modo") != "superpuesto" or "salida" not in m:
+        if not m.get("licencia_verificada"):
             continue
-        nombre = f"{m['id']}.png"
-        shutil.copy(ficha_ruta.parent / m["salida"]["vista"], destino / "mapas" / nombre)
+        base = {"id": m["id"], "titulo": m["titulo"], "autor": m["autor"], "anio": m["anio"],
+                "anio_aproximado": m.get("anio_aproximado", False), "modo": m["modo"]}
+        if m["modo"] == "decorativo":
+            nombre = f"{m['id']}.jpg"
+            img = Image.open(ficha_ruta.parent / m["imagen_original"]).convert("RGB")
+            img.thumbnail((2400, 2400))
+            img.save(destino / "mapas" / nombre, "JPEG", quality=88)
+            base.update(imagen=f"mapas/{nombre}", esquinas=None, error_medio_km=None)
+        elif "salida" in m:
+            nombre = f"{m['id']}.png"
+            shutil.copy(ficha_ruta.parent / m["salida"]["vista"], destino / "mapas" / nombre)
+            base.update(imagen=f"mapas/{nombre}", esquinas=m["limites"],
+                        esquinas_orden="noroeste, noreste, sureste, suroeste (lon, lat)",
+                        error_medio_km=m["error_medio_km"])
+        else:
+            continue
         mapas.append({
-            "id": m["id"], "titulo": m["titulo"], "autor": m["autor"], "anio": m["anio"],
-            "imagen": f"mapas/{nombre}", "esquinas": m["limites"],
-            "esquinas_orden": "noroeste, noreste, sureste, suroeste (lon, lat)",
-            "error_medio_km": m["error_medio_km"], "modo": m["modo"],
+            **base,
             "licencia": m["licencia"], "licencia_verificada": m["licencia_verificada"],
             "uso_en_video": m["uso_en_video"], "url": m["url"], "calidad": m["calidad"],
         })

@@ -61,7 +61,7 @@ async function iniciar() {
   const selE = document.getElementById('epoca');
   for (const e of catalogo.epocas) selE.add(new Option(`${e.titulo}`, e.id));
   const selM = document.getElementById('mapaAntiguo');
-  for (const m of catalogo.mapas) selM.add(new Option(m.titulo, m.id));
+  for (const m of catalogo.mapas.filter(x => x.esquinas)) selM.add(new Option(m.titulo, m.id));
   if (params.get('epoca')) selE.value = params.get('epoca');
   if (params.has('mapa')) selM.value = params.get('mapa');
   if (params.has('opacidad')) document.getElementById('opacidad').value = params.get('opacidad');

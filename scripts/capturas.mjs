@@ -11,6 +11,8 @@ const casos = [
   ['epoca-0100-mediterraneo', 'epoca=anio-0100&lon=18&lat=40&z=3.4'],
   ['epoca-1000-europa', 'epoca=anio-1000&lon=15&lat=45&z=3.2'],
   ['epoca-1492-europa', 'epoca=anio-1492&lon=12&lat=44&z=3.4'],
+  ['mapa-ortelius-1603-sobre-anio-0100', 'epoca=anio-0100&mapa=ortelius-romani-imperii-imago-1603&opacidad=75&lon=18&lat=40&z=3.4'],
+  ['mapa-portulano-1590-sobre-anio-1492', 'epoca=anio-1492&mapa=portulano-mediterraneo-europa-1590&opacidad=75&lon=14&lat=40&z=3.6'],
 ];
 let fallos = 0;
 try {

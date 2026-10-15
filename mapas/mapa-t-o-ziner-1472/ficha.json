@@ -14,8 +14,8 @@
   "descarga_ancho": 3000,
   "metodo": null,
   "modo": "decorativo",
-  "calidad": "por evaluar",
-  "notas": "Imagen real escaneada del original o de su edición histórica. Licencia y autor según la API oficial de Commons (campo commons).",
+  "calidad": "decorativo",
+  "notas": "Imagen real escaneada del original o de su edición histórica. Licencia y autor según la API oficial de Commons (campo commons). Commons no da fecha; 1472 procede del título del archivo.",
   "gcp": [],
   "anio_aproximado": false,
   "commons": {

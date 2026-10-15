@@ -18,8 +18,26 @@ el **paquete Cartographer** (`paquetes/cartographer/`), cuyo formato está en
 | Época año 1492 | Hecha (1317 entidades). |
 | Nombres en español | Diccionario verificado en `traducciones/es.json`: 32 % (100), 52 % (1000), 4 % (1492; la mayoría son pueblos indígenas con endónimo, que se deja tal cual). Lo pendiente está en `traducciones/pendientes.json`. |
 | Georreferenciación (TPS / polinómica) | Código probado con una prueba interna sintética (`pruebas/`, error real medio ≈ 6 km). Esa prueba **no es un mapa** y nunca entra en `mapas/`, el paquete ni el visor. |
-| Mapas antiguos | **Solo mapas históricos reales**, escaneados de archivos, con licencia verificada. Ninguno incluido todavía: el entorno no tenía acceso a los archivos. Acervos y licencias documentados en [`ACERVOS.md`](ACERVOS.md). |
+| Mapas antiguos | **9 mapas históricos reales** (escaneos de originales), licencia verificada en la API oficial de Wikimedia Commons. 2 georreferenciados encima del mapa actual y 7 decorativos. Tabla abajo. |
 | Visor | Hecho (`visor/`), capturas en `capturas/`. |
+
+## Mapas históricos incluidos
+
+| Mapa | Autor (según Commons) | Año | Modo | Error medio (km) | Licencia (Commons) | Origen |
+|---|---|---|---|---|---|---|
+| Atlas catalán de Cresques Abraham (1375) | Cresques Abraham | 1375 | decorativo | — | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:1375_Atlas_Catalan_Abraham_Cresques.jpg) |
+| Carta de Juan de la Cosa (1500) | Juan de la Cosa | 1500 | decorativo | — | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:1500_map_by_Juan_de_la_Cosa_rotated.jpg) |
+| Mapa T-O de las Etimologías de Isidoro (impresión de Günther Zainer, 1472) | Isidore of Seville | 1472 | decorativo | — | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:T_and_O_map_Guntherus_Ziner_1472.jpg) |
+| Mappa mundi de Hereford (hacia 1300) | Richard of Haldingham | 1300 (aprox.) | decorativo | — | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Hereford_Mappa_Mundi.jpg) |
+| Abraham Ortelius, «Romani Imperii Imago» | Abraham Ortelius | 1603 | superpuesto | 85.22 | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Romani_Imperii_Imago.jpg) |
+| Abraham Ortelius, «Typus Orbis Terrarum» (1570) | Abraham Ortelius | 1570 | decorativo | — | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:1570_Typus_Ortelius_cropped.jpg) |
+| Carta portulana del Mediterráneo y Europa (1590) | Joan Riezo figlo de mastro dominico [Olives] in missina año  | 1590 | superpuesto | 66.92 | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:1590_Portolan_chart_of_the_Mediterranean_Sea_and_Europe.png) |
+| Carta portulana del Mediterráneo (siglo XIV) | anonymous, probably Genoan | 1320 (aprox.) | decorativo | — | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Mediterranean_chart_fourteenth_century2.jpg) |
+| Tabula Peutingeriana, segmento 1 (copia medieval, ÖNB) | Unknown authorUnknown author Peutinger, Konrad (1465-1547) | 1150 (aprox.) | decorativo | — | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Tabula_Peutingeriana_(%C3%96NB)_01-Rodez-Lyon.jpg) |
+
+Los errores (validación cruzada dejando un punto fuera) reflejan sobre todo la inexactitud del propio mapa antiguo. Los mapas decorativos (mapamundis medievales, Tabula Peutingeriana, etc.) no se pueden superponer a la geografía real: se usan como imagen con transición.
+
+**Cómo llegan las imágenes:** el flujo `.github/workflows/acervos.yml` corre en GitHub Actions, busca en Commons (`scripts/buscar_commons.py`) y descarga los mapas con ficha (`scripts/descargar_mapas.py`). Solo baja la imagen si la licencia oficial permite uso comercial, y guarda en la ficha (campo `commons`) la licencia, autor, fecha y crédito literales.
 
 ## Instalación
 
