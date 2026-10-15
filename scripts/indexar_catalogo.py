@@ -49,6 +49,14 @@ def claves(texto):
     return out
 
 
+def a_texto(x):
+    if isinstance(x, str):
+        return x
+    if isinstance(x, dict):
+        return str(x.get("title") or x.get("name") or x.get("label") or next(iter(x.values()), ""))
+    return str(x)
+
+
 def siglo_de_anio(a):
     return (a - 1) // 100 + 1 if a and a > 0 else None
 
@@ -64,6 +72,7 @@ def main():
                 except json.JSONDecodeError:
                     continue
                 r.setdefault("fuente", fuente)
+                r["lugares"] = [a_texto(x) for x in (r.get("lugares") or []) if x][:12]
                 if fuente in FUENTES_GENERALISTAS and (not RE_MAPA.search(r.get("t") or "") or RE_NO_MAPA.search(r.get("t") or "")):
                     continue
                 if fuente == "commons":
