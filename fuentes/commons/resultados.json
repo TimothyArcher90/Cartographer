@@ -38,23 +38,6 @@
     "descripcion": "Typus Orbis Terrarum, include the Terra Australis Drawn by the cartographer Abraham Ortelius(1527-1598) around 1570."
    },
    {
-    "titulo": "File:Typus Orbis Terrarum drawn by Abraham Ortelius.jpg",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Typus_Orbis_Terrarum_drawn_by_Abraham_Ortelius.jpg",
-    "url_original": "https://upload.wikimedia.org/wikipedia/commons/6/68/Typus_Orbis_Terrarum_drawn_by_Abraham_Ortelius.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "url_2400": "https://upload.wikimedia.org/wikipedia/commons/6/68/Typus_Orbis_Terrarum_drawn_by_Abraham_Ortelius.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "ancho": 900,
-    "alto": 622,
-    "mime": "image/jpeg",
-    "licencia": "Public domain",
-    "licencia_url": "",
-    "uso": "Public domain",
-    "con_copyright": "False",
-    "autor": "Original uploader was Fuelbottle at en.wikipedia",
-    "fecha": "6 April 2004 (original upload date)",
-    "credito": "From https://www.nla.gov.au/, The National Library of Australia",
-    "descripcion": "Typus Orbis Terrarum, include the Terra Australis Drawn by the cartographer Abraham Ortelius(1527-1598) around 1570."
-   },
-   {
     "titulo": "File:1572 Typus Orbis Terrarum Ortelius.jpg",
     "pagina": "https://commons.wikimedia.org/wiki/File:1572_Typus_Orbis_Terrarum_Ortelius.jpg",
     "url_original": "https://upload.wikimedia.org/wikipedia/commons/7/71/1572_Typus_Orbis_Terrarum_Ortelius.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -70,6 +53,23 @@
     "fecha": "1572",
     "credito": "http://www.orteliusmaps.com/stocklists/1.html",
     "descripcion": "The Typus Orbis Terrarum world map; size: 340 x 494 mm"
+   },
+   {
+    "titulo": "File:Typus Orbis Terrarum drawn by Abraham Ortelius.jpg",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Typus_Orbis_Terrarum_drawn_by_Abraham_Ortelius.jpg",
+    "url_original": "https://upload.wikimedia.org/wikipedia/commons/6/68/Typus_Orbis_Terrarum_drawn_by_Abraham_Ortelius.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "url_2400": "https://upload.wikimedia.org/wikipedia/commons/6/68/Typus_Orbis_Terrarum_drawn_by_Abraham_Ortelius.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "ancho": 900,
+    "alto": 622,
+    "mime": "image/jpeg",
+    "licencia": "Public domain",
+    "licencia_url": "",
+    "uso": "Public domain",
+    "con_copyright": "False",
+    "autor": "Original uploader was Fuelbottle at en.wikipedia",
+    "fecha": "6 April 2004 (original upload date)",
+    "credito": "From https://www.nla.gov.au/, The National Library of Australia",
+    "descripcion": "Typus Orbis Terrarum, include the Terra Australis Drawn by the cartographer Abraham Ortelius(1527-1598) around 1570."
    },
    {
     "titulo": "File:Typus Orbis Terrarum.jpg",
@@ -325,7 +325,7 @@
     "con_copyright": "False",
     "autor": "Hondius, Iodocus II (ca.1594-1629); Kaerius, Petrus (1571-1646), grabador",
     "fecha": "1606",
-    "credito": "[1]",
+    "credito": "",
     "descripcion": "Hispaniae Nova Describtio [sic Descriptio], de Integro Multis in Locis, Secundum Hydrographicas, Desc. Emendata. 1 mapa: color, montado sobre tela: 37,5 x 51,5 cm en una hoja de 44 x 54 cm. Comprende la Península Ibérica, las islas Baleares y la costa del norte de África. El mapa pertenece a la obra \"Atlas sive Cosmographicae Mediationes de Fabrica mundi et fabricati figura\" de Gerard Mercator. Las planchas las adquirió Iudocus Hondius en 1604, añadiendo las de algunos países que Mercator no había dibujado, como ésta, inspirada en el mapa de Ortelius. Marco con rotulación de grados y subdivisi"
    },
    {
@@ -342,7 +342,7 @@
     "con_copyright": "False",
     "autor": "Hondius, Iodocus II (ca.1594-1629); Kaerius, Petrus (1571-1646), grabador",
     "fecha": "1606",
-    "credito": "[1]",
+    "credito": "",
     "descripcion": "Hispaniae Nova Describtio [sic Descriptio], de Integro Multis in Locis, Secundum Hydrographicas, Desc. Emendata. 1 mapa: color: 37,5 x 51,5 cm en una hoja de 44 x 54 cm Comprende la Península Ibérica, las islas Baleares y la costa del norte de África. El mapa pertenece a la obra \"Atlas sive Cosmographicae Mediationes de Fabrica mundi et fabricati figura\", de Gerard Mercator. Las planchas las adquirió Iudocus Hondius en 1604, añadiendo las de algunos países que Mercator no había dibujado, como ésta, inspirada en el mapa de Ortelius. Marco doble con rotulación de grados y subdivisiones de 10´, s"
    }
   ],
@@ -516,7 +516,7 @@
     "con_copyright": "False",
     "autor": "Abraham Ortelius",
     "fecha": "circa 1592date QS:P,+1592-00-00T00:00:00Z/9,P1480,Q5727902",
-    "credito": "immediate source: raremaps.com; other versions: [1] [2]",
+    "credito": "immediate source: raremaps.com; other versions:",
     "descripcion": "Histroical map representing the Roman Empire, introduced by Ortelius into the Theatrum Orbis Terrarum extra."
    },
    {
@@ -637,7 +637,7 @@
     "con_copyright": "False",
     "autor": "anonymous, probably Genoan",
     "fecha": "between circa 1320 and circa 1350date QS:P,+1350-00-00T00:00:00Z/7,P1319,+1320-00-00T00:00:00Z/9,P1326,+1350-00-00T00:00:00Z/9,P1480,Q5727902",
-    "credito": "Library of Congress[1]",
+    "credito": "Library of Congress",
     "descripcion": "Anonymous nautical chart in portolan style probably drawn in Genoa. Covers Mediterranean Sea from the Balearic Islands to the Levantine coast; also covers western part of Black Sea. Oldest original cartographic artifact in the Library of Congress. Title from printed label on box in which the map is housed. Pen-and-ink (red/green/brown). Matted and mounted between sheets of transparent lucite. Sheet cut into the shape of an irregular rectangle. Imperfect: Vertically fold-lined at center, cracked, annotated in pencil on verso. Includes bar scale with unidentified divisions. The green rhumb lines"
    },
    {
@@ -860,7 +860,7 @@
     "con_copyright": "False",
     "autor": "Unknown authorUnknown author",
     "fecha": "End of 13th century (about 1275-1300)",
-    "credito": "Adapted from [1]",
+    "credito": "Adapted from",
     "descripcion": "A picture of the Carta Pisana, a map made at the end of the 13th century, about 1275-1300."
    },
    {
@@ -1208,23 +1208,6 @@
     "descripcion": "Map of Europe in Catalan Atlas, by Abraham Cresques. 1375"
    },
    {
-    "titulo": "File:1375 Atlas Catalan, Europe 01.jpg",
-    "pagina": "https://commons.wikimedia.org/wiki/File:1375_Atlas_Catalan,_Europe_01.jpg",
-    "url_original": "https://upload.wikimedia.org/wikipedia/commons/b/b2/1375_Atlas_Catalan%2C_Europe_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "url_2400": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/1375_Atlas_Catalan%2C_Europe_01.jpg/3840px-1375_Atlas_Catalan%2C_Europe_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "ancho": 5862,
-    "alto": 3780,
-    "mime": "image/jpeg",
-    "licencia": "Public domain",
-    "licencia_url": "",
-    "uso": "Public domain",
-    "con_copyright": "False",
-    "autor": "Cresques Abraham",
-    "fecha": "1375",
-    "credito": "This image has been extracted from another file",
-    "descripcion": "Map of Europe in Catalan Atlas, by Abraham Cresques. 1375"
-   },
-   {
     "titulo": "File:Cathay in the Catalan Atlas (1375).jpg",
     "pagina": "https://commons.wikimedia.org/wiki/File:Cathay_in_the_Catalan_Atlas_(1375).jpg",
     "url_original": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Cathay_in_the_Catalan_Atlas_%281375%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1240,6 +1223,23 @@
     "fecha": "2023-03-06",
     "credito": "This image has been extracted from another file",
     "descripcion": "Cathay in the Catalan Atlas (1375)"
+   },
+   {
+    "titulo": "File:1375 Atlas Catalan, Europe 01.jpg",
+    "pagina": "https://commons.wikimedia.org/wiki/File:1375_Atlas_Catalan,_Europe_01.jpg",
+    "url_original": "https://upload.wikimedia.org/wikipedia/commons/b/b2/1375_Atlas_Catalan%2C_Europe_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "url_2400": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/1375_Atlas_Catalan%2C_Europe_01.jpg/3840px-1375_Atlas_Catalan%2C_Europe_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ancho": 5862,
+    "alto": 3780,
+    "mime": "image/jpeg",
+    "licencia": "Public domain",
+    "licencia_url": "",
+    "uso": "Public domain",
+    "con_copyright": "False",
+    "autor": "Cresques Abraham",
+    "fecha": "1375",
+    "credito": "This image has been extracted from another file",
+    "descripcion": "Map of Europe in Catalan Atlas, by Abraham Cresques. 1375"
    },
    {
     "titulo": "File:Antechrist in the Catalan Atlas (1375).jpg",
@@ -1259,23 +1259,6 @@
     "descripcion": "Antechrist in the Catalan Atlas (1375)"
    },
    {
-    "titulo": "File:Kublai Khan in the Catalan Atlas (1375).jpg",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Kublai_Khan_in_the_Catalan_Atlas_(1375).jpg",
-    "url_original": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Kublai_Khan_in_the_Catalan_Atlas_%281375%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "url_2400": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Kublai_Khan_in_the_Catalan_Atlas_%281375%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "ancho": 990,
-    "alto": 1594,
-    "mime": "image/jpeg",
-    "licencia": "Public domain",
-    "licencia_url": "",
-    "uso": "Public domain",
-    "con_copyright": "False",
-    "autor": "Cresques Abraham",
-    "fecha": "2023-03-06",
-    "credito": "This image has been extracted from another file",
-    "descripcion": "Kublai Khan in the Catalan Atlas (1375)"
-   },
-   {
     "titulo": "File:King of Colombo, Catalan Atlas 1375.jpg",
     "pagina": "https://commons.wikimedia.org/wiki/File:King_of_Colombo,_Catalan_Atlas_1375.jpg",
     "url_original": "https://upload.wikimedia.org/wikipedia/commons/0/0f/King_of_Colombo%2C_Catalan_Atlas_1375.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1293,21 +1276,21 @@
     "descripcion": "King of Colombo, Catalan Atlas 1375"
    },
    {
-    "titulo": "File:King of Delhi in Catalan Atlas 1375.jpg",
-    "pagina": "https://commons.wikimedia.org/wiki/File:King_of_Delhi_in_Catalan_Atlas_1375.jpg",
-    "url_original": "https://upload.wikimedia.org/wikipedia/commons/b/ba/King_of_Delhi_in_Catalan_Atlas_1375.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "url_2400": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/King_of_Delhi_in_Catalan_Atlas_1375.jpg/3840px-King_of_Delhi_in_Catalan_Atlas_1375.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "ancho": 5568,
-    "alto": 3993,
+    "titulo": "File:Kublai Khan in the Catalan Atlas (1375).jpg",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Kublai_Khan_in_the_Catalan_Atlas_(1375).jpg",
+    "url_original": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Kublai_Khan_in_the_Catalan_Atlas_%281375%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "url_2400": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Kublai_Khan_in_the_Catalan_Atlas_%281375%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "ancho": 990,
+    "alto": 1594,
     "mime": "image/jpeg",
     "licencia": "Public domain",
     "licencia_url": "",
     "uso": "Public domain",
     "con_copyright": "False",
     "autor": "Cresques Abraham",
-    "fecha": "2023-02-08",
+    "fecha": "2023-03-06",
     "credito": "This image has been extracted from another file",
-    "descripcion": "King of Delhi in Catalan Atlas 1375"
+    "descripcion": "Kublai Khan in the Catalan Atlas (1375)"
    },
    {
     "titulo": "File:Anatolian Beyliks in the Catalan Atlas (1375).jpg",
@@ -1325,6 +1308,23 @@
     "fecha": "2023-02-11",
     "credito": "This image has been extracted from another file",
     "descripcion": "Anatolian Beyliks in the Catalan Atlas (1375)"
+   },
+   {
+    "titulo": "File:King of Delhi in Catalan Atlas 1375.jpg",
+    "pagina": "https://commons.wikimedia.org/wiki/File:King_of_Delhi_in_Catalan_Atlas_1375.jpg",
+    "url_original": "https://upload.wikimedia.org/wikipedia/commons/b/ba/King_of_Delhi_in_Catalan_Atlas_1375.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "url_2400": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/King_of_Delhi_in_Catalan_Atlas_1375.jpg/3840px-King_of_Delhi_in_Catalan_Atlas_1375.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ancho": 5568,
+    "alto": 3993,
+    "mime": "image/jpeg",
+    "licencia": "Public domain",
+    "licencia_url": "",
+    "uso": "Public domain",
+    "con_copyright": "False",
+    "autor": "Cresques Abraham",
+    "fecha": "2023-02-08",
+    "credito": "This image has been extracted from another file",
+    "descripcion": "King of Delhi in Catalan Atlas 1375"
    }
   ],
   "Tabula Peutingeriana": [
@@ -1414,23 +1414,6 @@
     "descripcion": "Tabula Peutingeriana centering on the present-day Pakistani city Lahore and the ancient Alexandria Bucephalus."
    },
    {
-    "titulo": "File:Tabula Peutingeriana ROMA.JPG",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Tabula_Peutingeriana_ROMA.JPG",
-    "url_original": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Tabula_Peutingeriana_ROMA.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "url_2400": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Tabula_Peutingeriana_ROMA.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "ancho": 1258,
-    "alto": 909,
-    "mime": "image/jpeg",
-    "licencia": "Public domain",
-    "licencia_url": "",
-    "uso": "Public domain",
-    "con_copyright": "False",
-    "autor": "Conradi Millieri",
-    "fecha": "1887",
-    "credito": "http://www.fh-augsburg.de/~harsch/Chronologia/Lspost03/Tabula/tab_pe00.html Ulrich Harsch Bibliotheca Augustana",
-    "descripcion": "Tabula Peutingeriana, 1-4th century CE. Facsimile edition by Conradi Millieri, 1887/1888"
-   },
-   {
     "titulo": "File:Tabula Peutingeriana (ÖNB) 01-Rodez-Lyon.jpg",
     "pagina": "https://commons.wikimedia.org/wiki/File:Tabula_Peutingeriana_(%C3%96NB)_01-Rodez-Lyon.jpg",
     "url_original": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Tabula_Peutingeriana_%28%C3%96NB%29_01-Rodez-Lyon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1446,6 +1429,23 @@
     "fecha": "12th centurydate QS:P,+1150-00-00T00:00:00Z/7",
     "credito": "Austrian National Library",
     "descripcion": "Détail de la Table de Peutinger, conservée à la Bibliothèque nationale d'Autriche (Gaule centrale et méridionale, de Rodez à Lyon)."
+   },
+   {
+    "titulo": "File:Tabula Peutingeriana ROMA.JPG",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Tabula_Peutingeriana_ROMA.JPG",
+    "url_original": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Tabula_Peutingeriana_ROMA.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "url_2400": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Tabula_Peutingeriana_ROMA.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "ancho": 1258,
+    "alto": 909,
+    "mime": "image/jpeg",
+    "licencia": "Public domain",
+    "licencia_url": "",
+    "uso": "Public domain",
+    "con_copyright": "False",
+    "autor": "Conradi Millieri",
+    "fecha": "1887",
+    "credito": "http://www.fh-augsburg.de/~harsch/Chronologia/Lspost03/Tabula/tab_pe00.html Ulrich Harsch Bibliotheca Augustana",
+    "descripcion": "Tabula Peutingeriana, 1-4th century CE. Facsimile edition by Conradi Millieri, 1887/1888"
    },
    {
     "titulo": "File:Castris rubris tabula peutingeriana1.jpg",
@@ -1499,23 +1499,6 @@
     "descripcion": "Tabula Peutingeriana, 1-4th century CE. Facsimile edition by Conradi Millieri, 1887/1888"
    },
    {
-    "titulo": "File:Tabula Peutingeriana Serbia.jpg",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Tabula_Peutingeriana_Serbia.jpg",
-    "url_original": "https://upload.wikimedia.org/wikipedia/commons/4/40/Tabula_Peutingeriana_Serbia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "url_2400": "https://upload.wikimedia.org/wikipedia/commons/4/40/Tabula_Peutingeriana_Serbia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "ancho": 1667,
-    "alto": 697,
-    "mime": "image/jpeg",
-    "licencia": "CC BY 3.0 rs",
-    "licencia_url": "https://creativecommons.org/licenses/by/3.0/rs/deed.en",
-    "uso": "Creative Commons Attribution 3.0 rs",
-    "con_copyright": "True",
-    "autor": "The original uploader was Intermedichbo at Serbian Wikipedia.",
-    "fecha": "25 December 2012 (original upload date)",
-    "credito": "Transferred from sr.wikipedia to Commons.",
-    "descripcion": "Deo Tabule Peutingeriane sa rimskim putevima preko teritorije današnje Srbije Brojevima je označen deo od 40 stanica na ovom prostoru. Za izradu slike korišćena je ova sa ostave."
-   },
-   {
     "titulo": "File:Tabula Peutingeriana - Emona.jpg",
     "pagina": "https://commons.wikimedia.org/wiki/File:Tabula_Peutingeriana_-_Emona.jpg",
     "url_original": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Tabula_Peutingeriana_-_Emona.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1531,6 +1514,23 @@
     "fecha": "2010-02-05 14:39:57",
     "credito": "Mestni muzej Ljubljana - City museum of Ljubljane",
     "descripcion": "The Tabula Peutingeriana (Peutinger Map) is an illustrated map, showing the cursus publicus, the road network in the Roman Empire."
+   },
+   {
+    "titulo": "File:Tabula Peutingeriana Serbia.jpg",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Tabula_Peutingeriana_Serbia.jpg",
+    "url_original": "https://upload.wikimedia.org/wikipedia/commons/4/40/Tabula_Peutingeriana_Serbia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "url_2400": "https://upload.wikimedia.org/wikipedia/commons/4/40/Tabula_Peutingeriana_Serbia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "ancho": 1667,
+    "alto": 697,
+    "mime": "image/jpeg",
+    "licencia": "CC BY 3.0 rs",
+    "licencia_url": "https://creativecommons.org/licenses/by/3.0/rs/deed.en",
+    "uso": "Creative Commons Attribution 3.0 rs",
+    "con_copyright": "True",
+    "autor": "The original uploader was Intermedichbo at Serbian Wikipedia.",
+    "fecha": "25 December 2012 (original upload date)",
+    "credito": "Transferred from sr.wikipedia to Commons.",
+    "descripcion": "Deo Tabule Peutingeriane sa rimskim putevima preko teritorije današnje Srbije Brojevima je označen deo od 40 stanica na ovom prostoru. Za izradu slike korišćena je ova sa ostave."
    }
   ],
   "Ptolemy Cosmographia Ulm 1482 world map": [
@@ -1911,11 +1911,11 @@
     "descripcion": "1507 Waldseemüller map"
    },
    {
-    "titulo": "File:Waldseemuller Map 1507 ct000725Z Sheet 03.tif",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Waldseemuller_Map_1507_ct000725Z_Sheet_03.tif",
-    "url_original": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Waldseemuller_Map_1507_ct000725Z_Sheet_03.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "url_2400": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Waldseemuller_Map_1507_ct000725Z_Sheet_03.tif/lossy-page1-3840px-Waldseemuller_Map_1507_ct000725Z_Sheet_03.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "ancho": 7349,
+    "titulo": "File:Waldseemuller Map 1507 ct000725Z Sheet 07.tif",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Waldseemuller_Map_1507_ct000725Z_Sheet_07.tif",
+    "url_original": "https://upload.wikimedia.org/wikipedia/commons/3/35/Waldseemuller_Map_1507_ct000725Z_Sheet_07.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "url_2400": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Waldseemuller_Map_1507_ct000725Z_Sheet_07.tif/lossy-page1-3840px-Waldseemuller_Map_1507_ct000725Z_Sheet_07.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ancho": 7269,
     "alto": 5400,
     "mime": "image/tiff",
     "licencia": "Public domain",
@@ -1925,7 +1925,7 @@
     "autor": "Waldseemüller, Martin, 1470-1519",
     "fecha": "1507-12-31",
     "credito": "https://www.loc.gov/item/2003626426/",
-    "descripcion": "Sheet 03 of the Waldseemüller map of the world"
+    "descripcion": "Sheet 07 of the Waldseemüller map of the world"
    },
    {
     "titulo": "File:Waldseemuller Map 1507 ct000725Z Sheet 10.tif",
@@ -2066,38 +2066,38 @@
     "descripcion": "Sujet : Luxembourg, Duché du Trèves, Archevêché de Appartient à l’ensemble documentaire : AnvilEur Couverture : Luxembourg Langue : latin Éditeur : [s.n.] ()"
    },
    {
-    "titulo": "File:Zelandia comitatus - per Gerardum Mercatorem - btv1b53042636b (2 of 2).jpg",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Zelandia_comitatus_-_per_Gerardum_Mercatorem_-_btv1b53042636b_(2_of_2).jpg",
-    "url_original": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Zelandia_comitatus_-_per_Gerardum_Mercatorem_-_btv1b53042636b_%282_of_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "url_2400": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Zelandia_comitatus_-_per_Gerardum_Mercatorem_-_btv1b53042636b_%282_of_2%29.jpg/3840px-Zelandia_comitatus_-_per_Gerardum_Mercatorem_-_btv1b53042636b_%282_of_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "ancho": 6038,
-    "alto": 4847,
+    "titulo": "File:Orbis terrae novissima descriptio - Authore Gerardo Mercatore, nupersime vero... aucta et recognita ; J. Hondius sculp. - btv1b550052759.jpg",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Orbis_terrae_novissima_descriptio_-_Authore_Gerardo_Mercatore,_nupersime_vero..._aucta_et_recognita_;_J._Hondius_sculp._-_btv1b550052759.jpg",
+    "url_original": "https://upload.wikimedia.org/wikipedia/commons/0/02/Orbis_terrae_novissima_descriptio_-_Authore_Gerardo_Mercatore%2C_nupersime_vero..._aucta_et_recognita_%3B_J._Hondius_sculp._-_btv1b550052759.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "url_2400": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Orbis_terrae_novissima_descriptio_-_Authore_Gerardo_Mercatore%2C_nupersime_vero..._aucta_et_recognita_%3B_J._Hondius_sculp._-_btv1b550052759.jpg/3840px-Orbis_terrae_novissima_descriptio_-_Authore_Gerardo_Mercatore%2C_nupersime_vero..._aucta_et_recognita_%3B_J._Hondius_sculp._-_btv1b550052759.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ancho": 7584,
+    "alto": 5580,
+    "mime": "image/jpeg",
+    "licencia": "Public domain",
+    "licencia_url": "",
+    "uso": "Public domain",
+    "con_copyright": "False",
+    "autor": "Mercator, Gerard (1512-1594). Cartographe Hondius, Jodocus I (1563-1612). Graveur Buache, Philippe (1700-1773). Cartographe",
+    "fecha": "1602date QS:P571,+1602-00-00T00:00:00Z/9",
+    "credito": "Bibliothèque nationale de France",
+    "descripcion": "Sujet : Monde -- 1602-1633 Langue : latin Éditeur : J. Le Clerc exc."
+   },
+   {
+    "titulo": "File:Brescia episcopatus Mediolanu. ducatus - per Gerardum Mercatorem - btv1b530430315 (2 of 2).jpg",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Brescia_episcopatus_Mediolanu._ducatus_-_per_Gerardum_Mercatorem_-_btv1b530430315_(2_of_2).jpg",
+    "url_original": "https://upload.wikimedia.org/wikipedia/commons/0/01/Brescia_episcopatus_Mediolanu._ducatus_-_per_Gerardum_Mercatorem_-_btv1b530430315_%282_of_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "url_2400": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Brescia_episcopatus_Mediolanu._ducatus_-_per_Gerardum_Mercatorem_-_btv1b530430315_%282_of_2%29.jpg/3840px-Brescia_episcopatus_Mediolanu._ducatus_-_per_Gerardum_Mercatorem_-_btv1b530430315_%282_of_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ancho": 5983,
+    "alto": 5155,
     "mime": "image/jpeg",
     "licencia": "Public domain",
     "licencia_url": "",
     "uso": "Public domain",
     "con_copyright": "False",
     "autor": "Mercator, Gerard (1512-1594). Cartographe",
-    "fecha": "1585date QS:P571,+1585-00-00T00:00:00Z/9",
+    "fecha": "1589date QS:P571,+1589-00-00T00:00:00Z/9",
     "credito": "Bibliothèque nationale de France",
-    "descripcion": "Sujet : Cartouches (ornement) Zélande, Comté de Anges -- Dans l'art Navires à voiles Monstres marins Appartient à l’ensemble documentaire : AnvilEur Couverture : Pays-Bas Langue : latin Éditeur : [s.n.] ()"
-   },
-   {
-    "titulo": "File:Kempen in Brabant.jpg",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Kempen_in_Brabant.jpg",
-    "url_original": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Kempen_in_Brabant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "url_2400": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Kempen_in_Brabant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "ancho": 1276,
-    "alto": 963,
-    "mime": "image/jpeg",
-    "licencia": "Public domain",
-    "licencia_url": "",
-    "uso": "Public domain",
-    "con_copyright": "False",
-    "autor": "Mercator",
-    "fecha": "1632-01-01",
-    "credito": "Map name: Brabantia Ducatus Exc. from: Gerardi Mercatoris Atlas, sive Cosmographicae meditationes de fabrica mundi et fabricati figura / Amsterodami : sumptibus Johannis Cloppenburgij, 1632 (i.e.= Atlas Minor, by Mercator (= Gerard de Cremer), publ. Amsterdam by Johannes Cloppenburch (also: I.E. (Jan Evertsz.) Cloppenburg(h)), 1632 ; maps engr. by: Petrus Kaerius (= Pieter van den Keere) ; poss.: Universiteitsbibliotheek Amsterdam (Atlas Minor3: UBA 1803 D 7 (1632))",
-    "descripcion": "Kaart (1632) van het Hertogdom Brabant met vermelding van het Kempenland, door Mercator, uitgave van Johannes Cloppenburch. Origineel exemplaar te vinden in de Universiteitsbibliotheek Amsterdam (Atlas Minor3: UBA 1803 D 7 (1632)) ."
+    "descripcion": "Sujet : Brescia, Évêché de Milan, Duché de -- Divisions politiques et administratives Appartient à l’ensemble documentaire : AnvilEur Appartient à l’ensemble documentaire : MAEDI008 Appartient à l’ensemble documentaire : MAEDIGen0 Couverture : Italie Langue : latin Éditeur : [s.n.] ()"
    },
    {
     "titulo": "File:Graecia - (continent praecipvas regiones Albaniam, Macedoniam, Epirum, Achaiam et Moream) - per Gerardum Mercatorem - btv1b5962226v (2 of 2).jpg",
@@ -2117,38 +2117,38 @@
     "descripcion": "Sujet : Grèce Ottoman, Empire Appartient à l’ensemble documentaire : AnvilGr Appartient à l’ensemble documentaire : MAEDI008 Appartient à l’ensemble documentaire : MAEDIGen0 Couverture : Grèce E 18° - E 30° / N 42° - N 35°30' Langue : latin"
    },
    {
-    "titulo": "File:Literarum latinarum 1.jpg",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Literarum_latinarum_1.jpg",
-    "url_original": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Literarum_latinarum_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "url_2400": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Literarum_latinarum_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "ancho": 930,
-    "alto": 1550,
+    "titulo": "File:Kempen in Brabant.jpg",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Kempen_in_Brabant.jpg",
+    "url_original": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Kempen_in_Brabant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "url_2400": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Kempen_in_Brabant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "ancho": 1276,
+    "alto": 963,
     "mime": "image/jpeg",
     "licencia": "Public domain",
     "licencia_url": "",
     "uso": "Public domain",
     "con_copyright": "False",
-    "autor": "Gerardus Mercator",
-    "fecha": "2010-09-29",
-    "credito": "Own work",
-    "descripcion": "Gerardus Mercator - Literarum latinarum; page 1"
+    "autor": "Mercator",
+    "fecha": "1632-01-01",
+    "credito": "Map name: Brabantia Ducatus Exc. from: Gerardi Mercatoris Atlas, sive Cosmographicae meditationes de fabrica mundi et fabricati figura / Amsterodami : sumptibus Johannis Cloppenburgij, 1632 (i.e.= Atlas Minor, by Mercator (= Gerard de Cremer), publ. Amsterdam by Johannes Cloppenburch (also: I.E. (Jan Evertsz.) Cloppenburg(h)), 1632 ; maps engr. by: Petrus Kaerius (= Pieter van den Keere) ; poss.: Universiteitsbibliotheek Amsterdam (Atlas Minor3: UBA 1803 D 7 (1632))",
+    "descripcion": "Kaart (1632) van het Hertogdom Brabant met vermelding van het Kempenland, door Mercator, uitgave van Johannes Cloppenburch. Origineel exemplaar te vinden in de Universiteitsbibliotheek Amsterdam (Atlas Minor3: UBA 1803 D 7 (1632)) ."
    },
    {
-    "titulo": "File:Brescia episcopatus Mediolanu. ducatus - per Gerardum Mercatorem - btv1b530430315 (2 of 2).jpg",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Brescia_episcopatus_Mediolanu._ducatus_-_per_Gerardum_Mercatorem_-_btv1b530430315_(2_of_2).jpg",
-    "url_original": "https://upload.wikimedia.org/wikipedia/commons/0/01/Brescia_episcopatus_Mediolanu._ducatus_-_per_Gerardum_Mercatorem_-_btv1b530430315_%282_of_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "url_2400": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Brescia_episcopatus_Mediolanu._ducatus_-_per_Gerardum_Mercatorem_-_btv1b530430315_%282_of_2%29.jpg/3840px-Brescia_episcopatus_Mediolanu._ducatus_-_per_Gerardum_Mercatorem_-_btv1b530430315_%282_of_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "ancho": 5983,
-    "alto": 5155,
+    "titulo": "File:Zelandia comitatus - per Gerardum Mercatorem - btv1b53042636b (2 of 2).jpg",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Zelandia_comitatus_-_per_Gerardum_Mercatorem_-_btv1b53042636b_(2_of_2).jpg",
+    "url_original": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Zelandia_comitatus_-_per_Gerardum_Mercatorem_-_btv1b53042636b_%282_of_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "url_2400": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Zelandia_comitatus_-_per_Gerardum_Mercatorem_-_btv1b53042636b_%282_of_2%29.jpg/3840px-Zelandia_comitatus_-_per_Gerardum_Mercatorem_-_btv1b53042636b_%282_of_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ancho": 6038,
+    "alto": 4847,
     "mime": "image/jpeg",
     "licencia": "Public domain",
     "licencia_url": "",
     "uso": "Public domain",
     "con_copyright": "False",
     "autor": "Mercator, Gerard (1512-1594). Cartographe",
-    "fecha": "1589date QS:P571,+1589-00-00T00:00:00Z/9",
+    "fecha": "1585date QS:P571,+1585-00-00T00:00:00Z/9",
     "credito": "Bibliothèque nationale de France",
-    "descripcion": "Sujet : Brescia, Évêché de Milan, Duché de -- Divisions politiques et administratives Appartient à l’ensemble documentaire : AnvilEur Appartient à l’ensemble documentaire : MAEDI008 Appartient à l’ensemble documentaire : MAEDIGen0 Couverture : Italie Langue : latin Éditeur : [s.n.] ()"
+    "descripcion": "Sujet : Cartouches (ornement) Zélande, Comté de Anges -- Dans l'art Navires à voiles Monstres marins Appartient à l’ensemble documentaire : AnvilEur Couverture : Pays-Bas Langue : latin Éditeur : [s.n.] ()"
    }
   ],
   "Juan de la Cosa map 1500": [
@@ -2410,21 +2410,21 @@
     "descripcion": "This is a version of the Piri Reis world map with a transparent background and slightly reduced contrast for use with annotation overlays."
    },
    {
-    "titulo": "File:Piri Reis map shallows.png",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Piri_Reis_map_shallows.png",
-    "url_original": "https://upload.wikimedia.org/wikipedia/commons/6/66/Piri_Reis_map_shallows.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "url_2400": "https://upload.wikimedia.org/wikipedia/commons/6/66/Piri_Reis_map_shallows.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "ancho": 68,
-    "alto": 63,
-    "mime": "image/png",
-    "licencia": "Public domain",
-    "licencia_url": "",
-    "uso": "Public domain",
-    "con_copyright": "False",
-    "autor": "Piri Reis, born Muhiddin Piri",
-    "fecha": "1513",
-    "credito": "Piri Reis (1513) \"Piri Reis map.\" İstanbul: Topkapi Palace Museum.",
-    "descripcion": "Shallows on the Piri Reis map (1513) are represented with portolan dots."
+    "titulo": "File:A peculiar map drawn by the Turkish admiral Piri Reis around 1513.jpg",
+    "pagina": "https://commons.wikimedia.org/wiki/File:A_peculiar_map_drawn_by_the_Turkish_admiral_Piri_Reis_around_1513.jpg",
+    "url_original": "https://upload.wikimedia.org/wikipedia/commons/3/36/A_peculiar_map_drawn_by_the_Turkish_admiral_Piri_Reis_around_1513.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "url_2400": "https://upload.wikimedia.org/wikipedia/commons/3/36/A_peculiar_map_drawn_by_the_Turkish_admiral_Piri_Reis_around_1513.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "ancho": 3293,
+    "alto": 1508,
+    "mime": "image/jpeg",
+    "licencia": "CC BY-SA 4.0",
+    "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "uso": "Creative Commons Attribution-Share Alike 4.0",
+    "con_copyright": "True",
+    "autor": "Yair Haklai",
+    "fecha": "2023-04-16 10:06:32",
+    "credito": "Own work",
+    "descripcion": "A peculiar map drawn by the Turkish admiral Piri Reis around 1513, covers the west coast of Europe and Africa, the Atlantic Ocean, and a part of central and south America."
    },
    {
     "titulo": "File:Piri Reis map reef.png",
@@ -2444,6 +2444,23 @@
     "descripcion": "A reef on the Piri Reis map (1513) is represented with portolan dots."
    },
    {
+    "titulo": "File:Piri Reis map shallows.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Piri_Reis_map_shallows.png",
+    "url_original": "https://upload.wikimedia.org/wikipedia/commons/6/66/Piri_Reis_map_shallows.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "url_2400": "https://upload.wikimedia.org/wikipedia/commons/6/66/Piri_Reis_map_shallows.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "ancho": 68,
+    "alto": 63,
+    "mime": "image/png",
+    "licencia": "Public domain",
+    "licencia_url": "",
+    "uso": "Public domain",
+    "con_copyright": "False",
+    "autor": "Piri Reis, born Muhiddin Piri",
+    "fecha": "1513",
+    "credito": "Piri Reis (1513) \"Piri Reis map.\" İstanbul: Topkapi Palace Museum.",
+    "descripcion": "Shallows on the Piri Reis map (1513) are represented with portolan dots."
+   },
+   {
     "titulo": "File:Piri Reis map scale bar.png",
     "pagina": "https://commons.wikimedia.org/wiki/File:Piri_Reis_map_scale_bar.png",
     "url_original": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Piri_Reis_map_scale_bar.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -2459,23 +2476,6 @@
     "fecha": "1513",
     "credito": "Piri Reis (1513) \"Piri Reis map.\" İstanbul: Topkapi Palace Museum.",
     "descripcion": "Distance on the Piri Reis map (1513) is shown with a scale bar."
-   },
-   {
-    "titulo": "File:A peculiar map drawn by the Turkish admiral Piri Reis around 1513.jpg",
-    "pagina": "https://commons.wikimedia.org/wiki/File:A_peculiar_map_drawn_by_the_Turkish_admiral_Piri_Reis_around_1513.jpg",
-    "url_original": "https://upload.wikimedia.org/wikipedia/commons/3/36/A_peculiar_map_drawn_by_the_Turkish_admiral_Piri_Reis_around_1513.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "url_2400": "https://upload.wikimedia.org/wikipedia/commons/3/36/A_peculiar_map_drawn_by_the_Turkish_admiral_Piri_Reis_around_1513.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "ancho": 3293,
-    "alto": 1508,
-    "mime": "image/jpeg",
-    "licencia": "CC BY-SA 4.0",
-    "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "uso": "Creative Commons Attribution-Share Alike 4.0",
-    "con_copyright": "True",
-    "autor": "Yair Haklai",
-    "fecha": "2023-04-16 10:06:32",
-    "credito": "Own work",
-    "descripcion": "A peculiar map drawn by the Turkish admiral Piri Reis around 1513, covers the west coast of Europe and Africa, the Atlantic Ocean, and a part of central and south America."
    },
    {
     "titulo": "File:Piri Reis map compass rose.png",
@@ -2852,8 +2852,8 @@
     "con_copyright": "False",
     "autor": "Unknown authorUnknown author",
     "fecha": "circa 1300date QS:P,+1300-00-00T00:00:00Z/9,P1480,Q5727902 (entre 1213 et 1373)",
-    "credito": "[4], [5]",
-    "descripcion": "[1], [2]"
+    "credito": ",",
+    "descripcion": ","
    },
    {
     "titulo": "File:Detail (south) ebstorf world map2.jpg",
@@ -3164,21 +3164,21 @@
     "descripcion": "T and O style mappa mundi (map of the known world) from the first printed version of Isidorus' Etymologiae (Kraus 13). The book was written in 623 and first printed in 1472 at Augsburg by one Günther Zainer (Guntherus Ziner), Isidor's sketch thus becoming the oldest printed map of the occident. Note: T-O-maps are typically displayed \"East-up\", show Jerusalem at the center and the paradise at the outmost East, balanced by the pillars of Hercules at the outmost West."
    },
    {
-    "titulo": "File:EB 1911 Map Fig 10.png",
-    "pagina": "https://commons.wikimedia.org/wiki/File:EB_1911_Map_Fig_10.png",
-    "url_original": "https://upload.wikimedia.org/wikipedia/commons/b/b4/EB_1911_Map_Fig_10.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "url_2400": "https://upload.wikimedia.org/wikipedia/commons/b/b4/EB_1911_Map_Fig_10.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "ancho": 1368,
-    "alto": 1396,
-    "mime": "image/png",
+    "titulo": "File:Etimologías - Mapa del Mundo Conocido.jpg",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Etimolog%C3%ADas_-_Mapa_del_Mundo_Conocido.jpg",
+    "url_original": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Etimolog%C3%ADas_-_Mapa_del_Mundo_Conocido.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "url_2400": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Etimolog%C3%ADas_-_Mapa_del_Mundo_Conocido.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "ancho": 1197,
+    "alto": 1191,
+    "mime": "image/jpeg",
     "licencia": "Public domain",
     "licencia_url": "",
     "uso": "Public domain",
     "con_copyright": "False",
-    "autor": "AnonymousUnknown author. Presumably Emery Walker",
-    "fecha": "circa 1911date QS:P,+1911-00-00T00:00:00Z/9,P1480,Q5727902 (archetype 11th century)",
-    "credito": "\"Map\" in the Encyclopaedia Britannica, 11th ed., Vol. XVII, p. 638.",
-    "descripcion": "Caption: \".mw-parser-output .smallcaps{font-variant:small-caps}Fig. 10.—Map illustrating w:Sallust's Bellum jugurthinum (11th century, Leipzig).\"A somewhat detailed Latin T&amp;O map with east at the top, but only identified by labeling the bottom of the map \"West\" (Occidens).Asia is decorated with the cities of Babylon (Babilonia), Troy (Troia), and [unlabelled] Jerusalem and the mountains of Lebanon (Libanus). It also has the cities of Sestos, Sidon (Sydon), and Tyre (Tyrus) labelled.Europe (Europa) is decorated with the city of Rome (Roma) and the Alps (Alpes) and Pyrenees (Pirrens). The ci"
+    "autor": "Isidore of Seville",
+    "fecha": "",
+    "credito": "the web of the University of Texas at Arlington, Foundations of Western European Cartography in Texas Collections.",
+    "descripcion": "T and O style mappa mundi (map of the known world) from the first printed version of Isidorus' Etymologiae (Kraus 13). The book was written in 623 and first printed in 1472 at Augsburg by one Günther Zainer (Guntherus Ziner), Isidor's sketch thus becoming the oldest printed map of the occident. Note: T-O-maps are typically displayed \"East-up\", show Jerusalem at the center and the paradise at the outmost East, balanced by the pillars of Hercules at the outmost West."
    }
   ],
   "al-Idrisi Tabula Rogeriana": [
@@ -3217,23 +3217,6 @@
     "descripcion": ""
    },
    {
-    "titulo": "File:Al-Idrisi con la Tabula Rogeriana.jpg",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Al-Idrisi_con_la_Tabula_Rogeriana.jpg",
-    "url_original": "https://upload.wikimedia.org/wikipedia/commons/3/34/Al-Idrisi_con_la_Tabula_Rogeriana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "url_2400": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Al-Idrisi_con_la_Tabula_Rogeriana.jpg/1920px-Al-Idrisi_con_la_Tabula_Rogeriana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "ancho": 3000,
-    "alto": 4000,
-    "mime": "image/jpeg",
-    "licencia": "CC BY-SA 4.0",
-    "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "uso": "Creative Commons Attribution-Share Alike 4.0",
-    "con_copyright": "True",
-    "autor": "Xemenendura",
-    "fecha": "24 September 2025 (according to Exif data)",
-    "credito": "Own work",
-    "descripcion": "Estatúa de Al Idrisi con la Tabula Rogeriana o Kitab Ruyar, Ceuta"
-   },
-   {
     "titulo": "File:TabulaRogeriana upside-down.jpg",
     "pagina": "https://commons.wikimedia.org/wiki/File:TabulaRogeriana_upside-down.jpg",
     "url_original": "https://upload.wikimedia.org/wikipedia/commons/a/a1/TabulaRogeriana_upside-down.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -3249,6 +3232,23 @@
     "fecha": "2009-09-14 17:10",
     "credito": "TabulaRogeriana.jpg",
     "descripcion": "A 1929 copy with names translittered into Latin script of the 1154 Arabic Tabula Rogeriana, upside-down with north oriented up"
+   },
+   {
+    "titulo": "File:Al-Idrisi con la Tabula Rogeriana.jpg",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Al-Idrisi_con_la_Tabula_Rogeriana.jpg",
+    "url_original": "https://upload.wikimedia.org/wikipedia/commons/3/34/Al-Idrisi_con_la_Tabula_Rogeriana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "url_2400": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Al-Idrisi_con_la_Tabula_Rogeriana.jpg/1920px-Al-Idrisi_con_la_Tabula_Rogeriana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ancho": 3000,
+    "alto": 4000,
+    "mime": "image/jpeg",
+    "licencia": "CC BY-SA 4.0",
+    "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "uso": "Creative Commons Attribution-Share Alike 4.0",
+    "con_copyright": "True",
+    "autor": "Xemenendura",
+    "fecha": "24 September 2025 (according to Exif data)",
+    "credito": "Own work",
+    "descripcion": "Estatúa de Al Idrisi con la Tabula Rogeriana o Kitab Ruyar, Ceuta"
    },
    {
     "titulo": "File:1154 Tabula Rogeriana noroeste Peninsula Iberica Al Idrisi copia mas antigua.jpg",
@@ -3457,21 +3457,21 @@
     "descripcion": "Biblioteca Nazionale Marciana (Venice)"
    },
    {
-    "titulo": "File:FraMauroDetailedMap.jpg",
-    "pagina": "https://commons.wikimedia.org/wiki/File:FraMauroDetailedMap.jpg",
-    "url_original": "https://upload.wikimedia.org/wikipedia/commons/1/1b/FraMauroDetailedMap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "url_2400": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/FraMauroDetailedMap.jpg/3840px-FraMauroDetailedMap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "ancho": 5000,
-    "alto": 5000,
+    "titulo": "File:Fra Mauro Map FactumArte.jpg",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fra_Mauro_Map_FactumArte.jpg",
+    "url_original": "https://upload.wikimedia.org/wikipedia/commons/9/97/Fra_Mauro_Map_FactumArte.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "url_2400": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Fra_Mauro_Map_FactumArte.jpg/3840px-Fra_Mauro_Map_FactumArte.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ancho": 60351,
+    "alto": 60351,
     "mime": "image/jpeg",
     "licencia": "Public domain",
     "licencia_url": "",
     "uso": "Public domain",
     "con_copyright": "False",
-    "autor": "Piero Falchetta",
-    "fecha": "2006",
-    "credito": "\"The Fra Mauro map\" under https://bibliotecanazionalemarciana.cultura.gov.it/sites/default/files/mappa-mondo-framauro.html?width=1920&amp;iframe=true",
-    "descripcion": "Fra Mauro map (1460)"
+    "autor": "Fra Mauro",
+    "fecha": "1459",
+    "credito": "https://www.highres.factum-arte.org/Fra_Mauro_Map/shared/viewer.html (downloaded with dezoomify-rs and cropped with vips)",
+    "descripcion": "1450 map of the world by Venitian cartographer Fra Mauro"
    },
    {
     "titulo": "File:Fra Mauro World Map Satellite Comparison - Rotated.jpg",
@@ -3491,21 +3491,21 @@
     "descripcion": "A comparison of the Fra Mauro World Map from AD 1450 and a satellite image of Earth. The satellite image was created using data from the MODIS instrument onboard the Terra and Aqua satellites. This version of the image has been obtained from the NASA original by individually rotating both halves by 180°, to achieve the more familiar North-on-top orientation."
    },
    {
-    "titulo": "File:Fra Mauro Map FactumArte.jpg",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Fra_Mauro_Map_FactumArte.jpg",
-    "url_original": "https://upload.wikimedia.org/wikipedia/commons/9/97/Fra_Mauro_Map_FactumArte.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "url_2400": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Fra_Mauro_Map_FactumArte.jpg/3840px-Fra_Mauro_Map_FactumArte.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "ancho": 60351,
-    "alto": 60351,
+    "titulo": "File:FraMauroDetailedMap.jpg",
+    "pagina": "https://commons.wikimedia.org/wiki/File:FraMauroDetailedMap.jpg",
+    "url_original": "https://upload.wikimedia.org/wikipedia/commons/1/1b/FraMauroDetailedMap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "url_2400": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/FraMauroDetailedMap.jpg/3840px-FraMauroDetailedMap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ancho": 5000,
+    "alto": 5000,
     "mime": "image/jpeg",
     "licencia": "Public domain",
     "licencia_url": "",
     "uso": "Public domain",
     "con_copyright": "False",
-    "autor": "Fra Mauro",
-    "fecha": "1459",
-    "credito": "https://www.highres.factum-arte.org/Fra_Mauro_Map/shared/viewer.html (downloaded with dezoomify-rs and cropped with vips)",
-    "descripcion": "1450 map of the world by Venitian cartographer Fra Mauro"
+    "autor": "Piero Falchetta",
+    "fecha": "2006",
+    "credito": "\"The Fra Mauro map\" under https://bibliotecanazionalemarciana.cultura.gov.it/sites/default/files/mappa-mondo-framauro.html?width=1920&amp;iframe=true",
+    "descripcion": "Fra Mauro map (1460)"
    },
    {
     "titulo": "File:FraMauroDetailedMapCorrectOrientation.jpg",
@@ -3714,12 +3714,12 @@
     "descripcion": "NOVA TOTIUS TERRARUM ORBIS GEOGRAPHICA AC HYDROGRAPHICA TABULA. auct. Guiljelmo Blaeuw. Ja. vanden Ende sculpsit."
    },
    {
-    "titulo": "File:Nova totius Terrarum Orbis geographica ac hydrographica tabula - M. Merian fecit - btv1b53211460d (1 of 2).jpg",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_-_M._Merian_fecit_-_btv1b53211460d_(1_of_2).jpg",
-    "url_original": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_-_M._Merian_fecit_-_btv1b53211460d_%281_of_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "url_2400": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_-_M._Merian_fecit_-_btv1b53211460d_%281_of_2%29.jpg/3840px-Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_-_M._Merian_fecit_-_btv1b53211460d_%281_of_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "ancho": 4702,
-    "alto": 6481,
+    "titulo": "File:Nova totius Terrarum Orbis geographica ac hydrographica tabula - M. Merian fecit - btv1b53211460d (2 of 2).jpg",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_-_M._Merian_fecit_-_btv1b53211460d_(2_of_2).jpg",
+    "url_original": "https://upload.wikimedia.org/wikipedia/commons/2/29/Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_-_M._Merian_fecit_-_btv1b53211460d_%282_of_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "url_2400": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_-_M._Merian_fecit_-_btv1b53211460d_%282_of_2%29.jpg/3840px-Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_-_M._Merian_fecit_-_btv1b53211460d_%282_of_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ancho": 4618,
+    "alto": 6469,
     "mime": "image/jpeg",
     "licencia": "Public domain",
     "licencia_url": "",
@@ -3731,12 +3731,12 @@
     "descripcion": "Sujet : Monde Arctique Antarctique Couverture : Monde Langue : latin allemand Éditeur : [s.n.]"
    },
    {
-    "titulo": "File:Nova totius Terrarum Orbis geographica ac hydrographica tabula - M. Merian fecit - btv1b53211460d (2 of 2).jpg",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_-_M._Merian_fecit_-_btv1b53211460d_(2_of_2).jpg",
-    "url_original": "https://upload.wikimedia.org/wikipedia/commons/2/29/Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_-_M._Merian_fecit_-_btv1b53211460d_%282_of_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "url_2400": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_-_M._Merian_fecit_-_btv1b53211460d_%282_of_2%29.jpg/3840px-Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_-_M._Merian_fecit_-_btv1b53211460d_%282_of_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "ancho": 4618,
-    "alto": 6469,
+    "titulo": "File:Nova totius Terrarum Orbis geographica ac hydrographica tabula - M. Merian fecit - btv1b53211460d (1 of 2).jpg",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_-_M._Merian_fecit_-_btv1b53211460d_(1_of_2).jpg",
+    "url_original": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_-_M._Merian_fecit_-_btv1b53211460d_%281_of_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "url_2400": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_-_M._Merian_fecit_-_btv1b53211460d_%281_of_2%29.jpg/3840px-Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_-_M._Merian_fecit_-_btv1b53211460d_%281_of_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ancho": 4702,
+    "alto": 6481,
     "mime": "image/jpeg",
     "licencia": "Public domain",
     "licencia_url": "",
@@ -3765,12 +3765,12 @@
     "descripcion": "Map published in Joan Blaeu's 1667 Atlas Maior"
    },
    {
-    "titulo": "File:Nova totius Terrarum Orbis geographica ac hydrographica tabula - auct. Guiljelmo Blaeuw ; Ja. Vanden Ende sculpsit - btv1b532114591 (1 of 7).jpg",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_-_auct._Guiljelmo_Blaeuw_;_Ja._Vanden_Ende_sculpsit_-_btv1b532114591_(1_of_7).jpg",
-    "url_original": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_-_auct._Guiljelmo_Blaeuw_%3B_Ja._Vanden_Ende_sculpsit_-_btv1b532114591_%281_of_7%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "url_2400": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_-_auct._Guiljelmo_Blaeuw_%3B_Ja._Vanden_Ende_sculpsit_-_btv1b532114591_%281_of_7%29.jpg/3840px-Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_-_auct._Guiljelmo_Blaeuw_%3B_Ja._Vanden_Ende_sculpsit_-_btv1b532114591_%281_of_7%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "ancho": 4675,
-    "alto": 6474,
+    "titulo": "File:Nova totius Terrarum Orbis geographica ac hydrographica tabula - auct. Guiljelmo Blaeuw ; Ja. Vanden Ende sculpsit - btv1b532114591 (3 of 7).jpg",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_-_auct._Guiljelmo_Blaeuw_;_Ja._Vanden_Ende_sculpsit_-_btv1b532114591_(3_of_7).jpg",
+    "url_original": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_-_auct._Guiljelmo_Blaeuw_%3B_Ja._Vanden_Ende_sculpsit_-_btv1b532114591_%283_of_7%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "url_2400": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_-_auct._Guiljelmo_Blaeuw_%3B_Ja._Vanden_Ende_sculpsit_-_btv1b532114591_%283_of_7%29.jpg/3840px-Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_-_auct._Guiljelmo_Blaeuw_%3B_Ja._Vanden_Ende_sculpsit_-_btv1b532114591_%283_of_7%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ancho": 4595,
+    "alto": 6434,
     "mime": "image/jpeg",
     "licencia": "Public domain",
     "licencia_url": "",
@@ -3782,12 +3782,12 @@
     "descripcion": "Sujet : Cartouches (ornements) Planètes -- Allégorie Quatre éléments (philosophie) -- Allégorie Saisons -- Allégorie Sept merveilles du monde Monde Arctique Antarctique Référence bibliographique : 0001:2A Couverture : Monde Langue : latin Éditeur : [J. et C. Blaeu] (Amsterdami)"
    },
    {
-    "titulo": "File:Nova totius Terrarum Orbis geographica ac hydrographica tabula - auct. Guiljelmo Blaeuw ; Ja. Vanden Ende sculpsit - btv1b532114591 (3 of 7).jpg",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_-_auct._Guiljelmo_Blaeuw_;_Ja._Vanden_Ende_sculpsit_-_btv1b532114591_(3_of_7).jpg",
-    "url_original": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_-_auct._Guiljelmo_Blaeuw_%3B_Ja._Vanden_Ende_sculpsit_-_btv1b532114591_%283_of_7%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "url_2400": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_-_auct._Guiljelmo_Blaeuw_%3B_Ja._Vanden_Ende_sculpsit_-_btv1b532114591_%283_of_7%29.jpg/3840px-Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_-_auct._Guiljelmo_Blaeuw_%3B_Ja._Vanden_Ende_sculpsit_-_btv1b532114591_%283_of_7%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "ancho": 4595,
-    "alto": 6434,
+    "titulo": "File:Nova totius Terrarum Orbis geographica ac hydrographica tabula - auct. Guiljelmo Blaeuw ; Ja. Vanden Ende sculpsit - btv1b532114591 (1 of 7).jpg",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_-_auct._Guiljelmo_Blaeuw_;_Ja._Vanden_Ende_sculpsit_-_btv1b532114591_(1_of_7).jpg",
+    "url_original": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_-_auct._Guiljelmo_Blaeuw_%3B_Ja._Vanden_Ende_sculpsit_-_btv1b532114591_%281_of_7%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "url_2400": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_-_auct._Guiljelmo_Blaeuw_%3B_Ja._Vanden_Ende_sculpsit_-_btv1b532114591_%281_of_7%29.jpg/3840px-Nova_totius_Terrarum_Orbis_geographica_ac_hydrographica_tabula_-_auct._Guiljelmo_Blaeuw_%3B_Ja._Vanden_Ende_sculpsit_-_btv1b532114591_%281_of_7%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ancho": 4675,
+    "alto": 6474,
     "mime": "image/jpeg",
     "licencia": "Public domain",
     "licencia_url": "",
@@ -3886,23 +3886,6 @@
     "descripcion": "Zoomable full resolution image available at davidrumsey.com.This image 11201.479 is a part of image group 11201.000.Map of the eastern part of the Mediterranean depicting the journey of Aeneas from Phrygia (Turkey) to Rome. Relief shown pictorially.The Atlas published by Ioannes Janssonius, in 1607 (2nd prelim. leaf, is dated March 1607. Pagination irregular), with 8 + 656 p.,152 black and white maps, 1 color map, text and index. Decorative colored title page that is filled with allegorical female figures of the continents, geographers measuring the globe within an architectural surrounding. M"
    },
    {
-    "titulo": "File:Paradisus. (to accompany) Atlas minor Gerardi Mercatoris. (IA dr paradisus-to-accompany-atlas-minor-gerardi-mercatoris-11201467).jpg",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Paradisus._(to_accompany)_Atlas_minor_Gerardi_Mercatoris._(IA_dr_paradisus-to-accompany-atlas-minor-gerardi-mercatoris-11201467).jpg",
-    "url_original": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Paradisus._%28to_accompany%29_Atlas_minor_Gerardi_Mercatoris._%28IA_dr_paradisus-to-accompany-atlas-minor-gerardi-mercatoris-11201467%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "url_2400": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Paradisus._%28to_accompany%29_Atlas_minor_Gerardi_Mercatoris._%28IA_dr_paradisus-to-accompany-atlas-minor-gerardi-mercatoris-11201467%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "ancho": 1536,
-    "alto": 1193,
-    "mime": "image/jpeg",
-    "licencia": "Public domain",
-    "licencia_url": "",
-    "uso": "Public domain",
-    "con_copyright": "False",
-    "autor": "Mercator, Gerhard, 1512-1594 Hondius, Iodocus, 1563-1612 Nicolaus, Cornelius Bottius, Adrianus",
-    "fecha": "",
-    "credito": "Internet Archive identifier: dr_paradisus-to-accompany-atlas-minor-gerardi-mercatoris-11201467 https://archive.org/download/dr_paradisus-to-accompany-atlas-minor-gerardi-mercatoris-11201467/11201467.jpg",
-    "descripcion": "Zoomable full resolution image available at davidrumsey.com.This image 11201.467 is a part of image group 11201.000.Map showing the Holy Land between the Mediterranean and Chaldea in present-day Iraq, extending to the mouth of the Tigris in the Persian Gulf. The map depicts the site of Paradise, between the four rivers near Babylon. At bottom is a large vignette of Adam and Eve below the apple tree in Paradise.The Atlas published by Ioannes Janssonius, in 1607 (2nd prelim. leaf, is dated March 1607. Pagination irregular), with 8 + 656 p.,152 black and white maps, 1 color map, text and index. D"
-   },
-   {
     "titulo": "File:Turcicum Imperium. (to accompany) Atlas minor Gerardi Mercatoris. (IA dr turcicum-imperium-to-accompany-atlas-minor-gerardi-mercatoris-11201419).jpg",
     "pagina": "https://commons.wikimedia.org/wiki/File:Turcicum_Imperium._(to_accompany)_Atlas_minor_Gerardi_Mercatoris._(IA_dr_turcicum-imperium-to-accompany-atlas-minor-gerardi-mercatoris-11201419).jpg",
     "url_original": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Turcicum_Imperium._%28to_accompany%29_Atlas_minor_Gerardi_Mercatoris._%28IA_dr_turcicum-imperium-to-accompany-atlas-minor-gerardi-mercatoris-11201419%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -3918,6 +3901,23 @@
     "fecha": "",
     "credito": "Internet Archive identifier: dr_turcicum-imperium-to-accompany-atlas-minor-gerardi-mercatoris-11201419 https://archive.org/download/dr_turcicum-imperium-to-accompany-atlas-minor-gerardi-mercatoris-11201419/11201419.jpg",
     "descripcion": "Zoomable full resolution image available at davidrumsey.com.This image 11201.419 is a part of image group 11201.000.Map of Turkish Empire, the Arabian peninsula and eastern part of the Mediterranean. Relief shown pictorially.The Atlas published by Ioannes Janssonius, in 1607 (2nd prelim. leaf, is dated March 1607. Pagination irregular), with 8 + 656 p.,152 black and white maps, 1 color map, text and index. Decorative colored title page that is filled with allegorical female figures of the continents, geographers measuring the globe within an architectural surrounding. Maps with title cartouche"
+   },
+   {
+    "titulo": "File:Paradisus. (to accompany) Atlas minor Gerardi Mercatoris. (IA dr paradisus-to-accompany-atlas-minor-gerardi-mercatoris-11201467).jpg",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Paradisus._(to_accompany)_Atlas_minor_Gerardi_Mercatoris._(IA_dr_paradisus-to-accompany-atlas-minor-gerardi-mercatoris-11201467).jpg",
+    "url_original": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Paradisus._%28to_accompany%29_Atlas_minor_Gerardi_Mercatoris._%28IA_dr_paradisus-to-accompany-atlas-minor-gerardi-mercatoris-11201467%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "url_2400": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Paradisus._%28to_accompany%29_Atlas_minor_Gerardi_Mercatoris._%28IA_dr_paradisus-to-accompany-atlas-minor-gerardi-mercatoris-11201467%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "ancho": 1536,
+    "alto": 1193,
+    "mime": "image/jpeg",
+    "licencia": "Public domain",
+    "licencia_url": "",
+    "uso": "Public domain",
+    "con_copyright": "False",
+    "autor": "Mercator, Gerhard, 1512-1594 Hondius, Iodocus, 1563-1612 Nicolaus, Cornelius Bottius, Adrianus",
+    "fecha": "",
+    "credito": "Internet Archive identifier: dr_paradisus-to-accompany-atlas-minor-gerardi-mercatoris-11201467 https://archive.org/download/dr_paradisus-to-accompany-atlas-minor-gerardi-mercatoris-11201467/11201467.jpg",
+    "descripcion": "Zoomable full resolution image available at davidrumsey.com.This image 11201.467 is a part of image group 11201.000.Map showing the Holy Land between the Mediterranean and Chaldea in present-day Iraq, extending to the mouth of the Tigris in the Persian Gulf. The map depicts the site of Paradise, between the four rivers near Babylon. At bottom is a large vignette of Adam and Eve below the apple tree in Paradise.The Atlas published by Ioannes Janssonius, in 1607 (2nd prelim. leaf, is dated March 1607. Pagination irregular), with 8 + 656 p.,152 black and white maps, 1 color map, text and index. D"
    },
    {
     "titulo": "File:Cyprus Ins. (to accompany) Atlas sive Cosmographicae Meditationes de Fabrica mundi et fabricati figura. De novo multis in (IA dr cyprus-ins-to-accompany-atlas-sive-cosmographicae-meditationes-de-fabric-11487161).jpg",
@@ -4007,23 +4007,6 @@
     "descripcion": "Sujet : Géographie historique Grèce antique Macédoine antique Thrace (région antique) Crète antique Asie mineure -- Antiquité Échelle(s) : [1:3 828 000 environ], Mil. Germ. 40 [= 7,6 cm] Couverture : Grèce Asie (parties) Langue : latin Éditeur : Mariette (Paris)"
    },
    {
-    "titulo": "File:Graecia Sophiani - Henri Le Roy fecit - btv1b53036607m.jpg",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Graecia_Sophiani_-_Henri_Le_Roy_fecit_-_btv1b53036607m.jpg",
-    "url_original": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Graecia_Sophiani_-_Henri_Le_Roy_fecit_-_btv1b53036607m.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "url_2400": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Graecia_Sophiani_-_Henri_Le_Roy_fecit_-_btv1b53036607m.jpg/3840px-Graecia_Sophiani_-_Henri_Le_Roy_fecit_-_btv1b53036607m.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "ancho": 6054,
-    "alto": 4560,
-    "mime": "image/jpeg",
-    "licencia": "Public domain",
-    "licencia_url": "",
-    "uso": "Public domain",
-    "con_copyright": "False",
-    "autor": "Le Roy, Henri (16..-16..? ; graveur). Graveur Sofianós, Nikólaos. Auteur adapté Ortelius, Abraham (1527-1598). Cartographe du modèle",
-    "fecha": "1646date QS:P571,+1646-00-00T00:00:00Z/9",
-    "credito": "Bibliothèque nationale de France",
-    "descripcion": "Sujet : Géographie historique Grèce antique Échelle(s) : [1:3 828 000 environ], Mil. Germ. 40 [= 7,6 cm] Couverture : Grèce Langue : latin Éditeur : chez Michel van Lochom graveur et imprimeur (A Paris)"
-   },
-   {
     "titulo": "File:Hellas seu Graecia Sophiani - btv1b53036623n (1 of 2).jpg",
     "pagina": "https://commons.wikimedia.org/wiki/File:Hellas_seu_Graecia_Sophiani_-_btv1b53036623n_(1_of_2).jpg",
     "url_original": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Hellas_seu_Graecia_Sophiani_-_btv1b53036623n_%281_of_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -4039,23 +4022,6 @@
     "fecha": "1662date QS:P571,+1662-00-00T00:00:00Z/9",
     "credito": "Bibliothèque nationale de France",
     "descripcion": "Sujet : Cartouches (ornement) Géographie historique Grèce antique Échelle(s) : [1:3 828 000 environ], M. Germ. 30 [= 5,8 cm] Référence bibliographique : [7800H:1A.3] Couverture : Grèce Langue : latin français Éditeur : [s.n.]"
-   },
-   {
-    "titulo": "File:Graecia Sophiani - Ex conatibus Geographicis Abrahami Ortelii Antverpiensis A° 1596 - btv1b530366567.jpg",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Graecia_Sophiani_-_Ex_conatibus_Geographicis_Abrahami_Ortelii_Antverpiensis_A%C2%B0_1596_-_btv1b530366567.jpg",
-    "url_original": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Graecia_Sophiani_-_Ex_conatibus_Geographicis_Abrahami_Ortelii_Antverpiensis_A%C2%B0_1596_-_btv1b530366567.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "url_2400": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Graecia_Sophiani_-_Ex_conatibus_Geographicis_Abrahami_Ortelii_Antverpiensis_A%C2%B0_1596_-_btv1b530366567.jpg/3840px-Graecia_Sophiani_-_Ex_conatibus_Geographicis_Abrahami_Ortelii_Antverpiensis_A%C2%B0_1596_-_btv1b530366567.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "ancho": 6245,
-    "alto": 4820,
-    "mime": "image/jpeg",
-    "licencia": "Public domain",
-    "licencia_url": "",
-    "uso": "Public domain",
-    "con_copyright": "False",
-    "autor": "Sofianós, Nikólaos. Auteur adapté Ortelius, Abraham (1527-1598). Cartographe",
-    "fecha": "1596date QS:P571,+1596-00-00T00:00:00Z/9",
-    "credito": "Bibliothèque nationale de France",
-    "descripcion": "Sujet : Géographie historique Grèce antique Échelle(s) : [1:3 828 000 environ], Mil. Germ. 40 [= 7,6 cm] Couverture : Grèce Langue : latin Éditeur : Joducus Hondius excudit (Anvers)"
    },
    {
     "titulo": "File:Graecia sophiani - Henri Le Roy fecit - btv1b8442071v.jpg",
@@ -4075,21 +4041,38 @@
     "descripcion": "Sujet : Grèce Couverture : Europe Langue : latin Éditeur : chez Michel van Lochom graveur et imprimeur (A Paris)"
    },
    {
-    "titulo": "File:Graecia Sophiani.jpg",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Graecia_Sophiani.jpg",
-    "url_original": "https://upload.wikimedia.org/wikipedia/commons/7/79/Graecia_Sophiani.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "url_2400": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Graecia_Sophiani.jpg/3840px-Graecia_Sophiani.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "ancho": 12325,
-    "alto": 8913,
+    "titulo": "File:Graecia Sophiani - Henri Le Roy fecit - btv1b53036607m.jpg",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Graecia_Sophiani_-_Henri_Le_Roy_fecit_-_btv1b53036607m.jpg",
+    "url_original": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Graecia_Sophiani_-_Henri_Le_Roy_fecit_-_btv1b53036607m.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "url_2400": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Graecia_Sophiani_-_Henri_Le_Roy_fecit_-_btv1b53036607m.jpg/3840px-Graecia_Sophiani_-_Henri_Le_Roy_fecit_-_btv1b53036607m.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ancho": 6054,
+    "alto": 4560,
     "mime": "image/jpeg",
     "licencia": "Public domain",
     "licencia_url": "",
     "uso": "Public domain",
     "con_copyright": "False",
-    "autor": "Abraham Ortelius",
-    "fecha": "1624",
-    "credito": "https://www.raremaps.com/gallery/detail/66204/graecia-sophiani-ortelius",
-    "descripcion": "Graecia Sophiani"
+    "autor": "Le Roy, Henri (16..-16..? ; graveur). Graveur Sofianós, Nikólaos. Auteur adapté Ortelius, Abraham (1527-1598). Cartographe du modèle",
+    "fecha": "1646date QS:P571,+1646-00-00T00:00:00Z/9",
+    "credito": "Bibliothèque nationale de France",
+    "descripcion": "Sujet : Géographie historique Grèce antique Échelle(s) : [1:3 828 000 environ], Mil. Germ. 40 [= 7,6 cm] Couverture : Grèce Langue : latin Éditeur : chez Michel van Lochom graveur et imprimeur (A Paris)"
+   },
+   {
+    "titulo": "File:Graecia Sophiani - Ex conatibus Geographicis Abrahami Ortelii Antverpiensis A° 1596 - btv1b530366567.jpg",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Graecia_Sophiani_-_Ex_conatibus_Geographicis_Abrahami_Ortelii_Antverpiensis_A%C2%B0_1596_-_btv1b530366567.jpg",
+    "url_original": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Graecia_Sophiani_-_Ex_conatibus_Geographicis_Abrahami_Ortelii_Antverpiensis_A%C2%B0_1596_-_btv1b530366567.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "url_2400": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Graecia_Sophiani_-_Ex_conatibus_Geographicis_Abrahami_Ortelii_Antverpiensis_A%C2%B0_1596_-_btv1b530366567.jpg/3840px-Graecia_Sophiani_-_Ex_conatibus_Geographicis_Abrahami_Ortelii_Antverpiensis_A%C2%B0_1596_-_btv1b530366567.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ancho": 6245,
+    "alto": 4820,
+    "mime": "image/jpeg",
+    "licencia": "Public domain",
+    "licencia_url": "",
+    "uso": "Public domain",
+    "con_copyright": "False",
+    "autor": "Sofianós, Nikólaos. Auteur adapté Ortelius, Abraham (1527-1598). Cartographe",
+    "fecha": "1596date QS:P571,+1596-00-00T00:00:00Z/9",
+    "credito": "Bibliothèque nationale de France",
+    "descripcion": "Sujet : Géographie historique Grèce antique Échelle(s) : [1:3 828 000 environ], Mil. Germ. 40 [= 7,6 cm] Couverture : Grèce Langue : latin Éditeur : Joducus Hondius excudit (Anvers)"
    },
    {
     "titulo": "File:Graecia Sophiani - Abrahamo Ortelio descriptore - btv1b53194584n (2 of 3).jpg",
@@ -4115,6 +4098,23 @@
     "url_2400": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Figurative_cartouche_on_a_Graecia_map_by_Ortelius.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "ancho": 1964,
     "alto": 2897,
+    "mime": "image/jpeg",
+    "licencia": "Public domain",
+    "licencia_url": "",
+    "uso": "Public domain",
+    "con_copyright": "False",
+    "autor": "Abraham Ortelius",
+    "fecha": "1624",
+    "credito": "https://www.raremaps.com/gallery/detail/66204/graecia-sophiani-ortelius",
+    "descripcion": "Graecia Sophiani"
+   },
+   {
+    "titulo": "File:Graecia Sophiani.jpg",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Graecia_Sophiani.jpg",
+    "url_original": "https://upload.wikimedia.org/wikipedia/commons/7/79/Graecia_Sophiani.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "url_2400": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Graecia_Sophiani.jpg/3840px-Graecia_Sophiani.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ancho": 12325,
+    "alto": 8913,
     "mime": "image/jpeg",
     "licencia": "Public domain",
     "licencia_url": "",
