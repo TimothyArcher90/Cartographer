@@ -2,197 +2,197 @@
 "USA-3559": {
 "nombre": "Nueva York",
 "pais": "USA",
-"total": 27541
+"total": 29325
 },
 "USA-3521": {
 "nombre": "California",
 "pais": "USA",
-"total": 19409
+"total": 20172
 },
 "USA-3536": {
 "nombre": "Texas",
 "pais": "USA",
-"total": 18558
+"total": 19661
 },
 "USA-3513": {
 "nombre": "Massachusetts",
 "pais": "USA",
-"total": 15818
+"total": 16423
 },
 "USA-3560": {
 "nombre": "Pensilvania",
 "pais": "USA",
-"total": 13930
+"total": 15386
 },
 "USA-3546": {
 "nombre": "Illinois",
 "pais": "USA",
-"total": 11827
-},
-"USA-3556": {
-"nombre": "Washington D. C.",
-"pais": "USA",
-"total": 10641
+"total": 12157
 },
 "USA-3552": {
 "nombre": "Virginia",
 "pais": "USA",
-"total": 10623
+"total": 11208
+},
+"USA-3556": {
+"nombre": "Washington D. C.",
+"pais": "USA",
+"total": 11073
 },
 "USA-3519": {
 "nombre": "Washington",
 "pais": "USA",
-"total": 10614
+"total": 11045
 },
 "USA-3558": {
 "nombre": "Nueva Jersey",
 "pais": "USA",
-"total": 9181
+"total": 9608
 },
 "USA-3522": {
 "nombre": "Colorado",
 "pais": "USA",
-"total": 8777
+"total": 8918
 },
 "USA-3563": {
 "nombre": "Alaska",
 "pais": "USA",
-"total": 7806
+"total": 7836
 },
 "USA-3531": {
 "nombre": "Misuri",
 "pais": "USA",
-"total": 7282
+"total": 7640
 },
 "USA-3515": {
 "nombre": "Montana",
 "pais": "USA",
-"total": 6764
+"total": 6815
 },
 "NLD-3486": {
 "nombre": "Holanda Septentrional",
 "pais": "NLD",
-"total": 6420
-},
-"USA-3542": {
-"nombre": "Florida",
-"pais": "USA",
-"total": 6008
-},
-"USA-3520": {
-"nombre": "Arizona",
-"pais": "USA",
-"total": 6001
-},
-"USA-3525": {
-"nombre": "Oregón",
-"pais": "USA",
-"total": 5798
+"total": 6422
 },
 "USA-3549": {
 "nombre": "Carolina del Norte",
 "pais": "USA",
-"total": 5634
+"total": 6381
+},
+"USA-3542": {
+"nombre": "Florida",
+"pais": "USA",
+"total": 6156
+},
+"USA-3520": {
+"nombre": "Arizona",
+"pais": "USA",
+"total": 6034
 },
 "USA-3562": {
 "nombre": "Míchigan",
 "pais": "USA",
-"total": 5628
+"total": 5883
+},
+"USA-3525": {
+"nombre": "Oregón",
+"pais": "USA",
+"total": 5882
 },
 "USA-3535": {
 "nombre": "Luisiana",
 "pais": "USA",
-"total": 5619
-},
-"USA-3527": {
-"nombre": "Wyoming",
-"pais": "USA",
-"total": 5385
+"total": 5742
 },
 "USA-3551": {
 "nombre": "Tennessee",
 "pais": "USA",
-"total": 5382
+"total": 5515
+},
+"USA-3527": {
+"nombre": "Wyoming",
+"pais": "USA",
+"total": 5423
 },
 "USA-3524": {
 "nombre": "Nuevo México",
 "pais": "USA",
-"total": 5327
+"total": 5375
 },
 "USA-3547": {
 "nombre": "Indiana",
 "pais": "USA",
-"total": 4985
-},
-"DEU-1599": {
-"nombre": "Berlín",
-"pais": "DEU",
-"total": 4939
+"total": 5211
 },
 "USA-3514": {
 "nombre": "Minnesota",
 "pais": "USA",
-"total": 4893
-},
-"FRA-5333": {
-"nombre": "París",
-"pais": "FRA",
-"total": 4848
-},
-"USA-3523": {
-"nombre": "Nevada",
-"pais": "USA",
-"total": 4797
+"total": 5033
 },
 "USA-3530": {
 "nombre": "Kansas",
 "pais": "USA",
-"total": 4776
+"total": 4957
 },
 "USA-3553": {
 "nombre": "Wisconsin",
 "pais": "USA",
-"total": 4770
+"total": 4946
 },
-"USA-3518": {
-"nombre": "Idaho",
+"DEU-1599": {
+"nombre": "Berlín",
+"pais": "DEU",
+"total": 4944
+},
+"FRA-5333": {
+"nombre": "París",
+"pais": "FRA",
+"total": 4935
+},
+"USA-3523": {
+"nombre": "Nevada",
 "pais": "USA",
-"total": 4681
+"total": 4828
 },
 "USA-3548": {
 "nombre": "Kentucky",
 "pais": "USA",
-"total": 4662
+"total": 4794
 },
 "USA-3561": {
 "nombre": "Maine",
 "pais": "USA",
-"total": 4618
+"total": 4743
+},
+"USA-3543": {
+"nombre": "Georgia",
+"pais": "USA",
+"total": 4737
+},
+"USA-3518": {
+"nombre": "Idaho",
+"pais": "USA",
+"total": 4737
 },
 "FRA-5309": {
 "nombre": "Indre",
 "pais": "FRA",
 "total": 4583
 },
-"USA-3543": {
-"nombre": "Georgia",
+"USA-3544": {
+"nombre": "Misisipi",
 "pais": "USA",
-"total": 4564
+"total": 4545
 },
 "USA-3533": {
 "nombre": "Oklahoma",
 "pais": "USA",
-"total": 4345
+"total": 4523
 },
 "USA-3554": {
 "nombre": "Virginia Occidental",
 "pais": "USA",
-"total": 4334
-},
-"USA-3544": {
-"nombre": "Misisipi",
-"pais": "USA",
-"total": 4211
+"total": 4460
 },
 "USA-3526": {
 "nombre": "Utah",
@@ -204,75 +204,75 @@
 "pais": "USA",
 "total": 4167
 },
-"USA-3541": {
-"nombre": "Alabama",
-"pais": "USA",
-"total": 4045
-},
 "USA-3557": {
 "nombre": "Maryland",
 "pais": "USA",
-"total": 4017
+"total": 4159
+},
+"USA-3541": {
+"nombre": "Alabama",
+"pais": "USA",
+"total": 4130
 },
 "USA-3528": {
 "nombre": "Arkansas",
 "pais": "USA",
-"total": 3980
-},
-"USA-3532": {
-"nombre": "Nebraska",
-"pais": "USA",
-"total": 3478
-},
-"NLD-3485": {
-"nombre": "Holanda Meridional",
-"pais": "NLD",
-"total": 3430
+"total": 4051
 },
 "USA-3545": {
 "nombre": "Carolina del Sur",
 "pais": "USA",
-"total": 3362
+"total": 3660
+},
+"USA-3532": {
+"nombre": "Nebraska",
+"pais": "USA",
+"total": 3594
+},
+"NLD-3485": {
+"nombre": "Holanda Meridional",
+"pais": "NLD",
+"total": 3431
 },
 "NLD-3484": {
 "nombre": "Utrecht",
 "pais": "NLD",
 "total": 3305
 },
+"USA-3538": {
+"nombre": "Nuevo Hampshire",
+"pais": "USA",
+"total": 3258
+},
 "USA-3534": {
 "nombre": "Dakota del Sur",
 "pais": "USA",
-"total": 3018
+"total": 3108
 },
 "USA-3537": {
 "nombre": "Connecticut",
 "pais": "USA",
-"total": 2894
-},
-"USA-3538": {
-"nombre": "Nuevo Hampshire",
-"pais": "USA",
-"total": 2765
+"total": 3021
 },
 "USA-3516": {
 "nombre": "Dakota del Norte",
 "pais": "USA",
-"total": 2695
+"total": 2730
 },
 "NLD-896": {
 "nombre": "Güeldres",
 "pais": "NLD",
 "total": 2517
 },
-"USA-3540": {
-"nombre": "Vermont",
-"pais": "USA",
-"total": 2266
-},
 "USA-3555": {
 "nombre": "Delaware",
 "pais": "USA",
-"total": 2194
+"total": 2363
+},
+"USA-3540": {
+"nombre": "Vermont",
+"pais": "USA",
+"total": 2347
 },
 "NLD-3483": {
 "nombre": "Brabante Septentrional",
@@ -287,37 +287,37 @@
 "AUS-2656": {
 "nombre": "Victoria",
 "pais": "AUS",
-"total": 1516
+"total": 1517
 },
 "NLD-899": {
 "nombre": "Overijssel",
 "pais": "NLD",
 "total": 1406
 },
+"MEX-2727": {
+"nombre": "México",
+"pais": "MEX",
+"total": 1387
+},
+"MEX-2731": {
+"nombre": "Estado de México",
+"pais": "MEX",
+"total": 1368
+},
 "DEU-1572": {
 "nombre": "Renania del Norte-Westfalia",
 "pais": "DEU",
 "total": 1333
 },
-"MEX-2727": {
-"nombre": "México",
-"pais": "MEX",
-"total": 1207
-},
 "USA-3539": {
 "nombre": "Rhode Island",
 "pais": "USA",
-"total": 1205
-},
-"MEX-2731": {
-"nombre": "Estado de México",
-"pais": "MEX",
-"total": 1188
+"total": 1242
 },
 "CAN-682": {
 "nombre": "Ontario",
 "pais": "CAN",
-"total": 1131
+"total": 1138
 },
 "NLD-903": {
 "nombre": "Zelanda",
@@ -327,7 +327,7 @@
 "NLD-898": {
 "nombre": "Limburgo",
 "pais": "NLD",
-"total": 1083
+"total": 1085
 },
 "DEU-1574": {
 "nombre": "Hesse",
@@ -337,7 +337,7 @@
 "DEU-1591": {
 "nombre": "Baviera",
 "pais": "DEU",
-"total": 1021
+"total": 1023
 },
 "DEU-1601": {
 "nombre": "Sajonia",
@@ -347,47 +347,52 @@
 "PRI-5260": {
 "nombre": "Puerto Rico",
 "pais": "PRI",
-"total": 917
+"total": 928
 },
 "BEL-3478": {
 "nombre": "Flandes Oriental",
 "pais": "BEL",
-"total": 896
+"total": 897
+},
+"ESP-5831": {
+"nombre": "Lérida",
+"pais": "ESP",
+"total": 878
 },
 "GBR-4809": {
 "nombre": "de Londres",
 "pais": "GBR",
-"total": 846
+"total": 876
 },
 "EST-1656": {
 "nombre": "Järva",
 "pais": "EST",
 "total": 840
 },
+"CAN-683": {
+"nombre": "Quebec",
+"pais": "CAN",
+"total": 832
+},
 "USA-3517": {
 "nombre": "Hawái",
 "pais": "USA",
-"total": 818
+"total": 830
 },
 "NLD-895": {
 "nombre": "Frisia",
 "pais": "NLD",
 "total": 809
 },
-"CAN-683": {
-"nombre": "Quebec",
-"pais": "CAN",
-"total": 799
-},
-"ESP-5831": {
-"nombre": "Lérida",
+"ESP-5809": {
+"nombre": "Barcelona",
 "pais": "ESP",
-"total": 741
+"total": 779
 },
 "BEL-3480": {
 "nombre": "Amberes",
 "pais": "BEL",
-"total": 731
+"total": 734
 },
 "NLD-894": {
 "nombre": "Drente",
@@ -397,42 +402,52 @@
 "DEU-1576": {
 "nombre": "Baja Sajonia",
 "pais": "DEU",
-"total": 709
+"total": 710
 },
 "NLD-897": {
 "nombre": "Groninga",
 "pais": "NLD",
 "total": 703
 },
-"ESP-5809": {
-"nombre": "Barcelona",
+"ESP-5820": {
+"nombre": "Gerona",
 "pais": "ESP",
-"total": 623
+"total": 649
 },
-"EGY-1543": {
-"nombre": "Alejandría",
-"pais": "EGY",
-"total": 585
+"ESP-5846": {
+"nombre": "Tarragona",
+"pais": "ESP",
+"total": 598
 },
 "DNK-3419": {
 "nombre": "Capital",
 "pais": "DNK",
-"total": 581
+"total": 588
+},
+"EGY-1543": {
+"nombre": "Alejandría",
+"pais": "EGY",
+"total": 587
 },
 "DEU-1573": {
 "nombre": "Baden-Wurtemberg",
 "pais": "DEU",
-"total": 567
+"total": 568
+},
+"CAN-685": {
+"nombre": "Nueva Escocia",
+"pais": "CAN",
+"total": 537
 },
 "EGY-1533": {
 "nombre": "El Cairo",
 "pais": "EGY",
-"total": 519
+"total": 522
 },
 "DEU-1580": {
 "nombre": "Renania-Palatinado",
 "pais": "DEU",
-"total": 511
+"total": 513
 },
 "DNK-3417": {
 "nombre": "Dinamarca Meridional",
@@ -442,32 +457,22 @@
 "ITA-5450": {
 "nombre": "Milán",
 "pais": "ITA",
-"total": 507
-},
-"MEX-2709": {
-"nombre": "Chihuahua",
-"pais": "MEX",
-"total": 495
-},
-"CAN-685": {
-"nombre": "Nueva Escocia",
-"pais": "CAN",
-"total": 495
-},
-"BEL-3479": {
-"nombre": "Flandes Occidental",
-"pais": "BEL",
-"total": 488
-},
-"ESP-5820": {
-"nombre": "Gerona",
-"pais": "ESP",
-"total": 482
+"total": 509
 },
 "ESP-5833": {
 "nombre": "Madrid",
 "pais": "ESP",
-"total": 476
+"total": 508
+},
+"MEX-2709": {
+"nombre": "Chihuahua",
+"pais": "MEX",
+"total": 497
+},
+"BEL-3479": {
+"nombre": "Flandes Occidental",
+"pais": "BEL",
+"total": 490
 },
 "GBR-2029": {
 "nombre": "Durham",
@@ -479,25 +484,35 @@
 "pais": "NLD",
 "total": 465
 },
-"ESP-5846": {
-"nombre": "Tarragona",
-"pais": "ESP",
-"total": 453
-},
 "CAN-684": {
 "nombre": "Nuevo Brunswick",
 "pais": "CAN",
-"total": 417
+"total": 441
 },
 "ESP-5812": {
 "nombre": "Cádiz",
 "pais": "ESP",
-"total": 342
+"total": 374
+},
+"ESP-5824": {
+"nombre": "Huelva",
+"pais": "ESP",
+"total": 324
 },
 "MEX-2712": {
 "nombre": "Sonora",
 "pais": "MEX",
-"total": 316
+"total": 321
+},
+"ESP-5844": {
+"nombre": "Sevilla",
+"pais": "ESP",
+"total": 319
+},
+"ESP-5821": {
+"nombre": "Granada",
+"pais": "ESP",
+"total": 319
 },
 "BEL-2": {
 "nombre": "Henao",
@@ -507,16 +522,31 @@
 "ISR-3058": {
 "nombre": "Jerusalén",
 "pais": "ISR",
-"total": 304
+"total": 307
 },
-"ESP-5824": {
-"nombre": "Huelva",
+"ESP-5834": {
+"nombre": "Málaga",
+"pais": "ESP",
+"total": 307
+},
+"ESP-5817": {
+"nombre": "Córdoba",
 "pais": "ESP",
 "total": 296
+},
+"AUT-2329": {
+"nombre": "Tirol",
+"pais": "AUT",
+"total": 290
 },
 "ISR-3053": {
 "nombre": "Meridional",
 "pais": "ISR",
+"total": 290
+},
+"ESP-5826": {
+"nombre": "Jaén",
+"pais": "ESP",
 "total": 290
 },
 "BEL-3": {
@@ -529,29 +559,19 @@
 "pais": "ITA",
 "total": 288
 },
-"ESP-5844": {
-"nombre": "Sevilla",
+"ESP-5804": {
+"nombre": "Almería",
 "pais": "ESP",
-"total": 287
-},
-"AUT-2329": {
-"nombre": "Tirol",
-"pais": "AUT",
-"total": 286
-},
-"ESP-5821": {
-"nombre": "Granada",
-"pais": "ESP",
-"total": 285
-},
-"ESP-5834": {
-"nombre": "Málaga",
-"pais": "ESP",
-"total": 281
+"total": 284
 },
 "WEB+00?": {
 "nombre": "Ribera Occidental",
 "pais": "PSX",
+"total": 276
+},
+"CAN-686": {
+"nombre": "Terranova y Labrador",
+"pais": "CAN",
 "total": 276
 },
 "DEU-3487": {
@@ -564,35 +584,15 @@
 "pais": "ROU",
 "total": 272
 },
-"ESP-5817": {
-"nombre": "Córdoba",
-"pais": "ESP",
-"total": 268
+"FRA-5330": {
+"nombre": "Norte",
+"pais": "FRA",
+"total": 270
 },
 "ISR-3056": {
 "nombre": "Norte",
 "pais": "ISR",
 "total": 265
-},
-"CAN-686": {
-"nombre": "Terranova y Labrador",
-"pais": "CAN",
-"total": 265
-},
-"ESP-5826": {
-"nombre": "Jaén",
-"pais": "ESP",
-"total": 265
-},
-"FRA-5330": {
-"nombre": "Norte",
-"pais": "FRA",
-"total": 263
-},
-"ESP-5804": {
-"nombre": "Almería",
-"pais": "ESP",
-"total": 259
 },
 "IRL-78": {
 "nombre": "Cork",
@@ -602,42 +602,52 @@
 "ITA-5422": {
 "nombre": "Roma",
 "pais": "ITA",
-"total": 254
+"total": 255
 },
 "FRA-5334": {
 "nombre": "Paso de Calais",
 "pais": "FRA",
 "total": 254
 },
+"PAN-1340": {
+"nombre": "Panamá",
+"pais": "PAN",
+"total": 253
+},
 "RUS-2614": {
 "nombre": "Jabárovsk",
 "pais": "RUS",
-"total": 246
+"total": 247
 },
 "CAN-633": {
 "nombre": "Columbia Británica",
 "pais": "CAN",
-"total": 241
+"total": 244
+},
+"ESP-5849": {
+"nombre": "Valencia",
+"pais": "ESP",
+"total": 240
 },
 "CHE-3427": {
 "nombre": "Obwalden",
 "pais": "CHE",
-"total": 237
+"total": 238
 },
 "IRL-713": {
 "nombre": "Galway",
 "pais": "IRL",
 "total": 237
 },
+"CHN-1662": {
+"nombre": "Tíbet",
+"pais": "CHN",
+"total": 235
+},
 "GBR-2053": {
 "nombre": "Cambridgeshire",
 "pais": "GBR",
 "total": 235
-},
-"CHN-1662": {
-"nombre": "Tíbet",
-"pais": "CHN",
-"total": 234
 },
 "POL-3141": {
 "nombre": "Voivodato de Baja Silesia",
@@ -653,11 +663,6 @@
 "nombre": "Lieja",
 "pais": "BEL",
 "total": 233
-},
-"PAN-1340": {
-"nombre": "Panamá",
-"pais": "PAN",
-"total": 232
 },
 "IDN-1228": {
 "nombre": "Borneo Occidental",
@@ -679,14 +684,29 @@
 "pais": "AUT",
 "total": 216
 },
+"CUB-1428": {
+"nombre": "La Habana",
+"pais": "CUB",
+"total": 216
+},
 "BEL-3475": {
 "nombre": "Brabante Flamenco",
 "pais": "BEL",
 "total": 215
 },
+"ESP-5827": {
+"nombre": "La Coruña",
+"pais": "ESP",
+"total": 214
+},
 "DEU-1577": {
 "nombre": "Turingia",
 "pais": "DEU",
+"total": 212
+},
+"ESP-5825": {
+"nombre": "Huesca",
+"pais": "ESP",
 "total": 212
 },
 "FRA-5263": {
@@ -699,29 +719,74 @@
 "pais": "DNK",
 "total": 210
 },
+"ESP-5853": {
+"nombre": "Zaragoza",
+"pais": "ESP",
+"total": 209
+},
 "CHN-1155": {
 "nombre": "Pekín",
 "pais": "CHN",
+"total": 207
+},
+"BRA-624": {
+"nombre": "Bahía",
+"pais": "BRA",
+"total": 205
+},
+"ESP-5847": {
+"nombre": "Teruel",
+"pais": "ESP",
+"total": 204
+},
+"ESP-5810": {
+"nombre": "Burgos",
+"pais": "ESP",
+"total": 203
+},
+"ESP-5841": {
+"nombre": "Salamanca",
+"pais": "ESP",
+"total": 203
+},
+"ESP-5838": {
+"nombre": "Orense",
+"pais": "ESP",
+"total": 202
+},
+"ESP-5832": {
+"nombre": "Lugo",
+"pais": "ESP",
 "total": 201
 },
-"ESP-5849": {
-"nombre": "Valencia",
-"pais": "ESP",
-"total": 200
+"AUS-2654": {
+"nombre": "Nueva Gales del Sur",
+"pais": "AUS",
+"total": 199
 },
 "BEL-3482": {
 "nombre": "Brabante Valón",
 "pais": "BEL",
 "total": 199
 },
-"AUS-2654": {
-"nombre": "Nueva Gales del Sur",
-"pais": "AUS",
-"total": 198
+"ESP-5852": {
+"nombre": "Zamora",
+"pais": "ESP",
+"total": 199
+},
+"ESP-5840": {
+"nombre": "Pontevedra",
+"pais": "ESP",
+"total": 199
 },
 "BEL-3477": {
 "nombre": "Luxemburgo",
 "pais": "BEL",
+"total": 197
+},
+"ESP-5814": {
+"nombre": "Castellón",
+"pais": "ESP",
 "total": 196
 },
 "AUT-2326": {
@@ -729,24 +794,39 @@
 "pais": "AUT",
 "total": 195
 },
+"ITA-5397": {
+"nombre": "Nápoles",
+"pais": "ITA",
+"total": 195
+},
+"ESP-5839": {
+"nombre": "Palencia",
+"pais": "ESP",
+"total": 195
+},
 "POL-3147": {
 "nombre": "Voivodato de Łódź",
 "pais": "POL",
 "total": 194
+},
+"MEX-2708": {
+"nombre": "Coahuila de Zaragoza",
+"pais": "MEX",
+"total": 193
+},
+"ESP-5830": {
+"nombre": "León",
+"pais": "ESP",
+"total": 192
 },
 "IRL-729": {
 "nombre": "Donegal",
 "pais": "IRL",
 "total": 192
 },
-"MEX-2708": {
-"nombre": "Coahuila de Zaragoza",
-"pais": "MEX",
-"total": 190
-},
-"BRA-624": {
-"nombre": "Bahía",
-"pais": "BRA",
+"ESP-5845": {
+"nombre": "Soria",
+"pais": "ESP",
 "total": 190
 },
 "DEU-1600": {
@@ -754,9 +834,19 @@
 "pais": "DEU",
 "total": 187
 },
-"ESP-5827": {
-"nombre": "La Coruña",
+"ESP-5850": {
+"nombre": "Valladolid",
 "pais": "ESP",
+"total": 185
+},
+"ESP-5806": {
+"nombre": "Ávila",
+"pais": "ESP",
+"total": 184
+},
+"BEL-3476": {
+"nombre": "Namur",
+"pais": "BEL",
 "total": 183
 },
 "AUT-2325": {
@@ -764,34 +854,29 @@
 "pais": "AUT",
 "total": 182
 },
-"BEL-3476": {
-"nombre": "Namur",
-"pais": "BEL",
-"total": 182
-},
 "GBR-2004": {
 "nombre": "Glasgow",
 "pais": "GBR",
 "total": 181
 },
-"ESP-5841": {
-"nombre": "Salamanca",
-"pais": "ESP",
-"total": 178
-},
-"ITA-5397": {
-"nombre": "Nápoles",
-"pais": "ITA",
-"total": 177
-},
 "MEX-2716": {
 "nombre": "Tamaulipas",
 "pais": "MEX",
-"total": 177
+"total": 180
 },
-"CUB-1428": {
-"nombre": "La Habana",
-"pais": "CUB",
+"ESP-5803": {
+"nombre": "Alicante",
+"pais": "ESP",
+"total": 180
+},
+"ESP-5843": {
+"nombre": "Segovia",
+"pais": "ESP",
+"total": 179
+},
+"ITA-5434": {
+"nombre": "Turín",
+"pais": "ITA",
 "total": 177
 },
 "GBR-2771": {
@@ -799,44 +884,19 @@
 "pais": "GBR",
 "total": 176
 },
-"ITA-5434": {
-"nombre": "Turín",
-"pais": "ITA",
-"total": 174
-},
-"ESP-5814": {
-"nombre": "Castellón",
-"pais": "ESP",
-"total": 174
-},
-"ESP-5852": {
-"nombre": "Zamora",
-"pais": "ESP",
-"total": 172
-},
 "AUT-2323": {
 "nombre": "Estiria",
 "pais": "AUT",
 "total": 171
 },
-"ESP-5838": {
-"nombre": "Orense",
-"pais": "ESP",
-"total": 171
+"GRC-2990": {
+"nombre": "Creta",
+"pais": "GRC",
+"total": 169
 },
-"ESP-5832": {
-"nombre": "Lugo",
-"pais": "ESP",
-"total": 170
-},
-"ESP-5810": {
-"nombre": "Burgos",
-"pais": "ESP",
-"total": 170
-},
-"ESP-5825": {
-"nombre": "Huesca",
-"pais": "ESP",
+"ITA-5441": {
+"nombre": "Cuneo",
+"pais": "ITA",
 "total": 169
 },
 "GBR-2745": {
@@ -844,50 +904,20 @@
 "pais": "GBR",
 "total": 168
 },
-"ESP-5840": {
-"nombre": "Pontevedra",
-"pais": "ESP",
-"total": 168
-},
-"ESP-5830": {
-"nombre": "León",
-"pais": "ESP",
-"total": 166
-},
-"ITA-5441": {
-"nombre": "Cuneo",
-"pais": "ITA",
-"total": 166
-},
-"ESP-5853": {
-"nombre": "Zaragoza",
-"pais": "ESP",
-"total": 166
-},
-"ESP-5839": {
-"nombre": "Palencia",
-"pais": "ESP",
-"total": 165
-},
 "LUX-908": {
 "nombre": "Luxemburgo",
 "pais": "LUX",
-"total": 164
+"total": 166
 },
 "JOR-851": {
 "nombre": "Ammán",
 "pais": "JOR",
 "total": 163
 },
-"ESP-5845": {
-"nombre": "Soria",
-"pais": "ESP",
-"total": 162
-},
 "FRA-5341": {
 "nombre": "Saboya",
 "pais": "FRA",
-"total": 161
+"total": 162
 },
 "POL-3145": {
 "nombre": "Cuyavia y Pomerania",
@@ -899,30 +929,20 @@
 "pais": "FRA",
 "total": 160
 },
-"ESP-5850": {
-"nombre": "Valladolid",
+"ESP-5807": {
+"nombre": "Badajoz",
 "pais": "ESP",
 "total": 160
-},
-"ESP-5803": {
-"nombre": "Alicante",
-"pais": "ESP",
-"total": 160
-},
-"ESP-5847": {
-"nombre": "Teruel",
-"pais": "ESP",
-"total": 158
 },
 "FRA-5338": {
 "nombre": "Ródano",
 "pais": "FRA",
-"total": 157
+"total": 159
 },
-"ESP-5806": {
-"nombre": "Ávila",
+"ESP-5811": {
+"nombre": "Cáceres",
 "pais": "ESP",
-"total": 157
+"total": 156
 },
 "HUN-3160": {
 "nombre": "Budapest",
@@ -942,12 +962,7 @@
 "MEX-2706": {
 "nombre": "Baja California",
 "pais": "MEX",
-"total": 153
-},
-"ESP-5843": {
-"nombre": "Segovia",
-"pais": "ESP",
-"total": 153
+"total": 154
 },
 "FRA-5328": {
 "nombre": "Mosela",
@@ -957,16 +972,26 @@
 "FRA-5273": {
 "nombre": "Bajo Rin",
 "pais": "FRA",
-"total": 149
+"total": 152
 },
 "CHE-165": {
 "nombre": "Valais",
 "pais": "CHE",
 "total": 149
 },
+"CHE-170": {
+"nombre": "los Grisones",
+"pais": "CHE",
+"total": 148
+},
 "POL-3139": {
 "nombre": "Voivodato de Varmia y Masuria",
 "pais": "POL",
+"total": 148
+},
+"ESP-5836": {
+"nombre": "Murcia",
+"pais": "ESP",
 "total": 148
 },
 "POL-3170": {
@@ -974,24 +999,19 @@
 "pais": "POL",
 "total": 147
 },
-"CHE-170": {
-"nombre": "los Grisones",
-"pais": "CHE",
-"total": 144
+"SYR-146": {
+"nombre": "Dar'a",
+"pais": "SYR",
+"total": 146
 },
 "POL-3140": {
 "nombre": "Voivodato de Pomerania",
 "pais": "POL",
 "total": 144
 },
-"SYR-146": {
-"nombre": "Dar'a",
-"pais": "SYR",
-"total": 144
-},
-"ESP-5807": {
-"nombre": "Badajoz",
-"pais": "ESP",
+"RUS-2603": {
+"nombre": "Krasnoyarsk",
+"pais": "RUS",
 "total": 144
 },
 "SWE-3428": {
@@ -999,54 +1019,54 @@
 "pais": "SWE",
 "total": 143
 },
-"RUS-2603": {
-"nombre": "Krasnoyarsk",
-"pais": "RUS",
-"total": 143
-},
-"ESP-5811": {
-"nombre": "Cáceres",
+"ESP-5837": {
+"nombre": "Navarra",
 "pais": "ESP",
-"total": 142
+"total": 140
 },
 "FRA-5302": {
 "nombre": "Alta Saboya",
 "pais": "FRA",
 "total": 140
 },
+"ITA-5439": {
+"nombre": "Alessandria",
+"pais": "ITA",
+"total": 139
+},
+"CHE-3424": {
+"nombre": "Berna",
+"pais": "CHE",
+"total": 137
+},
 "ZAF-1206": {
 "nombre": "Estado Libre",
 "pais": "ZAF",
 "total": 137
 },
-"ITA-5439": {
-"nombre": "Alessandria",
-"pais": "ITA",
-"total": 136
-},
-"CHE-3424": {
-"nombre": "Berna",
-"pais": "CHE",
-"total": 136
-},
 "DEU-3488": {
 "nombre": "Mecklemburgo-Pomerania Occidental",
 "pais": "DEU",
-"total": 135
+"total": 136
+},
+"FRA-5326": {
+"nombre": "Mosa",
+"pais": "FRA",
+"total": 133
 },
 "GBR-2138": {
 "nombre": "Dumfries and Galloway",
 "pais": "GBR",
 "total": 132
 },
+"PRT-746": {
+"nombre": "Lisboa",
+"pais": "PRT",
+"total": 131
+},
 "DEU-1579": {
 "nombre": "Schleswig-Holstein",
 "pais": "DEU",
-"total": 131
-},
-"FRA-5326": {
-"nombre": "Mosa",
-"pais": "FRA",
 "total": 131
 },
 "EGY-1550": {
@@ -1064,6 +1084,21 @@
 "pais": "ITA",
 "total": 130
 },
+"ESP-5848": {
+"nombre": "Toledo",
+"pais": "ESP",
+"total": 130
+},
+"ESP-5808": {
+"nombre": "Islas Baleares",
+"pais": "ESP",
+"total": 130
+},
+"EGY-1556": {
+"nombre": "Mar Rojo",
+"pais": "EGY",
+"total": 129
+},
 "GBR-5698": {
 "nombre": "Bedford",
 "pais": "GBR",
@@ -1079,19 +1114,19 @@
 "pais": "GBR",
 "total": 128
 },
-"ESP-5836": {
-"nombre": "Murcia",
+"ESP-5818": {
+"nombre": "Cuenca",
 "pais": "ESP",
-"total": 127
+"total": 128
 },
 "FRA-5323": {
 "nombre": "Marne",
 "pais": "FRA",
 "total": 125
 },
-"EGY-1556": {
-"nombre": "Mar Rojo",
-"pais": "EGY",
+"ESP-5822": {
+"nombre": "Guadalajara",
+"pais": "ESP",
 "total": 125
 },
 "GBR-3409": {
@@ -1109,14 +1144,19 @@
 "pais": "FRA",
 "total": 124
 },
-"PRT-746": {
-"nombre": "Lisboa",
-"pais": "PRT",
-"total": 122
+"TUR-2265": {
+"nombre": "Estambul",
+"pais": "TUR",
+"total": 123
 },
 "GBR-2140": {
 "nombre": "Yorkshire del Norte",
 "pais": "GBR",
+"total": 122
+},
+"ESP-5802": {
+"nombre": "Albacete",
+"pais": "ESP",
 "total": 122
 },
 "GBR-2064": {
@@ -1134,9 +1174,19 @@
 "pais": "COD",
 "total": 120
 },
-"TUR-2265": {
-"nombre": "Estambul",
-"pais": "TUR",
+"BRA-627": {
+"nombre": "Estado de Río de Janeiro",
+"pais": "BRA",
+"total": 120
+},
+"ESP-5816": {
+"nombre": "Ciudad Real",
+"pais": "ESP",
+"total": 120
+},
+"ITA-5461": {
+"nombre": "Venecia",
+"pais": "ITA",
 "total": 119
 },
 "ITA-5459": {
@@ -1147,11 +1197,6 @@
 "AUT-2327": {
 "nombre": "Salzburgo",
 "pais": "AUT",
-"total": 117
-},
-"ITA-5461": {
-"nombre": "Venecia",
-"pais": "ITA",
 "total": 117
 },
 "SDN-881": {
@@ -1199,15 +1244,10 @@
 "pais": "GBR",
 "total": 110
 },
-"BRA-627": {
-"nombre": "Estado de Río de Janeiro",
-"pais": "BRA",
-"total": 110
-},
 "FRA-5355": {
 "nombre": "Vosgos",
 "pais": "FRA",
-"total": 109
+"total": 110
 },
 "ITA-5445": {
 "nombre": "Brescia",
@@ -1222,11 +1262,6 @@
 "FRA-5301": {
 "nombre": "Alto Saona",
 "pais": "FRA",
-"total": 107
-},
-"ESP-5808": {
-"nombre": "Islas Baleares",
-"pais": "ESP",
 "total": 107
 },
 "POL-3142": {
@@ -1259,14 +1294,19 @@
 "pais": "ITA",
 "total": 106
 },
-"ESP-5818": {
-"nombre": "Cuenca",
-"pais": "ESP",
-"total": 106
-},
 "SYR-144": {
 "nombre": "la campiña de Damasco",
 "pais": "SYR",
+"total": 105
+},
+"ITA-5367": {
+"nombre": "Liguria",
+"pais": "ITA",
+"total": 104
+},
+"ESP-5851": {
+"nombre": "Vizcaya",
+"pais": "ESP",
 "total": 104
 },
 "ETH-3134": {
@@ -1274,14 +1314,19 @@
 "pais": "ETH",
 "total": 103
 },
-"ESP-5848": {
-"nombre": "Toledo",
-"pais": "ESP",
-"total": 103
+"ITA-5437": {
+"nombre": "Verbano-Cusio-Ossola",
+"pais": "ITA",
+"total": 102
 },
 "FRA-5356": {
 "nombre": "Yonne",
 "pais": "FRA",
+"total": 101
+},
+"ESP-5823": {
+"nombre": "Guipúzcoa",
+"pais": "ESP",
 "total": 101
 },
 "POL-3167": {
@@ -1299,39 +1344,34 @@
 "pais": "IRQ",
 "total": 100
 },
-"ESP-5816": {
-"nombre": "Ciudad Real",
-"pais": "ESP",
-"total": 100
-},
 "IDN-1224": {
 "nombre": "Java Central",
 "pais": "IDN",
 "total": 99
 },
-"ITA-5437": {
-"nombre": "Verbano-Cusio-Ossola",
+"ITA-5436": {
+"nombre": "Vercelli",
 "pais": "ITA",
 "total": 99
 },
-"ESP-5822": {
-"nombre": "Guadalajara",
-"pais": "ESP",
+"MEX-2734": {
+"nombre": "Estado de Veracruz",
+"pais": "MEX",
 "total": 99
 },
-"ESP-5802": {
-"nombre": "Albacete",
+"ESP-5805": {
+"nombre": "Asturias",
 "pais": "ESP",
-"total": 99
+"total": 98
 },
 "IDN-1931": {
 "nombre": "Borneo Central",
 "pais": "IDN",
 "total": 97
 },
-"ITA-5367": {
-"nombre": "Liguria",
-"pais": "ITA",
+"CHN-1813": {
+"nombre": "Liaoning",
+"pais": "CHN",
 "total": 97
 },
 "GRC-2900": {
@@ -1344,19 +1384,9 @@
 "pais": "SUR",
 "total": 96
 },
-"CHN-1813": {
-"nombre": "Liaoning",
-"pais": "CHN",
-"total": 96
-},
 "POL-3148": {
 "nombre": "Voivodato de Mazovia",
 "pais": "POL",
-"total": 96
-},
-"ITA-5436": {
-"nombre": "Vercelli",
-"pais": "ITA",
 "total": 96
 },
 "GBR-2110": {
@@ -1367,6 +1397,11 @@
 "ITA-5444": {
 "nombre": "Sondrio",
 "pais": "ITA",
+"total": 95
+},
+"GTM-1951": {
+"nombre": "Guatemala",
+"pais": "GTM",
 "total": 95
 },
 "IDN-1233": {
@@ -1384,16 +1419,6 @@
 "pais": "EGY",
 "total": 93
 },
-"GTM-1951": {
-"nombre": "Guatemala",
-"pais": "GTM",
-"total": 93
-},
-"ESP-5837": {
-"nombre": "Navarra",
-"pais": "ESP",
-"total": 92
-},
 "FRA-5325": {
 "nombre": "Meurthe y Mosela",
 "pais": "FRA",
@@ -1404,9 +1429,19 @@
 "pais": "CHN",
 "total": 91
 },
+"FRA-5296": {
+"nombre": "Alto Rin",
+"pais": "FRA",
+"total": 91
+},
 "GBR-2035": {
 "nombre": "Hampshire",
 "pais": "GBR",
+"total": 90
+},
+"CHN-1807": {
+"nombre": "Hubei",
+"pais": "CHN",
 "total": 90
 },
 "POL-3143": {
@@ -1424,14 +1459,14 @@
 "pais": "GBR",
 "total": 89
 },
+"ITA-5440": {
+"nombre": "Asti",
+"pais": "ITA",
+"total": 89
+},
 "SYR-143": {
 "nombre": "Sueida",
 "pais": "SYR",
-"total": 88
-},
-"FRA-5296": {
-"nombre": "Alto Rin",
-"pais": "FRA",
 "total": 88
 },
 "IDN-1223": {
@@ -1439,25 +1474,20 @@
 "pais": "IDN",
 "total": 87
 },
-"CHN-1807": {
-"nombre": "Hubei",
-"pais": "CHN",
-"total": 87
-},
-"ITA-5440": {
-"nombre": "Asti",
-"pais": "ITA",
-"total": 86
-},
 "CZE-1612": {
 "nombre": "Moravia-Silesia",
 "pais": "CZE",
+"total": 86
+},
+"ITA-5438": {
+"nombre": "Novara",
+"pais": "ITA",
 "total": 85
 },
-"ESP-5851": {
-"nombre": "Vizcaya",
-"pais": "ESP",
-"total": 84
+"BRA-592": {
+"nombre": "Amazonas",
+"pais": "BRA",
+"total": 85
 },
 "GBR-2755": {
 "nombre": "Surrey",
@@ -1479,19 +1509,34 @@
 "pais": "SUR",
 "total": 82
 },
-"ITA-5438": {
-"nombre": "Novara",
-"pais": "ITA",
-"total": 82
-},
-"BRA-592": {
-"nombre": "Amazonas",
-"pais": "BRA",
-"total": 82
-},
-"ESP-5823": {
-"nombre": "Guipúzcoa",
+"ESP-5801": {
+"nombre": "Álava",
 "pais": "ESP",
+"total": 82
+},
+"IRL-5575": {
+"nombre": "Dublín",
+"pais": "IRL",
+"total": 82
+},
+"RUS-2365": {
+"nombre": "Moscú",
+"pais": "RUS",
+"total": 81
+},
+"FRA-2000": {
+"nombre": "Guayana Francesa",
+"pais": "FRA",
+"total": 80
+},
+"ITA-5464": {
+"nombre": "Verona",
+"pais": "ITA",
+"total": 80
+},
+"PAK-1108": {
+"nombre": "Baluchistán",
+"pais": "PAK",
 "total": 80
 },
 "GBR-2751": {
@@ -1499,14 +1544,14 @@
 "pais": "GBR",
 "total": 79
 },
-"FRA-2000": {
-"nombre": "Guayana Francesa",
-"pais": "FRA",
-"total": 79
-},
 "CHL-2692": {
 "nombre": "Magallanes y de la Antártica Chilena",
 "pais": "CHL",
+"total": 79
+},
+"JPN-1860": {
+"nombre": "Tokio",
+"pais": "JPN",
 "total": 79
 },
 "GBR-2111": {
@@ -1517,11 +1562,6 @@
 "CUW-5151": {
 "nombre": "Curazao",
 "pais": "CUW",
-"total": 79
-},
-"RUS-2365": {
-"nombre": "Moscú",
-"pais": "RUS",
 "total": 79
 },
 "GBR-2319": {
@@ -1539,19 +1579,24 @@
 "pais": "CZE",
 "total": 78
 },
+"ITA-5446": {
+"nombre": "Mantua",
+"pais": "ITA",
+"total": 78
+},
 "ISR-3055": {
 "nombre": "Central",
 "pais": "ISR",
 "total": 78
 },
-"ITA-5464": {
-"nombre": "Verona",
-"pais": "ITA",
-"total": 78
-},
 "DEU-1581": {
 "nombre": "Sarre",
 "pais": "DEU",
+"total": 78
+},
+"PRT-735": {
+"nombre": "Azores",
+"pais": "PRT",
 "total": 78
 },
 "CHE-168": {
@@ -1584,19 +1629,9 @@
 "pais": "CHN",
 "total": 77
 },
-"ITA-5446": {
-"nombre": "Mantua",
-"pais": "ITA",
-"total": 77
-},
 "GRC-2885": {
 "nombre": "Periferia de Peloponeso",
 "pais": "GRC",
-"total": 77
-},
-"PAK-1108": {
-"nombre": "Baluchistán",
-"pais": "PAK",
 "total": 77
 },
 "GRC-2989": {
@@ -1624,15 +1659,30 @@
 "pais": "POL",
 "total": 76
 },
+"IRL-5576": {
+"nombre": "Dún Laoghaire-Rathdown",
+"pais": "IRL",
+"total": 76
+},
+"IRL-5573": {
+"nombre": "Dublín Sur",
+"pais": "IRL",
+"total": 76
+},
+"BEL-3474": {
+"nombre": "Bruselas-Capital",
+"pais": "BEL",
+"total": 76
+},
+"IRL-5574": {
+"nombre": "Fingal",
+"pais": "IRL",
+"total": 76
+},
 "CHN-1819": {
 "nombre": "Shanghái",
 "pais": "CHN",
 "total": 76
-},
-"JPN-1860": {
-"nombre": "Tokio",
-"pais": "JPN",
-"total": 75
 },
 "GBR-2071": {
 "nombre": "Municipio de Islington",
@@ -1644,35 +1694,60 @@
 "pais": "SUR",
 "total": 75
 },
-"PRT-735": {
-"nombre": "Azores",
-"pais": "PRT",
+"JPN-1847": {
+"nombre": "Hokkaidō",
+"pais": "JPN",
 "total": 75
 },
-"MEX-2734": {
-"nombre": "Estado de Veracruz",
-"pais": "MEX",
-"total": 74
+"ATA+00?": {
+"nombre": "Antártida",
+"pais": "ATA",
+"total": 75
+},
+"ITA-5435": {
+"nombre": "Biella",
+"pais": "ITA",
+"total": 75
 },
 "SWE-194": {
 "nombre": "Estocolmo",
 "pais": "SWE",
 "total": 74
 },
-"BEL-3474": {
-"nombre": "Bruselas-Capital",
-"pais": "BEL",
+"ARG-1295": {
+"nombre": "Buenos Aires",
+"pais": "ARG",
 "total": 74
 },
-"JPN-1847": {
-"nombre": "Hokkaidō",
-"pais": "JPN",
+"MOZ-1200": {
+"nombre": "Nampula",
+"pais": "MOZ",
 "total": 74
 },
-"ATA+00?": {
-"nombre": "Antártida",
-"pais": "ATA",
-"total": 74
+"CHN-1809": {
+"nombre": "Sichuan",
+"pais": "CHN",
+"total": 73
+},
+"CHN-1811": {
+"nombre": "Hebei",
+"pais": "CHN",
+"total": 72
+},
+"MLT-5956": {
+"nombre": "Żabbar",
+"pais": "MLT",
+"total": 72
+},
+"MLT-5936": {
+"nombre": "Sliema",
+"pais": "MLT",
+"total": 72
+},
+"MLT-5935": {
+"nombre": "San Julián",
+"pais": "MLT",
+"total": 72
 },
 "SUR-67": {
 "nombre": "Marowijne",
@@ -1684,18 +1759,33 @@
 "pais": "RUS",
 "total": 72
 },
-"ITA-5435": {
-"nombre": "Biella",
-"pais": "ITA",
-"total": 72
-},
-"CHN-1809": {
-"nombre": "Sichuan",
-"pais": "CHN",
+"MLT-5950": {
+"nombre": "Kalkara",
+"pais": "MLT",
 "total": 71
 },
-"CHN-1811": {
-"nombre": "Hebei",
+"MLT-5948": {
+"nombre": "Siġġiewi",
+"pais": "MLT",
+"total": 71
+},
+"MLT-5928": {
+"nombre": "Naxxar",
+"pais": "MLT",
+"total": 71
+},
+"MLT-5923": {
+"nombre": "Rabat",
+"pais": "MLT",
+"total": 71
+},
+"MLT-5925": {
+"nombre": "Mellieħa",
+"pais": "MLT",
+"total": 71
+},
+"CHN-1180": {
+"nombre": "Guangdong",
 "pais": "CHN",
 "total": 70
 },
@@ -1704,9 +1794,24 @@
 "pais": "SUR",
 "total": 70
 },
+"ITA-5360": {
+"nombre": "Parma",
+"pais": "ITA",
+"total": 70
+},
+"SUR-72": {
+"nombre": "Paramaribo",
+"pais": "SUR",
+"total": 70
+},
 "CZE-10368": {
 "nombre": "Ústí nad Labem",
 "pais": "CZE",
+"total": 70
+},
+"FRA-5292": {
+"nombre": "Finisterre",
+"pais": "FRA",
 "total": 70
 },
 "FRA-5357": {
@@ -1719,39 +1824,259 @@
 "pais": "FRA",
 "total": 70
 },
-"ARG-1295": {
-"nombre": "Buenos Aires",
-"pais": "ARG",
-"total": 70
-},
 "FRA-5306": {
 "nombre": "Altos del Sena",
 "pais": "FRA",
 "total": 70
 },
-"CHN-1180": {
-"nombre": "Guangdong",
-"pais": "CHN",
-"total": 69
+"MLT-5969": {
+"nombre": "Mqabba",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5965": {
+"nombre": "Santa Luċija",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5942": {
+"nombre": "Pietà",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5946": {
+"nombre": "Żebbuġ",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5941": {
+"nombre": "Ta' Xbiex",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5930": {
+"nombre": "Balzan",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5968": {
+"nombre": "Birżebbuġa",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5967": {
+"nombre": "Għaxaq",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5939": {
+"nombre": "Birkirkara",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5961": {
+"nombre": "Żejtun",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5926": {
+"nombre": "San Pawl il-Baħar",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5962": {
+"nombre": "Marsaskala",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5971": {
+"nombre": "Safi",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5960": {
+"nombre": "Tarxien",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5927": {
+"nombre": "Mosta",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5933": {
+"nombre": "Swieqi",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5932": {
+"nombre": "Għargħur",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5966": {
+"nombre": "Gudja",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5973": {
+"nombre": "Żurrieq",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5922": {
+"nombre": "Mtarfa",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5955": {
+"nombre": "Bormla",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5924": {
+"nombre": "Mġarr",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5920": {
+"nombre": "Attard",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5957": {
+"nombre": "Marsa",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5952": {
+"nombre": "Xgħajra",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5947": {
+"nombre": "Dingli",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5954": {
+"nombre": "Floriana",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5949": {
+"nombre": "La Valeta",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5921": {
+"nombre": "Mdina",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5964": {
+"nombre": "Luqa",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5958": {
+"nombre": "Paola",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5945": {
+"nombre": "Qormi",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5953": {
+"nombre": "Senglea",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5934": {
+"nombre": "Pembroke",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5937": {
+"nombre": "San Ġwann",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5963": {
+"nombre": "Marsaxlokk",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5931": {
+"nombre": "Iklin",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5959": {
+"nombre": "Fgura",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5970": {
+"nombre": "Kirkop",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5972": {
+"nombre": "Qrendi",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5929": {
+"nombre": "Lija",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5938": {
+"nombre": "Gżira",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5940": {
+"nombre": "Msida",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5951": {
+"nombre": "Birgu",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5943": {
+"nombre": "Santa Venera",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5944": {
+"nombre": "Ħamrun",
+"pais": "MLT",
+"total": 70
 },
 "GBR-2038": {
 "nombre": "Municipio de Milton Keynes",
 "pais": "GBR",
 "total": 69
 },
-"ITA-5360": {
-"nombre": "Parma",
-"pais": "ITA",
-"total": 69
-},
-"SUR-72": {
-"nombre": "Paramaribo",
-"pais": "SUR",
-"total": 69
-},
 "SAU-1098": {
 "nombre": "Oriental",
 "pais": "SAU",
+"total": 69
+},
+"CHE-176": {
+"nombre": "Zúrich",
+"pais": "CHE",
+"total": 69
+},
+"DOM-1394": {
+"nombre": "Santo Domingo",
+"pais": "DOM",
 "total": 69
 },
 "LVA-5770": {
@@ -1774,9 +2099,19 @@
 "pais": "GBR",
 "total": 68
 },
+"ARG-5493": {
+"nombre": "Buenos Aires",
+"pais": "ARG",
+"total": 68
+},
 "JOR-853": {
 "nombre": "Ma'an",
 "pais": "JOR",
+"total": 68
+},
+"MEX-2737": {
+"nombre": "Yucatán",
+"pais": "MEX",
 "total": 68
 },
 "TUR-3011": {
@@ -1789,29 +2124,14 @@
 "pais": "BRA",
 "total": 68
 },
-"CHE-176": {
-"nombre": "Zúrich",
-"pais": "CHE",
+"BRA-601": {
+"nombre": "Minas Gerais",
+"pais": "BRA",
 "total": 68
 },
-"MOZ-1200": {
-"nombre": "Nampula",
-"pais": "MOZ",
-"total": 68
-},
-"MLT-5956": {
-"nombre": "Żabbar",
-"pais": "MLT",
-"total": 67
-},
-"MLT-5936": {
-"nombre": "Sliema",
-"pais": "MLT",
-"total": 67
-},
-"MLT-5935": {
-"nombre": "San Julián",
-"pais": "MLT",
+"CHN-1150": {
+"nombre": "Gansu",
+"pais": "CHN",
 "total": 67
 },
 "ITA-5383": {
@@ -1824,11 +2144,6 @@
 "pais": "EGY",
 "total": 67
 },
-"FRA-5292": {
-"nombre": "Finisterre",
-"pais": "FRA",
-"total": 67
-},
 "SOL+00?": {
 "nombre": "Somalilandia",
 "pais": "SOL",
@@ -1839,10 +2154,10 @@
 "pais": "MEX",
 "total": 67
 },
-"CHN-1150": {
-"nombre": "Gansu",
-"pais": "CHN",
-"total": 66
+"MAC+00?": {
+"nombre": "Macao",
+"pais": "MAC",
+"total": 67
 },
 "GBR-2079": {
 "nombre": "Municipio de Wandsworth",
@@ -1854,9 +2169,9 @@
 "pais": "GBR",
 "total": 66
 },
-"MLT-5950": {
-"nombre": "Kalkara",
-"pais": "MLT",
+"ITA-5467": {
+"nombre": "Belluno",
+"pais": "ITA",
 "total": 66
 },
 "GRC-2886": {
@@ -1864,34 +2179,14 @@
 "pais": "GRC",
 "total": 66
 },
-"ESP-5801": {
-"nombre": "Álava",
-"pais": "ESP",
-"total": 66
-},
 "AUT-2320": {
 "nombre": "Vorarlberg",
 "pais": "AUT",
 "total": 66
 },
-"MLT-5948": {
-"nombre": "Siġġiewi",
-"pais": "MLT",
-"total": 66
-},
-"MLT-5928": {
-"nombre": "Naxxar",
-"pais": "MLT",
-"total": 66
-},
-"MLT-5923": {
-"nombre": "Rabat",
-"pais": "MLT",
-"total": 66
-},
-"MLT-5925": {
-"nombre": "Mellieħa",
-"pais": "MLT",
+"RUS-2364": {
+"nombre": "Moscú",
+"pais": "RUS",
 "total": 66
 },
 "LSO-1213": {
@@ -1934,11 +2229,6 @@
 "pais": "CZE",
 "total": 65
 },
-"ESP-5805": {
-"nombre": "Asturias",
-"pais": "ESP",
-"total": 65
-},
 "BRA-594": {
 "nombre": "Pará",
 "pais": "BRA",
@@ -1947,236 +2237,6 @@
 "GRC-2991": {
 "nombre": "Macedonia Central",
 "pais": "GRC",
-"total": 65
-},
-"MLT-5933": {
-"nombre": "Swieqi",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5949": {
-"nombre": "La Valeta",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5952": {
-"nombre": "Xgħajra",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5954": {
-"nombre": "Floriana",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5927": {
-"nombre": "Mosta",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5958": {
-"nombre": "Paola",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5968": {
-"nombre": "Birżebbuġa",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5969": {
-"nombre": "Mqabba",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5967": {
-"nombre": "Għaxaq",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5951": {
-"nombre": "Birgu",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5961": {
-"nombre": "Żejtun",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5940": {
-"nombre": "Msida",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5939": {
-"nombre": "Birkirkara",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5932": {
-"nombre": "Għargħur",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5929": {
-"nombre": "Lija",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5965": {
-"nombre": "Santa Luċija",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5964": {
-"nombre": "Luqa",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5960": {
-"nombre": "Tarxien",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5955": {
-"nombre": "Bormla",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5942": {
-"nombre": "Pietà",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5959": {
-"nombre": "Fgura",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5962": {
-"nombre": "Marsaskala",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5924": {
-"nombre": "Mġarr",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5920": {
-"nombre": "Attard",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5945": {
-"nombre": "Qormi",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5934": {
-"nombre": "Pembroke",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5922": {
-"nombre": "Mtarfa",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5921": {
-"nombre": "Mdina",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5946": {
-"nombre": "Żebbuġ",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5937": {
-"nombre": "San Ġwann",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5944": {
-"nombre": "Ħamrun",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5971": {
-"nombre": "Safi",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5970": {
-"nombre": "Kirkop",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5966": {
-"nombre": "Gudja",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5938": {
-"nombre": "Gżira",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5957": {
-"nombre": "Marsa",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5953": {
-"nombre": "Senglea",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5926": {
-"nombre": "San Pawl il-Baħar",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5973": {
-"nombre": "Żurrieq",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5947": {
-"nombre": "Dingli",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5972": {
-"nombre": "Qrendi",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5931": {
-"nombre": "Iklin",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5941": {
-"nombre": "Ta' Xbiex",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5930": {
-"nombre": "Balzan",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5943": {
-"nombre": "Santa Venera",
-"pais": "MLT",
-"total": 65
-},
-"MLT-5963": {
-"nombre": "Marsaxlokk",
-"pais": "MLT",
 "total": 65
 },
 "GBR-2047": {
@@ -2199,9 +2259,9 @@
 "pais": "GBR",
 "total": 64
 },
-"ITA-5467": {
-"nombre": "Belluno",
-"pais": "ITA",
+"CHN-1814": {
+"nombre": "Shandong",
+"pais": "CHN",
 "total": 64
 },
 "ITA-5447": {
@@ -2209,14 +2269,19 @@
 "pais": "ITA",
 "total": 64
 },
-"BRA-601": {
-"nombre": "Minas Gerais",
+"ITA-5388": {
+"nombre": "Siena",
+"pais": "ITA",
+"total": 64
+},
+"BRA-1311": {
+"nombre": "Estado de São Paulo",
 "pais": "BRA",
 "total": 64
 },
-"RUS-2364": {
-"nombre": "Moscú",
-"pais": "RUS",
+"CAN-630": {
+"nombre": "Manitoba",
+"pais": "CAN",
 "total": 64
 },
 "LSO-1215": {
@@ -2224,34 +2289,14 @@
 "pais": "LSO",
 "total": 64
 },
-"GRC-2990": {
-"nombre": "Creta",
-"pais": "GRC",
-"total": 63
-},
 "SDN-883": {
 "nombre": "Kordofán del Norte",
 "pais": "SDN",
 "total": 63
 },
-"ITA-5388": {
-"nombre": "Siena",
-"pais": "ITA",
-"total": 63
-},
-"MEX-2737": {
-"nombre": "Yucatán",
-"pais": "MEX",
-"total": 63
-},
 "ROU-128": {
 "nombre": "Bucarest",
 "pais": "ROU",
-"total": 63
-},
-"CAN-630": {
-"nombre": "Manitoba",
-"pais": "CAN",
 "total": 63
 },
 "LSO-1205": {
@@ -2299,11 +2344,6 @@
 "pais": "LBY",
 "total": 61
 },
-"CHN-1814": {
-"nombre": "Shandong",
-"pais": "CHN",
-"total": 61
-},
 "GBR-2779": {
 "nombre": "Shropshire",
 "pais": "GBR",
@@ -2314,14 +2354,14 @@
 "pais": "RUS",
 "total": 61
 },
+"ITA-5463": {
+"nombre": "Padua",
+"pais": "ITA",
+"total": 61
+},
 "GBR-2051": {
 "nombre": "Dorset",
 "pais": "GBR",
-"total": 61
-},
-"MAC+00?": {
-"nombre": "Macao",
-"pais": "MAC",
 "total": 61
 },
 "FRA-5343": {
@@ -2354,13 +2394,28 @@
 "pais": "NOR",
 "total": 60
 },
+"DZA-2195": {
+"nombre": "Argel",
+"pais": "DZA",
+"total": 60
+},
 "GBR-2777": {
 "nombre": "Staffordshire",
 "pais": "GBR",
 "total": 59
 },
-"ITA-5463": {
-"nombre": "Padua",
+"ITA-5465": {
+"nombre": "Vicenza",
+"pais": "ITA",
+"total": 59
+},
+"FRA-5322": {
+"nombre": "Mancha",
+"pais": "FRA",
+"total": 59
+},
+"ITA-5462": {
+"nombre": "Rovigo",
 "pais": "ITA",
 "total": 59
 },
@@ -2384,11 +2439,6 @@
 "pais": "GBR",
 "total": 58
 },
-"ARG-5493": {
-"nombre": "Buenos Aires",
-"pais": "ARG",
-"total": 58
-},
 "SAU-848": {
 "nombre": "Tabuk",
 "pais": "SAU",
@@ -2399,19 +2449,14 @@
 "pais": "FRA",
 "total": 58
 },
-"IRL-5575": {
-"nombre": "Dublín",
-"pais": "IRL",
-"total": 58
-},
-"DOM-1394": {
-"nombre": "Santo Domingo",
-"pais": "DOM",
-"total": 58
-},
 "GBR-2054": {
 "nombre": "Leicestershire",
 "pais": "GBR",
+"total": 57
+},
+"ARG-1272": {
+"nombre": "Tierra del Fuego",
+"pais": "ARG",
 "total": 57
 },
 "FRA-5266": {
@@ -2429,29 +2474,24 @@
 "pais": "ITA",
 "total": 57
 },
-"ITA-5465": {
-"nombre": "Vicenza",
-"pais": "ITA",
-"total": 57
-},
 "GBR-2318": {
 "nombre": "Suffolk",
 "pais": "GBR",
 "total": 57
 },
-"ITA-5462": {
-"nombre": "Rovigo",
-"pais": "ITA",
-"total": 57
-},
-"BRA-1311": {
-"nombre": "Estado de São Paulo",
-"pais": "BRA",
+"FRA-5308": {
+"nombre": "Ille y Vilaine",
+"pais": "FRA",
 "total": 57
 },
 "SAU-862": {
 "nombre": "Yauf",
 "pais": "SAU",
+"total": 57
+},
+"TUN-108": {
+"nombre": "Túnez",
+"pais": "TUN",
 "total": 57
 },
 "LSO-1211": {
@@ -2484,9 +2524,9 @@
 "pais": "ITA",
 "total": 56
 },
-"DZA-2195": {
-"nombre": "Argel",
-"pais": "DZA",
+"AUS-2659": {
+"nombre": "Isla de Lord Howe",
+"pais": "AUS",
 "total": 56
 },
 "GBR-2757": {
@@ -2497,6 +2537,11 @@
 "GBR-2026": {
 "nombre": "Scottish Borders",
 "pais": "GBR",
+"total": 55
+},
+"AUS-2651": {
+"nombre": "Australia Occidental",
+"pais": "AUS",
 "total": 55
 },
 "GBR-2040": {
@@ -2534,24 +2579,19 @@
 "pais": "CAN",
 "total": 55
 },
-"AUS-2659": {
-"nombre": "Isla de Lord Howe",
-"pais": "AUS",
-"total": 55
-},
 "GBR-2069": {
 "nombre": "Hammersmith y Fulham",
 "pais": "GBR",
 "total": 54
 },
-"ARG-1272": {
-"nombre": "Tierra del Fuego",
-"pais": "ARG",
-"total": 54
-},
 "GBR-5690": {
 "nombre": "Birmingham",
 "pais": "GBR",
+"total": 54
+},
+"PER-585": {
+"nombre": "Loreto",
+"pais": "PER",
 "total": 54
 },
 "RUS-2324": {
@@ -2569,19 +2609,19 @@
 "pais": "NAM",
 "total": 54
 },
-"FRA-5308": {
-"nombre": "Ille y Vilaine",
-"pais": "FRA",
-"total": 54
-},
 "ITA-5387": {
 "nombre": "Arezzo",
 "pais": "ITA",
 "total": 54
 },
-"AUS-2651": {
-"nombre": "Australia Occidental",
-"pais": "AUS",
+"ITA-5410": {
+"nombre": "Palermo",
+"pais": "ITA",
+"total": 53
+},
+"CHN-1152": {
+"nombre": "Guangxi",
+"pais": "CHN",
 "total": 53
 },
 "GBR-5674": {
@@ -2604,14 +2644,9 @@
 "pais": "GBR",
 "total": 53
 },
-"PER-585": {
-"nombre": "Loreto",
-"pais": "PER",
-"total": 53
-},
-"FRA-5322": {
-"nombre": "Mancha",
-"pais": "FRA",
+"ITA-5466": {
+"nombre": "Treviso",
+"pais": "ITA",
 "total": 53
 },
 "UKR-291": {
@@ -2634,30 +2669,25 @@
 "pais": "ITA",
 "total": 52
 },
-"IRL-5576": {
-"nombre": "Dún Laoghaire-Rathdown",
-"pais": "IRL",
-"total": 52
-},
-"IRL-5573": {
-"nombre": "Dublín Sur",
-"pais": "IRL",
-"total": 52
-},
 "HRV-1592": {
 "nombre": "Istria",
 "pais": "HRV",
 "total": 52
 },
-"IRL-5574": {
-"nombre": "Fingal",
-"pais": "IRL",
+"ARG-1271": {
+"nombre": "Santa Cruz",
+"pais": "ARG",
 "total": 52
 },
-"ITA-5410": {
-"nombre": "Palermo",
-"pais": "ITA",
-"total": 51
+"TTO-5090": {
+"nombre": "Tobago",
+"pais": "TTO",
+"total": 52
+},
+"TTO-50": {
+"nombre": "Tobago",
+"pais": "TTO",
+"total": 52
 },
 "IND-3261": {
 "nombre": "Madhya Pradesh",
@@ -2669,9 +2699,9 @@
 "pais": "IDN",
 "total": 51
 },
-"CHN-1152": {
-"nombre": "Guangxi",
-"pais": "CHN",
+"AUS-2655": {
+"nombre": "Australia Meridional",
+"pais": "AUS",
 "total": 51
 },
 "FRA-5265": {
@@ -2679,19 +2709,19 @@
 "pais": "FRA",
 "total": 51
 },
+"SDN-149": {
+"nombre": "Mar Rojo",
+"pais": "SDN",
+"total": 51
+},
 "ITA-5381": {
 "nombre": "Pisa",
 "pais": "ITA",
 "total": 51
 },
-"ITA-5466": {
-"nombre": "Treviso",
-"pais": "ITA",
-"total": 51
-},
-"ARG-1271": {
-"nombre": "Santa Cruz",
-"pais": "ARG",
+"FRA-5327": {
+"nombre": "Morbihan",
+"pais": "FRA",
 "total": 51
 },
 "RUS-2367": {
@@ -2714,14 +2744,9 @@
 "pais": "ZAF",
 "total": 51
 },
-"TUN-108": {
-"nombre": "Túnez",
-"pais": "TUN",
-"total": 51
-},
-"AUS-2655": {
-"nombre": "Australia Meridional",
-"pais": "AUS",
+"ITA-5413": {
+"nombre": "Catania",
+"pais": "ITA",
 "total": 50
 },
 "GBR-2018": {
@@ -2754,9 +2779,19 @@
 "pais": "FRA",
 "total": 50
 },
+"RUS-2616": {
+"nombre": "Sajalín",
+"pais": "RUS",
+"total": 50
+},
 "ROU-303": {
 "nombre": "Sibiu",
 "pais": "ROU",
+"total": 50
+},
+"FRA-5315": {
+"nombre": "Loira",
+"pais": "FRA",
 "total": 50
 },
 "ZAF-1216": {
@@ -2764,9 +2799,19 @@
 "pais": "ZAF",
 "total": 50
 },
+"ITA-5411": {
+"nombre": "Mesina",
+"pais": "ITA",
+"total": 49
+},
 "PAK-1113": {
 "nombre": "Punyab",
 "pais": "PAK",
+"total": 49
+},
+"MEX-2730": {
+"nombre": "Hidalgo",
+"pais": "MEX",
 "total": 49
 },
 "BWA-2630": {
@@ -2779,8 +2824,13 @@
 "pais": "JAM",
 "total": 49
 },
-"ITA-5413": {
-"nombre": "Catania",
+"CHL-2699": {
+"nombre": "Valparaíso",
+"pais": "CHL",
+"total": 49
+},
+"ITA-5417": {
+"nombre": "Agrigento",
 "pais": "ITA",
 "total": 48
 },
@@ -2789,18 +2839,13 @@
 "pais": "GBR",
 "total": 48
 },
-"SDN-149": {
-"nombre": "Mar Rojo",
-"pais": "SDN",
+"UKR-322": {
+"nombre": "Odesa",
+"pais": "UKR",
 "total": 48
 },
 "FRA-5262": {
 "nombre": "Ain",
-"pais": "FRA",
-"total": 48
-},
-"FRA-5327": {
-"nombre": "Morbihan",
 "pais": "FRA",
 "total": 48
 },
@@ -2819,25 +2864,10 @@
 "pais": "ITA",
 "total": 48
 },
-"CHL-2699": {
-"nombre": "Valparaíso",
-"pais": "CHL",
+"PRT-736": {
+"nombre": "Madeira",
+"pais": "PRT",
 "total": 48
-},
-"TTO-50": {
-"nombre": "Tobago",
-"pais": "TTO",
-"total": 48
-},
-"TTO-5090": {
-"nombre": "Tobago",
-"pais": "TTO",
-"total": 48
-},
-"ITA-5411": {
-"nombre": "Mesina",
-"pais": "ITA",
-"total": 47
 },
 "GBR-2066": {
 "nombre": "Municipio de Ealing",
@@ -2854,40 +2884,15 @@
 "pais": "SWE",
 "total": 47
 },
-"MEX-2730": {
-"nombre": "Hidalgo",
-"pais": "MEX",
-"total": 47
-},
 "DZA-2194": {
 "nombre": "Ouargla",
 "pais": "DZA",
-"total": 47
-},
-"UKR-322": {
-"nombre": "Odesa",
-"pais": "UKR",
-"total": 47
-},
-"RUS-2616": {
-"nombre": "Sajalín",
-"pais": "RUS",
-"total": 47
-},
-"FRA-5315": {
-"nombre": "Loira",
-"pais": "FRA",
 "total": 47
 },
 "COD-1897": {
 "nombre": "Katanga",
 "pais": "COD",
 "total": 47
-},
-"ITA-5417": {
-"nombre": "Agrigento",
-"pais": "ITA",
-"total": 46
 },
 "GBR-2039": {
 "nombre": "Gloucestershire",
@@ -2954,15 +2959,20 @@
 "pais": "GRC",
 "total": 45
 },
-"PRT-736": {
-"nombre": "Madeira",
-"pais": "PRT",
+"DJI-1567": {
+"nombre": "Yibuti",
+"pais": "DJI",
 "total": 45
 },
 "TUR-2301": {
 "nombre": "Rize",
 "pais": "TUR",
 "total": 45
+},
+"ITA-5414": {
+"nombre": "Siracusa",
+"pais": "ITA",
+"total": 44
 },
 "GBR-2062": {
 "nombre": "Brent",
@@ -2972,6 +2982,26 @@
 "GUY-671": {
 "nombre": "Mahaica-Berbice",
 "pais": "GUY",
+"total": 44
+},
+"AUS-2657": {
+"nombre": "Queensland",
+"pais": "AUS",
+"total": 44
+},
+"MEX-2728": {
+"nombre": "Guanajuato",
+"pais": "MEX",
+"total": 44
+},
+"RUS-2337": {
+"nombre": "San Petersburgo",
+"pais": "RUS",
+"total": 44
+},
+"VIR-4870": {
+"nombre": "Santa Cruz",
+"pais": "VIR",
 "total": 44
 },
 "BLZ-1323": {
@@ -3004,9 +3034,9 @@
 "pais": "IND",
 "total": 43
 },
-"AUS-2657": {
-"nombre": "Queensland",
-"pais": "AUS",
+"CHN-1178": {
+"nombre": "Fujian",
+"pais": "CHN",
 "total": 43
 },
 "FRA-5344": {
@@ -3024,19 +3054,24 @@
 "pais": "ITA",
 "total": 43
 },
+"CAN-636": {
+"nombre": "Yukón",
+"pais": "CAN",
+"total": 43
+},
 "GBR-2114": {
 "nombre": "Merthyr Tydfil",
 "pais": "GBR",
 "total": 43
 },
-"RUS-2337": {
-"nombre": "San Petersburgo",
+"RUS-2371": {
+"nombre": "Krai de Krasnodar",
 "pais": "RUS",
 "total": 43
 },
-"VIR-4870": {
-"nombre": "Santa Cruz",
-"pais": "VIR",
+"BRA-612": {
+"nombre": "Río Grande del Sur",
+"pais": "BRA",
 "total": 43
 },
 "TUR-2287": {
@@ -3044,14 +3079,24 @@
 "pais": "TUR",
 "total": 43
 },
-"ITA-5414": {
-"nombre": "Siracusa",
+"ITA-5412": {
+"nombre": "Enna",
 "pais": "ITA",
 "total": 42
 },
 "GBR-5668": {
 "nombre": "Liverpool",
 "pais": "GBR",
+"total": 42
+},
+"IDN-1933": {
+"nombre": "Papúa Occidental",
+"pais": "IDN",
+"total": 42
+},
+"CHN-1812": {
+"nombre": "Henan",
+"pais": "CHN",
 "total": 42
 },
 "CHN-1808": {
@@ -3069,19 +3114,14 @@
 "pais": "IND",
 "total": 42
 },
+"CUB-1430": {
+"nombre": "Matanzas",
+"pais": "CUB",
+"total": 42
+},
 "FRA-5291": {
 "nombre": "Eure y Loir",
 "pais": "FRA",
-"total": 42
-},
-"CAN-636": {
-"nombre": "Yukón",
-"pais": "CAN",
-"total": 42
-},
-"RUS-2371": {
-"nombre": "Krai de Krasnodar",
-"pais": "RUS",
 "total": 42
 },
 "LBY-2970": {
@@ -3104,9 +3144,9 @@
 "pais": "MYS",
 "total": 41
 },
-"IDN-1933": {
-"nombre": "Papúa Occidental",
-"pais": "IDN",
+"CHN-1818": {
+"nombre": "Jiangsu",
+"pais": "CHN",
 "total": 41
 },
 "ITA-5363": {
@@ -3134,24 +3174,24 @@
 "pais": "MDG",
 "total": 41
 },
-"ITA-5412": {
-"nombre": "Enna",
+"URY-21": {
+"nombre": "Montevideo",
+"pais": "URY",
+"total": 41
+},
+"CAN-687": {
+"nombre": "Isla del Príncipe Eduardo",
+"pais": "CAN",
+"total": 41
+},
+"ITA-5409": {
+"nombre": "Trapani",
 "pais": "ITA",
 "total": 40
 },
 "VNM-501": {
 "nombre": "Ciudad Ho Chi Minh",
 "pais": "VNM",
-"total": 40
-},
-"CHN-1812": {
-"nombre": "Henan",
-"pais": "CHN",
-"total": 40
-},
-"CHN-1178": {
-"nombre": "Fujian",
-"pais": "CHN",
 "total": 40
 },
 "MLI-2688": {
@@ -3174,14 +3214,24 @@
 "pais": "FRA",
 "total": 40
 },
-"CUB-1430": {
-"nombre": "Matanzas",
-"pais": "CUB",
+"RUS-2354": {
+"nombre": "Arjánguelsk",
+"pais": "RUS",
 "total": 40
 },
 "ETH-3109": {
 "nombre": "Amhara",
 "pais": "ETH",
+"total": 40
+},
+"CHN-1817": {
+"nombre": "Jiangxi",
+"pais": "CHN",
+"total": 40
+},
+"CHN-1820": {
+"nombre": "Zhejiang",
+"pais": "CHN",
 "total": 40
 },
 "CHN-1179": {
@@ -3199,20 +3249,20 @@
 "pais": "SDN",
 "total": 40
 },
-"BRA-612": {
-"nombre": "Río Grande del Sur",
-"pais": "BRA",
-"total": 40
-},
 "MDG-5866": {
 "nombre": "Atsimo-Atsinanana",
 "pais": "MDG",
 "total": 40
 },
-"DJI-1567": {
-"nombre": "Yibuti",
-"pais": "DJI",
+"DEU-1575": {
+"nombre": "Bremen",
+"pais": "DEU",
 "total": 40
+},
+"IDN-558": {
+"nombre": "Papúa",
+"pais": "IDN",
+"total": 39
 },
 "IDN-1226": {
 "nombre": "Bantén",
@@ -3229,19 +3279,14 @@
 "pais": "GBR",
 "total": 39
 },
+"ESP-5828": {
+"nombre": "La Rioja",
+"pais": "ESP",
+"total": 39
+},
 "SWE-3429": {
 "nombre": "Escania",
 "pais": "SWE",
-"total": 39
-},
-"RUS-2354": {
-"nombre": "Arjánguelsk",
-"pais": "RUS",
-"total": 39
-},
-"CHN-1817": {
-"nombre": "Jiangxi",
-"pais": "CHN",
 "total": 39
 },
 "ITA-5448": {
@@ -3259,19 +3304,19 @@
 "pais": "SDN",
 "total": 39
 },
-"DEU-1575": {
-"nombre": "Bremen",
-"pais": "DEU",
+"BRA-1313": {
+"nombre": "Pernambuco",
+"pais": "BRA",
 "total": 39
 },
-"ITA-5409": {
-"nombre": "Trapani",
-"pais": "ITA",
-"total": 38
+"RUS-2167": {
+"nombre": "Tomsk",
+"pais": "RUS",
+"total": 39
 },
-"IDN-558": {
-"nombre": "Papúa",
-"pais": "IDN",
+"MEX-2723": {
+"nombre": "Oaxaca",
+"pais": "MEX",
 "total": 38
 },
 "IDN-492": {
@@ -3284,11 +3329,6 @@
 "pais": "GBR",
 "total": 38
 },
-"CHN-1818": {
-"nombre": "Jiangsu",
-"pais": "CHN",
-"total": 38
-},
 "SUR-71": {
 "nombre": "Coronie",
 "pais": "SUR",
@@ -3299,14 +3339,19 @@
 "pais": "ITA",
 "total": 38
 },
-"CHN-1820": {
-"nombre": "Zhejiang",
-"pais": "CHN",
-"total": 38
-},
 "FRA-5353": {
 "nombre": "Vandea",
 "pais": "FRA",
+"total": 38
+},
+"JAM-1382": {
+"nombre": "Parroquia de Saint Andrew",
+"pais": "JAM",
+"total": 38
+},
+"MEX-2719": {
+"nombre": "Jalisco",
+"pais": "MEX",
 "total": 38
 },
 "SAU-1097": {
@@ -3314,19 +3359,9 @@
 "pais": "SAU",
 "total": 38
 },
-"BRA-1313": {
-"nombre": "Pernambuco",
-"pais": "BRA",
-"total": 38
-},
 "ISR-3054": {
 "nombre": "Haifa",
 "pais": "ISR",
-"total": 38
-},
-"CAN-687": {
-"nombre": "Isla del Príncipe Eduardo",
-"pais": "CAN",
 "total": 38
 },
 "ZMB-522": {
@@ -3384,11 +3419,6 @@
 "pais": "SAU",
 "total": 37
 },
-"JAM-1382": {
-"nombre": "Parroquia de Saint Andrew",
-"pais": "JAM",
-"total": 37
-},
 "ITA-5451": {
 "nombre": "Varese",
 "pais": "ITA",
@@ -3413,6 +3443,11 @@
 "nombre": "Bács-Kiskun",
 "pais": "HUN",
 "total": 37
+},
+"ITA-5416": {
+"nombre": "Caltanissetta",
+"pais": "ITA",
+"total": 36
 },
 "FRA-5339": {
 "nombre": "Saona y Loira",
@@ -3439,6 +3474,11 @@
 "pais": "FRA",
 "total": 36
 },
+"PHL-5543": {
+"nombre": "Gran Manila",
+"pais": "PHL",
+"total": 36
+},
 "RUS-2358": {
 "nombre": "Tver",
 "pais": "RUS",
@@ -3459,14 +3499,29 @@
 "pais": "JAM",
 "total": 36
 },
+"RUS-2602": {
+"nombre": "Irkutsk",
+"pais": "RUS",
+"total": 36
+},
 "MDG-5878": {
 "nombre": "Menabe",
 "pais": "MDG",
 "total": 36
 },
+"MEX-2729": {
+"nombre": "Guerrero",
+"pais": "MEX",
+"total": 35
+},
 "GBR-2775": {
 "nombre": "Herefordshire",
 "pais": "GBR",
+"total": 35
+},
+"JPN-1850": {
+"nombre": "Kioto",
+"pais": "JPN",
 "total": 35
 },
 "DNK-3418": {
@@ -3479,20 +3534,30 @@
 "pais": "TUR",
 "total": 35
 },
+"TUR-2271": {
+"nombre": "Antalya",
+"pais": "TUR",
+"total": 35
+},
 "RUS-2369": {
 "nombre": "Volgogrado",
 "pais": "RUS",
 "total": 35
 },
-"RUS-2167": {
-"nombre": "Tomsk",
-"pais": "RUS",
+"IRQ-3051": {
+"nombre": "Nínive",
+"pais": "IRQ",
 "total": 35
 },
-"ITA-5416": {
-"nombre": "Caltanissetta",
-"pais": "ITA",
-"total": 34
+"JAM-1377": {
+"nombre": "Parroquia de Kingston",
+"pais": "JAM",
+"total": 35
+},
+"PRT-754": {
+"nombre": "Oporto",
+"pais": "PRT",
+"total": 35
 },
 "GBR-2776": {
 "nombre": "Worcestershire",
@@ -3529,8 +3594,8 @@
 "pais": "PRT",
 "total": 34
 },
-"MEX-2719": {
-"nombre": "Jalisco",
+"MEX-2720": {
+"nombre": "Michoacán",
 "pais": "MEX",
 "total": 34
 },
@@ -3544,24 +3609,24 @@
 "pais": "JOR",
 "total": 34
 },
-"IRQ-3051": {
-"nombre": "Nínive",
-"pais": "IRQ",
-"total": 34
-},
 "GBR-2024": {
 "nombre": "Midlothian",
 "pais": "GBR",
 "total": 33
 },
-"FRA-5267": {
-"nombre": "Ardecha",
+"FLK-5152": {
+"nombre": "Islas Malvinas",
+"pais": "FLK",
+"total": 33
+},
+"FRA-5274": {
+"nombre": "Bocas del Ródano",
 "pais": "FRA",
 "total": 33
 },
-"JPN-1850": {
-"nombre": "Kioto",
-"pais": "JPN",
+"FRA-5267": {
+"nombre": "Ardecha",
+"pais": "FRA",
 "total": 33
 },
 "GBR-2104": {
@@ -3574,9 +3639,14 @@
 "pais": "RUS",
 "total": 33
 },
-"ESP-5828": {
-"nombre": "La Rioja",
-"pais": "ESP",
+"MEX-2714": {
+"nombre": "Nuevo León",
+"pais": "MEX",
+"total": 33
+},
+"MEX-2724": {
+"nombre": "Puebla",
+"pais": "MEX",
 "total": 33
 },
 "RUS-2609": {
@@ -3589,9 +3659,9 @@
 "pais": "NZL",
 "total": 33
 },
-"TUR-2271": {
-"nombre": "Antalya",
-"pais": "TUR",
+"RUS-283": {
+"nombre": "República autónoma de Crimea",
+"pais": "RUS",
 "total": 33
 },
 "GRC-2892": {
@@ -3604,9 +3674,9 @@
 "pais": "CZE",
 "total": 33
 },
-"RUS-2602": {
-"nombre": "Irkutsk",
-"pais": "RUS",
+"ITA-5415": {
+"nombre": "Ragusa",
+"pais": "ITA",
 "total": 33
 },
 "ROU-294": {
@@ -3619,19 +3689,24 @@
 "pais": "ITA",
 "total": 33
 },
+"FRA-5337": {
+"nombre": "Pirineos Orientales",
+"pais": "FRA",
+"total": 33
+},
+"FRA-4603": {
+"nombre": "Guadalupe",
+"pais": "FRA",
+"total": 33
+},
 "IDN-1234": {
 "nombre": "Borneo Meridional",
 "pais": "IDN",
 "total": 33
 },
-"PRT-754": {
-"nombre": "Oporto",
-"pais": "PRT",
-"total": 33
-},
-"FLK-5152": {
-"nombre": "Islas Malvinas",
-"pais": "FLK",
+"PER-3505": {
+"nombre": "Callao",
+"pais": "PER",
 "total": 32
 },
 "GBR-2010": {
@@ -3654,9 +3729,9 @@
 "pais": "GBR",
 "total": 32
 },
-"FRA-5274": {
-"nombre": "Bocas del Ródano",
-"pais": "FRA",
+"CUB-1365": {
+"nombre": "Guantánamo",
+"pais": "CUB",
 "total": 32
 },
 "BRA-670": {
@@ -3667,6 +3742,11 @@
 "SDS-870": {
 "nombre": "Junqali",
 "pais": "SDS",
+"total": 32
+},
+"JAM-1383": {
+"nombre": "Parroquia de Saint Thomas",
+"pais": "JAM",
 "total": 32
 },
 "ZAF-1209": {
@@ -3684,11 +3764,6 @@
 "pais": "HRV",
 "total": 32
 },
-"JAM-1377": {
-"nombre": "Parroquia de Kingston",
-"pais": "JAM",
-"total": 32
-},
 "GEO-3029": {
 "nombre": "Samegrelo-Zemo Svaneti",
 "pais": "GEO",
@@ -3697,16 +3772,6 @@
 "GBR-2043": {
 "nombre": "Bath and North East Somerset",
 "pais": "GBR",
-"total": 31
-},
-"MEX-2723": {
-"nombre": "Oaxaca",
-"pais": "MEX",
-"total": 31
-},
-"MEX-2729": {
-"nombre": "Guerrero",
-"pais": "MEX",
 "total": 31
 },
 "GBR-2001": {
@@ -3729,19 +3794,19 @@
 "pais": "FRA",
 "total": 31
 },
+"FRA-5293": {
+"nombre": "Gard",
+"pais": "FRA",
+"total": 31
+},
+"MEX-2722": {
+"nombre": "Campeche",
+"pais": "MEX",
+"total": 31
+},
 "GUY-673": {
 "nombre": "Alto Tacutu-Alto Esequibo",
 "pais": "GUY",
-"total": 31
-},
-"PHL-5543": {
-"nombre": "Gran Manila",
-"pais": "PHL",
-"total": 31
-},
-"MEX-2714": {
-"nombre": "Nuevo León",
-"pais": "MEX",
 "total": 31
 },
 "LBN-3022": {
@@ -3759,9 +3824,9 @@
 "pais": "MAR",
 "total": 31
 },
-"JAM-1383": {
-"nombre": "Parroquia de Saint Thomas",
-"pais": "JAM",
+"BOL-1940": {
+"nombre": "Santa Cruz",
+"pais": "BOL",
 "total": 31
 },
 "CHE-162": {
@@ -3769,19 +3834,14 @@
 "pais": "CHE",
 "total": 31
 },
-"RUS-283": {
-"nombre": "República autónoma de Crimea",
-"pais": "RUS",
-"total": 31
-},
-"ITA-5415": {
-"nombre": "Ragusa",
-"pais": "ITA",
-"total": 31
-},
 "BWA-2625": {
 "nombre": "Kgalagadi",
 "pais": "BWA",
+"total": 31
+},
+"RUS-2610": {
+"nombre": "Zabaikalie",
+"pais": "RUS",
 "total": 31
 },
 "VIR-4868": {
@@ -3799,9 +3859,19 @@
 "pais": "LBY",
 "total": 31
 },
+"AUS-2660": {
+"nombre": "Tasmania",
+"pais": "AUS",
+"total": 30
+},
 "IDN-1236": {
 "nombre": "Célebes Meridional",
 "pais": "IDN",
+"total": 30
+},
+"FRA-5271": {
+"nombre": "Aude",
+"pais": "FRA",
 "total": 30
 },
 "FRA-5336": {
@@ -3814,14 +3884,9 @@
 "pais": "FRA",
 "total": 30
 },
-"BOL-1940": {
-"nombre": "Santa Cruz",
-"pais": "BOL",
-"total": 30
-},
-"MEX-2720": {
-"nombre": "Michoacán",
-"pais": "MEX",
+"JAM-1371": {
+"nombre": "Parroquia de Hanover",
+"pais": "JAM",
 "total": 30
 },
 "BLR-2345": {
@@ -3829,19 +3894,19 @@
 "pais": "BLR",
 "total": 30
 },
+"MAF-5145": {
+"nombre": "San Martín",
+"pais": "MAF",
+"total": 30
+},
+"SAU-845": {
+"nombre": "Medina",
+"pais": "SAU",
+"total": 30
+},
 "ITA-5420": {
 "nombre": "L'Aquila",
 "pais": "ITA",
-"total": 30
-},
-"RUS-2610": {
-"nombre": "Zabaikalie",
-"pais": "RUS",
-"total": 30
-},
-"FRA-4603": {
-"nombre": "Guadalupe",
-"pais": "FRA",
 "total": 30
 },
 "VAT+00?": {
@@ -3849,19 +3914,14 @@
 "pais": "VAT",
 "total": 30
 },
-"URY-21": {
-"nombre": "Montevideo",
-"pais": "URY",
+"ESP-5815": {
+"nombre": "Ceuta",
+"pais": "ESP",
 "total": 30
 },
 "IDN-554": {
 "nombre": "Molucas",
 "pais": "IDN",
-"total": 29
-},
-"FRA-5293": {
-"nombre": "Gard",
-"pais": "FRA",
 "total": 29
 },
 "GBR-5703": {
@@ -3874,13 +3934,18 @@
 "pais": "GBR",
 "total": 29
 },
-"MEX-2722": {
-"nombre": "Campeche",
-"pais": "MEX",
+"ESP-5813": {
+"nombre": "Cantabria",
+"pais": "ESP",
 "total": 29
 },
 "RUS-2390": {
 "nombre": "Kalmukia",
+"pais": "RUS",
+"total": 29
+},
+"RUS-2393": {
+"nombre": "Sarátov",
 "pais": "RUS",
 "total": 29
 },
@@ -3889,24 +3954,9 @@
 "pais": "IND",
 "total": 29
 },
-"CUB-1365": {
-"nombre": "Guantánamo",
-"pais": "CUB",
-"total": 29
-},
-"JAM-1371": {
-"nombre": "Parroquia de Hanover",
-"pais": "JAM",
-"total": 29
-},
 "ETH-3111": {
 "nombre": "Afar",
 "pais": "ETH",
-"total": 29
-},
-"MEX-2728": {
-"nombre": "Guanajuato",
-"pais": "MEX",
 "total": 29
 },
 "GRC-3001": {
@@ -3914,14 +3964,9 @@
 "pais": "GRC",
 "total": 29
 },
-"MAF-5145": {
-"nombre": "San Martín",
-"pais": "MAF",
-"total": 29
-},
-"FRA-5337": {
-"nombre": "Pirineos Orientales",
-"pais": "FRA",
+"PRT-753": {
+"nombre": "Guarda",
+"pais": "PRT",
 "total": 29
 },
 "ITA-5385": {
@@ -3929,14 +3974,14 @@
 "pais": "ITA",
 "total": 29
 },
+"SLV-1349": {
+"nombre": "San Salvador",
+"pais": "SLV",
+"total": 29
+},
 "MAR-1452": {
 "nombre": "Mequinez-Tafilalet",
 "pais": "MAR",
-"total": 28
-},
-"AUS-2660": {
-"nombre": "Tasmania",
-"pais": "AUS",
 "total": 28
 },
 "GBR-2132": {
@@ -3954,16 +3999,6 @@
 "pais": "GBR",
 "total": 28
 },
-"FRA-5271": {
-"nombre": "Aude",
-"pais": "FRA",
-"total": 28
-},
-"RUS-2393": {
-"nombre": "Sarátov",
-"pais": "RUS",
-"total": 28
-},
 "FRA-5332": {
 "nombre": "Orne",
 "pais": "FRA",
@@ -3977,6 +4012,16 @@
 "GBR-2067": {
 "nombre": "Enfield",
 "pais": "GBR",
+"total": 28
+},
+"CUB-1367": {
+"nombre": "Holguín",
+"pais": "CUB",
+"total": 28
+},
+"CHE-159": {
+"nombre": "Ginebra",
+"pais": "CHE",
 "total": 28
 },
 "CHN-1153": {
@@ -4019,11 +4064,6 @@
 "pais": "BRA",
 "total": 28
 },
-"SLV-1349": {
-"nombre": "San Salvador",
-"pais": "SLV",
-"total": 28
-},
 "GBR-2058": {
 "nombre": "Derby",
 "pais": "GBR",
@@ -4049,14 +4089,19 @@
 "pais": "SVK",
 "total": 27
 },
+"ITA-5427": {
+"nombre": "Ancona",
+"pais": "ITA",
+"total": 27
+},
 "BIH-4802": {
 "nombre": "Bania Luka",
 "pais": "BIH",
 "total": 27
 },
-"CHE-159": {
-"nombre": "Ginebra",
-"pais": "CHE",
+"CHN-1804": {
+"nombre": "Shaanxi",
+"pais": "CHN",
 "total": 27
 },
 "CHE-167": {
@@ -4077,11 +4122,6 @@
 "IMN+00?": {
 "nombre": "Isla de Man",
 "pais": "IMN",
-"total": 27
-},
-"SAU-845": {
-"nombre": "Medina",
-"pais": "SAU",
 "total": 27
 },
 "RUS-2359": {
@@ -4119,11 +4159,6 @@
 "pais": "GEO",
 "total": 27
 },
-"PER-3505": {
-"nombre": "Callao",
-"pais": "PER",
-"total": 26
-},
 "CHL-2704": {
 "nombre": "Los Lagos",
 "pais": "CHL",
@@ -4144,14 +4179,19 @@
 "pais": "HRV",
 "total": 26
 },
-"ESP-5813": {
-"nombre": "Cantabria",
-"pais": "ESP",
-"total": 26
-},
 "FRA-5269": {
 "nombre": "Ariège",
 "pais": "FRA",
+"total": 26
+},
+"FRA-5307": {
+"nombre": "Hérault",
+"pais": "FRA",
+"total": 26
+},
+"IND-2428": {
+"nombre": "Delhi",
+"pais": "IND",
 "total": 26
 },
 "IND-2441": {
@@ -4164,16 +4204,6 @@
 "pais": "FRA",
 "total": 26
 },
-"ITA-5427": {
-"nombre": "Ancona",
-"pais": "ITA",
-"total": 26
-},
-"CUB-1367": {
-"nombre": "Holguín",
-"pais": "CUB",
-"total": 26
-},
 "FRA-5278": {
 "nombre": "Charente Marítimo",
 "pais": "FRA",
@@ -4182,6 +4212,16 @@
 "JPN-1865": {
 "nombre": "Iwate",
 "pais": "JPN",
+"total": 26
+},
+"CHE-163": {
+"nombre": "Lucerna",
+"pais": "CHE",
+"total": 26
+},
+"CZE-1595": {
+"nombre": "Praga",
+"pais": "CZE",
 "total": 26
 },
 "TUR-2238": {
@@ -4217,6 +4257,11 @@
 "ITA-5424": {
 "nombre": "Rieti",
 "pais": "ITA",
+"total": 26
+},
+"BRA-614": {
+"nombre": "Santa Catarina",
+"pais": "BRA",
 "total": 26
 },
 "EST-1659": {
@@ -4264,19 +4309,9 @@
 "pais": "GRC",
 "total": 25
 },
-"MEX-2724": {
-"nombre": "Puebla",
-"pais": "MEX",
-"total": 25
-},
-"CHN-1804": {
-"nombre": "Shaanxi",
-"pais": "CHN",
-"total": 25
-},
-"CZE-1595": {
-"nombre": "Praga",
-"pais": "CZE",
+"JAM-1378": {
+"nombre": "Parroquia de Portland",
+"pais": "JAM",
 "total": 25
 },
 "GBR-2129": {
@@ -4284,9 +4319,19 @@
 "pais": "GBR",
 "total": 25
 },
+"MEX-2713": {
+"nombre": "Zacatecas",
+"pais": "MEX",
+"total": 25
+},
 "PAK-1123": {
 "nombre": "Khyber Pakhtunkhwa",
 "pais": "PAK",
+"total": 25
+},
+"ITA-5378": {
+"nombre": "Cagliari",
+"pais": "ITA",
 "total": 25
 },
 "HRV-1589": {
@@ -4309,9 +4354,9 @@
 "pais": "COD",
 "total": 25
 },
-"BRA-614": {
-"nombre": "Santa Catarina",
-"pais": "BRA",
+"ATG-5091": {
+"nombre": "Barbuda",
+"pais": "ATG",
 "total": 25
 },
 "GBR-5689": {
@@ -4359,19 +4404,14 @@
 "pais": "IND",
 "total": 24
 },
-"FRA-5307": {
-"nombre": "Hérault",
-"pais": "FRA",
-"total": 24
-},
-"IND-2428": {
-"nombre": "Delhi",
-"pais": "IND",
-"total": 24
-},
 "GBR-2070": {
 "nombre": "Municipio de Hounslow",
 "pais": "GBR",
+"total": 24
+},
+"CUB-1369": {
+"nombre": "Santiago de Cuba",
+"pais": "CUB",
 "total": 24
 },
 "CHN-1805": {
@@ -4382,16 +4422,6 @@
 "GBR-2767": {
 "nombre": "Municipio de Harrow",
 "pais": "GBR",
-"total": 24
-},
-"CHE-163": {
-"nombre": "Lucerna",
-"pais": "CHE",
-"total": 24
-},
-"JAM-1378": {
-"nombre": "Parroquia de Portland",
-"pais": "JAM",
 "total": 24
 },
 "GBR-2762": {
@@ -4434,6 +4464,16 @@
 "pais": "ISL",
 "total": 23
 },
+"JPN-1852": {
+"nombre": "Osaka",
+"pais": "JPN",
+"total": 23
+},
+"PAN-1418": {
+"nombre": "Darién",
+"pais": "PAN",
+"total": 23
+},
 "GBR-2754": {
 "nombre": "Kingston upon Thames",
 "pais": "GBR",
@@ -4449,11 +4489,6 @@
 "pais": "BLR",
 "total": 23
 },
-"CUB-1369": {
-"nombre": "Santiago de Cuba",
-"pais": "CUB",
-"total": 23
-},
 "GBR-2105": {
 "nombre": "Ceredigion",
 "pais": "GBR",
@@ -4464,14 +4499,24 @@
 "pais": "TUR",
 "total": 23
 },
+"FRA-5354": {
+"nombre": "Vienne",
+"pais": "FRA",
+"total": 23
+},
+"PAN-1337": {
+"nombre": "Colón",
+"pais": "PAN",
+"total": 23
+},
 "CHE-3421": {
 "nombre": "Friburgo",
 "pais": "CHE",
 "total": 23
 },
-"MEX-2713": {
-"nombre": "Zacatecas",
-"pais": "MEX",
+"ITA-5374": {
+"nombre": "Sassari",
+"pais": "ITA",
 "total": 23
 },
 "FRA-5316": {
@@ -4514,6 +4559,11 @@
 "pais": "TUR",
 "total": 23
 },
+"RUS-3468": {
+"nombre": "Kamchatka",
+"pais": "RUS",
+"total": 23
+},
 "DZA-2191": {
 "nombre": "El Oued",
 "pais": "DZA",
@@ -4527,11 +4577,6 @@
 "PAK-1114": {
 "nombre": "Sindh",
 "pais": "PAK",
-"total": 22
-},
-"JPN-1852": {
-"nombre": "Osaka",
-"pais": "JPN",
 "total": 22
 },
 "GBR-2113": {
@@ -4574,6 +4619,11 @@
 "pais": "IND",
 "total": 22
 },
+"MEX-2710": {
+"nombre": "Durango",
+"pais": "MEX",
+"total": 22
+},
 "UKR-292": {
 "nombre": "Ternópil",
 "pais": "UKR",
@@ -4587,16 +4637,6 @@
 "EGY-1545": {
 "nombre": "Menia",
 "pais": "EGY",
-"total": 22
-},
-"FRA-5354": {
-"nombre": "Vienne",
-"pais": "FRA",
-"total": 22
-},
-"PAN-1337": {
-"nombre": "Colón",
-"pais": "PAN",
 "total": 22
 },
 "GAZ+00?": {
@@ -4629,6 +4669,11 @@
 "pais": "SVK",
 "total": 22
 },
+"PER-573": {
+"nombre": "Puno",
+"pais": "PER",
+"total": 22
+},
 "MOZ-1207": {
 "nombre": "Gaza",
 "pais": "MOZ",
@@ -4654,14 +4699,14 @@
 "pais": "MNP",
 "total": 22
 },
-"ATG-5091": {
-"nombre": "Barbuda",
-"pais": "ATG",
-"total": 22
-},
 "ISL-697": {
 "nombre": "Norðurland Vestra",
 "pais": "ISL",
+"total": 21
+},
+"JPN-3500": {
+"nombre": "Nagasaki",
+"pais": "JPN",
 "total": 21
 },
 "GBR-5669": {
@@ -4684,11 +4729,6 @@
 "pais": "JPN",
 "total": 21
 },
-"PAN-1418": {
-"nombre": "Darién",
-"pais": "PAN",
-"total": 21
-},
 "GBR-2012": {
 "nombre": "Aberdeen",
 "pais": "GBR",
@@ -4709,11 +4749,6 @@
 "pais": "FRA",
 "total": 21
 },
-"MEX-2710": {
-"nombre": "Durango",
-"pais": "MEX",
-"total": 21
-},
 "IDN-1136": {
 "nombre": "Aceh",
 "pais": "IDN",
@@ -4727,6 +4762,11 @@
 "SWE-189": {
 "nombre": "Jämtland",
 "pais": "SWE",
+"total": 21
+},
+"ITA-5429": {
+"nombre": "Macerata",
+"pais": "ITA",
 "total": 21
 },
 "GUY-676": {
@@ -4747,6 +4787,11 @@
 "LUX-907": {
 "nombre": "Grevenmacher",
 "pais": "LUX",
+"total": 21
+},
+"COL-1416": {
+"nombre": "Magdalena",
+"pais": "COL",
 "total": 21
 },
 "JAM-1372": {
@@ -4779,8 +4824,18 @@
 "pais": "GRC",
 "total": 21
 },
+"ITA-5376": {
+"nombre": "Nuoro",
+"pais": "ITA",
+"total": 21
+},
 "RUS-2384": {
 "nombre": "Kírov",
+"pais": "RUS",
+"total": 21
+},
+"RUS-2417": {
+"nombre": "Daguestán",
 "pais": "RUS",
 "total": 21
 },
@@ -4804,6 +4859,11 @@
 "pais": "HUN",
 "total": 21
 },
+"ITA-5375": {
+"nombre": "Olbia-Tempio",
+"pais": "ITA",
+"total": 21
+},
 "GRD-5070": {
 "nombre": "Parroquia de Saint Andrew",
 "pais": "GRD",
@@ -4814,9 +4874,9 @@
 "pais": "KIR",
 "total": 21
 },
-"RUS-3468": {
-"nombre": "Kamchatka",
-"pais": "RUS",
+"ITA-5373": {
+"nombre": "Oristán",
+"pais": "ITA",
 "total": 21
 },
 "GBR-5686": {
@@ -4864,13 +4924,13 @@
 "pais": "FRA",
 "total": 20
 },
-"ITA-5370": {
-"nombre": "La Spezia",
-"pais": "ITA",
+"KOR-2497": {
+"nombre": "Seúl",
+"pais": "KOR",
 "total": 20
 },
-"ITA-5429": {
-"nombre": "Macerata",
+"ITA-5370": {
+"nombre": "La Spezia",
 "pais": "ITA",
 "total": 20
 },
@@ -4894,6 +4954,11 @@
 "pais": "GBR",
 "total": 20
 },
+"MEX-2721": {
+"nombre": "Nayarit",
+"pais": "MEX",
+"total": 20
+},
 "TUR-2264": {
 "nombre": "Bursa",
 "pais": "TUR",
@@ -4909,19 +4974,9 @@
 "pais": "BRA",
 "total": 20
 },
-"ITA-5378": {
-"nombre": "Cagliari",
-"pais": "ITA",
-"total": 20
-},
 "UKR-4827": {
 "nombre": "Jersón",
 "pais": "UKR",
-"total": 20
-},
-"RUS-2417": {
-"nombre": "Daguestán",
-"pais": "RUS",
 "total": 20
 },
 "COD-1871": {
@@ -4954,19 +5009,29 @@
 "pais": "HUN",
 "total": 20
 },
-"ESP-5815": {
-"nombre": "Ceuta",
-"pais": "ESP",
-"total": 20
-},
 "ZMB-516": {
 "nombre": "Central",
 "pais": "ZMB",
 "total": 20
 },
+"FRA-1442": {
+"nombre": "Martinica",
+"pais": "FRA",
+"total": 20
+},
 "MOZ-1190": {
 "nombre": "Tete",
 "pais": "MOZ",
+"total": 20
+},
+"ITA-5377": {
+"nombre": "Ogliastra",
+"pais": "ITA",
+"total": 20
+},
+"ITA-5372": {
+"nombre": "Medio Campidano",
+"pais": "ITA",
 "total": 20
 },
 "SDN-5859": {
@@ -4982,11 +5047,6 @@
 "ISL-695": {
 "nombre": "Austurland",
 "pais": "ISL",
-"total": 19
-},
-"JPN-3500": {
-"nombre": "Nagasaki",
-"pais": "JPN",
 "total": 19
 },
 "GBR-2119": {
@@ -5034,6 +5094,11 @@
 "pais": "MMR",
 "total": 19
 },
+"ITA-5428": {
+"nombre": "Pesaro y Urbino",
+"pais": "ITA",
+"total": 19
+},
 "GUY-678": {
 "nombre": "Demerara-Mahaica",
 "pais": "GUY",
@@ -5054,9 +5119,19 @@
 "pais": "TUR",
 "total": 19
 },
-"MEX-2721": {
-"nombre": "Nayarit",
-"pais": "MEX",
+"CHE-169": {
+"nombre": "Glaris",
+"pais": "CHE",
+"total": 19
+},
+"GBR-2044": {
+"nombre": "Brístol",
+"pais": "GBR",
+"total": 19
+},
+"FRA-4601": {
+"nombre": "Reunión",
+"pais": "FRA",
 "total": 19
 },
 "BRA-595": {
@@ -5089,11 +5164,6 @@
 "pais": "EGY",
 "total": 19
 },
-"PER-573": {
-"nombre": "Puno",
-"pais": "PER",
-"total": 19
-},
 "ROU-122": {
 "nombre": "Dolj",
 "pais": "ROU",
@@ -5104,9 +5174,14 @@
 "pais": "HUN",
 "total": 19
 },
-"PRT-753": {
-"nombre": "Guarda",
-"pais": "PRT",
+"COL-1399": {
+"nombre": "Bogotá",
+"pais": "COL",
+"total": 19
+},
+"VCT-5064": {
+"nombre": "Granadinas",
+"pais": "VCT",
 "total": 19
 },
 "ZWE-526": {
@@ -5179,19 +5254,9 @@
 "pais": "ISL",
 "total": 18
 },
-"ITA-5428": {
-"nombre": "Pesaro y Urbino",
-"pais": "ITA",
-"total": 18
-},
 "KAZ-3195": {
 "nombre": "Aktobe",
 "pais": "KAZ",
-"total": 18
-},
-"CHE-169": {
-"nombre": "Glaris",
-"pais": "CHE",
 "total": 18
 },
 "FRA-5285": {
@@ -5204,14 +5269,9 @@
 "pais": "BRA",
 "total": 18
 },
-"COL-1416": {
-"nombre": "Magdalena",
-"pais": "COL",
-"total": 18
-},
-"GBR-2044": {
-"nombre": "Brístol",
-"pais": "GBR",
+"CHN-1775": {
+"nombre": "Hainan",
+"pais": "CHN",
 "total": 18
 },
 "NER-796": {
@@ -5239,11 +5299,6 @@
 "pais": "ROU",
 "total": 18
 },
-"ITA-5374": {
-"nombre": "Sassari",
-"pais": "ITA",
-"total": 18
-},
 "CHL-2695": {
 "nombre": "Antofagasta",
 "pais": "CHL",
@@ -5257,6 +5312,11 @@
 "RUS-2357": {
 "nombre": "Nizhni Nóvgorod",
 "pais": "RUS",
+"total": 18
+},
+"PER-571": {
+"nombre": "Cusco",
+"pais": "PER",
 "total": 18
 },
 "MNG-3332": {
@@ -5344,6 +5404,11 @@
 "pais": "TUR",
 "total": 17
 },
+"IND-2444": {
+"nombre": "Orissa",
+"pais": "IND",
+"total": 17
+},
 "MEX-2707": {
 "nombre": "Baja California Sur",
 "pais": "MEX",
@@ -5374,6 +5439,11 @@
 "pais": "COL",
 "total": 17
 },
+"FRA-5348": {
+"nombre": "Territorio de Belfort",
+"pais": "FRA",
+"total": 17
+},
 "FRA-5324": {
 "nombre": "Mayenne",
 "pais": "FRA",
@@ -5387,6 +5457,11 @@
 "TUR-2242": {
 "nombre": "Tekirdağ",
 "pais": "TUR",
+"total": 17
+},
+"AFG-1742": {
+"nombre": "Herāt",
+"pais": "AFG",
 "total": 17
 },
 "ITA-5396": {
@@ -5417,6 +5492,11 @@
 "ZWE-532": {
 "nombre": "Masvingo",
 "pais": "ZWE",
+"total": 17
+},
+"RUS-2321": {
+"nombre": "Chukotka",
+"pais": "RUS",
 "total": 17
 },
 "NZL-3402": {
@@ -5479,11 +5559,6 @@
 "pais": "CHE",
 "total": 16
 },
-"FRA-4601": {
-"nombre": "Reunión",
-"pais": "FRA",
-"total": 16
-},
 "GBR-2121": {
 "nombre": "Telford & Wrekin",
 "pais": "GBR",
@@ -5494,11 +5569,6 @@
 "pais": "GBR",
 "total": 16
 },
-"IND-2444": {
-"nombre": "Orissa",
-"pais": "IND",
-"total": 16
-},
 "ARG-1310": {
 "nombre": "Santa Fe",
 "pais": "ARG",
@@ -5507,11 +5577,6 @@
 "ROU-124": {
 "nombre": "Mehedinți",
 "pais": "ROU",
-"total": 16
-},
-"ITA-5376": {
-"nombre": "Nuoro",
-"pais": "ITA",
 "total": 16
 },
 "CHE-160": {
@@ -5534,14 +5599,14 @@
 "pais": "HTI",
 "total": 16
 },
-"AFG-1742": {
-"nombre": "Herāt",
-"pais": "AFG",
-"total": 16
-},
 "IRN-3237": {
 "nombre": "Azerbaiyán Occidental",
 "pais": "IRN",
+"total": 16
+},
+"RUS-2398": {
+"nombre": "Tiumén",
+"pais": "RUS",
 "total": 16
 },
 "HUN-3175": {
@@ -5554,29 +5619,9 @@
 "pais": "MOZ",
 "total": 16
 },
-"ITA-5375": {
-"nombre": "Olbia-Tempio",
-"pais": "ITA",
-"total": 16
-},
-"COL-1399": {
-"nombre": "Bogotá",
-"pais": "COL",
-"total": 16
-},
-"PER-571": {
-"nombre": "Cusco",
-"pais": "PER",
-"total": 16
-},
 "ZWE-530": {
 "nombre": "Matabelelandia Meridional",
 "pais": "ZWE",
-"total": 16
-},
-"ITA-5373": {
-"nombre": "Oristán",
-"pais": "ITA",
 "total": 16
 },
 "GBR-2015": {
@@ -5649,11 +5694,6 @@
 "pais": "GBR",
 "total": 15
 },
-"KOR-2497": {
-"nombre": "Seúl",
-"pais": "KOR",
-"total": 15
-},
 "UKR-320": {
 "nombre": "Kirovogrado",
 "pais": "UKR",
@@ -5694,11 +5734,6 @@
 "pais": "FRA",
 "total": 15
 },
-"CHN-1775": {
-"nombre": "Hainan",
-"pais": "CHN",
-"total": 15
-},
 "TCD-1472": {
 "nombre": "Batha",
 "pais": "TCD",
@@ -5712,11 +5747,6 @@
 "IRN-3245": {
 "nombre": "Jorasán Razaví",
 "pais": "IRN",
-"total": 15
-},
-"FRA-5348": {
-"nombre": "Territorio de Belfort",
-"pais": "FRA",
 "total": 15
 },
 "LBY-2987": {
@@ -5744,19 +5774,9 @@
 "pais": "PAK",
 "total": 15
 },
-"RUS-2398": {
-"nombre": "Tiumén",
-"pais": "RUS",
-"total": 15
-},
 "SVK-1056": {
 "nombre": "Trnava",
 "pais": "SVK",
-"total": 15
-},
-"VCT-5064": {
-"nombre": "Granadinas",
-"pais": "VCT",
 "total": 15
 },
 "EGY-1531": {
@@ -5769,13 +5789,8 @@
 "pais": "ZWE",
 "total": 15
 },
-"ITA-5372": {
-"nombre": "Medio Campidano",
-"pais": "ITA",
-"total": 15
-},
-"ITA-5377": {
-"nombre": "Ogliastra",
+"ITA-5371": {
+"nombre": "Carbonia-Iglesias",
 "pais": "ITA",
 "total": 15
 },
@@ -5849,6 +5864,11 @@
 "pais": "IRL",
 "total": 14
 },
+"PRT-750": {
+"nombre": "Braganza",
+"pais": "PRT",
+"total": 14
+},
 "GBR-2002": {
 "nombre": "East Dunbartonshire",
 "pais": "GBR",
@@ -5857,6 +5877,11 @@
 "IND-3258": {
 "nombre": "Bihar",
 "pais": "IND",
+"total": 14
+},
+"FRA-5320": {
+"nombre": "Lozère",
+"pais": "FRA",
 "total": 14
 },
 "UKR-284": {
@@ -5882,6 +5907,11 @@
 "FRA-5346": {
 "nombre": "Tarn",
 "pais": "FRA",
+"total": 14
+},
+"ITA-5431": {
+"nombre": "Ascoli Piceno",
+"pais": "ITA",
 "total": 14
 },
 "GBR-2674": {
@@ -5957,6 +5987,11 @@
 "TKM-360": {
 "nombre": "Mary",
 "pais": "TKM",
+"total": 14
+},
+"ARG-1303": {
+"nombre": "Salta",
+"pais": "ARG",
 "total": 14
 },
 "CHE-3426": {
@@ -6039,14 +6074,19 @@
 "pais": "TZA",
 "total": 14
 },
+"PRY-4837": {
+"nombre": "Asunción",
+"pais": "PRY",
+"total": 14
+},
 "IRN-3241": {
 "nombre": "Kurdistán",
 "pais": "IRN",
 "total": 14
 },
-"FRA-1442": {
-"nombre": "Martinica",
-"pais": "FRA",
+"CHL-2702": {
+"nombre": "Biobío",
+"pais": "CHL",
 "total": 14
 },
 "TUR-2288": {
@@ -6159,11 +6199,6 @@
 "pais": "HUN",
 "total": 13
 },
-"ITA-5431": {
-"nombre": "Ascoli Piceno",
-"pais": "ITA",
-"total": 13
-},
 "CUB-1319": {
 "nombre": "Cienfuegos",
 "pais": "CUB",
@@ -6214,14 +6249,14 @@
 "pais": "ROU",
 "total": 13
 },
-"ARG-1303": {
-"nombre": "Salta",
-"pais": "ARG",
-"total": 13
-},
 "ARG-1276": {
 "nombre": "Neuquén",
 "pais": "ARG",
+"total": 13
+},
+"ECU-1280": {
+"nombre": "Guayas",
+"pais": "ECU",
 "total": 13
 },
 "GBR-2106": {
@@ -6309,14 +6344,14 @@
 "pais": "EGY",
 "total": 13
 },
-"RUS-2321": {
-"nombre": "Chukotka",
-"pais": "RUS",
-"total": 13
-},
 "FSM-4941": {
 "nombre": "Pohnpei",
 "pais": "FSM",
+"total": 13
+},
+"URY-4": {
+"nombre": "Colonia",
+"pais": "URY",
 "total": 13
 },
 "MOZ-1905": {
@@ -6384,9 +6419,9 @@
 "pais": "IRL",
 "total": 12
 },
-"PRT-750": {
-"nombre": "Braganza",
-"pais": "PRT",
+"RUS-2388": {
+"nombre": "Astracán",
+"pais": "RUS",
 "total": 12
 },
 "LBR-788": {
@@ -6396,11 +6431,6 @@
 },
 "FRA-5276": {
 "nombre": "Cantal",
-"pais": "FRA",
-"total": 12
-},
-"FRA-5320": {
-"nombre": "Lozère",
 "pais": "FRA",
 "total": 12
 },
@@ -6434,6 +6464,11 @@
 "pais": "SWE",
 "total": 12
 },
+"CAN-634": {
+"nombre": "Nunavut",
+"pais": "CAN",
+"total": 12
+},
 "JAM-1380": {
 "nombre": "Parroquia de Saint Catherine",
 "pais": "JAM",
@@ -6442,6 +6477,11 @@
 "GBR-2005": {
 "nombre": "Inverclyde",
 "pais": "GBR",
+"total": 12
+},
+"CHE-164": {
+"nombre": "Nidwalden",
+"pais": "CHE",
 "total": 12
 },
 "ROU-300": {
@@ -6457,6 +6497,11 @@
 "VIR-4869": {
 "nombre": "Parroquia de Saint John",
 "pais": "VIR",
+"total": 12
+},
+"SDN-880": {
+"nombre": "Sennar",
+"pais": "SDN",
 "total": 12
 },
 "MLI-2793": {
@@ -6499,6 +6544,11 @@
 "pais": "ARG",
 "total": 12
 },
+"ARG-1300": {
+"nombre": "Catamarca",
+"pais": "ARG",
+"total": 12
+},
 "SXM-5146": {
 "nombre": "San Martín",
 "pais": "SXM",
@@ -6509,11 +6559,6 @@
 "pais": "CMR",
 "total": 12
 },
-"ECU-1280": {
-"nombre": "Guayas",
-"pais": "ECU",
-"total": 12
-},
 "KAZ-3198": {
 "nombre": "Atyrau",
 "pais": "KAZ",
@@ -6522,6 +6567,11 @@
 "NIC-657": {
 "nombre": "Atlántico Norte",
 "pais": "NIC",
+"total": 12
+},
+"ATG-5098": {
+"nombre": "Parroquia de Saint John",
+"pais": "ATG",
 "total": 12
 },
 "JOR-858": {
@@ -6559,11 +6609,6 @@
 "pais": "ROU",
 "total": 12
 },
-"PRY-4837": {
-"nombre": "Asunción",
-"pais": "PRY",
-"total": 12
-},
 "MOZ-1192": {
 "nombre": "Manica",
 "pais": "MOZ",
@@ -6574,14 +6619,19 @@
 "pais": "ZWE",
 "total": 12
 },
-"CHL-2702": {
-"nombre": "Biobío",
-"pais": "CHL",
-"total": 12
-},
 "ZMB-521": {
 "nombre": "Noroeste",
 "pais": "ZMB",
+"total": 12
+},
+"RUS-2399": {
+"nombre": "Altái",
+"pais": "RUS",
+"total": 12
+},
+"HND-647": {
+"nombre": "Cortés",
+"pais": "HND",
 "total": 12
 },
 "VEN-49": {
@@ -6598,6 +6648,16 @@
 "nombre": "Este",
 "pais": "SLE",
 "total": 12
+},
+"ECU-1270": {
+"nombre": "Galápagos",
+"pais": "ECU",
+"total": 11
+},
+"IRN-3210": {
+"nombre": "Bushehr",
+"pais": "IRN",
+"total": 11
 },
 "GBR-2045": {
 "nombre": "North Somerset",
@@ -6637,11 +6697,6 @@
 "GBR-2014": {
 "nombre": "Moray",
 "pais": "GBR",
-"total": 11
-},
-"RUS-2388": {
-"nombre": "Astracán",
-"pais": "RUS",
 "total": 11
 },
 "GBR-2759": {
@@ -6699,21 +6754,6 @@
 "pais": "GBR",
 "total": 11
 },
-"CAN-634": {
-"nombre": "Nunavut",
-"pais": "CAN",
-"total": 11
-},
-"CHE-164": {
-"nombre": "Nidwalden",
-"pais": "CHE",
-"total": 11
-},
-"SDN-880": {
-"nombre": "Sennar",
-"pais": "SDN",
-"total": 11
-},
 "SDS-873": {
 "nombre": "Bahr al-Gazal Occidental",
 "pais": "SDS",
@@ -6759,6 +6799,11 @@
 "pais": "VEN",
 "total": 11
 },
+"PHL-2563": {
+"nombre": "Cavite",
+"pais": "PHL",
+"total": 11
+},
 "RUS-2334": {
 "nombre": "Nóvgorod",
 "pais": "RUS",
@@ -6774,11 +6819,6 @@
 "pais": "NZL",
 "total": 11
 },
-"ARG-1300": {
-"nombre": "Catamarca",
-"pais": "ARG",
-"total": 11
-},
 "RUS-2386": {
 "nombre": "Sverdlovsk",
 "pais": "RUS",
@@ -6787,6 +6827,11 @@
 "RUS-2381": {
 "nombre": "Nenetsia",
 "pais": "RUS",
+"total": 11
+},
+"LBN-3060": {
+"nombre": "Líbano-Sur",
+"pais": "LBN",
 "total": 11
 },
 "CYP-3465": {
@@ -6889,6 +6934,11 @@
 "pais": "GBR",
 "total": 11
 },
+"PHL-2545": {
+"nombre": "Cagayán",
+"pais": "PHL",
+"total": 11
+},
 "ZWE-529": {
 "nombre": "Manicalandia",
 "pais": "ZWE",
@@ -6897,11 +6947,6 @@
 "ZWE-524": {
 "nombre": "Mashonalandia Central",
 "pais": "ZWE",
-"total": 11
-},
-"URY-4": {
-"nombre": "Colonia",
-"pais": "URY",
 "total": 11
 },
 "KOR-2509": {
@@ -6922,11 +6967,6 @@
 "KAZ-3196": {
 "nombre": "Kostanay",
 "pais": "KAZ",
-"total": 10
-},
-"ECU-1270": {
-"nombre": "Galápagos",
-"pais": "ECU",
 "total": 10
 },
 "IDN-513": {
@@ -6957,6 +6997,11 @@
 "ITA-5406": {
 "nombre": "Brindisi",
 "pais": "ITA",
+"total": 10
+},
+"PER-567": {
+"nombre": "Piura",
+"pais": "PER",
 "total": 10
 },
 "COL-1403": {
@@ -6994,6 +7039,11 @@
 "pais": "MYS",
 "total": 10
 },
+"ITA-5430": {
+"nombre": "Fermo",
+"pais": "ITA",
+"total": 10
+},
 "ITA-5366": {
 "nombre": "Rímini",
 "pais": "ITA",
@@ -7004,9 +7054,19 @@
 "pais": "GUY",
 "total": 10
 },
+"CUB-1321": {
+"nombre": "Pinar del Río",
+"pais": "CUB",
+"total": 10
+},
 "JPN-1843": {
 "nombre": "Mie",
 "pais": "JPN",
+"total": 10
+},
+"PRT-751": {
+"nombre": "Castelo Branco",
+"pais": "PRT",
 "total": 10
 },
 "NIC-644": {
@@ -7017,6 +7077,16 @@
 "IRL-79": {
 "nombre": "Cavan",
 "pais": "IRL",
+"total": 10
+},
+"VEN-31": {
+"nombre": "Zulia",
+"pais": "VEN",
+"total": 10
+},
+"JPN-1845": {
+"nombre": "Shizuoka",
+"pais": "JPN",
 "total": 10
 },
 "JAM-1375": {
@@ -7099,11 +7169,6 @@
 "pais": "IRL",
 "total": 10
 },
-"PHL-2563": {
-"nombre": "Cavite",
-"pais": "PHL",
-"total": 10
-},
 "UKR-325": {
 "nombre": "Sumy",
 "pais": "UKR",
@@ -7119,6 +7184,11 @@
 "pais": "IRL",
 "total": 10
 },
+"IRQ-3472": {
+"nombre": "Babilonia",
+"pais": "IRQ",
+"total": 10
+},
 "ARG-1304": {
 "nombre": "Santiago del Estero",
 "pais": "ARG",
@@ -7127,6 +7197,11 @@
 "IND-3249": {
 "nombre": "Panyab",
 "pais": "IND",
+"total": 10
+},
+"ARG-1305": {
+"nombre": "Tucumán",
+"pais": "ARG",
 "total": 10
 },
 "MAR-1447": {
@@ -7149,11 +7224,6 @@
 "pais": "AFG",
 "total": 10
 },
-"LBN-3060": {
-"nombre": "Líbano-Sur",
-"pais": "LBN",
-"total": 10
-},
 "LBY-2964": {
 "nombre": "Al Jufrah",
 "pais": "LBY",
@@ -7162,11 +7232,6 @@
 "IRQ-3243": {
 "nombre": "Diala",
 "pais": "IRQ",
-"total": 10
-},
-"ATG-5098": {
-"nombre": "Parroquia de Saint John",
-"pais": "ATG",
 "total": 10
 },
 "TUR-2241": {
@@ -7229,6 +7294,11 @@
 "pais": "PER",
 "total": 10
 },
+"URY-20": {
+"nombre": "Maldonado",
+"pais": "URY",
+"total": 10
+},
 "MDG-5876": {
 "nombre": "Melaky",
 "pais": "MDG",
@@ -7237,11 +7307,6 @@
 "MDG-5881": {
 "nombre": "Antananarivo",
 "pais": "MDG",
-"total": 10
-},
-"PHL-2545": {
-"nombre": "Cagayán",
-"pais": "PHL",
 "total": 10
 },
 "EGY-1542": {
@@ -7264,19 +7329,14 @@
 "pais": "SLB",
 "total": 10
 },
-"HND-647": {
-"nombre": "Cortés",
-"pais": "HND",
-"total": 10
-},
 "PHL-2572": {
 "nombre": "Quezon",
 "pais": "PHL",
 "total": 10
 },
-"ITA-5371": {
-"nombre": "Carbonia-Iglesias",
-"pais": "ITA",
+"AGO-1887": {
+"nombre": "Benguela",
+"pais": "AGO",
 "total": 10
 },
 "ZMB-515": {
@@ -7299,6 +7359,11 @@
 "pais": "BRA",
 "total": 10
 },
+"RUS-2400": {
+"nombre": "Altái",
+"pais": "RUS",
+"total": 10
+},
 "NZL-3334": {
 "nombre": "Manawatu-Wanganui",
 "pais": "NZL",
@@ -7317,11 +7382,6 @@
 "CHL-2697": {
 "nombre": "Coquimbo",
 "pais": "CHL",
-"total": 9
-},
-"IRN-3210": {
-"nombre": "Bushehr",
-"pais": "IRN",
 "total": 9
 },
 "JPN-1851": {
@@ -7389,11 +7449,6 @@
 "pais": "GHA",
 "total": 9
 },
-"PER-567": {
-"nombre": "Piura",
-"pais": "PER",
-"total": 9
-},
 "GBR-5692": {
 "nombre": "Dudley",
 "pais": "GBR",
@@ -7414,19 +7469,9 @@
 "pais": "IND",
 "total": 9
 },
-"ITA-5430": {
-"nombre": "Fermo",
-"pais": "ITA",
-"total": 9
-},
 "ECU-1282": {
 "nombre": "Manabí",
 "pais": "ECU",
-"total": 9
-},
-"CUB-1321": {
-"nombre": "Pinar del Río",
-"pais": "CUB",
 "total": 9
 },
 "CHL-2701": {
@@ -7442,11 +7487,6 @@
 "COD-1883": {
 "nombre": "Kongo Central",
 "pais": "COD",
-"total": 9
-},
-"JPN-1845": {
-"nombre": "Shizuoka",
-"pais": "JPN",
 "total": 9
 },
 "TZA-3394": {
@@ -7502,16 +7542,6 @@
 "UKR-328": {
 "nombre": "Járkov",
 "pais": "UKR",
-"total": 9
-},
-"IRQ-3472": {
-"nombre": "Babilonia",
-"pais": "IRQ",
-"total": 9
-},
-"ARG-1305": {
-"nombre": "Tucumán",
-"pais": "ARG",
 "total": 9
 },
 "YEM-3497": {
@@ -7584,6 +7614,11 @@
 "pais": "RUS",
 "total": 9
 },
+"RUS-2403": {
+"nombre": "Novosibirsk",
+"pais": "RUS",
+"total": 9
+},
 "RUS-2342": {
 "nombre": "Briansk",
 "pais": "RUS",
@@ -7624,6 +7659,11 @@
 "pais": "ROU",
 "total": 9
 },
+"ROU-313": {
+"nombre": "Brăila",
+"pais": "ROU",
+"total": 9
+},
 "GNQ-1470": {
 "nombre": "Litoral",
 "pais": "GNQ",
@@ -7649,6 +7689,11 @@
 "pais": "ETH",
 "total": 9
 },
+"IRN-3216": {
+"nombre": "Teherán",
+"pais": "IRN",
+"total": 9
+},
 "FJI-2619": {
 "nombre": "División Norte",
 "pais": "FJI",
@@ -7664,11 +7709,6 @@
 "pais": "GGY",
 "total": 9
 },
-"AGO-1887": {
-"nombre": "Benguela",
-"pais": "AGO",
-"total": 9
-},
 "TZA-3390": {
 "nombre": "Singida",
 "pais": "TZA",
@@ -7677,6 +7717,11 @@
 "TZA-3382": {
 "nombre": "Pwani",
 "pais": "TZA",
+"total": 9
+},
+"VGB+00?": {
+"nombre": "Islas Vírgenes Británicas",
+"pais": "VGB",
 "total": 9
 },
 "RUS-2613": {
@@ -7764,11 +7809,6 @@
 "pais": "FRA",
 "total": 8
 },
-"RUS-2612": {
-"nombre": "Sajá",
-"pais": "RUS",
-"total": 8
-},
 "MEX-2736": {
 "nombre": "Quintana Roo",
 "pais": "MEX",
@@ -7784,11 +7824,6 @@
 "pais": "JPN",
 "total": 8
 },
-"PRT-751": {
-"nombre": "Castelo Branco",
-"pais": "PRT",
-"total": 8
-},
 "IND-3259": {
 "nombre": "Sikkim",
 "pais": "IND",
@@ -7797,11 +7832,6 @@
 "SWE-186": {
 "nombre": "Västmanland",
 "pais": "SWE",
-"total": 8
-},
-"VEN-31": {
-"nombre": "Zulia",
-"pais": "VEN",
 "total": 8
 },
 "TWN-1160": {
@@ -7849,6 +7879,11 @@
 "pais": "BRA",
 "total": 8
 },
+"PHL-2558": {
+"nombre": "Pampanga",
+"pais": "PHL",
+"total": 8
+},
 "PHL-2556": {
 "nombre": "Tarlac",
 "pais": "PHL",
@@ -7884,6 +7919,11 @@
 "pais": "TUR",
 "total": 8
 },
+"SYR-4843": {
+"nombre": "Damasco",
+"pais": "SYR",
+"total": 8
+},
 "ITA-5458": {
 "nombre": "Trieste",
 "pais": "ITA",
@@ -7904,9 +7944,19 @@
 "pais": "BLR",
 "total": 8
 },
+"SAU-888": {
+"nombre": "La Meca",
+"pais": "SAU",
+"total": 8
+},
 "BGD-1806": {
 "nombre": "Daca",
 "pais": "BGD",
+"total": 8
+},
+"ARG-1306": {
+"nombre": "Chaco",
+"pais": "ARG",
 "total": 8
 },
 "HTI-1387": {
@@ -7922,11 +7972,6 @@
 "COD-1872": {
 "nombre": "Kasai Occidental",
 "pais": "COD",
-"total": 8
-},
-"RUS-2403": {
-"nombre": "Novosibirsk",
-"pais": "RUS",
 "total": 8
 },
 "CHE-175": {
@@ -7947,11 +7992,6 @@
 "SVN-944": {
 "nombre": "Črna na Koroškem",
 "pais": "SVN",
-"total": 8
-},
-"ROU-313": {
-"nombre": "Brăila",
-"pais": "ROU",
 "total": 8
 },
 "HUN-3166": {
@@ -7999,11 +8039,6 @@
 "pais": "ESP",
 "total": 8
 },
-"IRN-3216": {
-"nombre": "Teherán",
-"pais": "IRN",
-"total": 8
-},
 "CYM+00?": {
 "nombre": "Islas Caimán",
 "pais": "CYM",
@@ -8012,11 +8047,6 @@
 "MCO+00?": {
 "nombre": "Monaco-Ville",
 "pais": "MCO",
-"total": 8
-},
-"URY-20": {
-"nombre": "Maldonado",
-"pais": "URY",
 "total": 8
 },
 "PHL-2562": {
@@ -8039,6 +8069,11 @@
 "pais": "KAZ",
 "total": 8
 },
+"KOR-2498": {
+"nombre": "Gyeonggi",
+"pais": "KOR",
+"total": 8
+},
 "IRL-5568": {
 "nombre": "Galway",
 "pais": "IRL",
@@ -8059,14 +8094,14 @@
 "pais": "TUR",
 "total": 8
 },
+"TUR-3032": {
+"nombre": "Bayburt",
+"pais": "TUR",
+"total": 8
+},
 "TUN-111": {
 "nombre": "Gabès",
 "pais": "TUN",
-"total": 8
-},
-"VGB+00?": {
-"nombre": "Islas Vírgenes Británicas",
-"pais": "VGB",
 "total": 8
 },
 "SOM-2645": {
@@ -8174,9 +8209,24 @@
 "pais": "VEN",
 "total": 7
 },
+"PHL-2564": {
+"nombre": "Batangas",
+"pais": "PHL",
+"total": 7
+},
+"MEX-2726": {
+"nombre": "Tlaxcala",
+"pais": "MEX",
+"total": 7
+},
 "GBR-2050": {
 "nombre": "Bournemouth",
 "pais": "GBR",
+"total": 7
+},
+"RUS-2612": {
+"nombre": "Sajá",
+"pais": "RUS",
 "total": 7
 },
 "SWE-262": {
@@ -8244,6 +8294,11 @@
 "pais": "PHL",
 "total": 7
 },
+"RUS-5482": {
+"nombre": "Sebastopol",
+"pais": "RUS",
+"total": 7
+},
 "ROU-310": {
 "nombre": "Prahova",
 "pais": "ROU",
@@ -8272,11 +8327,6 @@
 "AFG-1750": {
 "nombre": "Helmand",
 "pais": "AFG",
-"total": 7
-},
-"SYR-4843": {
-"nombre": "Damasco",
-"pais": "SYR",
 "total": 7
 },
 "SVN-1031": {
@@ -8314,11 +8364,6 @@
 "pais": "IRL",
 "total": 7
 },
-"SAU-888": {
-"nombre": "La Meca",
-"pais": "SAU",
-"total": 7
-},
 "BRA-596": {
 "nombre": "Tocantins",
 "pais": "BRA",
@@ -8327,11 +8372,6 @@
 "SVN-260": {
 "nombre": "Nova Gorica",
 "pais": "SVN",
-"total": 7
-},
-"ARG-1306": {
-"nombre": "Chaco",
-"pais": "ARG",
 "total": 7
 },
 "RUS-2356": {
@@ -8419,6 +8459,11 @@
 "pais": "CRI",
 "total": 7
 },
+"ECU-1335": {
+"nombre": "Esmeraldas",
+"pais": "ECU",
+"total": 7
+},
 "IRN-3239": {
 "nombre": "Kermanshah",
 "pais": "IRN",
@@ -8454,11 +8499,6 @@
 "pais": "IRN",
 "total": 7
 },
-"RUS-2399": {
-"nombre": "Altái",
-"pais": "RUS",
-"total": 7
-},
 "VEN-40": {
 "nombre": "Anzoátegui",
 "pais": "VEN",
@@ -8467,6 +8507,16 @@
 "ECU-5507": {
 "nombre": "Santa Elena",
 "pais": "ECU",
+"total": 7
+},
+"ESP-5835": {
+"nombre": "Melilla",
+"pais": "ESP",
+"total": 7
+},
+"UZB-355": {
+"nombre": "Corasmia",
+"pais": "UZB",
 "total": 7
 },
 "LKA-2450": {
@@ -8484,9 +8534,9 @@
 "pais": "TUN",
 "total": 7
 },
-"TUR-3032": {
-"nombre": "Bayburt",
-"pais": "TUR",
+"MEX-2733": {
+"nombre": "Querétaro",
+"pais": "MEX",
 "total": 7
 },
 "NAM-3340": {
@@ -8497,6 +8547,16 @@
 "MYS-4833": {
 "nombre": "Labuan",
 "pais": "MYS",
+"total": 7
+},
+"KOR-2505": {
+"nombre": "Gyeongsang del Sur",
+"pais": "KOR",
+"total": 7
+},
+"KOR-2496": {
+"nombre": "Gangwon",
+"pais": "KOR",
 "total": 7
 },
 "TUR-3031": {
@@ -8619,14 +8679,14 @@
 "pais": "ECU",
 "total": 6
 },
+"ECU-1287": {
+"nombre": "Pichincha",
+"pais": "ECU",
+"total": 6
+},
 "HRV-1610": {
 "nombre": "Varaždin",
 "pais": "HRV",
-"total": 6
-},
-"PHL-2564": {
-"nombre": "Batangas",
-"pais": "PHL",
 "total": 6
 },
 "GBR-2055": {
@@ -8649,6 +8709,11 @@
 "pais": "CRI",
 "total": 6
 },
+"NIC-24": {
+"nombre": "Rivas",
+"pais": "NIC",
+"total": 6
+},
 "NIC-659": {
 "nombre": "Managua",
 "pais": "NIC",
@@ -8657,6 +8722,11 @@
 "PRT-747": {
 "nombre": "Portalegre",
 "pais": "PRT",
+"total": 6
+},
+"COL-1414": {
+"nombre": "Cesar",
+"pais": "COL",
 "total": 6
 },
 "JPN-1855": {
@@ -8714,24 +8784,19 @@
 "pais": "IRL",
 "total": 6
 },
-"PHL-2566": {
-"nombre": "La Laguna",
-"pais": "PHL",
+"BRA-623": {
+"nombre": "Alagoas",
+"pais": "BRA",
 "total": 6
 },
-"PHL-2558": {
-"nombre": "Pampanga",
+"PHL-2566": {
+"nombre": "La Laguna",
 "pais": "PHL",
 "total": 6
 },
 "PHL-2557": {
 "nombre": "Nueva Écija",
 "pais": "PHL",
-"total": 6
-},
-"RUS-5482": {
-"nombre": "Sebastopol",
-"pais": "RUS",
 "total": 6
 },
 "RUS-2379": {
@@ -8742,6 +8807,11 @@
 "TJK-369": {
 "nombre": "Juyand",
 "pais": "TJK",
+"total": 6
+},
+"UZB-354": {
+"nombre": "Bujara",
+"pais": "UZB",
 "total": 6
 },
 "ALB-1504": {
@@ -8757,6 +8827,11 @@
 "IND-3254": {
 "nombre": "Uttarakhand",
 "pais": "IND",
+"total": 6
+},
+"KAZ-3251": {
+"nombre": "Kazajistán Meridional",
+"pais": "KAZ",
 "total": 6
 },
 "KGZ-1118": {
@@ -8789,9 +8864,19 @@
 "pais": "URY",
 "total": 6
 },
+"ARG-1308": {
+"nombre": "Corrientes",
+"pais": "ARG",
+"total": 6
+},
 "ITA-5418": {
 "nombre": "Pescara",
 "pais": "ITA",
+"total": 6
+},
+"TWN-3414": {
+"nombre": "Islas Pescadores",
+"pais": "TWN",
 "total": 6
 },
 "ROU-133": {
@@ -8827,6 +8912,11 @@
 "AFG-1749": {
 "nombre": "Farāh",
 "pais": "AFG",
+"total": 6
+},
+"RUS-2373": {
+"nombre": "Penza",
+"pais": "RUS",
 "total": 6
 },
 "LBY-2985": {
@@ -8944,9 +9034,14 @@
 "pais": "CPV",
 "total": 6
 },
-"ECU-1335": {
-"nombre": "Esmeraldas",
-"pais": "ECU",
+"ARG-1301": {
+"nombre": "Jujuy",
+"pais": "ARG",
+"total": 6
+},
+"GRD-5072": {
+"nombre": "Parroquia de Saint George",
+"pais": "GRD",
 "total": 6
 },
 "TUV+00?": {
@@ -8994,9 +9089,19 @@
 "pais": "CRI",
 "total": 6
 },
-"ESP-5835": {
-"nombre": "Melilla",
-"pais": "ESP",
+"BOL-1291": {
+"nombre": "Cochabamba",
+"pais": "BOL",
+"total": 6
+},
+"DOM-1985": {
+"nombre": "Nacional",
+"pais": "DOM",
+"total": 6
+},
+"PRT-739": {
+"nombre": "Aveiro",
+"pais": "PRT",
 "total": 6
 },
 "PRT-756": {
@@ -9016,11 +9121,6 @@
 },
 "KOR-2499": {
 "nombre": "Jeolla del Norte",
-"pais": "KOR",
-"total": 6
-},
-"KOR-2505": {
-"nombre": "Gyeongsang del Sur",
 "pais": "KOR",
 "total": 6
 },
@@ -9114,6 +9214,11 @@
 "pais": "SGP",
 "total": 5
 },
+"YEM-158": {
+"nombre": "Ta'izz",
+"pais": "YEM",
+"total": 5
+},
 "JPN-1844": {
 "nombre": "Nagano",
 "pais": "JPN",
@@ -9174,6 +9279,11 @@
 "pais": "NGA",
 "total": 5
 },
+"PER-584": {
+"nombre": "Amazonas",
+"pais": "PER",
+"total": 5
+},
 "COL-1283": {
 "nombre": "Amazonas",
 "pais": "COL",
@@ -9219,23 +9329,18 @@
 "pais": "ECU",
 "total": 5
 },
-"ECU-1287": {
-"nombre": "Pichincha",
-"pais": "ECU",
-"total": 5
-},
 "PER-587": {
 "nombre": "Lima",
 "pais": "PER",
 "total": 5
 },
-"MEX-2726": {
-"nombre": "Tlaxcala",
-"pais": "MEX",
-"total": 5
-},
 "CUB-1368": {
 "nombre": "Las Tunas",
+"pais": "CUB",
+"total": 5
+},
+"CUB-1322": {
+"nombre": "Sancti Spíritus",
 "pais": "CUB",
 "total": 5
 },
@@ -9247,11 +9352,6 @@
 "MNP-4938": {
 "nombre": "Tinián",
 "pais": "MNP",
-"total": 5
-},
-"NIC-24": {
-"nombre": "Rivas",
-"pais": "NIC",
 "total": 5
 },
 "GBR-5694": {
@@ -9267,11 +9367,6 @@
 "COG-3344": {
 "nombre": "Lékoumou",
 "pais": "COG",
-"total": 5
-},
-"COL-1414": {
-"nombre": "Cesar",
-"pais": "COL",
 "total": 5
 },
 "JPN-3501": {
@@ -9319,6 +9414,11 @@
 "pais": "CAF",
 "total": 5
 },
+"TWN-1164": {
+"nombre": "Keelung",
+"pais": "TWN",
+"total": 5
+},
 "TJK-367": {
 "nombre": "Khatlon",
 "pais": "TJK",
@@ -9332,11 +9432,6 @@
 "NZL-3405": {
 "nombre": "Taranaki",
 "pais": "NZL",
-"total": 5
-},
-"BRA-623": {
-"nombre": "Alagoas",
-"pais": "BRA",
 "total": 5
 },
 "PHL-2567": {
@@ -9359,11 +9454,6 @@
 "pais": "ROU",
 "total": 5
 },
-"UZB-354": {
-"nombre": "Bujara",
-"pais": "UZB",
-"total": 5
-},
 "GAB-2187": {
 "nombre": "Woleu-Ntem",
 "pais": "GAB",
@@ -9379,11 +9469,6 @@
 "pais": "RUS",
 "total": 5
 },
-"KAZ-3251": {
-"nombre": "Kazajistán Meridional",
-"pais": "KAZ",
-"total": 5
-},
 "CYP-3463": {
 "nombre": "Lárnaca",
 "pais": "CYP",
@@ -9397,11 +9482,6 @@
 "URY-22": {
 "nombre": "Rocha",
 "pais": "URY",
-"total": 5
-},
-"ARG-1308": {
-"nombre": "Corrientes",
-"pais": "ARG",
 "total": 5
 },
 "IRL-731": {
@@ -9459,8 +9539,8 @@
 "pais": "RUS",
 "total": 5
 },
-"RUS-2373": {
-"nombre": "Penza",
+"RUS-2376": {
+"nombre": "Vladímir",
 "pais": "RUS",
 "total": 5
 },
@@ -9649,14 +9729,9 @@
 "pais": "PER",
 "total": 5
 },
-"ARG-1301": {
-"nombre": "Jujuy",
-"pais": "ARG",
-"total": 5
-},
-"GRD-5072": {
-"nombre": "Parroquia de Saint George",
-"pais": "GRD",
+"BRA-625": {
+"nombre": "Espírito Santo",
+"pais": "BRA",
 "total": 5
 },
 "MDG-5870": {
@@ -9674,12 +9749,12 @@
 "pais": "PHL",
 "total": 5
 },
-"MDG-5868": {
+"MDG-5860": {
 "nombre": "Toamasina",
 "pais": "MDG",
 "total": 5
 },
-"MDG-5860": {
+"MDG-5868": {
 "nombre": "Toamasina",
 "pais": "MDG",
 "total": 5
@@ -9744,6 +9819,11 @@
 "pais": "PRK",
 "total": 5
 },
+"RUS-2615": {
+"nombre": "Magadán",
+"pais": "RUS",
+"total": 5
+},
 "FSM-4942": {
 "nombre": "Estado de Chuuk",
 "pais": "FSM",
@@ -9752,16 +9832,6 @@
 "SEN-5517": {
 "nombre": "Saint-Louis",
 "pais": "SEN",
-"total": 5
-},
-"BOL-1291": {
-"nombre": "Cochabamba",
-"pais": "BOL",
-"total": 5
-},
-"DOM-1985": {
-"nombre": "Nacional",
-"pais": "DOM",
 "total": 5
 },
 "PRY-605": {
@@ -9794,24 +9864,19 @@
 "pais": "PNG",
 "total": 5
 },
+"VCT-5063": {
+"nombre": "Carlota",
+"pais": "VCT",
+"total": 5
+},
 "SEN-764": {
 "nombre": "Fatick",
 "pais": "SEN",
 "total": 5
 },
-"KOR-2498": {
-"nombre": "Gyeonggi",
-"pais": "KOR",
-"total": 5
-},
-"PRT-739": {
-"nombre": "Aveiro",
-"pais": "PRT",
-"total": 5
-},
-"UZB-355": {
-"nombre": "Corasmia",
-"pais": "UZB",
+"DOM-1983": {
+"nombre": "Samaná",
+"pais": "DOM",
 "total": 5
 },
 "PAK-1109": {
@@ -9854,14 +9919,14 @@
 "pais": "EST",
 "total": 5
 },
-"RUS-2400": {
-"nombre": "Altái",
-"pais": "RUS",
+"PHL-5555": {
+"nombre": "Parañaque",
+"pais": "PHL",
 "total": 5
 },
-"KOR-2496": {
-"nombre": "Gangwon",
-"pais": "KOR",
+"GMB-5512": {
+"nombre": "División Western",
+"pais": "GMB",
 "total": 5
 },
 "TUR-3045": {
@@ -9964,11 +10029,6 @@
 "pais": "ATF",
 "total": 4
 },
-"YEM-158": {
-"nombre": "Ta'izz",
-"pais": "YEM",
-"total": 4
-},
 "JPN-1858": {
 "nombre": "Saitama",
 "pais": "JPN",
@@ -10014,14 +10074,14 @@
 "pais": "SAH",
 "total": 4
 },
+"PAN-1341": {
+"nombre": "Veraguas",
+"pais": "PAN",
+"total": 4
+},
 "VNM-462": {
 "nombre": "Hanói",
 "pais": "VNM",
-"total": 4
-},
-"PER-584": {
-"nombre": "Amazonas",
-"pais": "PER",
 "total": 4
 },
 "ECU-1288": {
@@ -10144,11 +10204,6 @@
 "pais": "PNG",
 "total": 4
 },
-"TWN-1164": {
-"nombre": "Keelung",
-"pais": "TWN",
-"total": 4
-},
 "AFG-1747": {
 "nombre": "Ġawr",
 "pais": "AFG",
@@ -10182,6 +10237,11 @@
 "ARE-349": {
 "nombre": "Abu Dabi",
 "pais": "ARE",
+"total": 4
+},
+"BRA-629": {
+"nombre": "Sergipe",
+"pais": "BRA",
 "total": 4
 },
 "VNM-456": {
@@ -10299,11 +10359,6 @@
 "pais": "KAZ",
 "total": 4
 },
-"RUS-2376": {
-"nombre": "Vladímir",
-"pais": "RUS",
-"total": 4
-},
 "MAR-1446": {
 "nombre": "Fez-Bulmán",
 "pais": "MAR",
@@ -10399,6 +10454,11 @@
 "pais": "TUR",
 "total": 4
 },
+"HTI-1385": {
+"nombre": "Centro",
+"pais": "HTI",
+"total": 4
+},
 "HTI-1389": {
 "nombre": "Sureste",
 "pais": "HTI",
@@ -10454,11 +10514,6 @@
 "pais": "SEN",
 "total": 4
 },
-"BRA-625": {
-"nombre": "Espírito Santo",
-"pais": "BRA",
-"total": 4
-},
 "GNB-769": {
 "nombre": "Bisáu",
 "pais": "GNB",
@@ -10476,6 +10531,11 @@
 },
 "PAN-1336": {
 "nombre": "Coclé",
+"pais": "PAN",
+"total": 4
+},
+"PAN-1332": {
+"nombre": "Chiriquí",
 "pais": "PAN",
 "total": 4
 },
@@ -10514,6 +10574,11 @@
 "pais": "COL",
 "total": 4
 },
+"COL-1315": {
+"nombre": "Boyacá",
+"pais": "COL",
+"total": 4
+},
 "LBR-785": {
 "nombre": "Grand Bassa",
 "pais": "LBR",
@@ -10542,11 +10607,6 @@
 "PNG-1257": {
 "nombre": "Nueva Bretaña del Oeste",
 "pais": "PNG",
-"total": 4
-},
-"RUS-2615": {
-"nombre": "Magadán",
-"pais": "RUS",
 "total": 4
 },
 "PHL-2518": {
@@ -10594,11 +10654,6 @@
 "pais": "SLB",
 "total": 4
 },
-"VCT-5063": {
-"nombre": "Carlota",
-"pais": "VCT",
-"total": 4
-},
 "GTM-1948": {
 "nombre": "Alta Verapaz",
 "pais": "GTM",
@@ -10607,11 +10662,6 @@
 "PHL-2549": {
 "nombre": "Aurora",
 "pais": "PHL",
-"total": 4
-},
-"DOM-1983": {
-"nombre": "Samaná",
-"pais": "DOM",
 "total": 4
 },
 "PHL-2584": {
@@ -10644,11 +10694,6 @@
 "pais": "SOM",
 "total": 4
 },
-"PHL-5555": {
-"nombre": "Parañaque",
-"pais": "PHL",
-"total": 4
-},
 "GEO-3039": {
 "nombre": "Shida Kartli",
 "pais": "GEO",
@@ -10669,9 +10714,9 @@
 "pais": "KOS",
 "total": 4
 },
-"GMB-5512": {
-"nombre": "División Western",
-"pais": "GMB",
+"KOR-2495": {
+"nombre": "Incheon",
+"pais": "KOR",
 "total": 4
 },
 "AFG-1761": {
@@ -10884,11 +10929,6 @@
 "pais": "SEN",
 "total": 3
 },
-"PAN-1341": {
-"nombre": "Veraguas",
-"pais": "PAN",
-"total": 3
-},
 "TGO-89": {
 "nombre": "Centro",
 "pais": "TGO",
@@ -10924,13 +10964,18 @@
 "pais": "ECU",
 "total": 3
 },
+"ECU-1284": {
+"nombre": "Chimborazo",
+"pais": "ECU",
+"total": 3
+},
 "ECU-1279": {
 "nombre": "Cotopaxi",
 "pais": "ECU",
 "total": 3
 },
-"CUB-1322": {
-"nombre": "Sancti Spíritus",
+"CUB-1366": {
+"nombre": "Granma",
 "pais": "CUB",
 "total": 3
 },
@@ -11052,11 +11097,6 @@
 "MYS-1149": {
 "nombre": "Terengganu",
 "pais": "MYS",
-"total": 3
-},
-"BRA-629": {
-"nombre": "Sergipe",
-"pais": "BRA",
 "total": 3
 },
 "CHN-1803": {
@@ -11222,11 +11262,6 @@
 "COL-1423": {
 "nombre": "Guaviare",
 "pais": "COL",
-"total": 3
-},
-"TWN-3414": {
-"nombre": "Islas Pescadores",
-"pais": "TWN",
 "total": 3
 },
 "BGD-5492": {
@@ -11439,6 +11474,11 @@
 "pais": "BGR",
 "total": 3
 },
+"BGR-2249": {
+"nombre": "Veliko Tarnovo",
+"pais": "BGR",
+"total": 3
+},
 "BEN-2178": {
 "nombre": "Zou",
 "pais": "BEN",
@@ -11539,11 +11579,6 @@
 "pais": "TUR",
 "total": 3
 },
-"HTI-1385": {
-"nombre": "Centro",
-"pais": "HTI",
-"total": 3
-},
 "HTI-1384": {
 "nombre": "Artibonito",
 "pais": "HTI",
@@ -11609,8 +11644,8 @@
 "pais": "HND",
 "total": 3
 },
-"PAN-1332": {
-"nombre": "Chiriquí",
+"PAN-1958": {
+"nombre": "comarca Ngäbe-Buglé",
 "pais": "PAN",
 "total": 3
 },
@@ -11632,11 +11667,6 @@
 "GTM-1959": {
 "nombre": "Izabal",
 "pais": "GTM",
-"total": 3
-},
-"COL-1315": {
-"nombre": "Boyacá",
-"pais": "COL",
 "total": 3
 },
 "CIV-3448": {
@@ -11689,6 +11719,11 @@
 "pais": "VEN",
 "total": 3
 },
+"COL-1408": {
+"nombre": "Valle del Cauca",
+"pais": "COL",
+"total": 3
+},
 "PNG-1249": {
 "nombre": "Central",
 "pais": "PNG",
@@ -11739,11 +11774,6 @@
 "pais": "PHL",
 "total": 3
 },
-"MEX-2733": {
-"nombre": "Querétaro",
-"pais": "MEX",
-"total": 3
-},
 "JPN-1861": {
 "nombre": "Yamanashi",
 "pais": "JPN",
@@ -11757,6 +11787,11 @@
 "UKR-327": {
 "nombre": "Donetsk",
 "pais": "UKR",
+"total": 3
+},
+"KOR-2507": {
+"nombre": "Busan",
+"pais": "KOR",
 "total": 3
 },
 "TWN-1176": {
@@ -12119,11 +12154,6 @@
 "pais": "VEN",
 "total": 2
 },
-"ECU-1284": {
-"nombre": "Chimborazo",
-"pais": "ECU",
-"total": 2
-},
 "HRV-1609": {
 "nombre": "Međimurje",
 "pais": "HRV",
@@ -12132,11 +12162,6 @@
 "CYP-3466": {
 "nombre": "Famagusta",
 "pais": "CYP",
-"total": 2
-},
-"CUB-1366": {
-"nombre": "Granma",
-"pais": "CUB",
 "total": 2
 },
 "CUB-1363": {
@@ -12341,6 +12366,11 @@
 },
 "URY-15": {
 "nombre": "Tacuarembó",
+"pais": "URY",
+"total": 2
+},
+"URY-14": {
+"nombre": "Rivera",
 "pais": "URY",
 "total": 2
 },
@@ -12584,11 +12614,6 @@
 "pais": "BGR",
 "total": 2
 },
-"BGR-2249": {
-"nombre": "Veliko Tarnovo",
-"pais": "BGR",
-"total": 2
-},
 "BGR-2237": {
 "nombre": "Kardzhali",
 "pais": "BGR",
@@ -12819,11 +12844,6 @@
 "pais": "MAR",
 "total": 2
 },
-"PAN-1958": {
-"nombre": "comarca Ngäbe-Buglé",
-"pais": "PAN",
-"total": 2
-},
 "AFG-1774": {
 "nombre": "Vardak",
 "pais": "AFG",
@@ -12939,6 +12959,11 @@
 "pais": "PNG",
 "total": 2
 },
+"LCA-5077": {
+"nombre": "Castries",
+"pais": "LCA",
+"total": 2
+},
 "PRT-755": {
 "nombre": "Viseu",
 "pais": "PRT",
@@ -12957,11 +12982,6 @@
 "CHL-20010": {
 "nombre": "Ñuble",
 "pais": "CHL",
-"total": 2
-},
-"COL-1408": {
-"nombre": "Valle del Cauca",
-"pais": "COL",
 "total": 2
 },
 "SLB-1260": {
@@ -13109,6 +13129,16 @@
 "pais": "GBR",
 "total": 2
 },
+"BGR-2258": {
+"nombre": "Shumen",
+"pais": "BGR",
+"total": 2
+},
+"BGR-2261": {
+"nombre": "Silistra",
+"pais": "BGR",
+"total": 2
+},
 "EST-1657": {
 "nombre": "Jõgeva",
 "pais": "EST",
@@ -13129,14 +13159,14 @@
 "pais": "HKG",
 "total": 2
 },
+"PER-581": {
+"nombre": "Pasco",
+"pais": "PER",
+"total": 2
+},
 "UGA-3093": {
 "nombre": "Mubende",
 "pais": "UGA",
-"total": 2
-},
-"KOR-2495": {
-"nombre": "Incheon",
-"pais": "KOR",
 "total": 2
 },
 "PLW-5258": {
@@ -13177,6 +13207,11 @@
 "TTO-64": {
 "nombre": "Puerto España",
 "pais": "TTO",
+"total": 2
+},
+"EGY-1549": {
+"nombre": "Asiut",
+"pais": "EGY",
 "total": 2
 },
 "MWI-1903": {
@@ -13387,11 +13422,6 @@
 "PRK-5495": {
 "nombre": "Rasŏn",
 "pais": "PRK",
-"total": 2
-},
-"KOR-2507": {
-"nombre": "Busan",
-"pais": "KOR",
 "total": 2
 },
 "FJI-2617": {
@@ -14006,11 +14036,6 @@
 },
 "URY-8": {
 "nombre": "Paysandú",
-"pais": "URY",
-"total": 1
-},
-"URY-14": {
-"nombre": "Rivera",
 "pais": "URY",
 "total": 1
 },
@@ -14719,11 +14744,6 @@
 "pais": "CHL",
 "total": 1
 },
-"LCA-5077": {
-"nombre": "Castries",
-"pais": "LCA",
-"total": 1
-},
 "LCA-5081": {
 "nombre": "Gros Islet",
 "pais": "LCA",
@@ -14929,13 +14949,13 @@
 "pais": "EGY",
 "total": 1
 },
-"LVA-4848": {
-"nombre": "Liepāja",
+"LVA-5720": {
+"nombre": "Municipalidad de Durbe",
 "pais": "LVA",
 "total": 1
 },
-"LVA-5720": {
-"nombre": "Municipalidad de Durbe",
+"LVA-4848": {
+"nombre": "Liepāja",
 "pais": "LVA",
 "total": 1
 },
@@ -14947,16 +14967,6 @@
 "MMR-3269": {
 "nombre": "Yangon",
 "pais": "MMR",
-"total": 1
-},
-"BGR-2258": {
-"nombre": "Shumen",
-"pais": "BGR",
-"total": 1
-},
-"BGR-2261": {
-"nombre": "Silistra",
-"pais": "BGR",
 "total": 1
 },
 "EST-2351": {
@@ -15019,23 +15029,18 @@
 "pais": "PHL",
 "total": 1
 },
-"PER-581": {
-"nombre": "Pasco",
-"pais": "PER",
-"total": 1
-},
 "KOR-2510": {
 "nombre": "Jeju-do",
 "pais": "KOR",
 "total": 1
 },
-"MDA-1628": {
-"nombre": "Stînga Nistrului",
+"MDA-1638": {
+"nombre": "Transnistria",
 "pais": "MDA",
 "total": 1
 },
-"MDA-1638": {
-"nombre": "Transnistria",
+"MDA-1628": {
+"nombre": "Stînga Nistrului",
 "pais": "MDA",
 "total": 1
 },
@@ -15104,11 +15109,6 @@
 "pais": "KOR",
 "total": 1
 },
-"BLM-5113": {
-"nombre": "San Bartolomé",
-"pais": "BLM",
-"total": 1
-},
 "PRY-608": {
 "nombre": "Guairá",
 "pais": "PRY",
@@ -15137,6 +15137,11 @@
 "PRY-618": {
 "nombre": "Caazapá",
 "pais": "PRY",
+"total": 1
+},
+"PHL-5545": {
+"nombre": "Caloocan",
+"pais": "PHL",
 "total": 1
 },
 "AFG-1755": {
@@ -15376,11 +15381,6 @@
 },
 "EGY-1552": {
 "nombre": "Suhag",
-"pais": "EGY",
-"total": 1
-},
-"EGY-1549": {
-"nombre": "Asiut",
 "pais": "EGY",
 "total": 1
 },
@@ -15649,13 +15649,13 @@
 "pais": "ZMB",
 "total": 1
 },
-"BWA-5505": {
-"nombre": "Ciudad del Sowa",
+"BWA-5504": {
+"nombre": "Selebi-Phikwe",
 "pais": "BWA",
 "total": 1
 },
-"BWA-5504": {
-"nombre": "Selebi-Phikwe",
+"BWA-5505": {
+"nombre": "Ciudad del Sowa",
 "pais": "BWA",
 "total": 1
 },
@@ -16157,6 +16157,11 @@
 "PLW-5255": {
 "nombre": "Ngchesar",
 "pais": "PLW",
+"total": 1
+},
+"PER-588": {
+"nombre": "Huancavelica",
+"pais": "PER",
 "total": 1
 }
 }
