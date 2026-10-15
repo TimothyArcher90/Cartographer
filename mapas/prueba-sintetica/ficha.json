@@ -1,0 +1,172 @@
+{
+  "id": "prueba-sintetica",
+  "titulo": "Prueba sintética de georreferenciación (NO es un mapa histórico)",
+  "autor": "Cartographer (generado)",
+  "anio": null,
+  "fuente": "historical-basemaps",
+  "url": null,
+  "licencia": "GPL-3.0",
+  "licencia_verificada": true,
+  "uso_en_video": "no",
+  "imagen_original": "original.png",
+  "metodo": "tps",
+  "modo": "superpuesto",
+  "calidad": "prueba",
+  "notas": "Fronteras de 1492 dibujadas con una deformación conocida. Solo sirve para probar la cadena.",
+  "gcp": [
+    {
+      "px": 96.0,
+      "py": 709.75,
+      "lon": -10,
+      "lat": 30,
+      "etiqueta": "cuadrícula -10,30"
+    },
+    {
+      "px": 77.42,
+      "py": 453.75,
+      "lon": -10,
+      "lat": 38,
+      "etiqueta": "cuadrícula -10,38"
+    },
+    {
+      "px": 71.14,
+      "py": 197.75,
+      "lon": -10,
+      "lat": 46,
+      "etiqueta": "cuadrícula -10,46"
+    },
+    {
+      "px": 376.0,
+      "py": 649.75,
+      "lon": 0,
+      "lat": 30,
+      "etiqueta": "cuadrícula 0,30"
+    },
+    {
+      "px": 357.42,
+      "py": 393.75,
+      "lon": 0,
+      "lat": 38,
+      "etiqueta": "cuadrícula 0,38"
+    },
+    {
+      "px": 351.14,
+      "py": 137.75,
+      "lon": 0,
+      "lat": 46,
+      "etiqueta": "cuadrícula 0,46"
+    },
+    {
+      "px": 656.0,
+      "py": 619.75,
+      "lon": 10,
+      "lat": 30,
+      "etiqueta": "cuadrícula 10,30"
+    },
+    {
+      "px": 637.42,
+      "py": 363.75,
+      "lon": 10,
+      "lat": 38,
+      "etiqueta": "cuadrícula 10,38"
+    },
+    {
+      "px": 631.14,
+      "py": 107.75,
+      "lon": 10,
+      "lat": 46,
+      "etiqueta": "cuadrícula 10,46"
+    },
+    {
+      "px": 936.0,
+      "py": 619.75,
+      "lon": 20,
+      "lat": 30,
+      "etiqueta": "cuadrícula 20,30"
+    },
+    {
+      "px": 917.42,
+      "py": 363.75,
+      "lon": 20,
+      "lat": 38,
+      "etiqueta": "cuadrícula 20,38"
+    },
+    {
+      "px": 911.14,
+      "py": 107.75,
+      "lon": 20,
+      "lat": 46,
+      "etiqueta": "cuadrícula 20,46"
+    },
+    {
+      "px": 1216.0,
+      "py": 649.75,
+      "lon": 30,
+      "lat": 30,
+      "etiqueta": "cuadrícula 30,30"
+    },
+    {
+      "px": 1197.42,
+      "py": 393.75,
+      "lon": 30,
+      "lat": 38,
+      "etiqueta": "cuadrícula 30,38"
+    },
+    {
+      "px": 1191.14,
+      "py": 137.75,
+      "lon": 30,
+      "lat": 46,
+      "etiqueta": "cuadrícula 30,46"
+    },
+    {
+      "px": 1496.0,
+      "py": 709.75,
+      "lon": 40,
+      "lat": 30,
+      "etiqueta": "cuadrícula 40,30"
+    },
+    {
+      "px": 1477.42,
+      "py": 453.75,
+      "lon": 40,
+      "lat": 38,
+      "etiqueta": "cuadrícula 40,38"
+    },
+    {
+      "px": 1471.14,
+      "py": 197.75,
+      "lon": 40,
+      "lat": 46,
+      "etiqueta": "cuadrícula 40,46"
+    }
+  ],
+  "salida": {
+    "cog": "salida/mapa.tif",
+    "vista": "salida/vista.png",
+    "crs": "EPSG:3857",
+    "ancho": 1640,
+    "alto": 1102
+  },
+  "limites": [
+    [
+      -13.862683,
+      52.873831
+    ],
+    [
+      46.237569,
+      52.873831
+    ],
+    [
+      46.237569,
+      21.608814
+    ],
+    [
+      -13.862683,
+      21.608814
+    ]
+  ],
+  "error_medio_km": 18.45,
+  "error_max_km": 42.81,
+  "error_metodo": "validación cruzada dejando un GCP fuera"
+}

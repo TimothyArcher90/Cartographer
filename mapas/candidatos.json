@@ -1,0 +1,33 @@
+{
+  "_nota": "Mapas antiguos propuestos para la primera entrega. NINGUNO se ha descargado ni verificado: el entorno de desarrollo no tenía acceso a Wikimedia Commons, LoC, David Rumsey ni Gallica. Antes de usar uno: localizar el archivo concreto, copiar URL, autor, año y licencia desde su página, y crear mapas/<id>/ficha.json.",
+  "candidatos": [
+    {
+      "id": "portulano-dulcert-1339",
+      "titulo": "Portulano de Angelino Dulcert",
+      "anio_aproximado": 1339,
+      "tipo": "portulano mediterráneo",
+      "donde_buscar": ["Gallica (BnF)", "Wikimedia Commons"],
+      "licencia": "sin verificar",
+      "modo_previsto": "superpuesto",
+      "notas": "Los portulanos suelen tener costas mediterráneas bastante fieles, por lo que se espera poder georreferenciarlo con TPS. Sin verificar."
+    },
+    {
+      "id": "ortelius-typus-orbis-1570",
+      "titulo": "Abraham Ortelius, «Typus Orbis Terrarum»",
+      "anio_aproximado": 1570,
+      "tipo": "mapamundi del siglo XVI",
+      "donde_buscar": ["Library of Congress", "Wikimedia Commons"],
+      "licencia": "sin verificar",
+      "modo_previsto": "superpuesto (solo región Europa-Mediterráneo)",
+      "notas": "Proyección oval: georreferenciar solo un recorte regional con muchos GCP. Sin verificar."
+    },
+    {
+      "id": "mapa-t-o",
+      "titulo": "Mapa T-O medieval (por elegir)",
+      "tipo": "esquemático",
+      "licencia": "sin verificar",
+      "modo_previsto": "decorativo",
+      "notas": "No es georreferenciable: usar como imagen decorativa con transición, no encima del mapa real."
+    }
+  ]
+}

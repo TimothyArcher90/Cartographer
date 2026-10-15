@@ -1,0 +1,13 @@
+{
+  "_nota": "Épocas que se procesan. 'anio_fuente' debe existir en fuentes/fuentes.json -> anios_disponibles_historical_basemaps. Años negativos = antes de Cristo.",
+  "epocas": [
+    {
+      "id": "anio-0100",
+      "anio_fuente": 100,
+      "titulo": "Imperio romano, hacia el año 100",
+      "nota": "Se pidió el año 117 (máxima extensión del Imperio romano). historical-basemaps NO tiene 117; los más cercanos son 100 y 200. Se usa 100. No se debe rotular como 117."
+    },
+    { "id": "anio-1000", "anio_fuente": 1000, "titulo": "El mundo hacia el año 1000" },
+    { "id": "anio-1492", "anio_fuente": 1492, "titulo": "El mundo en 1492" }
+  ]
+}

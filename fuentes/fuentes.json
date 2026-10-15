@@ -1,0 +1,82 @@
+{
+  "_nota": "Registro de fuentes. 'estado' indica si la licencia se ha comprobado en el repositorio u origen real. Nada con estado distinto de 'verificada' se usa en vídeo.",
+  "fuentes": [
+    {
+      "id": "historical-basemaps",
+      "tipo": "fronteras",
+      "nombre": "historical-basemaps (aourednik)",
+      "url": "https://github.com/aourednik/historical-basemaps",
+      "url_descarga": "https://raw.githubusercontent.com/aourednik/historical-basemaps/{commit}/geojson/world_{anio}.geojson",
+      "commit": "da7a4b735ecef70aebdc9c73e409d8a2500d50f3",
+      "licencia": "GPL-3.0",
+      "archivo_licencia": "fuentes/historical-basemaps.LICENSE.txt",
+      "estado": "verificada",
+      "verificado_el": "2026-10-15",
+      "notas": "Licencia comprobada en el archivo LICENSE del repositorio. El campo BORDERPRECISION (1 aproximada, 2 moderada, 3 derecho internacional) viene en cada polígono. Años disponibles verificados en geojson/ (ver anios_disponibles)."
+    },
+    {
+      "id": "pleiades",
+      "tipo": "lugares",
+      "nombre": "Pleiades (lugares antiguos)",
+      "url": "https://pleiades.stoa.org",
+      "licencia": "sin verificar",
+      "estado": "sin verificar",
+      "notas": "Creo que su contenido se publica con CC BY 3.0, pero NO se ha podido comprobar: el dominio está bloqueado en el entorno de desarrollo. Verificar antes de usar."
+    },
+    {
+      "id": "dare",
+      "tipo": "lugares y teselas",
+      "nombre": "DARE – Digital Atlas of the Roman Empire",
+      "url": "https://dh.gu.se/dare/",
+      "licencia": "sin verificar",
+      "estado": "sin verificar",
+      "notas": "URL y licencia sin comprobar (dominio bloqueado en el entorno de desarrollo)."
+    },
+    {
+      "id": "wikimedia-commons",
+      "tipo": "imágenes de mapas",
+      "nombre": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org",
+      "licencia": "por imagen",
+      "estado": "sin verificar",
+      "notas": "La licencia se comprueba imagen a imagen en su página de archivo. Dominio bloqueado en el entorno de desarrollo."
+    },
+    {
+      "id": "loc",
+      "tipo": "imágenes de mapas",
+      "nombre": "Library of Congress – Geography and Map Division",
+      "url": "https://www.loc.gov/maps/",
+      "licencia": "por imagen",
+      "estado": "sin verificar",
+      "notas": "Revisar el apartado 'Rights & Access' de cada registro."
+    },
+    {
+      "id": "david-rumsey",
+      "tipo": "imágenes de mapas",
+      "nombre": "David Rumsey Map Collection",
+      "url": "https://www.davidrumsey.com",
+      "licencia": "por imagen",
+      "estado": "sin verificar",
+      "notas": "Creo que usa CC BY-NC-SA para muchas imágenes, lo que NO permitiría uso comercial. Verificar por imagen."
+    },
+    {
+      "id": "gallica",
+      "tipo": "imágenes de mapas",
+      "nombre": "Gallica (BnF)",
+      "url": "https://gallica.bnf.fr",
+      "licencia": "por imagen",
+      "estado": "sin verificar",
+      "notas": "Creo que el uso comercial puede requerir condiciones propias de la BnF. Verificar las condiciones vigentes."
+    },
+    {
+      "id": "allmaps",
+      "tipo": "herramienta",
+      "nombre": "Allmaps (georreferenciación IIIF)",
+      "url": "https://allmaps.org",
+      "licencia": "sin verificar",
+      "estado": "sin verificar",
+      "notas": "Existencia y estado sin comprobar desde este entorno."
+    }
+  ],
+  "anios_disponibles_historical_basemaps": [-123000, -10000, -8000, -5000, -4000, -3000, -2000, -1500, -1000, -700, -500, -400, -323, -300, -200, -100, -1, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1279, 1300, 1400, 1492, 1500, 1530, 1600, 1650, 1700, 1715, 1783, 1800, 1815, 1878, 1880, 1900, 1914, 1920, 1930, 1938, 1945, 1960, 1994, 2000, 2010]
+}

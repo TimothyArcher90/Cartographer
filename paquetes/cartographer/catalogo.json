@@ -1,0 +1,90 @@
+{
+  "formato": "cartographer-paquete",
+  "version_formato": 1,
+  "aviso_fronteras": "Fronteras aproximadas",
+  "epocas": [
+    {
+      "id": "anio-0100",
+      "anio": 100,
+      "titulo": "Imperio romano, hacia el año 100",
+      "nota": "Se pidió el año 117 (máxima extensión del Imperio romano). historical-basemaps NO tiene 117; los más cercanos son 100 y 200. Se usa 100. No se debe rotular como 117.",
+      "archivo": "epocas/anio-0100.geojson",
+      "entidades": 85,
+      "aviso": "Fronteras aproximadas",
+      "fuente": {
+        "id": "historical-basemaps",
+        "nombre": "historical-basemaps (aourednik)",
+        "url": "https://github.com/aourednik/historical-basemaps",
+        "commit": "da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+      },
+      "licencia": "GPL-3.0"
+    },
+    {
+      "id": "anio-1000",
+      "anio": 1000,
+      "titulo": "El mundo hacia el año 1000",
+      "nota": null,
+      "archivo": "epocas/anio-1000.geojson",
+      "entidades": 132,
+      "aviso": "Fronteras aproximadas",
+      "fuente": {
+        "id": "historical-basemaps",
+        "nombre": "historical-basemaps (aourednik)",
+        "url": "https://github.com/aourednik/historical-basemaps",
+        "commit": "da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+      },
+      "licencia": "GPL-3.0"
+    },
+    {
+      "id": "anio-1492",
+      "anio": 1492,
+      "titulo": "El mundo en 1492",
+      "nota": null,
+      "archivo": "epocas/anio-1492.geojson",
+      "entidades": 1317,
+      "aviso": "Fronteras aproximadas",
+      "fuente": {
+        "id": "historical-basemaps",
+        "nombre": "historical-basemaps (aourednik)",
+        "url": "https://github.com/aourednik/historical-basemaps",
+        "commit": "da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+      },
+      "licencia": "GPL-3.0"
+    }
+  ],
+  "mapas": [
+    {
+      "id": "prueba-sintetica",
+      "titulo": "Prueba sintética de georreferenciación (NO es un mapa histórico)",
+      "autor": "Cartographer (generado)",
+      "anio": null,
+      "imagen": "mapas/prueba-sintetica.png",
+      "esquinas": [
+        [
+          -13.862683,
+          52.873831
+        ],
+        [
+          46.237569,
+          52.873831
+        ],
+        [
+          46.237569,
+          21.608814
+        ],
+        [
+          -13.862683,
+          21.608814
+        ]
+      ],
+      "esquinas_orden": "noroeste, noreste, sureste, suroeste (lon, lat)",
+      "error_medio_km": 18.45,
+      "modo": "superpuesto",
+      "licencia": "GPL-3.0",
+      "licencia_verificada": true,
+      "uso_en_video": "no",
+      "url": null,
+      "calidad": "prueba"
+    }
+  ]
+}

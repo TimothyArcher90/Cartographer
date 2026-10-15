@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cartographer · Visor</title>
+<link rel="stylesheet" href="vendor/maplibre-gl.css">
+<style>
+  :root { --fondo:#1b2a33; --panel:rgba(20,28,34,.92); --texto:#efe6d2; --acento:#d9a441; }
+  html,body { margin:0; height:100%; background:var(--fondo); color:var(--texto);
+    font-family: Georgia, "Times New Roman", serif; }
+  #mapa { position:absolute; inset:0; }
+  #panel { position:absolute; top:12px; left:12px; z-index:2; background:var(--panel);
+    padding:12px 14px; border-radius:8px; width:min(300px, calc(100vw - 48px)); font-size:14px; }
+  #panel h1 { font-size:17px; margin:0 0 8px; color:var(--acento); }
+  label { display:block; margin:10px 0 4px; }
+  select, input[type=range] { width:100%; }
+  #info { margin-top:10px; font-size:12px; opacity:.85; line-height:1.4; }
+  #aviso { position:absolute; bottom:18px; left:50%; transform:translateX(-50%); z-index:2;
+    background:var(--panel); padding:6px 14px; border-radius:16px; font-style:italic; font-size:14px; }
+</style>
+</head>
+<body>
+<div id="mapa"></div>
+<div id="panel">
+  <h1>Cartographer</h1>
+  <label for="epoca">Época</label>
+  <select id="epoca"></select>
+  <label for="mapaAntiguo">Mapa antiguo encima</label>
+  <select id="mapaAntiguo"><option value="">(ninguno)</option></select>
+  <label for="opacidad">Opacidad del mapa antiguo: <span id="opVal">70</span> %</label>
+  <input id="opacidad" type="range" min="0" max="100" value="70">
+  <div id="info"></div>
+</div>
+<div id="aviso">Fronteras aproximadas</div>
+<script src="vendor/maplibre-gl.js"></script>
+<script>
+const BASE = '../paquetes/cartographer/';
+const params = new URLSearchParams(location.search);
+const colores = ['#b5654a','#7d8f5a','#c29b4e','#7b6a96','#5f8798','#a8576f','#8c7a4b','#5d7d64'];
+
+function colorPorNombre(n) {
+  let h = 0; for (const c of n) h = (h * 31 + c.charCodeAt(0)) >>> 0;
+  return colores[h % colores.length];
+}
+
+const mapa = new maplibregl.Map({
+  container: 'mapa',
+  style: { version: 8, sources: {}, layers: [
+    { id: 'mar', type: 'background', paint: { 'background-color': '#9fb7bd' } } ] },
+  center: [params.has('lon') ? +params.get('lon') : 15, params.has('lat') ? +params.get('lat') : 40],
+  zoom: params.has('z') ? +params.get('z') : 3.2,
+  preserveDrawingBuffer: true,
+  attributionControl: { compact: false, customAttribution: 'historical-basemaps (GPL-3.0) · MapLibre' }
+});
+
+let catalogo;
+
+async function iniciar() {
+  catalogo = await (await fetch(BASE + 'catalogo.json')).json();
+  const selE = document.getElementById('epoca');
+  for (const e of catalogo.epocas) selE.add(new Option(`${e.titulo}`, e.id));
+  const selM = document.getElementById('mapaAntiguo');
+  for (const m of catalogo.mapas) selM.add(new Option(m.titulo, m.id));
+  if (params.get('epoca')) selE.value = params.get('epoca');
+  if (params.has('mapa')) selM.value = params.get('mapa');
+  if (params.has('opacidad')) document.getElementById('opacidad').value = params.get('opacidad');
+
+  mapa.addSource('actual', { type: 'geojson', data: 'datos/actual.geojson' });
+  mapa.addLayer({ id: 'actual-relleno', type: 'fill', source: 'actual',
+    paint: { 'fill-color': '#e8dcc0' } });
+  mapa.addLayer({ id: 'actual-linea', type: 'line', source: 'actual',
+    paint: { 'line-color': '#a99a7a', 'line-width': 0.5 } });
+
+  selE.onchange = ponerEpoca; selM.onchange = ponerMapa;
+  document.getElementById('opacidad').oninput = ponerOpacidad;
+  await ponerEpoca(); ponerMapa();
+}
+
+async function ponerEpoca() {
+  const e = catalogo.epocas.find(x => x.id === document.getElementById('epoca').value);
+  const datos = await (await fetch(BASE + e.archivo)).json();
+  for (const f of datos.features) f.properties.color = colorPorNombre(f.properties.soberano || f.properties.nombre_original);
+  if (mapa.getSource('epoca')) mapa.getSource('epoca').setData(datos);
+  else {
+    mapa.addSource('epoca', { type: 'geojson', data: datos });
+    mapa.addLayer({ id: 'epoca-relleno', type: 'fill', source: 'epoca',
+      paint: { 'fill-color': ['get', 'color'],
+               'fill-opacity': ['match', ['get', 'precision'], 1, 0.45, 2, 0.6, 0.7] } }, mapa.getLayer('antiguo') ? 'antiguo' : undefined);
+    // Frontera aproximada (precision 1 o desconocida) en discontinua; el resto, continua.
+    mapa.addLayer({ id: 'epoca-linea', type: 'line', source: 'epoca',
+      filter: ['>=', ['coalesce', ['get', 'precision'], 1], 2],
+      paint: { 'line-color': '#3a2c1e', 'line-width': 0.8 } });
+    mapa.addLayer({ id: 'epoca-linea-aprox', type: 'line', source: 'epoca',
+      filter: ['<', ['coalesce', ['get', 'precision'], 1], 2],
+      paint: { 'line-color': '#3a2c1e', 'line-width': 0.8, 'line-dasharray': [2, 2] } });
+  }
+  document.getElementById('info').innerHTML =
+    `<b>${e.titulo}</b><br>${e.entidades} entidades · año de la fuente: ${e.anio}<br>` +
+    (e.nota ? `<i>${e.nota}</i><br>` : '') +
+    `Fuente: ${e.fuente.nombre} (${e.licencia})<br>Línea discontinua = frontera aproximada`;
+  marcarListo();
+}
+
+function ponerMapa() {
+  const id = document.getElementById('mapaAntiguo').value;
+  if (mapa.getLayer('antiguo')) mapa.removeLayer('antiguo');
+  if (mapa.getSource('antiguo')) mapa.removeSource('antiguo');
+  if (!id) return marcarListo();
+  const m = catalogo.mapas.find(x => x.id === id);
+  mapa.addSource('antiguo', { type: 'image', url: BASE + m.imagen, coordinates: m.esquinas });
+  mapa.addLayer({ id: 'antiguo', type: 'raster', source: 'antiguo',
+    paint: { 'raster-opacity': document.getElementById('opacidad').value / 100, 'raster-fade-duration': 0 } });
+  document.getElementById('info').insertAdjacentHTML('beforeend',
+    `<hr>Mapa: <b>${m.titulo}</b><br>Error medio: ${m.error_medio_km} km · Licencia: ${m.licencia}` +
+    (m.uso_en_video === 'no' ? '<br><b>No apto para vídeo</b>' : ''));
+  marcarListo();
+}
+
+function ponerOpacidad() {
+  const v = document.getElementById('opacidad').value;
+  document.getElementById('opVal').textContent = v;
+  if (mapa.getLayer('antiguo')) mapa.setPaintProperty('antiguo', 'raster-opacity', v / 100);
+}
+
+function marcarListo() {
+  mapa.once('idle', () => { document.body.dataset.listo = '1'; });
+  mapa.triggerRepaint();
+}
+
+document.getElementById('opVal').textContent = params.get('opacidad') || 70;
+mapa.on('load', iniciar);
+</script>
+</body>
+</html>
