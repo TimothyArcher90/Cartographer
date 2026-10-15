@@ -197,6 +197,12 @@ def main():
                         if via == "nombre" or iso not in asign:
                             asign[iso] = via
                 b = r.get("bbox")
+                # Sin coordenadas, un nombre histórico de otro país no se acepta si el mapa nombra
+                # explícitamente un país (p. ej. "Magdalena, New Mexico" no es Colombia).
+                if (not b or None in b) and any(v == "nombre" for v in asign.values()):
+                    for iso in [i for i, v in asign.items() if v == "historico"]:
+                        del asign[iso]
+                        descartes["histórico descartado por nombre explícito de otro país"] += 1
                 esc = escala(b)
                 if b and None not in b and esc != "mundo":
                     o, s, e, n = b

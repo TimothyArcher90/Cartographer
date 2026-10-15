@@ -28,6 +28,27 @@ RE_NO_MAPA = re.compile(r"(?i)postcard|carte postale|cartes postales|ansichtskar
 FUENTES_GENERALISTAS = {"europeana", "ia"}
 
 
+# Allmaps: imágenes de instituciones cuya licencia NO permite uso comercial.
+ALLMAPS_EXCLUIR = ("davidrumsey.com", "gallica.bnf.fr")
+INSTITUCIONES = {"iiif.nypl.org": "New York Public Library", "iiif.digitalcommonwealth.org": "Leventhal Map Center / Digital Commonwealth",
+                 "iiif-server.lib.uchicago.edu": "University of Chicago", "map-view.nls.uk": "National Library of Scotland",
+                 "iiif.lib.utexas.edu": "University of Texas", "rosetta.slv.vic.gov.au": "State Library Victoria",
+                 "images.uba.uva.nl": "Universiteit van Amsterdam", "objects.library.uu.nl": "Universiteit Utrecht",
+                 "iiif.archive.org": "Internet Archive", "iiif.universiteitleiden.nl": "Universiteit Leiden",
+                 "tile.loc.gov": "Library of Congress", "stacks.stanford.edu": "Stanford University"}
+RE_CLAVES = re.compile(r"(commonwealth(?:-oai)?:[a-z0-9]+)|stacks\.stanford\.edu/image/iiif/([a-z]{2}\d{3}[a-z]{2}\d{4})")
+
+
+def claves(texto):
+    out = []
+    for a, b in RE_CLAVES.findall(texto or ""):
+        if a:
+            out.append(a.replace("commonwealth-oai:", "commonwealth:"))
+        if b:
+            out.append("stanford-" + b)
+    return out
+
+
 def siglo_de_anio(a):
     return (a - 1) // 100 + 1 if a and a > 0 else None
 
@@ -57,6 +78,32 @@ def main():
                 else:
                     r["cats"] = [r.pop("cat")] if r.get("cat") else []
                     mapas[clave] = r
+    # Fusionar Allmaps con la ficha del mismo mapa en otra fuente (gana título/año; suma georreferencia).
+    por_clave = {}
+    for k, r in mapas.items():
+        if r["fuente"] != "allmaps":
+            for c in claves(" ".join(str(x) for x in (r.get("id"), r.get("iiif"), r.get("url"), r.get("th")) if x)):
+                por_clave[c] = k
+    fusionados = excluidos = 0
+    for k in [k for k, r in mapas.items() if r["fuente"] == "allmaps"]:
+        r = mapas[k]
+        dominio = (r.get("iiif") or "").split("/")[2] if "//" in (r.get("iiif") or "") else ""
+        if any(x in dominio for x in ALLMAPS_EXCLUIR):
+            del mapas[k]
+            excluidos += 1
+            continue
+        destino = next((por_clave[c] for c in claves(r.get("iiif")) if c in por_clave), None)
+        if destino:
+            d = mapas[destino]
+            d["bbox"] = r.get("bbox") or d.get("bbox")
+            d["georreferenciado"] = r.get("url")
+            del mapas[k]
+            fusionados += 1
+        else:
+            r["proveedor"] = INSTITUCIONES.get(dominio, dominio)
+            r["t"] = f"Mapa georreferenciado en Allmaps · {r['proveedor']}"
+            r["georreferenciado"] = r.get("url")
+    print(f"Allmaps: {fusionados} fusionados con su ficha, {excluidos} excluidos por licencia no comercial")
     salida = DIR / "indice"
     salida.mkdir(parents=True, exist_ok=True)
     lugares, siglos, licencias, fuentes = Counter(), Counter(), Counter(), Counter()
