@@ -511,9 +511,25 @@ def proveedores(s, fin):
     i = s.e.setdefault("i", 0)
     cursor = s.e.get("cursor", "*")
     while time.time() < fin and i < len(PROVEEDORES):
-        p = [("wskey", "api2demo"), ("query", "*"), ("qf", f'DATA_PROVIDER:"{PROVEEDORES[i]}"'), ("qf", "TYPE:IMAGE"),
-             ("reusability", "open"), ("rows", "100"), ("profile", "rich"), ("cursor", cursor)]
+        variantes = [("query", "*"), ("qf", f'DATA_PROVIDER:"{PROVEEDORES[i]}"')], \
+                    [("query", f'DATA_PROVIDER:"{PROVEEDORES[i]}"')], \
+                    [("query", f'provider_aggregation_edm_dataProvider:"{PROVEEDORES[i]}"')], \
+                    [("query", f'"{PROVEEDORES[i]}" AND (mapa OR plano OR carta OR atlas OR map)')]
+        if "variante" not in s.e:
+            s.e["variante"] = 0
+            for k, v in enumerate(variantes):
+                prueba = pedir_json("https://api.europeana.eu/record/v2/search.json?" + urllib.parse.urlencode(
+                    [("wskey", "api2demo"), ("qf", "TYPE:IMAGE"), ("rows", "1")] + v))
+                total = (prueba or {}).get("totalResults", 0)
+                print("Europeana", PROVEEDORES[i], "variante", k, v, "→", total)
+                if total:
+                    s.e["variante"] = k
+                    break
+        p = [("wskey", "api2demo"), ("qf", "TYPE:IMAGE"), ("reusability", "open"), ("rows", "100"),
+             ("profile", "rich"), ("cursor", cursor)] + variantes[s.e["variante"]]
         d = pedir_json("https://api.europeana.eu/record/v2/search.json?" + urllib.parse.urlencode(p))
+        if d is not None and cursor == "*":
+            print("Europeana", PROVEEDORES[i], "resultados abiertos:", d.get("totalResults"))
         if d is None:
             break
         for r in d.get("items", []):
@@ -538,6 +554,7 @@ def proveedores(s, fin):
             print("Proveedor terminado:", PROVEEDORES[i], "guardados", s.e["guardados"])
             i += 1
             cursor = "*"
+            s.e.pop("variante", None)
         s.e["i"], s.e["cursor"] = i, cursor
         time.sleep(0.5)
     s.e["terminado"] = i >= len(PROVEEDORES)
