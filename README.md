@@ -66,7 +66,22 @@ antiguos de licencia libre de varios acervos, que se rastrea solo en GitHub Acti
 python scripts/buscar_lugar.py "Turquía"                  # todos los siglos
 python scripts/buscar_lugar.py "Turquía" --siglo 16
 python scripts/buscar_lugar.py "Imperio otomano" --desde 1500 --hasta 1700
+python scripts/buscar_lugar.py "Antioquia"                # provincia, estado o región
+python scripts/buscar_lugar.py "Colombia" --tipo portulano --relevancia 0.3
 ```
+
+### Cómo «entiende» Cartographer cada mapa (`scripts/comprender.py`)
+
+| Pregunta | Cómo se responde |
+|---|---|
+| ¿De qué país es? | Nombre actual (25+ idiomas, Natural Earth), nombre histórico (`catalogo/nombres_historicos.json`) o coordenadas. Un nombre se descarta si el mapa trae coordenadas y el país no cae en ellas (evita homónimos como «Smyrna, Delaware»). |
+| ¿De qué región? | 4 596 provincias/estados (Natural Earth admin-1), por nombre o por coordenadas. |
+| ¿Qué tipo es? | Portulano, carta náutica, ptolemaico, mapamundi, plano urbano, topográfico, militar, viario, histórico/temático, general. |
+| ¿Qué escala? | Mundo, continente, región o país, provincia, local o ciudad (por la cobertura). |
+| ¿Cuánto importa ese país en el mapa? | `relevancia`: 1 si el mapa lo nombra; si no, la fracción del mapa que ocupa. |
+
+Resultado: `catalogo/biblioteca/` (un archivo por país, ordenado por año), `regiones.json` y el documento
+`BIBLIOTECA.md` con todos los países y cifras por siglo.
 
 Amplía la consulta con `catalogo/alias_es.json` (Turquía → Turkey, Anatolia, Asia Minor, Natolia,
 Ottoman Empire, Constantinople…) y, para los mapas con coordenadas, también busca por cobertura
