@@ -1,7 +1,7 @@
 {
  "mapas_analizados": 207288,
- "con_pais": 192604,
- "sin_pais": 14684,
+ "con_pais": 192639,
+ "sin_pais": 14649,
  "paises_con_mapas": 217,
  "por_tipo": {
   "topográfico": 188310,
@@ -24,6 +24,7 @@
   "mundo": 1073
  },
  "descartes": {
-  "nombre fuera de la cobertura del mapa": 6639
+  "nombre fuera de la cobertura del mapa": 6339,
+  "coordenadas con signo corregido": 298
  }
 }

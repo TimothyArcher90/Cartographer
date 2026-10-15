@@ -147,6 +147,7 @@ def main():
                 texto = " ".join([r.get("t") or ""] + [str(x) for x in (r.get("lugares") or [])]
                                  + [str(x) for x in (r.get("cats") or [])])
                 asign, peso = {}, {}
+                corregido = False
                 for m in patron.finditer(norm(texto)):
                     for iso, via in terminos[m.group(1)]:
                         if via == "nombre" or iso not in asign:
@@ -159,6 +160,20 @@ def main():
                     # 1) Validar los países nombrados: deben caer dentro de la cobertura (margen 2°).
                     margen = caja.buffer(2)
                     cerca = {codigos[i] for i in arbol.query(margen) if geoms[i].intersects(margen)}
+                    # 1b) Coordenadas con el signo cambiado en la fuente (p. ej. latitud sur en vez de norte):
+                    #     si ningún país nombrado cae en la cobertura pero sí en la cobertura con el signo
+                    #     invertido, se corrige la caja y se anota.
+                    if asign and not (set(asign) & cerca):
+                        for fo, fs in ((1, -1), (-1, 1), (-1, -1)):
+                            c2 = box(min(fo * o, fo * e), min(fs * s, fs * n), max(fo * o, fo * e), max(fs * s, fs * n))
+                            m2 = c2.buffer(2)
+                            cerca2 = {codigos[i] for i in arbol.query(m2) if geoms[i].intersects(m2)}
+                            if set(asign) & cerca2:
+                                caja, margen, cerca = c2, m2, cerca2
+                                b = [round(c2.bounds[0], 4), round(c2.bounds[1], 4), round(c2.bounds[2], 4), round(c2.bounds[3], 4)]
+                                corregido = True
+                                descartes["coordenadas con signo corregido"] += 1
+                                break
                     for iso in list(asign):
                         if iso not in cerca:
                             del asign[iso]
@@ -189,6 +204,8 @@ def main():
                 fila = {"t": r.get("t"), "anio": anio, "siglos": r.get("siglos"), "tipo": tipo, "escala": esc,
                         "fuente": r.get("fuente"), "url": r.get("url"), "th": r.get("th"), "iiif": r.get("iiif"),
                         "lic": r.get("lic"), "autor": r.get("autor"), "bbox": b, "paises": sorted(asign)}
+                if corregido:
+                    fila["bbox_corregido"] = True
                 for iso, via in asign.items():
                     # relevancia: nombrado en el mapa = 1; por coordenadas = parte del mapa que ocupa el país
                     por_pais[iso].append(dict(fila, via=via, relevancia=peso.get(iso, 1.0)))

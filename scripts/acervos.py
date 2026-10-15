@@ -280,7 +280,140 @@ def europeana(s, fin):
         s.e["terminado"] = True
 
 
-FUENTES = {"ogm": ogm, "loc": loc, "ia": ia, "europeana": europeana}
+
+# ---------------------------------------------------------------- Digital Commonwealth (incluye el Leventhal Map Center)
+def dc(s, fin):
+    pagina = s.e.setdefault("pagina", 1)
+    while time.time() < fin:
+        url = ("https://www.digitalcommonwealth.org/search.json?" + urllib.parse.urlencode(
+            [("f[genre_basic_ssim][]", "Maps"), ("per_page", "100"), ("page", str(pagina))]))
+        d = pedir_json(url)
+        if not d:
+            break
+        docs = (d.get("response") or {}).get("docs") or d.get("data") or []
+        if not docs:
+            s.e["terminado"] = True
+            break
+        for r in docs:
+            a = r.get("attributes", r)
+            val = lambda k: (a.get(k) or {}).get("attributes", {}).get("value") if isinstance(a.get(k), dict) else a.get(k)
+            derechos = " ".join(lista(val("rights_ss")) + lista(val("license_ss")) + lista(val("rightsstatement_ss")))
+            fecha = " ".join(lista(val("date_tsim") or val("date_start_dtsi") or val("date_facet_yearly_itim")))
+            anio = anio_de(fecha, val("title_info_primary_tsi"))
+            restringido = re.search(r"(?i)by-nc|non-?commercial|by-nd|all rights reserved|in copyright", derechos)
+            lic = libre(derechos) or (None if restringido else por_antiguedad(anio))
+            if not lic:
+                s.e["descartados"] += 1
+                continue
+            ident = r.get("id")
+            lugares = lista(val("subject_geographic_sim") or val("subject_geo_city_sim") or val("subject_geo_country_sim"))
+            coords = val("subject_coordinates_geospatial") or val("subject_bbox_geospatial")
+            s.poner({
+                "id": ident, "t": " ".join(lista(val("title_info_primary_tsi")))[:300],
+                "url": f"https://www.digitalcommonwealth.org/search/{ident}",
+                "th": f"https://www.digitalcommonwealth.org/search/{ident}/thumbnail",
+                "iiif": f"https://www.digitalcommonwealth.org/search/{ident}/manifest.json",
+                "lic": lic, "autor": "; ".join(lista(val("name_tsim")))[:150], "fecha": fecha[:40], "anio": anio,
+                "lugares": lugares[:12], "bbox": bbox_envelope(" ".join(lista(coords))) if coords else None,
+                "proveedor": " ".join(lista(val("institution_name_ssi"))),
+            })
+        pagina += 1
+        s.e["pagina"] = pagina
+        if pagina == 2:
+            print("ejemplo de registro DC:", json.dumps(docs[0])[:1500])
+        time.sleep(1)
+
+
+# ---------------------------------------------------------------- Biblioteca Nacional de España (datos.gob.es)
+def bne(s, fin):
+    """Conjunto 'Biblioteca Digital. Tipo de material: Material cartográfico' de datos.gob.es.
+    Las obras en dominio público de la BNE se reutilizan con CC BY 4.0 (citar a la BNE)."""
+    meta = pedir_json("https://datos.gob.es/apidata/catalog/dataset/ea0019768-biblioteca-digital-tipo-de-material-material-cartografico1.json")
+    print("metadatos datos.gob.es:", json.dumps(meta)[:2000] if meta else None)
+    urls = re.findall(r'https?://[^"\s]+?\.(?:csv|json|xml|zip)', json.dumps(meta or {}))
+    print("distribuciones:", urls)
+    import csv, io, zipfile
+    for url in urls:
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            datos = urllib.request.urlopen(req, timeout=300).read()
+        except Exception as e:
+            print("no se pudo descargar", url, e)
+            continue
+        if url.endswith(".zip"):
+            z = zipfile.ZipFile(io.BytesIO(datos))
+            nombre = next((n for n in z.namelist() if n.endswith(".csv")), None)
+            if not nombre:
+                continue
+            datos = z.read(nombre)
+        if not (url.endswith(".csv") or url.endswith(".zip")):
+            continue
+        texto = datos.decode("utf-8", "replace")
+        sep = ";" if texto[:2000].count(";") > texto[:2000].count(",") else ","
+        filas = list(csv.DictReader(io.StringIO(texto), delimiter=sep))
+        print("filas BNE:", len(filas), "columnas:", list(filas[0].keys()) if filas else None)
+        for f in filas:
+            g = {k.lower().strip(): (v or "").strip() for k, v in f.items() if k}
+            titulo = g.get("título") or g.get("titulo") or g.get("title") or ""
+            fecha = g.get("fecha") or g.get("fecha de publicación") or g.get("date") or ""
+            enlace = g.get("enlace") or g.get("url") or g.get("pid") or g.get("enlace a la biblioteca digital") or ""
+            s.poner({
+                "id": enlace or titulo, "t": titulo[:300], "url": enlace, "th": None, "iiif": None,
+                "lic": "CC BY 4.0 (obras de dominio público de la BNE; citar 'Biblioteca Nacional de España')",
+                "autor": (g.get("autor") or g.get("autores") or "")[:150], "fecha": fecha[:40],
+                "anio": anio_de(fecha, titulo),
+                "lugares": [x for x in re.split(r"[;|]", g.get("lugar") or g.get("materia geográfica") or g.get("tema geográfico") or "") if x][:12],
+                "bbox": None,
+            })
+        break
+    s.e["terminado"] = True
+
+
+# ---------------------------------------------------------------- Allmaps (mapas georreferenciados por la comunidad)
+def allmaps(s, fin):
+    candidatos = ["https://annotations.allmaps.org/maps.ndjson", "https://annotations.allmaps.org/maps.geojsonl",
+                  "https://annotations.allmaps.org/maps.json", "https://allmaps.org/data/maps.ndjson"]
+    for url in candidatos:
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            r = urllib.request.urlopen(req, timeout=600)
+        except Exception as e:
+            print("Allmaps: no disponible", url, e)
+            continue
+        print("Allmaps: usando", url)
+        n = 0
+        for linea in r:
+            try:
+                d = json.loads(linea)
+            except Exception:
+                continue
+            n += 1
+            if n <= 2:
+                print("ejemplo Allmaps:", json.dumps(d)[:1500])
+            props = d.get("properties", d)
+            geom = d.get("geometry") or props.get("geoMask") or props.get("geometry")
+            bbox = None
+            try:
+                from itertools import chain
+                cs = list(chain.from_iterable(geom["coordinates"][0:1]))
+                if cs and isinstance(cs[0], (list, tuple)):
+                    xs, ys = [c[0] for c in cs], [c[1] for c in cs]
+                    bbox = [min(xs), min(ys), max(xs), max(ys)]
+            except Exception:
+                pass
+            imagen = props.get("resourceId") or (props.get("resource") or {}).get("id")
+            s.poner({
+                "id": props.get("id") or imagen, "t": props.get("label") or props.get("title") or imagen or "",
+                "url": props.get("id"), "th": None, "iiif": imagen,
+                "lic": "Georreferencia CC0 (Allmaps); la imagen conserva la licencia de su institución (verificar)",
+                "autor": "", "fecha": "", "anio": None, "lugares": [], "bbox": bbox,
+                "proveedor": (imagen or "").split("/")[2] if imagen and "//" in imagen else None,
+            })
+        break
+    s.e["terminado"] = True
+
+
+FUENTES = {"ogm": ogm, "loc": loc, "ia": ia, "europeana": europeana, "dc": dc, "bne": bne, "allmaps": allmaps}
 
 
 def main():
