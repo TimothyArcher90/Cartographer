@@ -1,0 +1,37 @@
+name: Acervos (búsqueda y descarga de mapas históricos)
+
+# Este entorno de desarrollo no tiene acceso a los archivos de mapas; GitHub Actions sí.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - fuentes/commons/busquedas.json
+      - mapas/*/ficha.json
+      - scripts/buscar_commons.py
+      - scripts/descargar_mapas.py
+      - .github/workflows/acervos.yml
+
+permissions:
+  contents: write
+
+jobs:
+  acervos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Buscar en Wikimedia Commons
+        run: python scripts/buscar_commons.py
+      - name: Descargar imágenes de mapas con ficha
+        run: |
+          if [ -f scripts/descargar_mapas.py ]; then python scripts/descargar_mapas.py; fi
+      - name: Subir resultados
+        run: |
+          git config user.name "cartographer-bot"
+          git config user.email "cartographer-bot@users.noreply.github.com"
+          git add fuentes/commons mapas
+          git diff --cached --quiet || git commit -m "Acervos: resultados de búsqueda y descargas [skip ci]"
+          git push

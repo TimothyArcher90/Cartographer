@@ -1,0 +1,28 @@
+{
+  "_nota": "Términos que el flujo de GitHub Actions busca en Wikimedia Commons (espacio de archivos). Los resultados, con la licencia tal como la publica Commons, se guardan en fuentes/commons/resultados.json.",
+  "busquedas": [
+    "Ortelius Typus Orbis Terrarum 1570",
+    "Ortelius Hispaniae nova descriptio",
+    "Ortelius Italiae novissima descriptio",
+    "Ortelius Romani Imperii imago",
+    "portolan chart Mediterranean",
+    "Carta Pisana",
+    "Angelino Dulcert portolan 1339",
+    "Catalan Atlas 1375",
+    "Tabula Peutingeriana",
+    "Ptolemy Cosmographia Ulm 1482 world map",
+    "Waldseemuller map 1507",
+    "Mercator Europa 1554",
+    "Juan de la Cosa map 1500",
+    "Piri Reis map 1513",
+    "Hereford Mappa Mundi",
+    "Ebstorf map",
+    "T and O map Isidore",
+    "al-Idrisi Tabula Rogeriana",
+    "Fra Mauro map",
+    "Blaeu Nova totius terrarum orbis",
+    "Mercator Hondius Mediterranean",
+    "Ortelius Graecia Sophiani",
+    "Ortelius Turcici imperii descriptio"
+  ]
+}
