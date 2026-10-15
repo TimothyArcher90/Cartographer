@@ -39,6 +39,36 @@ Los errores (validación cruzada dejando un punto fuera) reflejan sobre todo la 
 
 **Cómo llegan las imágenes:** el flujo `.github/workflows/acervos.yml` corre en GitHub Actions, busca en Commons (`scripts/buscar_commons.py`) y descarga los mapas con ficha (`scripts/descargar_mapas.py`). Solo baja la imagen si la licencia oficial permite uso comercial, y guarda en la ficha (campo `commons`) la licencia, autor, fecha y crédito literales.
 
+## Catálogo de todos los mapas libres
+
+Además de los mapas ya procesados (`mapas/`), Cartographer mantiene un **catálogo masivo** de mapas
+antiguos de licencia libre de varios acervos, que se rastrea solo en GitHub Actions:
+
+| Fuente | Qué aporta | Cómo se decide si es libre |
+|---|---|---|
+| Wikimedia Commons (`scripts/catalogar_commons.py`) | Árbol de categorías «Old maps», portulanos, Ptolomeo, mappae mundi… con lugar y siglo deducidos de las categorías | Licencia oficial de cada archivo; se descartan NC/ND |
+| OpenGeoMetadata (`scripts/acervos.py ogm`) | Catálogos de mapas escaneados de muchas bibliotecas universitarias (Stanford, Princeton, Harvard…), **con coordenadas de cobertura** e IIIF | Licencia o derechos declarados; o anterior a 1900 sin restricciones (inferido) |
+| Library of Congress (`acervos.py loc`) | Colección de mapas de la LoC | La LoC indica que, en general, no conoce restricciones; **comprobar el registro** |
+| Internet Archive (`acervos.py ia`) | Mapas y atlas escaneados | Licencia declarada; o anterior a 1900 sin restricciones (inferido) |
+| Europeana (`acervos.py europeana`) | Agregador de archivos europeos | Filtro oficial «reutilización abierta» + declaración de derechos |
+
+- Resultado: `catalogo/indice/` → `mapas-NNN.jsonl.gz` (un mapa por línea), `lugares.json` y `resumen.json` (totales por fuente, siglo y licencia).
+- Las imágenes **no** se guardan en el repositorio (serían terabytes): cada registro tiene enlace, miniatura e IIIF cuando existe. Para usar un mapa en vídeo se crea su ficha en `mapas/` y se descarga.
+- Las licencias marcadas «inferido, verificar» deben revisarse en el registro original antes de publicar.
+- Lanzar: Actions → «Catálogo de mapas libres» (todas) o «Catálogo (una fuente)». Se relanzan solos hasta terminar.
+
+### Buscar mapas de un lugar
+
+```bash
+python scripts/buscar_lugar.py "Turquía"                  # todos los siglos
+python scripts/buscar_lugar.py "Turquía" --siglo 16
+python scripts/buscar_lugar.py "Imperio otomano" --desde 1500 --hasta 1700
+```
+
+Amplía la consulta con `catalogo/alias_es.json` (Turquía → Turkey, Anatolia, Asia Minor, Natolia,
+Ottoman Empire, Constantinople…) y, para los mapas con coordenadas, también busca por cobertura
+geográfica. Genera `salidas/busquedas/<lugar>.html` (galería) y `.json`.
+
 ## Instalación
 
 Requisitos: Python 3.10+ y Node 18+ (Node solo para las capturas).
