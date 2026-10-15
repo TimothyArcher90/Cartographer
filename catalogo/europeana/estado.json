@@ -1,8 +1,10 @@
 {
- "parte": 11,
- "en_parte": 13100,
- "guardados": 233100,
+ "parte": 16,
+ "en_parte": 11286,
+ "guardados": 331286,
  "descartados": 0,
- "terminado": false,
- "cursor": "AoRBQ3vO6KPrlAM/Jy8xMjIvaHR0cHNfX193d3dfc2VhcmNoY3VsdHVyZV9ncl9hZ2dyZWdhdG9yX2VkbV9FTElBXzAwMDEwMF8yNV80ODUwMDc="
+ "terminado": true,
+ "cursor": null,
+ "consulta": "title:(map OR maps OR mapa OR mapas OR mappa OR carte OR karte OR landkarte OR kaart OR atlas OR plan OR plano OR pianta OR stadtplan OR plattegrond OR chart OR portolan OR messtischblatt OR mappemonde OR planisphere)",
+ "no_mapa": 7236
 }
