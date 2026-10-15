@@ -5,18 +5,13 @@ on:
     paths: ["studio/**", "catalogo/biblioteca/**", "paquetes/cartographer/epocas/**", "visor/vendor/**", ".github/workflows/pages.yml"]
   workflow_dispatch:
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 concurrency:
   group: pages
   cancel-in-progress: true
 jobs:
   publicar:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.despliegue.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - name: Armar el sitio
@@ -26,11 +21,11 @@ jobs:
           cp -r studio/datos visor/vendor paquetes/cartographer/epocas sitio/
           cp -r catalogo/biblioteca/paises sitio/biblioteca/
           touch sitio/.nojekyll
-      - uses: actions/configure-pages@v5
-        with:
-          enablement: true
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: sitio
-      - id: despliegue
-        uses: actions/deploy-pages@v4
+      - name: Publicar en la rama gh-pages
+        run: |
+          cd sitio
+          git init -q -b gh-pages
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A && git commit -qm "Publicar estudio web (${GITHUB_SHA::7})"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" gh-pages
