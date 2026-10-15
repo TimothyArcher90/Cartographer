@@ -17,7 +17,7 @@ from generar_prueba_sintetica import deformar  # noqa: E402
 
 UMBRAL_KM = 30
 
-f = leer_json(RAIZ / "mapas/prueba-sintetica/ficha.json")
+f = leer_json(RAIZ / "pruebas/salida/prueba-sintetica/ficha.json")
 g = f["gcp"]
 modelo = ajustar(f["metodo"], *(np.array([p[k] for p in g], float) for k in ("px", "py", "lon", "lat")))
 errores = []

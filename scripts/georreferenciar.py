@@ -127,6 +127,9 @@ def georreferenciar(carpeta):
     carpeta = Path(carpeta)
     ficha_ruta = carpeta / "ficha.json"
     ficha = leer_json(ficha_ruta)
+    if ficha.get("modo") == "decorativo":
+        print(f"{carpeta.name}: decorativo, no se georreferencia")
+        return ficha
     metodo = ficha.get("metodo", "tps")
     if metodo not in ORDEN:
         sys.exit(f"Método desconocido: {metodo}")

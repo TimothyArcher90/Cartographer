@@ -52,39 +52,5 @@
       "licencia": "GPL-3.0"
     }
   ],
-  "mapas": [
-    {
-      "id": "prueba-sintetica",
-      "titulo": "Prueba sintética de georreferenciación (NO es un mapa histórico)",
-      "autor": "Cartographer (generado)",
-      "anio": null,
-      "imagen": "mapas/prueba-sintetica.png",
-      "esquinas": [
-        [
-          -13.862683,
-          52.873831
-        ],
-        [
-          46.237569,
-          52.873831
-        ],
-        [
-          46.237569,
-          21.608814
-        ],
-        [
-          -13.862683,
-          21.608814
-        ]
-      ],
-      "esquinas_orden": "noroeste, noreste, sureste, suroeste (lon, lat)",
-      "error_medio_km": 18.45,
-      "modo": "superpuesto",
-      "licencia": "GPL-3.0",
-      "licencia_verificada": true,
-      "uso_en_video": "no",
-      "url": null,
-      "calidad": "prueba"
-    }
-  ]
+  "mapas": []
 }

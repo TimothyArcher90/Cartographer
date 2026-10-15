@@ -17,8 +17,8 @@ el **paquete Cartographer** (`paquetes/cartographer/`), cuyo formato está en
 | Época año 1000 | Hecha (132 entidades). |
 | Época año 1492 | Hecha (1317 entidades). |
 | Nombres en español | Diccionario verificado en `traducciones/es.json`: 32 % (100), 52 % (1000), 4 % (1492; la mayoría son pueblos indígenas con endónimo, que se deja tal cual). Lo pendiente está en `traducciones/pendientes.json`. |
-| Georreferenciación (TPS / polinómica) | Hecha y probada con un mapa **sintético** (error real medio ≈ 6 km en puntos independientes). |
-| 2 mapas antiguos reales | **Pendiente.** El entorno donde se construyó no tenía acceso a Wikimedia, LoC, Rumsey ni Gallica. Candidatos en `mapas/candidatos.json` (sin verificar). |
+| Georreferenciación (TPS / polinómica) | Código probado con una prueba interna sintética (`pruebas/`, error real medio ≈ 6 km). Esa prueba **no es un mapa** y nunca entra en `mapas/`, el paquete ni el visor. |
+| Mapas antiguos | **Solo mapas históricos reales**, escaneados de archivos, con licencia verificada. Ninguno incluido todavía: el entorno no tenía acceso a los archivos. Acervos y licencias documentados en [`ACERVOS.md`](ACERVOS.md). |
 | Visor | Hecho (`visor/`), capturas en `capturas/`. |
 
 ## Instalación
@@ -51,7 +51,7 @@ npm run visor          # abre http://localhost:5180/visor/
 | `scripts/` | `normalizar_epocas.py`, `georreferenciar.py`, `empaquetar.py`, `validar.py`, `capturas.mjs`, `comprobar.sh`. |
 | `visor/` | Visor MapLibre con selector de época y opacidad del mapa antiguo. MapLibre 4.7.1 incluido en `vendor/`. |
 | `paquetes/` | Paquete exportable para Electric Eye y su especificación. |
-| `pruebas/` | Prueba sintética de georreferenciación. |
+| `pruebas/` | Prueba interna del código de georreferenciación (sintética; no se publica). |
 
 ## Cómo añadir una época
 

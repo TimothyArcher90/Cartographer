@@ -11,7 +11,6 @@ const casos = [
   ['epoca-0100-mediterraneo', 'epoca=anio-0100&lon=18&lat=40&z=3.4'],
   ['epoca-1000-europa', 'epoca=anio-1000&lon=15&lat=45&z=3.2'],
   ['epoca-1492-europa', 'epoca=anio-1492&lon=12&lat=44&z=3.4'],
-  ['mapa-prueba-sintetica-opacidad-70', 'epoca=anio-1492&mapa=prueba-sintetica&opacidad=70&lon=15&lat=40&z=3.6'],
 ];
 let fallos = 0;
 try {

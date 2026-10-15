@@ -1,6 +1,7 @@
 """Genera un «mapa antiguo» SINTÉTICO para probar la cadena de georreferenciación.
 
-NO es un mapa histórico: se dibujan las fronteras de 1492 (historical-basemaps) con una
+NO es un mapa histórico y NUNCA entra en mapas/, en el paquete ni en el visor.
+Se dibujan las fronteras de 1492 (historical-basemaps) con una
 deformación conocida, y se anotan GCP exactos. Así se puede comprobar que
 scripts/georreferenciar.py recupera la geometría y que el error en km es coherente.
 
@@ -46,7 +47,7 @@ def main():
                 d.polygon(pts, fill=colores[i % len(colores)], outline=(40, 30, 20))
     for lon in range(-10, 41, 10):
         d.line([deformar(lon, la / 2) for la in range(int(SUR * 2), int(NORTE * 2) + 1)], fill=(60, 50, 40))
-    carpeta = RAIZ / "mapas/prueba-sintetica"
+    carpeta = RAIZ / "pruebas/salida/prueba-sintetica"
     carpeta.mkdir(parents=True, exist_ok=True)
     img.save(carpeta / "original.png")
     gcp = []

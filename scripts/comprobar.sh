@@ -4,8 +4,11 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 PY=${PYTHON:-python3}
 $PY scripts/normalizar_epocas.py
+# Prueba interna del código (sintética, fuera de mapas/ y del paquete).
 $PY pruebas/generar_prueba_sintetica.py
-for d in mapas/*/; do [ -f "$d/ficha.json" ] && $PY scripts/georreferenciar.py "$d"; done
+$PY scripts/georreferenciar.py pruebas/salida/prueba-sintetica
+# Mapas históricos reales.
+for d in mapas/*/; do [ -f "$d/ficha.json" ] || continue; $PY scripts/georreferenciar.py "$d"; done
 $PY pruebas/comprobar_sintetica.py
 $PY scripts/empaquetar.py
 $PY scripts/validar.py

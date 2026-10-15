@@ -88,6 +88,10 @@ def validar_mapas():
                 error(f"mapa {nombre}: falta el campo '{campo}' en ficha.json")
         if f.get("id") != nombre:
             error(f"mapa {nombre}: el id de la ficha no coincide con la carpeta")
+        if not f.get("url") or not f.get("autor") or f.get("anio") is None:
+            error(f"mapa {nombre}: un mapa histórico necesita url, autor y año de la fuente")
+        if not f.get("licencia_verificada"):
+            error(f"mapa {nombre}: licencia sin verificar")
         if not f.get("licencia"):
             error(f"mapa {nombre}: falta licencia")
         if f.get("uso_en_video") != "no" and not f.get("licencia_verificada"):
