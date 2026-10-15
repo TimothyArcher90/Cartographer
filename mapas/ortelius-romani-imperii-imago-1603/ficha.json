@@ -8,7 +8,7 @@
   "commons_archivo": "File:Romani Imperii Imago.jpg",
   "url": "https://commons.wikimedia.org/wiki/File:Romani_Imperii_Imago.jpg",
   "licencia": "Public domain",
-  "licencia_verificada": false,
+  "licencia_verificada": true,
   "uso_en_video": "si",
   "imagen_original": "original.jpg",
   "descarga_ancho": 4000,
@@ -17,5 +17,19 @@
   "calidad": "por evaluar",
   "notas": "Imagen real escaneada del original o de su edición histórica. Licencia y autor según la API oficial de Commons (campo commons).",
   "gcp": [],
-  "anio_aproximado": false
+  "anio_aproximado": false,
+  "commons": {
+    "pagina": "https://commons.wikimedia.org/wiki/File:Romani_Imperii_Imago.jpg",
+    "url_original": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Romani_Imperii_Imago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "ancho_original": 12418,
+    "alto_original": 8913,
+    "sha1": "e3206d2c7011cec6909fb389fec53c42246137be",
+    "licencia": "Public domain",
+    "licencia_url": "",
+    "uso": "Public domain",
+    "autor": "Abraham Ortelius",
+    "fecha": "1603",
+    "credito": "https://www.raremaps.com/gallery/detail/63942/romani-imperii-imago-ortelius",
+    "consultado": "2026-10-15"
+  }
 }

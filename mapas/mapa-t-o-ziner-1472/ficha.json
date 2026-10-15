@@ -8,7 +8,7 @@
   "commons_archivo": "File:T and O map Guntherus Ziner 1472.jpg",
   "url": "https://commons.wikimedia.org/wiki/File:T_and_O_map_Guntherus_Ziner_1472.jpg",
   "licencia": "Public domain",
-  "licencia_verificada": false,
+  "licencia_verificada": true,
   "uso_en_video": "si",
   "imagen_original": "original.jpg",
   "descarga_ancho": 3000,
@@ -17,5 +17,19 @@
   "calidad": "por evaluar",
   "notas": "Imagen real escaneada del original o de su edición histórica. Licencia y autor según la API oficial de Commons (campo commons).",
   "gcp": [],
-  "anio_aproximado": false
+  "anio_aproximado": false,
+  "commons": {
+    "pagina": "https://commons.wikimedia.org/wiki/File:T_and_O_map_Guntherus_Ziner_1472.jpg",
+    "url_original": "https://upload.wikimedia.org/wikipedia/commons/7/70/T_and_O_map_Guntherus_Ziner_1472.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "ancho_original": 864,
+    "alto_original": 864,
+    "sha1": "b913d58cee0c4d9a25ab888f816a06ed1d931ced",
+    "licencia": "Public domain",
+    "licencia_url": "",
+    "uso": "Public domain",
+    "autor": "Isidore of Seville",
+    "fecha": "",
+    "credito": "This image has been extracted from another file",
+    "consultado": "2026-10-15"
+  }
 }

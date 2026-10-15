@@ -8,7 +8,7 @@
   "commons_archivo": "File:Mediterranean chart fourteenth century2.jpg",
   "url": "https://commons.wikimedia.org/wiki/File:Mediterranean_chart_fourteenth_century2.jpg",
   "licencia": "Public domain",
-  "licencia_verificada": false,
+  "licencia_verificada": true,
   "uso_en_video": "si",
   "imagen_original": "original.jpg",
   "descarga_ancho": 4000,
@@ -17,5 +17,19 @@
   "calidad": "por evaluar",
   "notas": "Imagen real escaneada del original o de su edición histórica. Licencia y autor según la API oficial de Commons (campo commons).",
   "gcp": [],
-  "anio_aproximado": true
+  "anio_aproximado": true,
+  "commons": {
+    "pagina": "https://commons.wikimedia.org/wiki/File:Mediterranean_chart_fourteenth_century2.jpg",
+    "url_original": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Mediterranean_chart_fourteenth_century2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "ancho_original": 5486,
+    "alto_original": 4009,
+    "sha1": "e92bd3431fac6c5833b3432fb33e91a394eea389",
+    "licencia": "Public domain",
+    "licencia_url": "",
+    "uso": "Public domain",
+    "autor": "anonymous, probably Genoan",
+    "fecha": "between circa 1320 and circa 1350date QS:P,+1350-00-00T00:00:00Z/7,P1319,+1320-00-00T00:00:00Z/9,P1326,+1350-00-00T00:00:00Z/9,P1480,Q5727902",
+    "credito": "Library of Congress",
+    "consultado": "2026-10-15"
+  }
 }

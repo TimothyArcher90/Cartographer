@@ -8,7 +8,7 @@
   "commons_archivo": "File:Hereford Mappa Mundi.jpg",
   "url": "https://commons.wikimedia.org/wiki/File:Hereford_Mappa_Mundi.jpg",
   "licencia": "Public domain",
-  "licencia_verificada": false,
+  "licencia_verificada": true,
   "uso_en_video": "si",
   "imagen_original": "original.jpg",
   "descarga_ancho": 3000,
@@ -17,5 +17,19 @@
   "calidad": "por evaluar",
   "notas": "Imagen real escaneada del original o de su edición histórica. Licencia y autor según la API oficial de Commons (campo commons).",
   "gcp": [],
-  "anio_aproximado": true
+  "anio_aproximado": true,
+  "commons": {
+    "pagina": "https://commons.wikimedia.org/wiki/File:Hereford_Mappa_Mundi.jpg",
+    "url_original": "https://upload.wikimedia.org/wikipedia/commons/9/92/Hereford_Mappa_Mundi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "ancho_original": 4200,
+    "alto_original": 4989,
+    "sha1": "1e87196835da0eaaf8fdeb535804e29d0e523701",
+    "licencia": "Public domain",
+    "licencia_url": "",
+    "uso": "Public domain",
+    "autor": "Richard of Haldingham",
+    "fecha": "circa 1300date QS:P,+1300-00-00T00:00:00Z/9,P1480,Q5727902",
+    "credito": "Scanned by Scott Ehardt from Decorative Maps by Roderick Barron - ISBN 1851702989",
+    "consultado": "2026-10-15"
+  }
 }

@@ -8,7 +8,7 @@
   "commons_archivo": "File:1375 Atlas Catalan Abraham Cresques.jpg",
   "url": "https://commons.wikimedia.org/wiki/File:1375_Atlas_Catalan_Abraham_Cresques.jpg",
   "licencia": "Public domain",
-  "licencia_verificada": false,
+  "licencia_verificada": true,
   "uso_en_video": "si",
   "imagen_original": "original.jpg",
   "descarga_ancho": 4000,
@@ -17,5 +17,19 @@
   "calidad": "por evaluar",
   "notas": "Imagen real escaneada del original o de su edición histórica. Licencia y autor según la API oficial de Commons (campo commons).",
   "gcp": [],
-  "anio_aproximado": false
+  "anio_aproximado": false,
+  "commons": {
+    "pagina": "https://commons.wikimedia.org/wiki/File:1375_Atlas_Catalan_Abraham_Cresques.jpg",
+    "url_original": "https://upload.wikimedia.org/wikipedia/commons/3/35/1375_Atlas_Catalan_Abraham_Cresques.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "ancho_original": 11811,
+    "alto_original": 3850,
+    "sha1": "c0e47d331ae09c52f85bcc88b4cb0295929686a8",
+    "licencia": "Public domain",
+    "licencia_url": "",
+    "uso": "Public domain",
+    "autor": "Cresques Abraham",
+    "fecha": "1375date QS:P571,+1375-00-00T00:00:00Z/9",
+    "credito": "Bibliothèque Nationale de France",
+    "consultado": "2026-10-15"
+  }
 }

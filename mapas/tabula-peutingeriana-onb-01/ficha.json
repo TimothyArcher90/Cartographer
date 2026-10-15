@@ -8,7 +8,7 @@
   "commons_archivo": "File:Tabula Peutingeriana (ÖNB) 01-Rodez-Lyon.jpg",
   "url": "https://commons.wikimedia.org/wiki/File:Tabula_Peutingeriana_(%C3%96NB)_01-Rodez-Lyon.jpg",
   "licencia": "Public domain",
-  "licencia_verificada": false,
+  "licencia_verificada": true,
   "uso_en_video": "si",
   "imagen_original": "original.jpg",
   "descarga_ancho": 3500,
@@ -17,5 +17,19 @@
   "calidad": "por evaluar",
   "notas": "Imagen real escaneada del original o de su edición histórica. Licencia y autor según la API oficial de Commons (campo commons).",
   "gcp": [],
-  "anio_aproximado": true
+  "anio_aproximado": true,
+  "commons": {
+    "pagina": "https://commons.wikimedia.org/wiki/File:Tabula_Peutingeriana_(%C3%96NB)_01-Rodez-Lyon.jpg",
+    "url_original": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Tabula_Peutingeriana_%28%C3%96NB%29_01-Rodez-Lyon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "ancho_original": 3481,
+    "alto_original": 934,
+    "sha1": "b869126bbf5252cfa5803900e84ad5057af5173a",
+    "licencia": "Public domain",
+    "licencia_url": "",
+    "uso": "Public domain",
+    "autor": "Unknown authorUnknown author Peutinger, Konrad (1465-1547)",
+    "fecha": "12th centurydate QS:P,+1150-00-00T00:00:00Z/7",
+    "credito": "Austrian National Library",
+    "consultado": "2026-10-15"
+  }
 }
