@@ -15,8 +15,163 @@
   "metodo": "tps",
   "modo": "superpuesto",
   "calidad": "por evaluar",
-  "notas": "Imagen real escaneada del original o de su edición histórica. Licencia y autor según la API oficial de Commons (campo commons).",
-  "gcp": [],
+  "notas": "Imagen real escaneada del original o de su edición histórica. Licencia y autor según la API oficial de Commons (campo commons). GCP marcados a ojo sobre accidentes costeros identificables; coordenadas modernas aproximadas.",
+  "gcp": [
+    {
+      "px": 660,
+      "py": 1475,
+      "lon": -5.6,
+      "lat": 36.0,
+      "etiqueta": "Estrecho de Gibraltar (Fretum Gaditanum)"
+    },
+    {
+      "px": 571,
+      "py": 1397,
+      "lon": -8.99,
+      "lat": 37.02,
+      "etiqueta": "Cabo de San Vicente (Sacrum prom.)"
+    },
+    {
+      "px": 696,
+      "py": 1063,
+      "lon": -9.27,
+      "lat": 42.88,
+      "etiqueta": "Cabo Finisterre (Nerium prom.)"
+    },
+    {
+      "px": 1107,
+      "py": 1140,
+      "lon": 3.3,
+      "lat": 42.32,
+      "etiqueta": "Cabo de Creus (extremo oriental de los Pirineos)"
+    },
+    {
+      "px": 944,
+      "py": 1367,
+      "lon": 0.23,
+      "lat": 38.73,
+      "etiqueta": "Cabo de la Nao (Ferraria prom.)"
+    },
+    {
+      "px": 1606,
+      "py": 1397,
+      "lon": 15.63,
+      "lat": 38.25,
+      "etiqueta": "Estrecho de Mesina"
+    },
+    {
+      "px": 1961,
+      "py": 1500,
+      "lon": 22.48,
+      "lat": 36.39,
+      "etiqueta": "Cabo Ténaro / Matapán"
+    },
+    {
+      "px": 2154,
+      "py": 1063,
+      "lon": 29.0,
+      "lat": 41.1,
+      "etiqueta": "Bósforo (Byzantium)"
+    },
+    {
+      "px": 1511,
+      "py": 934,
+      "lon": 13.37,
+      "lat": 45.77,
+      "etiqueta": "Aquilea"
+    },
+    {
+      "px": 2146,
+      "py": 1196,
+      "lon": 26.4,
+      "lat": 40.2,
+      "etiqueta": "Helesponto (Abydus)"
+    },
+    {
+      "px": 2009,
+      "py": 1560,
+      "lon": 23.55,
+      "lat": 35.3,
+      "etiqueta": "Extremo occidental de Creta"
+    },
+    {
+      "px": 2180,
+      "py": 1564,
+      "lon": 26.3,
+      "lat": 35.2,
+      "etiqueta": "Extremo oriental de Creta"
+    },
+    {
+      "px": 2270,
+      "py": 1474,
+      "lon": 28.0,
+      "lat": 36.2,
+      "etiqueta": "Rodas"
+    },
+    {
+      "px": 1760,
+      "py": 1766,
+      "lon": 19.0,
+      "lat": 30.3,
+      "etiqueta": "Fondo del golfo de Sidra (Syrtis magna)"
+    },
+    {
+      "px": 2640,
+      "py": 1437,
+      "lon": 36.17,
+      "lat": 36.59,
+      "etiqueta": "Golfo de Iskenderun (Alexandria ad Issum)"
+    },
+    {
+      "px": 2696,
+      "py": 983,
+      "lon": 41.67,
+      "lat": 42.15,
+      "etiqueta": "Desembocadura del Fasis (Poti)"
+    },
+    {
+      "px": 2610,
+      "py": 1034,
+      "lon": 39.72,
+      "lat": 41.0,
+      "etiqueta": "Trebisonda (Trapezus)"
+    },
+    {
+      "px": 2460,
+      "py": 1750,
+      "lon": 29.9,
+      "lat": 31.2,
+      "etiqueta": "Alejandría"
+    },
+    {
+      "px": 977,
+      "py": 690,
+      "lon": -5.7,
+      "lat": 50.07,
+      "etiqueta": "Land's End (Antivestaeum prom.)"
+    },
+    {
+      "px": 1239,
+      "py": 626,
+      "lon": 1.4,
+      "lat": 51.15,
+      "etiqueta": "Kent (Cantium)"
+    },
+    {
+      "px": 939,
+      "py": 836,
+      "lon": -4.73,
+      "lat": 48.04,
+      "etiqueta": "Punta de Raz (Gobeum prom.)"
+    },
+    {
+      "px": 857,
+      "py": 643,
+      "lon": -9.8,
+      "lat": 51.45,
+      "etiqueta": "Suroeste de Irlanda (Notium prom.)"
+    }
+  ],
   "anio_aproximado": false,
   "commons": {
     "pagina": "https://commons.wikimedia.org/wiki/File:Romani_Imperii_Imago.jpg",
@@ -31,5 +186,33 @@
     "fecha": "1603",
     "credito": "https://www.raremaps.com/gallery/detail/63942/romani-imperii-imago-ortelius",
     "consultado": "2026-10-15"
-  }
+  },
+  "salida": {
+    "cog": "salida/mapa.tif",
+    "vista": "salida/vista.png",
+    "crs": "EPSG:3857",
+    "ancho": 3840,
+    "alto": 2578
+  },
+  "limites": [
+    [
+      -36.538375,
+      62.549143
+    ],
+    [
+      66.344206,
+      62.549143
+    ],
+    [
+      66.344206,
+      11.627001
+    ],
+    [
+      -36.538375,
+      11.627001
+    ]
+  ],
+  "error_medio_km": 85.22,
+  "error_max_km": 191.52,
+  "error_metodo": "validación cruzada dejando un GCP fuera"
 }

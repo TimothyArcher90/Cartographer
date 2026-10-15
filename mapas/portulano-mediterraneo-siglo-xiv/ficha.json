@@ -12,10 +12,10 @@
   "uso_en_video": "si",
   "imagen_original": "original.jpg",
   "descarga_ancho": 4000,
-  "metodo": "tps",
-  "modo": "superpuesto",
+  "metodo": null,
+  "modo": "decorativo",
   "calidad": "por evaluar",
-  "notas": "Imagen real escaneada del original o de su edición histórica. Licencia y autor según la API oficial de Commons (campo commons).",
+  "notas": "Imagen real escaneada del original o de su edición histórica. Licencia y autor según la API oficial de Commons (campo commons). Tinta de costas muy desvaída: no se pueden identificar puntos de control con fiabilidad, así que se usa como decorativo.",
   "gcp": [],
   "anio_aproximado": true,
   "commons": {
