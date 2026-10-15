@@ -1,8 +1,39 @@
 {
- "mapas": 0,
- "lugares_distintos": 0,
- "por_fuente": {},
+ "mapas": 14287,
+ "lugares_distintos": 478,
+ "por_fuente": {
+  "ia": 14287
+ },
  "con_cobertura_geografica": 0,
- "por_siglo": {},
- "licencias": {}
+ "por_siglo": {
+  "5": 15,
+  "6": 291,
+  "7": 60,
+  "8": 165,
+  "9": 36,
+  "10": 101,
+  "11": 14,
+  "12": 31,
+  "13": 14,
+  "14": 34,
+  "15": 33,
+  "16": 109,
+  "17": 264,
+  "18": 749,
+  "19": 7264,
+  "20": 3569,
+  "sin siglo": 1538
+ },
+ "licencias": {
+  "Dominio público por antigüedad (anterior a 1900; inferido, verificar)": 7692,
+  "Dominio público / sin restricciones conocidas": 5710,
+  "CC0": 325,
+  "CC BY 4.0": 319,
+  "CC BY-SA 4.0": 213,
+  "CC BY-SA 3.0": 11,
+  "CC BY 3.0": 8,
+  "CC BY 2.5": 6,
+  "CC BY-SA 2.0": 2,
+  "CC BY 2.0": 1
+ }
 }
