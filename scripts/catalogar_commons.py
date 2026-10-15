@@ -95,9 +95,60 @@ def guardar_estado(e):
     ESTADO.write_bytes(gzip.compress(json.dumps(e).encode()))
 
 
+def procesar(item, e_prof, seguir, excluir, vistas, fin):
+    """Procesa una categoría: subcategorías nuevas y registros de sus archivos.
+    Devuelve (subcats, registros, descartados, completa)."""
+    cat, prof, lugares, siglos = item
+    l, s = lugar_de(cat), siglo_de(cat)
+    lugares = sorted(set(lugares + ([l] if l else [])))[:12]
+    siglos = sorted(set(siglos + ([s] if s else [])))
+    subcats, registros, descartados = [], [], 0
+    if prof < e_prof:
+        cont = {}
+        while True:
+            r = api(action="query", list="categorymembers", cmtitle=cat, cmtype="subcat", cmlimit="500", **cont)
+            for m in r.get("query", {}).get("categorymembers", []):
+                t = m["title"]
+                if t not in vistas and seguir.search(t) and not any(x.search(t) for x in excluir):
+                    subcats.append([t, prof + 1, lugares, siglos])
+            if "continue" not in r:
+                break
+            cont = r["continue"]
+    cont = {}
+    while True:
+        r = api(action="query", generator="categorymembers", gcmtitle=cat, gcmtype="file",
+                gcmlimit="50", prop="imageinfo", iiprop="url|size|mime|extmetadata",
+                iiurlwidth="640", iiextmetadatafilter="LicenseShortName|Artist|DateTimeOriginal|ObjectName",
+                **cont)
+        for p in r.get("query", {}).get("pages", []):
+            ii = (p.get("imageinfo") or [{}])[0]
+            if not ii or not str(ii.get("mime", "")).startswith("image/"):
+                continue
+            m = ii.get("extmetadata", {})
+            lic = limpiar(m.get("LicenseShortName", {}).get("value"), 60)
+            if not permite(lic):
+                descartados += 1
+                continue
+            fecha = limpiar(m.get("DateTimeOriginal", {}).get("value"), 80)
+            titulo = p["title"]
+            registros.append({
+                "t": titulo[5:], "pid": p.get("pageid"), "w": ii.get("width"), "h": ii.get("height"),
+                "th": ii.get("thumburl"), "lic": lic, "autor": limpiar(m.get("Artist", {}).get("value"), 120),
+                "fecha": fecha, "anio": anio_de(fecha, titulo), "siglos": siglos, "lugares": lugares,
+                "cat": cat[9:],
+            })
+        if "continue" not in r:
+            return subcats, registros, descartados, True
+        if time.time() > fin:
+            # Sin tiempo a mitad de categoría: se repite en la próxima tanda (duplicados fuera por pid).
+            return subcats, registros, descartados, False
+        cont = r["continue"]
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--minutos", type=float, default=300)
+    ap.add_argument("--hilos", type=int, default=6)
     a = ap.parse_args()
     cfg = json.loads((DIR / "config.json").read_text(encoding="utf-8"))
     e = cargar_estado(cfg["raices"], cfg["profundidad"])
@@ -109,69 +160,32 @@ def main():
     (DIR / "commons").mkdir(parents=True, exist_ok=True)
     salida = gzip.open(DIR / "commons" / f"parte-{e['parte']:04d}.jsonl.gz", "at", encoding="utf-8")
 
-    while cola and time.time() < fin:
-        cat, prof, lugares, siglos = cola.popleft()
-        if cat in vistas:
-            continue
-        vistas.add(cat)
-        l, s = lugar_de(cat), siglo_de(cat)
-        lugares = sorted(set(lugares + ([l] if l else [])))[:12]
-        siglos = sorted(set(siglos + ([s] if s else [])))
-        # Subcategorías
-        if prof < e["profundidad"]:
-            cont = {}
-            while True:
-                r = api(action="query", list="categorymembers", cmtitle=cat, cmtype="subcat",
-                        cmlimit="500", **cont)
-                for m in r.get("query", {}).get("categorymembers", []):
-                    t = m["title"]
-                    if t not in vistas and seguir.search(t) and not any(x.search(t) for x in excluir):
-                        cola.append([t, prof + 1, lugares, siglos])
-                if "continue" not in r:
-                    break
-                cont = r["continue"]
-        # Archivos de la categoría, con metadatos (50 por petición)
-        cont = {}
-        while True:
-            r = api(action="query", generator="categorymembers", gcmtitle=cat, gcmtype="file",
-                    gcmlimit="50", prop="imageinfo", iiprop="url|size|mime|extmetadata",
-                    iiurlwidth="640", iiextmetadatafilter="LicenseShortName|Artist|DateTimeOriginal|ObjectName",
-                    **cont)
-            for p in r.get("query", {}).get("pages", []):
-                ii = (p.get("imageinfo") or [{}])[0]
-                if not ii or not str(ii.get("mime", "")).startswith("image/"):
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(max_workers=a.hilos) as pool:
+        while cola and time.time() < fin:
+            lote = []
+            while cola and len(lote) < a.hilos:
+                item = cola.popleft()
+                if item[0] in vistas:
                     continue
-                m = ii.get("extmetadata", {})
-                lic = limpiar(m.get("LicenseShortName", {}).get("value"), 60)
-                if not permite(lic):
-                    e["descartados_licencia"] += 1
-                    continue
-                fecha = limpiar(m.get("DateTimeOriginal", {}).get("value"), 80)
-                titulo = p["title"]
-                salida.write(json.dumps({
-                    "t": titulo[5:], "pid": p.get("pageid"), "w": ii.get("width"), "h": ii.get("height"),
-                    "th": ii.get("thumburl"), "lic": lic,
-                    "autor": limpiar(m.get("Artist", {}).get("value"), 120),
-                    "fecha": fecha, "anio": anio_de(fecha, titulo), "siglos": siglos,
-                    "lugares": lugares, "cat": cat[9:],
-                }, ensure_ascii=False) + "\n")
-                e["vistos"] += 1
-                e["en_parte"] += 1
-                if e["en_parte"] >= POR_PARTE:
-                    salida.close()
-                    e["parte"] += 1
-                    e["en_parte"] = 0
-                    salida = gzip.open(DIR / "commons" / f"parte-{e['parte']:04d}.jsonl.gz", "at", encoding="utf-8")
-            if "continue" not in r:
-                break
-            if time.time() > fin:
-                # Sin tiempo a mitad de categoría: se repite en la próxima ejecución (duplicados se
-                # eliminan al construir el índice, por pid).
-                vistas.discard(cat)
-                cola.appendleft([cat, prof, lugares, siglos])
-                break
-            cont = r["continue"]
-            time.sleep(0.2)
+                vistas.add(item[0])
+                lote.append(item)
+            resultados = list(pool.map(lambda it: (it, procesar(it, e["profundidad"], seguir, excluir, vistas, fin)), lote))
+            for item, (subcats, registros, descartados, completa) in resultados:
+                cola.extend(x for x in subcats if x[0] not in vistas)
+                e["descartados_licencia"] += descartados
+                for reg in registros:
+                    salida.write(json.dumps(reg, ensure_ascii=False) + "\n")
+                    e["vistos"] += 1
+                    e["en_parte"] += 1
+                    if e["en_parte"] >= POR_PARTE:
+                        salida.close()
+                        e["parte"] += 1
+                        e["en_parte"] = 0
+                        salida = gzip.open(DIR / "commons" / f"parte-{e['parte']:04d}.jsonl.gz", "at", encoding="utf-8")
+                if not completa:
+                    vistas.discard(item[0])
+                    cola.appendleft(item)
 
     salida.close()
     e["cola"] = list(cola)
