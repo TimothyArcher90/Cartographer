@@ -499,7 +499,51 @@ def allmaps(s, fin):
     s.e["terminado"] = True
 
 
-FUENTES = {"ogm": ogm, "loc": loc, "ia": ia, "europeana": europeana, "dc": dc, "bne": bne, "allmaps": allmaps}
+# ---------------------------------------------------------------- Europeana por proveedor (BNE y otras bibliotecas)
+PROVEEDORES = ["Biblioteca Nacional de España", "Biblioteca Virtual del Patrimonio Bibliográfico",
+               "Biblioteca Digital Hispánica", "Institut Cartogràfic i Geològic de Catalunya",
+               "Real Academia de la Historia"]
+RE_MAPA_ES = re.compile(r"(?i)\b(carta|cartas|mapa|mapas|plano|planos|plan|descripci[oó]n|atlas|portulano|"
+                        r"carte|map|karte|kaart|topogr\w*|corograf\w*|hidrogr\w*|geogr\w*)\b")
+
+
+def proveedores(s, fin):
+    i = s.e.setdefault("i", 0)
+    cursor = s.e.get("cursor", "*")
+    while time.time() < fin and i < len(PROVEEDORES):
+        p = [("wskey", "api2demo"), ("query", "*"), ("qf", f'DATA_PROVIDER:"{PROVEEDORES[i]}"'), ("qf", "TYPE:IMAGE"),
+             ("reusability", "open"), ("rows", "100"), ("profile", "rich"), ("cursor", cursor)]
+        d = pedir_json("https://api.europeana.eu/record/v2/search.json?" + urllib.parse.urlencode(p))
+        if d is None:
+            break
+        for r in d.get("items", []):
+            titulo = " ".join(r.get("title") or [])
+            tipos = " ".join(lista(r.get("dcTypeLangAware")) + lista(r.get("dcType")))
+            if not RE_MAPA_ES.search(titulo + " " + tipos) or RE_NO_MAPA.search(titulo):
+                s.e["no_mapa"] = s.e.get("no_mapa", 0) + 1
+                continue
+            lic = libre(" ".join(r.get("rights") or []))
+            if not lic:
+                s.e["descartados"] += 1
+                continue
+            s.poner({
+                "id": r.get("id"), "t": titulo[:300], "url": (r.get("edmIsShownAt") or [r.get("guid")])[0],
+                "th": (r.get("edmPreview") or [None])[0], "iiif": None, "lic": lic,
+                "autor": "; ".join(lista(r.get("dcCreator")))[:150], "fecha": " ".join(lista(r.get("year")))[:40],
+                "anio": anio_de(" ".join(lista(r.get("year"))), titulo), "lugares": lista(r.get("edmPlaceLabel"))[:12],
+                "bbox": None, "proveedor": PROVEEDORES[i],
+            })
+        cursor = d.get("nextCursor")
+        if not cursor:
+            print("Proveedor terminado:", PROVEEDORES[i], "guardados", s.e["guardados"])
+            i += 1
+            cursor = "*"
+        s.e["i"], s.e["cursor"] = i, cursor
+        time.sleep(0.5)
+    s.e["terminado"] = i >= len(PROVEEDORES)
+
+
+FUENTES = {"ogm": ogm, "loc": loc, "ia": ia, "europeana": europeana, "dc": dc, "bne": bne, "allmaps": allmaps, "proveedores": proveedores}
 
 
 def main():

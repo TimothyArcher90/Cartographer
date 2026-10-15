@@ -65,7 +65,7 @@ jobs:
           e = p / "estado.json.gz"
           if not e.exists() or not json.loads(gzip.decompress(e.read_bytes()))["terminado"]:
               falta.append("commons")
-          for f in ["ogm", "loc", "ia", "europeana", "dc", "bne", "allmaps"]:
+          for f in ["ogm", "loc", "ia", "europeana", "dc", "bne", "allmaps", "proveedores"]:
               e = p / f / "estado.json"
               if not e.exists() or not json.loads(e.read_text()).get("terminado"):
                   falta.append(f)
