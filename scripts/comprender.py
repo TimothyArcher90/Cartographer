@@ -104,6 +104,47 @@ def cargar_paises():
     return paises, STRtree(geoms), geoms, codigos, terminos, patron
 
 
+def cargar_regiones():
+    datos = json.loads((CAT / "geo/regiones.geojson").read_text(encoding="utf-8"))
+    regiones, geoms, ids, terminos = {}, [], [], {}
+    for f in datos["features"]:
+        p = f["properties"]
+        rid = p["id"]
+        regiones[rid] = {"nombre": p.get("nombre_es") or p.get("nombre"), "pais": p.get("pais")}
+        geoms.append(shape(f["geometry"]))
+        ids.append(rid)
+        for v in [p.get("nombre"), p.get("nombre_es")] + (p.get("alternativos") or []):
+            if v and len(norm(v)) >= 5:
+                terminos.setdefault(norm(v), set()).add(rid)
+    orden = sorted(terminos, key=len, reverse=True)
+    patron = re.compile(r"(?<![a-z0-9])(" + "|".join(re.escape(t) for t in orden) + r")(?![a-z0-9])")
+    return regiones, STRtree(geoms), geoms, ids, terminos, patron
+
+
+def regiones_de(texto_n, b, caja, esc, asign, R):
+    """Regiones (provincias/estados) del mapa. Un nombre de región solo se acepta si su país ya está
+    asignado al mapa o si cae en la cobertura; por coordenadas, solo en mapas de región o menores."""
+    regiones, arbol, geoms, ids, terminos, patron = R
+    res = {}
+    for m in patron.finditer(texto_n):
+        for rid in terminos[m.group(1)]:
+            if regiones[rid]["pais"] in asign:
+                res[rid] = "nombre"
+    if caja is not None and esc in ("región o país", "provincia o comarca", "local o ciudad"):
+        for i in arbol.query(caja):
+            g, rid = geoms[i], ids[i]
+            if rid in res or not g.intersects(caja):
+                continue
+            if caja.area == 0:
+                if g.contains(caja.centroid):
+                    res[rid] = "coordenadas"
+                continue
+            inter = caja.intersection(g).area
+            if inter / caja.area >= 0.20 or (g.area and inter / g.area >= 0.30 and inter / caja.area >= 0.03):
+                res[rid] = "coordenadas"
+    return res
+
+
 def escala(b):
     if not b or None in b:
         return "desconocida"
@@ -131,6 +172,8 @@ def tipo_de(texto, esc):
 
 def main():
     paises, arbol, geoms, codigos, terminos, patron = cargar_paises()
+    R = cargar_regiones()
+    por_region = Counter()
     salida = CAT / "biblioteca"
     (salida / "paises").mkdir(parents=True, exist_ok=True)
     for viejo in (salida / "paises").glob("*.jsonl.gz"):
@@ -148,6 +191,7 @@ def main():
                                  + [str(x) for x in (r.get("cats") or [])])
                 asign, peso = {}, {}
                 corregido = False
+                caja = None
                 for m in patron.finditer(norm(texto)):
                     for iso, via in terminos[m.group(1)]:
                         if via == "nombre" or iso not in asign:
@@ -194,6 +238,10 @@ def main():
                         if cuota_mapa >= umbral or (esc != "continente" and cuota_pais >= 0.30 and cuota_mapa >= 0.02):
                             asign[iso] = "coordenadas"
                             peso[iso] = round(cuota_mapa, 3)
+                regs = regiones_de(norm(texto), b, caja, esc, asign, R)
+                for rid in regs:
+                    asign.setdefault(R[0][rid]["pais"], "region")
+                    por_region[rid] += 1
                 tipo = tipo_de(texto, esc)
                 tipos_glob[tipo] += 1
                 escalas_glob[esc] += 1
@@ -203,7 +251,8 @@ def main():
                 anio = r.get("anio")
                 fila = {"t": r.get("t"), "anio": anio, "siglos": r.get("siglos"), "tipo": tipo, "escala": esc,
                         "fuente": r.get("fuente"), "url": r.get("url"), "th": r.get("th"), "iiif": r.get("iiif"),
-                        "lic": r.get("lic"), "autor": r.get("autor"), "bbox": b, "paises": sorted(asign)}
+                        "lic": r.get("lic"), "autor": r.get("autor"), "bbox": b, "paises": sorted(asign),
+                        "regiones": sorted(regs)}
                 if corregido:
                     fila["bbox_corregido"] = True
                 for iso, via in asign.items():
@@ -231,6 +280,11 @@ def main():
             "por_siglo": {str(k): v for k, v in sorted(x["siglos"].items(), key=lambda t: (isinstance(t[0], str), t[0]))},
             "por_tipo": dict(x["tipos"].most_common()), "por_via": dict(x["vias"]), "por_fuente": dict(x["fuentes"]),
         }
+    regs_json = {}
+    for rid, n in por_region.most_common():
+        d = R[0][rid]
+        regs_json[rid] = {"nombre": d["nombre"], "pais": d["pais"], "total": n}
+    (salida / "regiones.json").write_text(json.dumps(regs_json, ensure_ascii=False, indent=0), encoding="utf-8")
     (salida / "paises.json").write_text(json.dumps(resumen_paises, ensure_ascii=False, indent=1), encoding="utf-8")
     (salida / "resumen.json").write_text(json.dumps({
         "mapas_analizados": total, "con_pais": total - sin_pais, "sin_pais": sin_pais,

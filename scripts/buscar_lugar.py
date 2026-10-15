@@ -91,7 +91,20 @@ def resolver_paises(lugar):
     return sorted(isos), paises
 
 
-def desde_biblioteca(isos, a):
+def resolver_regiones(lugar):
+    """Provincias/estados/regiones (Natural Earth admin-1) cuyo nombre coincide con la consulta."""
+    datos = json.loads((RAIZ / "catalogo/geo/regiones.geojson").read_text(encoding="utf-8"))
+    q = norm(lugar)
+    res = {}
+    for f in datos["features"]:
+        p = f["properties"]
+        nombres = [p.get("nombre"), p.get("nombre_es")] + (p.get("alternativos") or [])
+        if any(n and norm(n) == q for n in nombres):
+            res[p["id"]] = p["pais"]
+    return res
+
+
+def desde_biblioteca(isos, a, regiones=None):
     res = []
     for iso in isos:
         ruta = RAIZ / "catalogo/biblioteca/paises" / f"{iso}.jsonl.gz"
@@ -111,6 +124,8 @@ def desde_biblioteca(isos, a):
                     continue
                 if (r.get("relevancia") or 0) < a.relevancia:
                     continue
+                if regiones and not (set(r.get("regiones") or []) & set(regiones)):
+                    continue
                 r["coincidencia"] = r.get("via")
                 res.append(r)
     return res
@@ -128,9 +143,16 @@ def main():
                     help="mínimo (1 = el mapa nombra el país; 0,3 = el país ocupa al menos el 30 %% del mapa)")
     a = ap.parse_args()
     isos, _ = resolver_paises(a.lugar)
+    regs = resolver_regiones(a.lugar)
+    # Si la consulta es una provincia/región del mismo país (p. ej. "Antioquia"), se busca la región.
+    if regs and isos and set(regs.values()) <= set(isos):
+        isos = []
     if isos and (RAIZ / "catalogo/biblioteca/paises").exists():
         ts = isos
         res = desde_biblioteca(isos, a)
+    elif regs:
+        ts = [f"región {rid} ({pais})" for rid, pais in regs.items()]
+        res = desde_biblioteca(sorted(set(regs.values())), a, regiones=list(regs))
     else:
         # Región que no es un país (p. ej. "Mediterráneo", "Ptolomeo"): búsqueda por texto en el índice.
         fragmentos = sorted((RAIZ / "catalogo/indice").glob("mapas-*.jsonl.gz"))
