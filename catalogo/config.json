@@ -1,0 +1,40 @@
+{
+  "_nota": "Raíces del rastreo de Wikimedia Commons. Las categorías inexistentes simplemente no devuelven nada.",
+  "profundidad": 6,
+  "raices": [
+    "Category:Old maps",
+    "Category:Ptolemaic maps",
+    "Category:Maps by Ptolemy",
+    "Category:Geographia (Ptolemy)",
+    "Category:Portolan charts",
+    "Category:Mappae mundi",
+    "Category:T and O maps",
+    "Category:Tabula Peutingeriana",
+    "Category:Maps in the Library of Congress",
+    "Category:Maps from the Norman B. Leventhal Map Center",
+    "Category:Maps from the David Rumsey Map Collection"
+  ],
+  "excluir_categorias": [
+    "photographs? of",
+    "people",
+    "portraits",
+    "ships",
+    "coins",
+    "stamps",
+    "postcards",
+    "globes in art",
+    "uploaded by",
+    "media needing",
+    "files from",
+    "quality images",
+    "featured pictures",
+    "valued images",
+    "images with",
+    "cc-by",
+    "pd-",
+    "license",
+    "deletion",
+    "copyright"
+  ],
+  "seguir_si": "map|chart|atlas|portolan|ptolem|peutinger|mappa|cosmograph|carte|karte|kaart|mapa|geographia|plans? of"
+}

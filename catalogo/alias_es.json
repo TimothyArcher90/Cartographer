@@ -1,0 +1,536 @@
+{
+ "_nota": "Consulta en español -> términos que se buscan en los catálogos (nombres actuales, históricos y en otros idiomas). 'pais' es el nombre en visor/datos/actual.geojson para buscar también por coordenadas.",
+ "turquia": {
+  "pais": "Turkey",
+  "terminos": [
+   "Turkey",
+   "Türkiye",
+   "Turquie",
+   "Turkei",
+   "Türkei",
+   "Anatolia",
+   "Asia Minor",
+   "Natolia",
+   "Ottoman Empire",
+   "Turkish Empire",
+   "Turcicum Imperium",
+   "Turcici Imperii",
+   "Constantinople",
+   "Istanbul",
+   "Byzantium",
+   "Smyrna",
+   "Izmir",
+   "Trebizond",
+   "Cilicia",
+   "Cappadocia",
+   "Bithynia",
+   "Galatia",
+   "Lycia",
+   "Lydia",
+   "Ionia",
+   "Troad"
+  ]
+ },
+ "espana": {
+  "pais": "Spain",
+  "terminos": [
+   "Spain",
+   "España",
+   "Espagne",
+   "Spanien",
+   "Hispania",
+   "Iberian Peninsula",
+   "Iberia",
+   "Castile",
+   "Castilla",
+   "Aragon",
+   "Andalusia",
+   "Catalonia",
+   "Galicia",
+   "Navarre",
+   "Granada",
+   "Madrid"
+  ]
+ },
+ "mexico": {
+  "pais": "Mexico",
+  "terminos": [
+   "Mexico",
+   "México",
+   "Mexique",
+   "New Spain",
+   "Nueva España",
+   "Nova Hispania",
+   "Hispania Nova",
+   "Yucatan",
+   "Tenochtitlan"
+  ]
+ },
+ "italia": {
+  "pais": "Italy",
+  "terminos": [
+   "Italy",
+   "Italia",
+   "Italie",
+   "Italien",
+   "Sicily",
+   "Sardinia",
+   "Naples",
+   "Venice",
+   "Rome",
+   "Papal States",
+   "Tuscany",
+   "Lombardy",
+   "Piedmont"
+  ]
+ },
+ "francia": {
+  "pais": "France",
+  "terminos": [
+   "France",
+   "Francia",
+   "Frankreich",
+   "Gallia",
+   "Gaul",
+   "Burgundy",
+   "Brittany",
+   "Normandy",
+   "Provence",
+   "Paris"
+  ]
+ },
+ "grecia": {
+  "pais": "Greece",
+  "terminos": [
+   "Greece",
+   "Grecia",
+   "Graecia",
+   "Hellas",
+   "Grèce",
+   "Peloponnese",
+   "Morea",
+   "Attica",
+   "Macedonia",
+   "Crete",
+   "Athens"
+  ]
+ },
+ "egipto": {
+  "pais": "Egypt",
+  "terminos": [
+   "Egypt",
+   "Egipto",
+   "Aegyptus",
+   "Égypte",
+   "Nile",
+   "Cairo",
+   "Alexandria"
+  ]
+ },
+ "israel": {
+  "pais": "Israel",
+  "terminos": [
+   "Israel",
+   "Palestine",
+   "Holy Land",
+   "Terra Sancta",
+   "Judaea",
+   "Judea",
+   "Canaan",
+   "Jerusalem"
+  ]
+ },
+ "palestina": {
+  "pais": "Israel",
+  "terminos": [
+   "Palestine",
+   "Holy Land",
+   "Terra Sancta",
+   "Judaea",
+   "Canaan",
+   "Jerusalem",
+   "Gaza"
+  ]
+ },
+ "iran": {
+  "pais": "Iran",
+  "terminos": [
+   "Iran",
+   "Persia",
+   "Perse",
+   "Persien",
+   "Persian Empire"
+  ]
+ },
+ "irak": {
+  "pais": "Iraq",
+  "terminos": [
+   "Iraq",
+   "Mesopotamia",
+   "Babylonia",
+   "Assyria",
+   "Baghdad"
+  ]
+ },
+ "siria": {
+  "pais": "Syria",
+  "terminos": [
+   "Syria",
+   "Siria",
+   "Syrie",
+   "Damascus",
+   "Aleppo",
+   "Levant"
+  ]
+ },
+ "rusia": {
+  "pais": "Russia",
+  "terminos": [
+   "Russia",
+   "Rusia",
+   "Russie",
+   "Russland",
+   "Muscovy",
+   "Moscovia",
+   "Russian Empire",
+   "Tartary",
+   "Siberia"
+  ]
+ },
+ "ucrania": {
+  "pais": "Ukraine",
+  "terminos": [
+   "Ukraine",
+   "Ucrania",
+   "Crimea",
+   "Little Russia",
+   "Ruthenia"
+  ]
+ },
+ "china": {
+  "pais": "China",
+  "terminos": [
+   "China",
+   "Chine",
+   "Cathay",
+   "Cathaia",
+   "Sina",
+   "Qing",
+   "Ming",
+   "Peking",
+   "Beijing"
+  ]
+ },
+ "japon": {
+  "pais": "Japan",
+  "terminos": [
+   "Japan",
+   "Japón",
+   "Japon",
+   "Iapan",
+   "Iaponia",
+   "Nippon",
+   "Edo",
+   "Tokyo"
+  ]
+ },
+ "india": {
+  "pais": "India",
+  "terminos": [
+   "India",
+   "Inde",
+   "Indien",
+   "Hindustan",
+   "Mughal Empire",
+   "East Indies"
+  ]
+ },
+ "alemania": {
+  "pais": "Germany",
+  "terminos": [
+   "Germany",
+   "Alemania",
+   "Germania",
+   "Allemagne",
+   "Deutschland",
+   "Prussia",
+   "Bavaria",
+   "Saxony",
+   "Holy Roman Empire"
+  ]
+ },
+ "reino unido": {
+  "pais": "United Kingdom",
+  "terminos": [
+   "United Kingdom",
+   "Great Britain",
+   "England",
+   "Inglaterra",
+   "Scotland",
+   "Wales",
+   "Britannia",
+   "Britain",
+   "Albion",
+   "London"
+  ]
+ },
+ "inglaterra": {
+  "pais": "United Kingdom",
+  "terminos": [
+   "England",
+   "Inglaterra",
+   "Anglia",
+   "Britain",
+   "London"
+  ]
+ },
+ "irlanda": {
+  "pais": "Ireland",
+  "terminos": [
+   "Ireland",
+   "Irlanda",
+   "Hibernia",
+   "Eire"
+  ]
+ },
+ "portugal": {
+  "pais": "Portugal",
+  "terminos": [
+   "Portugal",
+   "Lusitania",
+   "Lisbon"
+  ]
+ },
+ "marruecos": {
+  "pais": "Morocco",
+  "terminos": [
+   "Morocco",
+   "Marruecos",
+   "Maroc",
+   "Fez",
+   "Mauretania Tingitana",
+   "Barbary"
+  ]
+ },
+ "argelia": {
+  "pais": "Algeria",
+  "terminos": [
+   "Algeria",
+   "Argelia",
+   "Algiers",
+   "Barbary",
+   "Numidia"
+  ]
+ },
+ "tunez": {
+  "pais": "Tunisia",
+  "terminos": [
+   "Tunisia",
+   "Túnez",
+   "Tunis",
+   "Carthage",
+   "Africa Proconsularis"
+  ]
+ },
+ "libia": {
+  "pais": "Libya",
+  "terminos": [
+   "Libya",
+   "Libia",
+   "Tripoli",
+   "Cyrenaica",
+   "Barca"
+  ]
+ },
+ "arabia saudi": {
+  "pais": "Saudi Arabia",
+  "terminos": [
+   "Saudi Arabia",
+   "Arabia",
+   "Arabia Felix",
+   "Arabia Deserta",
+   "Hejaz",
+   "Mecca"
+  ]
+ },
+ "estados unidos": {
+  "pais": "United States",
+  "terminos": [
+   "United States",
+   "Estados Unidos",
+   "USA",
+   "America",
+   "North America",
+   "New England",
+   "Virginia",
+   "Louisiana"
+  ]
+ },
+ "canada": {
+  "pais": "Canada",
+  "terminos": [
+   "Canada",
+   "Canadá",
+   "New France",
+   "Nouvelle-France",
+   "Quebec"
+  ]
+ },
+ "brasil": {
+  "pais": "Brazil",
+  "terminos": [
+   "Brazil",
+   "Brasil",
+   "Bresil"
+  ]
+ },
+ "argentina": {
+  "pais": "Argentina",
+  "terminos": [
+   "Argentina",
+   "Rio de la Plata",
+   "Río de la Plata",
+   "Patagonia",
+   "Buenos Aires"
+  ]
+ },
+ "peru": {
+  "pais": "Peru",
+  "terminos": [
+   "Peru",
+   "Perú",
+   "Pérou",
+   "Inca",
+   "Lima",
+   "Cuzco"
+  ]
+ },
+ "chile": {
+  "pais": "Chile",
+  "terminos": [
+   "Chile",
+   "Chili"
+  ]
+ },
+ "colombia": {
+  "pais": "Colombia",
+  "terminos": [
+   "Colombia",
+   "New Granada",
+   "Nueva Granada",
+   "Bogota"
+  ]
+ },
+ "venezuela": {
+  "pais": "Venezuela",
+  "terminos": [
+   "Venezuela",
+   "Caracas"
+  ]
+ },
+ "cuba": {
+  "pais": "Cuba",
+  "terminos": [
+   "Cuba",
+   "Havana",
+   "La Habana"
+  ]
+ },
+ "caribe": {
+  "terminos": [
+   "Caribbean",
+   "West Indies",
+   "Antilles",
+   "Antillas",
+   "Caribe",
+   "Indias Occidentales"
+  ]
+ },
+ "mediterraneo": {
+  "terminos": [
+   "Mediterranean",
+   "Mediterráneo",
+   "Mare Internum",
+   "Mare Nostrum",
+   "Méditerranée"
+  ]
+ },
+ "europa": {
+  "terminos": [
+   "Europe",
+   "Europa"
+  ]
+ },
+ "africa": {
+  "terminos": [
+   "Africa",
+   "África",
+   "Afrique",
+   "Libya"
+  ]
+ },
+ "asia": {
+  "terminos": [
+   "Asia",
+   "Asie",
+   "Orient"
+  ]
+ },
+ "america": {
+  "terminos": [
+   "America",
+   "América",
+   "Americas",
+   "New World",
+   "Nuevo Mundo",
+   "Novus Orbis"
+  ]
+ },
+ "mundo": {
+  "terminos": [
+   "World",
+   "Mundo",
+   "Orbis Terrarum",
+   "Typus Orbis",
+   "Mappa mundi",
+   "Mappae mundi",
+   "Universalis"
+  ]
+ },
+ "imperio romano": {
+  "terminos": [
+   "Roman Empire",
+   "Imperium Romanum",
+   "Romani Imperii",
+   "Ancient Rome",
+   "Orbis Romanus"
+  ]
+ },
+ "imperio otomano": {
+  "terminos": [
+   "Ottoman Empire",
+   "Turkish Empire",
+   "Turcicum Imperium",
+   "Turcici Imperii"
+  ]
+ },
+ "ptolomeo": {
+  "terminos": [
+   "Ptolemy",
+   "Ptolemaeus",
+   "Ptolemaic",
+   "Ptolomeo",
+   "Geographia",
+   "Cosmographia",
+   "Ptolemée"
+  ]
+ },
+ "portulanos": {
+  "terminos": [
+   "Portolan",
+   "Portolano",
+   "Portulano",
+   "Portulan"
+  ]
+ }
+}

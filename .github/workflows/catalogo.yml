@@ -1,0 +1,90 @@
+name: Catálogo de mapas libres (todas las fuentes)
+
+# Rastreo reanudable de cada acervo en paralelo (~5 h por ejecución). Si alguno no ha terminado,
+# el flujo se relanza solo.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - catalogo/config.json
+      - scripts/catalogar_commons.py
+      - scripts/acervos.py
+      - .github/workflows/catalogo.yml
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: catalogo
+  cancel-in-progress: false
+
+jobs:
+  rastrear:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      matrix:
+        fuente: [commons, ogm, loc, ia, europeana]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Rastrear ${{ matrix.fuente }}
+        run: |
+          if [ "${{ matrix.fuente }}" = commons ]; then
+            python scripts/catalogar_commons.py --minutos 300
+          else
+            python scripts/acervos.py ${{ matrix.fuente }} --minutos 300
+          fi
+      - name: Guardar
+        run: |
+          git config user.name "cartographer-bot"
+          git config user.email "cartographer-bot@users.noreply.github.com"
+          git add -A catalogo
+          git diff --cached --quiet && exit 0
+          git commit -qm "Catálogo (${{ matrix.fuente }}): avance del rastreo [skip ci]"
+          for i in 1 2 3 4 5 6 7 8; do git pull --rebase -q origin main && git push -q && exit 0; sleep $((i*10)); done
+          exit 1
+
+  indexar:
+    needs: rastrear
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Índice
+        run: python scripts/indexar_catalogo.py
+      - name: Guardar y relanzar si falta
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "cartographer-bot"
+          git config user.email "cartographer-bot@users.noreply.github.com"
+          git add -A catalogo/indice
+          git diff --cached --quiet || git commit -qm "Catálogo: índice actualizado [skip ci]"
+          for i in 1 2 3 4 5; do git pull --rebase -q origin main && git push -q && break; sleep 10; done
+          pendiente=$(python - <<'PY'
+          import gzip, json, pathlib
+          p = pathlib.Path("catalogo")
+          falta = []
+          e = p / "estado.json.gz"
+          if not e.exists() or not json.loads(gzip.decompress(e.read_bytes()))["terminado"]:
+              falta.append("commons")
+          for f in ["ogm", "loc", "ia", "europeana"]:
+              e = p / f / "estado.json"
+              if not e.exists() or not json.loads(e.read_text()).get("terminado"):
+                  falta.append(f)
+          print(" ".join(falta))
+          PY
+          )
+          echo "Pendientes: $pendiente"
+          if [ -n "$pendiente" ]; then gh workflow run catalogo.yml --ref main; fi
