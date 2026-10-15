@@ -2,11 +2,11 @@
 
 Documento generado por `scripts/comprender.py`. No editar a mano.
 
-- Mapas analizados: **603,672** · con país asignado: **418,441** · sin país: 185,231
+- Mapas analizados: **630,128** · con país asignado: **425,588** · sin país: 204,540
   (sobre todo mapamundis, cartas oceánicas o registros sin datos de lugar).
 - Países con mapas: **243**.
-- Tipos: general 351,239, topográfico 201,640, plano urbano 23,258, militar 8,358, histórico/temático 6,633, ferroviario/viario 4,397, mapamundi 4,279, carta náutica 3,262, portulano 445, ptolemaico 161.
-- Escalas: desconocida 333,876, local o ciudad 245,025, provincia o comarca 14,152, región o país 6,100, continente 2,997, mundo 1,522.
+- Tipos: general 377,660, topográfico 201,640, plano urbano 23,258, militar 8,358, histórico/temático 6,633, ferroviario/viario 4,397, mapamundi 4,314, carta náutica 3,262, portulano 445, ptolemaico 161.
+- Escalas: desconocida 360,332, local o ciudad 245,025, provincia o comarca 14,152, región o país 6,100, continente 2,997, mundo 1,522.
 
 Cómo se asigna un país: por **nombre** actual (25+ idiomas, Natural Earth), por **nombre histórico**
 (`catalogo/nombres_historicos.json`) o por **coordenadas** de la cobertura del mapa. Cada mapa guarda
@@ -82,9 +82,9 @@ Mapas de un país: `catalogo/biblioteca/paises/<ISO3>.jsonl.gz` o
 | Eritrea | ERI | 398 |  |  |  |  |  |  |  |  | 1 | 6 | 7 | 99 | 260 |
 | Eslovaquia | SVK | 490 |  |  |  |  |  |  |  | 2 | 16 | 13 | 19 | 94 | 97 |
 | Eslovenia | SVN | 300 |  |  |  |  |  |  |  | 2 | 20 | 6 | 3 | 15 | 106 |
-| España | ESP | 6,792 | 6 |  |  |  |  |  | 1 | 12 | 94 | 285 | 1,364 | 2,552 | 890 |
+| España | ESP | 6,812 | 6 |  |  |  |  |  | 1 | 12 | 94 | 285 | 1,364 | 2,572 | 890 |
 | Estados Federados de Micronesia | FSM | 44 |  |  |  |  |  |  |  |  |  | 1 | 1 | 11 | 25 |
-| Estados Unidos | USA | 317,195 | 2 |  |  |  |  |  |  | 2 | 26 | 516 | 4,940 | 72,610 | 207,646 |
+| Estados Unidos | USA | 323,930 | 2 |  |  |  |  |  |  | 2 | 26 | 516 | 4,940 | 79,315 | 207,676 |
 | Estonia | EST | 954 |  |  |  |  |  |  |  |  | 2 | 11 | 14 | 79 | 489 |
 | Etiopía | ETH | 419 |  |  |  |  |  |  |  | 1 | 10 | 15 | 12 | 104 | 202 |
 | Filipinas | PHL | 363 |  |  |  |  |  |  |  |  | 4 | 5 | 56 | 72 | 177 |
@@ -98,7 +98,7 @@ Mapas de un país: `catalogo/biblioteca/paises/<ISO3>.jsonl.gz` o
 | Ghana | GHA | 81 |  |  |  |  |  |  |  |  | 2 | 7 | 7 | 8 | 19 |
 | Granada | GRD | 333 |  |  |  |  |  |  |  |  |  | 19 | 59 | 207 | 27 |
 | Grecia | GRC | 1,269 |  |  |  |  |  |  |  | 3 | 72 | 92 | 88 | 505 | 176 |
-| Groenlandia | GRL | 147 |  |  |  |  |  |  | 1 |  | 4 | 11 | 31 | 74 | 13 |
+| Groenlandia | GRL | 148 |  |  |  |  |  |  | 1 |  | 4 | 11 | 31 | 74 | 13 |
 | Guam | GUM | 24 |  |  |  |  |  |  |  |  |  |  | 4 | 6 | 3 |
 | Guatemala | GTM | 152 |  |  |  |  |  |  |  |  | 2 | 15 | 10 | 38 | 72 |
 | Guernsey | GGY | 217 |  |  |  |  |  |  |  |  |  | 4 |  | 102 | 109 |
@@ -115,7 +115,7 @@ Mapas de un país: `catalogo/biblioteca/paises/<ISO3>.jsonl.gz` o
 | Irak | IRQ | 483 |  |  |  |  |  |  |  | 3 | 30 | 23 | 25 | 92 | 139 |
 | Irlanda | IRL | 1,561 |  |  |  |  |  |  |  | 1 | 28 | 65 | 99 | 573 | 31 |
 | Irán | IRN | 435 |  |  |  |  |  |  |  | 5 | 38 | 17 | 61 | 158 | 68 |
-| Isla Norfolk | NFK | 684 |  |  |  |  |  |  |  |  |  | 1 | 33 | 510 | 134 |
+| Isla Norfolk | NFK | 728 |  |  |  |  |  |  |  |  |  | 1 | 33 | 554 | 134 |
 | Isla Santa Elena | SHN | 50 |  |  |  |  |  |  |  |  | 1 | 2 | 5 | 30 | 5 |
 | Isla de Man | IMN | 29 |  |  |  |  |  |  |  |  |  |  | 2 | 19 |  |
 | Islandia | ISL | 103 |  |  |  |  |  |  |  |  | 3 | 8 | 10 | 38 | 18 |
@@ -131,8 +131,8 @@ Mapas de un país: `catalogo/biblioteca/paises/<ISO3>.jsonl.gz` o
 | Islas Vírgenes Británicas | VGB | 9 |  |  |  |  |  |  |  |  |  |  | 3 | 1 | 5 |
 | Islas Vírgenes de los Estados Unidos | VIR | 101 |  |  |  |  |  |  |  |  |  | 1 | 49 | 2 | 44 |
 | Israel | ISR | 1,221 |  |  |  |  |  |  | 1 | 9 | 51 | 61 | 154 | 418 | 109 |
-| Italia | ITA | 4,520 | 2 |  |  |  | 1 |  |  | 9 | 189 | 337 | 304 | 1,115 | 327 |
-| Jamaica | JAM | 691 |  |  |  |  |  |  |  | 1 | 1 | 15 | 115 | 490 | 46 |
+| Italia | ITA | 4,528 | 2 |  |  |  | 1 |  |  | 10 | 189 | 337 | 304 | 1,119 | 327 |
+| Jamaica | JAM | 744 |  |  |  |  |  |  |  | 1 | 1 | 15 | 115 | 543 | 46 |
 | Japón | JPN | 1,103 |  |  |  |  |  |  |  | 1 | 4 | 41 | 129 | 291 | 225 |
 | Jersey | JEY | 13 |  |  |  |  |  |  |  |  |  | 4 |  | 8 |  |
 | Jordania | JOR | 380 |  |  |  |  |  |  |  | 1 | 37 | 18 | 22 | 148 | 27 |
@@ -150,7 +150,7 @@ Mapas de un país: `catalogo/biblioteca/paises/<ISO3>.jsonl.gz` o
 | Liechtenstein | LIE | 12 |  |  |  |  |  |  |  | 1 |  | 1 |  | 2 |  |
 | Lituania | LTU | 276 |  |  |  |  |  |  |  | 2 | 11 | 14 | 41 | 20 | 48 |
 | Luxemburgo | LUX | 272 |  |  |  |  |  |  |  |  | 6 | 22 | 43 | 35 | 19 |
-| Líbano | LBN | 370 |  |  |  |  |  |  |  | 1 | 17 | 6 | 14 | 190 | 77 |
+| Líbano | LBN | 652 |  |  |  |  |  |  |  | 1 | 17 | 6 | 14 | 444 | 105 |
 | Macao | MAC | 69 |  |  |  |  |  |  |  |  |  | 1 | 13 | 14 | 31 |
 | Macedonia del Norte | MKD | 115 |  |  |  |  |  |  |  | 2 | 13 | 11 | 5 | 19 | 24 |
 | Madagascar | MDG | 152 |  |  |  |  |  |  |  |  | 3 | 9 | 25 | 41 | 36 |
@@ -190,9 +190,9 @@ Mapas de un país: `catalogo/biblioteca/paises/<ISO3>.jsonl.gz` o
 | Perú | PER | 493 |  |  |  |  |  |  |  |  | 17 | 45 | 65 | 176 | 132 |
 | Polinesia Francesa | PYF | 69 |  |  |  |  |  |  |  |  |  | 1 | 35 | 26 | 5 |
 | Polonia | POL | 2,689 |  |  |  |  |  |  | 1 | 6 | 40 | 52 | 155 | 525 | 448 |
-| Portugal | PRT | 2,269 | 1 |  |  |  |  |  |  | 2 | 48 | 129 | 461 | 909 | 118 |
+| Portugal | PRT | 2,388 | 1 |  |  |  |  |  |  | 2 | 48 | 129 | 461 | 954 | 192 |
 | Puerto Rico | PRI | 1,040 |  |  |  |  |  |  |  | 1 |  | 10 | 70 | 38 | 897 |
-| Reino Unido | GBR | 7,725 |  |  |  |  |  |  |  | 1 | 54 | 428 | 644 | 1,731 | 394 |
+| Reino Unido | GBR | 7,918 |  |  |  |  |  |  |  | 1 | 54 | 428 | 644 | 1,920 | 398 |
 | República Centroafricana | CAF | 155 |  |  |  |  |  |  |  |  |  | 2 | 3 | 8 | 112 |
 | República Checa | CZE | 1,037 |  |  |  |  |  |  |  | 1 | 16 | 31 | 57 | 173 | 177 |
 | República Democrática del Congo | COD | 224 |  |  |  |  |  |  |  |  | 3 | 6 | 9 | 31 | 128 |

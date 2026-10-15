@@ -1,22 +1,22 @@
 {
- "mapas_analizados": 603672,
- "con_pais": 418441,
- "sin_pais": 185231,
+ "mapas_analizados": 630128,
+ "con_pais": 425588,
+ "sin_pais": 204540,
  "paises_con_mapas": 243,
  "por_tipo": {
-  "general": 351239,
+  "general": 377660,
   "topográfico": 201640,
   "plano urbano": 23258,
   "militar": 8358,
   "histórico/temático": 6633,
   "ferroviario/viario": 4397,
-  "mapamundi": 4279,
+  "mapamundi": 4314,
   "carta náutica": 3262,
   "portulano": 445,
   "ptolemaico": 161
  },
  "por_escala": {
-  "desconocida": 333876,
+  "desconocida": 360332,
   "local o ciudad": 245025,
   "provincia o comarca": 14152,
   "región o país": 6100,
@@ -26,6 +26,6 @@
  "descartes": {
   "nombre fuera de la cobertura del mapa": 11195,
   "coordenadas con signo corregido": 462,
-  "histórico descartado por nombre explícito de otro país": 7119
+  "histórico descartado por nombre explícito de otro país": 7433
  }
 }
