@@ -2,11 +2,11 @@
 
 Documento generado por `scripts/comprender.py`. No editar a mano.
 
-- Mapas analizados: **758,715** · con país asignado: **474,122** · sin país: 284,593
+- Mapas analizados: **758,768** · con país asignado: **474,128** · sin país: 284,640
   (sobre todo mapamundis, cartas oceánicas o registros sin datos de lugar).
 - Países con mapas: **243**.
-- Tipos: general 503,563, topográfico 201,829, plano urbano 23,400, militar 9,367, histórico/temático 6,990, mapamundi 4,999, ferroviario/viario 4,510, carta náutica 3,440, portulano 448, ptolemaico 169.
-- Escalas: desconocida 488,919, local o ciudad 245,025, provincia o comarca 14,152, región o país 6,100, continente 2,997, mundo 1,522.
+- Tipos: general 503,602, topográfico 201,836, plano urbano 23,400, militar 9,368, histórico/temático 6,991, mapamundi 5,002, ferroviario/viario 4,512, carta náutica 3,440, portulano 448, ptolemaico 169.
+- Escalas: desconocida 488,972, local o ciudad 245,025, provincia o comarca 14,152, región o país 6,100, continente 2,997, mundo 1,522.
 
 Cómo se asigna un país: por **nombre** actual (25+ idiomas, Natural Earth), por **nombre histórico**
 (`catalogo/nombres_historicos.json`) o por **coordenadas** de la cobertura del mapa. Cada mapa guarda
@@ -118,7 +118,7 @@ Mapas de un país: `catalogo/biblioteca/paises/<ISO3>.jsonl.gz` o
 | Isla Norfolk | NFK | 1,318 |  |  |  |  |  |  |  |  |  | 1 | 35 | 1,074 | 202 |
 | Isla Santa Elena | SHN | 102 |  |  |  |  |  |  |  |  | 1 | 2 | 5 | 82 | 5 |
 | Isla de Man | IMN | 29 |  |  |  |  |  |  |  |  |  |  | 2 | 19 |  |
-| Islandia | ISL | 105 |  |  |  |  |  |  |  |  | 5 | 8 | 10 | 38 | 18 |
+| Islandia | ISL | 106 |  |  |  |  |  |  |  |  | 6 | 8 | 10 | 38 | 18 |
 | Islas Caimán | CYM | 9 |  |  |  |  |  |  |  |  |  |  | 1 | 1 | 7 |
 | Islas Feroe | FRO | 4 |  |  |  |  |  |  |  |  |  | 1 | 1 | 2 |  |
 | Islas Georgias del Sur y Sandwich del Sur | SGS | 2 |  |  |  |  |  |  |  |  |  |  |  |  | 1 |
@@ -137,7 +137,7 @@ Mapas de un país: `catalogo/biblioteca/paises/<ISO3>.jsonl.gz` o
 | Jersey | JEY | 13 |  |  |  |  |  |  |  |  |  | 4 |  | 8 |  |
 | Jordania | JOR | 380 |  |  |  |  |  |  |  | 1 | 37 | 18 | 22 | 148 | 27 |
 | Kazajistán | KAZ | 111 |  |  |  |  |  |  |  | 1 | 15 | 15 | 4 | 22 | 22 |
-| Kenia | KEN | 214 |  |  |  |  |  |  |  |  | 2 | 4 | 1 | 21 | 147 |
+| Kenia | KEN | 219 |  |  |  |  |  |  |  |  | 2 | 4 | 1 | 21 | 152 |
 | Kirguistán | KGZ | 42 |  |  |  |  |  |  |  |  | 7 | 2 |  | 15 | 10 |
 | Kiribati | KIR | 22 |  |  |  |  |  |  |  |  |  |  |  | 14 | 8 |
 | Kosovo | KOS | 49 |  |  |  |  |  |  |  |  | 1 | 2 | 2 |  | 26 |
@@ -250,7 +250,7 @@ Mapas de un país: `catalogo/biblioteca/paises/<ISO3>.jsonl.gz` o
 | UMI | UMI | 2 |  |  |  |  |  |  |  |  |  |  |  | 2 |  |
 | USG | USG | 3 |  |  |  |  |  |  |  |  |  |  | 1 | 1 |  |
 | Ucrania | UKR | 676 |  |  |  |  |  |  | 2 | 4 | 29 | 48 | 48 | 87 | 78 |
-| Uganda | UGA | 188 |  |  |  |  |  |  |  |  | 1 | 3 | 3 | 14 | 140 |
+| Uganda | UGA | 190 |  |  |  |  |  |  |  |  | 1 | 3 | 3 | 14 | 142 |
 | Uruguay | URY | 252 |  |  |  |  |  |  |  |  | 1 | 22 | 45 | 90 | 64 |
 | Uzbekistán | UZB | 94 |  |  |  |  |  |  |  |  | 7 | 4 | 2 | 48 | 18 |
 | Vanuatu | VUT | 6 |  |  |  |  |  |  |  |  |  |  |  | 2 | 4 |

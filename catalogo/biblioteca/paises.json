@@ -3444,6 +3444,43 @@
    "proveedores": 9
   }
  },
+ "KEN": {
+  "nombre_es": "Kenia",
+  "continente": "Africa",
+  "total": 219,
+  "por_siglo": {
+   "16": 2,
+   "17": 4,
+   "18": 1,
+   "19": 21,
+   "20": 152,
+   "sin siglo": 39
+  },
+  "por_tipo": {
+   "general": 134,
+   "topográfico": 69,
+   "histórico/temático": 7,
+   "ferroviario/viario": 6,
+   "militar": 1,
+   "mapamundi": 1,
+   "ptolemaico": 1
+  },
+  "por_via": {
+   "coordenadas": 133,
+   "nombre": 84,
+   "region": 2
+  },
+  "por_fuente": {
+   "allmaps": 22,
+   "commons": 39,
+   "dc": 3,
+   "europeana": 15,
+   "ia": 1,
+   "loc": 20,
+   "ogm": 117,
+   "proveedores": 2
+  }
+ },
  "GGY": {
   "nombre_es": "Guernsey",
   "continente": "Europe",
@@ -3469,42 +3506,6 @@
    "ia": 1,
    "loc": 24,
    "ogm": 5
-  }
- },
- "KEN": {
-  "nombre_es": "Kenia",
-  "continente": "Africa",
-  "total": 214,
-  "por_siglo": {
-   "16": 2,
-   "17": 4,
-   "18": 1,
-   "19": 21,
-   "20": 147,
-   "sin siglo": 39
-  },
-  "por_tipo": {
-   "general": 133,
-   "topográfico": 68,
-   "histórico/temático": 7,
-   "ferroviario/viario": 4,
-   "mapamundi": 1,
-   "ptolemaico": 1
-  },
-  "por_via": {
-   "coordenadas": 133,
-   "nombre": 79,
-   "region": 2
-  },
-  "por_fuente": {
-   "allmaps": 22,
-   "commons": 34,
-   "dc": 3,
-   "europeana": 15,
-   "ia": 1,
-   "loc": 20,
-   "ogm": 117,
-   "proveedores": 2
   }
  },
  "SOL": {
@@ -3785,6 +3786,42 @@
    "ogm": 26
   }
  },
+ "UGA": {
+  "nombre_es": "Uganda",
+  "continente": "Africa",
+  "total": 190,
+  "por_siglo": {
+   "16": 1,
+   "17": 3,
+   "18": 3,
+   "19": 14,
+   "20": 142,
+   "sin siglo": 27
+  },
+  "por_tipo": {
+   "general": 114,
+   "topográfico": 63,
+   "ferroviario/viario": 6,
+   "plano urbano": 4,
+   "mapamundi": 1,
+   "ptolemaico": 1,
+   "histórico/temático": 1
+  },
+  "por_via": {
+   "coordenadas": 122,
+   "nombre": 67,
+   "region": 1
+  },
+  "por_fuente": {
+   "allmaps": 21,
+   "commons": 8,
+   "dc": 3,
+   "europeana": 5,
+   "ia": 2,
+   "loc": 36,
+   "ogm": 115
+  }
+ },
  "PRY": {
   "nombre_es": "Paraguay",
   "continente": "South America",
@@ -3853,42 +3890,6 @@
    "loc": 21,
    "ogm": 47,
    "proveedores": 2
-  }
- },
- "UGA": {
-  "nombre_es": "Uganda",
-  "continente": "Africa",
-  "total": 188,
-  "por_siglo": {
-   "16": 1,
-   "17": 3,
-   "18": 3,
-   "19": 14,
-   "20": 140,
-   "sin siglo": 27
-  },
-  "por_tipo": {
-   "general": 114,
-   "topográfico": 63,
-   "plano urbano": 4,
-   "ferroviario/viario": 4,
-   "mapamundi": 1,
-   "ptolemaico": 1,
-   "histórico/temático": 1
-  },
-  "por_via": {
-   "coordenadas": 122,
-   "nombre": 65,
-   "region": 1
-  },
-  "por_fuente": {
-   "allmaps": 21,
-   "commons": 6,
-   "dc": 3,
-   "europeana": 5,
-   "ia": 2,
-   "loc": 36,
-   "ogm": 115
   }
  },
  "CYP": {
@@ -4829,9 +4830,9 @@
  "ISL": {
   "nombre_es": "Islandia",
   "continente": "Europe",
-  "total": 105,
+  "total": 106,
   "por_siglo": {
-   "16": 5,
+   "16": 6,
    "17": 8,
    "18": 10,
    "19": 38,
@@ -4839,7 +4840,7 @@
    "sin siglo": 26
   },
   "por_tipo": {
-   "general": 93,
+   "general": 94,
    "topográfico": 5,
    "plano urbano": 3,
    "mapamundi": 2,
@@ -4847,11 +4848,11 @@
   },
   "por_via": {
    "coordenadas": 25,
-   "nombre": 80
+   "nombre": 81
   },
   "por_fuente": {
    "allmaps": 25,
-   "commons": 16,
+   "commons": 17,
    "dc": 3,
    "europeana": 39,
    "ia": 1,
