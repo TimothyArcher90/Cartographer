@@ -2,11 +2,11 @@
 
 Documento generado por `scripts/comprender.py`. No editar a mano.
 
-- Mapas analizados: **763,188** · con país asignado: **475,650** · sin país: 287,538
+- Mapas analizados: **809,539** · con país asignado: **500,647** · sin país: 308,892
   (sobre todo mapamundis, cartas oceánicas o registros sin datos de lugar).
-- Países con mapas: **243**.
-- Tipos: general 507,132, topográfico 202,065, plano urbano 23,443, militar 9,655, histórico/temático 7,076, mapamundi 5,021, ferroviario/viario 4,540, carta náutica 3,610, portulano 472, ptolemaico 174.
-- Escalas: desconocida 493,392, local o ciudad 245,025, provincia o comarca 14,152, región o país 6,100, continente 2,997, mundo 1,522.
+- Países con mapas: **244**.
+- Tipos: general 523,056, topográfico 204,172, histórico/temático 30,574, plano urbano 24,164, militar 10,271, mapamundi 6,086, ferroviario/viario 5,335, carta náutica 4,732, portulano 758, ptolemaico 391.
+- Escalas: desconocida 539,743, local o ciudad 245,025, provincia o comarca 14,152, región o país 6,100, continente 2,997, mundo 1,522.
 
 Cómo se asigna un país: por **nombre** actual (25+ idiomas, Natural Earth), por **nombre histórico**
 (`catalogo/nombres_historicos.json`) o por **coordenadas** de la cobertura del mapa. Cada mapa guarda
@@ -18,246 +18,247 @@ Mapas de un país: `catalogo/biblioteca/paises/<ISO3>.jsonl.gz` o
 
 | País | ISO | Total | Antes del s. IX | IX | X | XI | XII | XIII | XIV | XV | XVI | XVII | XVIII | XIX | XX |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Afganistán | AFG | 374 |  |  |  |  |  |  |  |  | 21 | 6 | 9 | 149 | 100 |
-| Albania | ALB | 262 |  |  |  |  |  |  | 1 | 3 | 23 | 22 | 19 | 63 | 48 |
-| Alemania | DEU | 12,990 | 1 |  |  |  |  |  |  | 4 | 96 | 208 | 337 | 1,515 | 828 |
-| Andorra | AND | 27 |  |  |  |  |  |  |  |  |  |  | 1 | 2 | 18 |
-| Angola | AGO | 190 |  |  |  |  |  |  |  |  | 3 | 9 | 13 | 48 | 89 |
-| Anguila | AIA | 7 |  |  |  |  |  |  |  |  |  |  | 6 | 1 |  |
-| Antigua y Barbuda | ATG | 26 |  |  |  |  |  |  |  |  |  | 1 | 13 | 10 | 1 |
-| Antártida | ATA | 89 |  |  |  |  |  |  |  |  |  | 8 | 11 | 9 | 50 |
-| Arabia Saudita | SAU | 507 |  |  |  |  |  |  |  | 6 | 45 | 32 | 52 | 146 | 129 |
-| Argelia | DZA | 396 |  |  |  |  |  |  |  | 2 | 20 | 21 | 33 | 106 | 102 |
-| Argentina | ARG | 755 |  |  |  |  |  |  |  |  | 7 | 98 | 95 | 126 | 355 |
-| Armenia | ARM | 141 |  |  |  |  |  |  | 1 | 1 | 11 | 7 | 15 | 61 | 21 |
-| Aruba | ABW | 22 |  |  |  |  |  |  |  |  |  |  | 2 | 6 | 4 |
-| Australia | AUS | 1,954 | 1 |  |  |  |  |  |  |  | 2 | 7 | 18 | 275 | 63 |
-| Austria | AUT | 1,586 | 1 |  |  |  |  |  |  | 2 | 38 | 36 | 63 | 387 | 254 |
-| Azerbaiyán | AZE | 96 |  |  |  |  |  |  |  | 1 | 8 | 4 | 5 | 30 | 24 |
-| Bahamas | BHS | 139 |  |  |  |  |  |  |  |  |  | 4 | 58 | 49 | 23 |
-| Bangladés | BGD | 53 |  |  |  |  |  |  |  | 1 | 3 | 5 | 4 | 7 | 8 |
-| Barbados | BRB | 85 |  |  |  |  |  |  |  |  |  | 6 | 33 | 6 | 24 |
-| Baréin | BHR | 63 |  |  |  |  |  |  |  | 2 | 6 | 6 | 9 | 14 | 16 |
-| Belice | BLZ | 67 |  |  |  |  |  |  |  |  |  | 9 | 5 | 15 | 34 |
-| Benín | BEN | 47 |  |  |  |  |  |  |  |  | 3 | 6 |  | 2 | 16 |
-| Bermudas | BMU | 78 |  |  |  |  |  |  |  |  |  | 11 | 30 | 22 | 8 |
-| Bielorrusia | BLR | 243 |  |  |  |  |  |  |  | 3 | 22 | 19 | 25 | 22 | 54 |
-| Birmania | MMR | 152 |  |  |  |  |  |  |  |  | 8 | 5 | 14 | 38 | 37 |
-| Bolivia | BOL | 195 |  |  |  |  |  |  |  |  | 5 | 15 | 9 | 66 | 73 |
-| Bosnia y Herzegovina | BIH | 439 |  |  |  |  |  |  |  | 6 | 37 | 13 | 21 | 101 | 70 |
-| Botsuana | BWA | 158 |  |  |  |  |  |  |  |  | 2 |  | 5 | 46 | 55 |
-| Brasil | BRA | 1,556 |  |  |  |  |  |  |  | 3 | 16 | 193 | 239 | 460 | 424 |
-| Brunéi | BRN | 17 |  |  |  |  |  |  |  |  |  |  |  | 6 | 4 |
-| Bulgaria | BGR | 442 |  |  |  |  |  |  | 1 | 2 | 22 | 19 | 42 | 123 | 71 |
-| Burkina Faso | BFA | 55 |  |  |  |  |  |  |  |  | 2 | 5 | 3 | 7 | 13 |
-| Burundi | BDI | 37 |  |  |  |  |  |  |  |  |  |  |  | 3 | 30 |
-| Bután | BTN | 38 |  |  |  |  |  |  |  |  |  |  | 1 | 9 | 11 |
-| Bélgica | BEL | 4,651 |  |  |  |  |  |  |  | 2 | 52 | 136 | 339 | 360 | 271 |
-| Cabo Verde | CPV | 93 |  |  |  |  |  |  |  |  | 3 | 15 | 37 | 21 | 3 |
-| Camboya | KHM | 94 |  |  |  |  |  |  |  |  | 1 | 1 | 2 | 10 | 48 |
-| Camerún | CMR | 98 |  |  |  |  |  |  |  |  | 2 | 4 | 8 | 9 | 43 |
-| Canadá | CAN | 5,406 |  |  |  |  |  |  |  |  | 13 | 81 | 1,396 | 1,546 | 1,559 |
-| Catar | QAT | 55 |  |  |  |  |  |  |  | 3 | 8 | 7 | 11 | 13 | 10 |
-| Chad | TCD | 67 |  |  |  |  |  |  |  |  |  | 3 | 4 | 10 | 29 |
-| Chile | CHL | 706 |  |  |  |  |  |  |  | 2 | 6 | 109 | 138 | 265 | 128 |
-| China | CHN | 3,513 |  |  |  |  | 8 | 1 | 2 | 4 | 35 | 97 | 337 | 1,424 | 1,125 |
-| Chipre | CYP | 179 |  |  |  |  |  |  |  | 1 | 10 | 13 | 11 | 18 | 92 |
-| Ciudad del Vaticano | VAT | 42 |  |  |  |  |  |  |  |  | 1 | 24 | 1 | 3 | 5 |
-| Colombia | COL | 493 |  |  |  |  |  |  |  |  | 10 | 55 | 102 | 103 | 141 |
-| Comoras | COM | 9 |  |  |  |  |  |  |  |  |  |  |  | 2 | 7 |
-| Corea del Norte | PRK | 134 |  |  |  |  |  |  |  |  | 1 | 9 | 11 | 13 | 54 |
-| Corea del Sur | KOR | 730 |  |  |  |  |  |  |  |  | 2 | 12 | 51 | 117 | 201 |
-| Costa Rica | CRI | 169 |  |  |  |  |  |  |  |  |  | 14 | 15 | 39 | 89 |
-| Costa de Marfil | CIV | 84 |  |  |  |  |  |  |  |  | 3 | 5 | 9 | 10 | 25 |
-| Croacia | HRV | 735 |  |  |  |  |  |  |  | 6 | 41 | 18 | 34 | 188 | 69 |
-| Cuba | CUB | 966 |  |  |  |  |  |  |  | 1 | 7 | 99 | 217 | 261 | 244 |
-| Curazao | CUW | 81 |  |  |  |  |  |  |  |  |  |  | 19 | 10 | 2 |
-| Dinamarca | DNK | 1,041 |  |  |  |  |  |  | 1 |  | 10 | 47 | 47 | 276 | 69 |
-| Dominica | DMA | 15 |  |  |  |  |  |  |  |  |  |  | 12 | 2 |  |
+| Afganistán | AFG | 463 |  |  |  |  |  |  |  |  | 21 | 6 | 12 | 194 | 110 |
+| Albania | ALB | 322 | 1 |  |  |  |  | 2 | 2 | 7 | 23 | 26 | 22 | 84 | 61 |
+| Alemania | DEU | 13,927 | 7 | 3 | 3 | 1 | 2 | 3 | 1 | 8 | 104 | 255 | 427 | 1,737 | 897 |
+| Andorra | AND | 41 | 2 |  |  |  |  |  |  |  |  |  | 2 | 5 | 22 |
+| Angola | AGO | 225 |  |  |  |  |  |  |  | 1 | 4 | 13 | 21 | 63 | 90 |
+| Anguila | AIA | 8 |  |  |  |  |  |  |  |  |  |  | 6 | 1 |  |
+| Antigua y Barbuda | ATG | 40 |  |  |  |  |  |  |  |  |  | 2 | 16 | 17 | 1 |
+| Antártida | ATA | 96 |  |  |  |  |  |  |  |  |  | 8 | 11 | 10 | 53 |
+| Arabia Saudita | SAU | 585 |  |  |  |  |  |  |  | 6 | 47 | 35 | 62 | 160 | 143 |
+| Argelia | DZA | 573 | 2 |  |  |  |  | 1 | 1 | 3 | 23 | 27 | 38 | 198 | 113 |
+| Argentina | ARG | 861 |  |  |  |  |  |  |  |  | 7 | 101 | 103 | 160 | 363 |
+| Armenia | ARM | 404 |  | 1 |  | 1 |  |  | 1 | 2 | 20 | 12 | 27 | 181 | 93 |
+| Aruba | ABW | 23 |  |  |  |  |  |  |  |  |  |  | 3 | 6 | 4 |
+| Australia | AUS | 2,315 | 5 |  |  |  |  |  | 1 |  | 8 | 16 | 40 | 386 | 100 |
+| Austria | AUT | 2,011 | 4 |  |  |  |  |  | 1 | 3 | 41 | 48 | 100 | 499 | 268 |
+| Azerbaiyán | AZE | 138 |  |  |  |  |  |  |  | 1 | 8 | 7 | 10 | 46 | 36 |
+| Bahamas | BHS | 177 |  |  |  |  |  | 1 |  |  |  | 5 | 61 | 61 | 30 |
+| Bangladés | BGD | 57 |  |  |  |  |  |  |  | 1 | 4 | 5 | 4 | 7 | 8 |
+| Barbados | BRB | 117 |  |  |  |  |  |  |  |  |  | 11 | 39 | 14 | 30 |
+| Baréin | BHR | 82 |  |  |  |  |  |  |  | 2 | 6 | 6 | 11 | 19 | 27 |
+| Belice | BLZ | 70 |  |  |  |  |  |  |  |  |  | 9 | 5 | 16 | 34 |
+| Benín | BEN | 60 |  |  |  |  |  |  |  |  | 4 | 7 | 4 | 5 | 16 |
+| Bermudas | BMU | 104 |  |  |  |  |  |  |  |  | 1 | 12 | 30 | 24 | 16 |
+| Bielorrusia | BLR | 312 | 1 |  |  |  |  |  |  | 3 | 22 | 20 | 33 | 46 | 85 |
+| Birmania | MMR | 232 | 1 |  |  |  |  |  |  | 1 | 11 | 9 | 22 | 62 | 69 |
+| Bolivia | BOL | 241 |  |  |  |  |  |  |  |  | 5 | 15 | 11 | 71 | 80 |
+| Bosnia y Herzegovina | BIH | 464 | 2 |  |  |  |  |  |  | 6 | 37 | 15 | 22 | 113 | 75 |
+| Botsuana | BWA | 163 |  |  |  | 2 |  |  |  |  | 2 |  | 5 | 47 | 56 |
+| Brasil | BRA | 2,055 | 3 |  |  |  |  |  |  | 3 | 23 | 221 | 248 | 504 | 439 |
+| Brunéi | BRN | 30 |  |  |  |  |  |  |  |  | 1 |  | 1 | 11 | 7 |
+| Bulgaria | BGR | 496 |  |  |  |  |  |  | 1 | 2 | 23 | 20 | 44 | 137 | 80 |
+| Burkina Faso | BFA | 57 |  |  |  |  |  |  |  |  | 2 | 5 | 3 | 7 | 14 |
+| Burundi | BDI | 44 | 1 |  |  |  |  |  |  |  |  |  |  | 3 | 34 |
+| Bután | BTN | 122 | 1 |  |  |  |  |  |  |  |  |  | 5 | 36 | 55 |
+| Bélgica | BEL | 5,077 | 1 |  | 1 |  |  |  | 1 | 3 | 56 | 146 | 396 | 433 | 282 |
+| Cabo Verde | CPV | 119 |  |  |  |  |  |  |  |  | 4 | 21 | 48 | 26 | 3 |
+| Camboya | KHM | 106 |  |  |  |  |  |  |  |  | 2 | 3 | 5 | 15 | 49 |
+| Camerún | CMR | 113 |  |  |  |  |  |  |  |  | 2 | 6 | 8 | 10 | 47 |
+| Canadá | CAN | 6,201 | 8 |  |  |  |  |  | 2 |  | 21 | 103 | 1,497 | 1,723 | 1,710 |
+| Catar | QAT | 100 |  |  |  |  |  |  |  | 3 | 8 | 7 | 13 | 34 | 32 |
+| Chad | TCD | 70 |  |  |  |  |  |  |  |  |  | 3 | 4 | 11 | 29 |
+| Chile | CHL | 906 |  |  |  |  |  |  |  | 2 | 8 | 126 | 167 | 316 | 143 |
+| China | CHN | 3,981 | 2 | 1 |  |  | 9 | 2 | 3 | 5 | 39 | 135 | 396 | 1,511 | 1,190 |
+| Chipre | CYP | 225 | 1 |  |  |  |  |  |  | 2 | 17 | 16 | 16 | 22 | 95 |
+| Ciudad del Vaticano | VAT | 76 |  |  |  |  |  |  |  |  | 1 | 24 | 5 | 10 | 15 |
+| Colombia | COL | 583 |  |  |  |  |  |  |  |  | 10 | 55 | 101 | 127 | 146 |
+| Comoras | COM | 20 |  |  |  |  |  |  |  |  |  |  | 2 | 9 | 7 |
+| Corea del Norte | PRK | 136 |  |  |  |  |  |  |  |  | 1 | 9 | 12 | 13 | 54 |
+| Corea del Sur | KOR | 830 | 1 |  |  |  |  |  |  |  | 5 | 15 | 65 | 138 | 220 |
+| Costa Rica | CRI | 181 |  |  |  |  |  |  |  |  |  | 16 | 16 | 46 | 89 |
+| Costa de Marfil | CIV | 94 |  |  |  |  |  |  |  |  | 3 | 5 | 13 | 13 | 28 |
+| Croacia | HRV | 847 | 5 |  |  |  |  |  | 2 | 7 | 44 | 23 | 42 | 223 | 87 |
+| Cuba | CUB | 1,200 | 17 | 8 | 5 |  |  |  |  | 1 | 7 | 107 | 230 | 280 | 325 |
+| Curazao | CUW | 88 |  |  |  |  |  |  |  |  |  | 1 | 20 | 11 | 2 |
+| Dinamarca | DNK | 1,342 | 5 |  |  |  |  |  | 2 |  | 11 | 66 | 68 | 387 | 81 |
+| Dominica | DMA | 16 |  |  |  |  |  |  |  |  |  |  | 12 | 2 |  |
 | ESB | ESB | 1 |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| Ecuador | ECU | 253 |  |  |  |  |  |  |  |  | 8 | 19 | 36 | 65 | 85 |
-| Egipto | EGY | 1,930 |  |  |  |  | 1 | 1 |  | 3 | 44 | 39 | 114 | 785 | 755 |
-| El Salvador | SLV | 156 |  |  |  |  |  |  |  |  |  | 4 | 4 | 86 | 54 |
-| Emiratos Árabes Unidos | ARE | 54 |  |  |  |  |  |  |  | 3 | 7 | 6 | 12 | 13 | 6 |
-| Eritrea | ERI | 398 |  |  |  |  |  |  |  |  | 1 | 6 | 7 | 99 | 260 |
-| Eslovaquia | SVK | 494 |  |  |  |  |  |  |  | 2 | 16 | 13 | 19 | 94 | 101 |
-| Eslovenia | SVN | 306 |  |  |  |  |  |  |  | 2 | 20 | 7 | 3 | 16 | 106 |
-| España | ESP | 6,986 | 6 |  |  |  | 1 | 1 | 6 | 13 | 96 | 285 | 1,369 | 2,642 | 977 |
-| Estados Federados de Micronesia | FSM | 44 |  |  |  |  |  |  |  |  |  | 1 | 1 | 11 | 25 |
-| Estados Unidos | USA | 368,006 | 3 |  |  |  |  |  |  | 4 | 30 | 525 | 5,158 | 117,035 | 213,642 |
-| Estonia | EST | 954 |  |  |  |  |  |  |  |  | 2 | 11 | 14 | 79 | 489 |
-| Etiopía | ETH | 442 |  |  |  |  |  | 1 |  | 1 | 11 | 15 | 12 | 105 | 222 |
-| Filipinas | PHL | 368 |  |  |  |  |  |  |  |  | 5 | 7 | 56 | 72 | 179 |
-| Finlandia | FIN | 201 |  |  |  |  |  |  |  | 1 | 8 | 15 | 18 | 32 | 29 |
-| Fiyi | FJI | 43 |  |  |  |  |  |  |  |  |  | 1 |  | 29 | 10 |
-| Francia | FRA | 11,993 | 1 |  | 1 |  | 1 | 1 | 2 | 3 | 138 | 468 | 1,497 | 3,963 | 623 |
+| Ecuador | ECU | 290 |  |  |  |  |  |  |  |  | 8 | 21 | 37 | 72 | 87 |
+| Egipto | EGY | 2,269 | 8 |  |  | 2 | 1 | 1 | 1 | 4 | 48 | 40 | 123 | 853 | 785 |
+| El Salvador | SLV | 184 |  |  |  |  |  | 1 |  |  | 1 | 10 | 5 | 93 | 61 |
+| Emiratos Árabes Unidos | ARE | 55 |  |  |  |  |  |  |  | 3 | 7 | 6 | 12 | 13 | 7 |
+| Eritrea | ERI | 417 |  |  |  |  |  |  |  |  | 1 | 6 | 7 | 104 | 271 |
+| Eslovaquia | SVK | 539 |  |  |  |  |  |  |  | 2 | 17 | 15 | 23 | 103 | 125 |
+| Eslovenia | SVN | 322 | 1 |  |  |  |  |  |  | 2 | 22 | 8 | 5 | 18 | 108 |
+| España | ESP | 7,516 | 16 |  | 23 | 9 | 16 | 7 | 9 | 21 | 103 | 300 | 1,427 | 2,703 | 1,000 |
+| Estados Federados de Micronesia | FSM | 68 |  |  |  |  |  |  |  |  |  | 1 | 4 | 23 | 32 |
+| Estados Unidos | USA | 372,292 | 32 |  | 2 |  | 3 | 4 |  | 4 | 41 | 665 | 5,343 | 118,040 | 214,088 |
+| Estonia | EST | 981 |  |  |  |  |  |  |  |  | 2 | 12 | 18 | 83 | 500 |
+| Etiopía | ETH | 526 | 8 |  |  |  |  | 1 | 1 | 1 | 12 | 17 | 17 | 139 | 233 |
+| Filipinas | PHL | 569 |  |  |  | 1 |  |  |  |  | 7 | 14 | 70 | 220 | 187 |
+| Finlandia | FIN | 225 |  |  |  |  |  |  |  | 1 | 8 | 18 | 21 | 37 | 32 |
+| Fiyi | FJI | 58 |  |  |  |  |  |  |  |  |  | 2 | 2 | 34 | 10 |
+| Francia | FRA | 15,112 | 17 | 1 | 4 | 4 | 4 | 14 | 15 | 10 | 166 | 627 | 1,977 | 4,490 | 768 |
 | GIB | GIB | 5 |  |  |  |  |  |  |  |  |  |  | 5 |  |  |
-| Gabón | GAB | 56 |  |  |  |  |  |  |  |  | 2 | 5 | 7 | 6 | 12 |
-| Gambia | GMB | 27 |  |  |  |  |  |  |  |  |  | 2 | 11 | 9 | 4 |
-| Georgia | GEO | 231 |  |  |  |  |  |  |  | 1 | 11 | 4 | 49 | 60 | 40 |
-| Ghana | GHA | 81 |  |  |  |  |  |  |  |  | 2 | 7 | 7 | 8 | 19 |
-| Granada | GRD | 336 |  |  |  |  |  |  |  |  |  | 19 | 61 | 207 | 27 |
-| Grecia | GRC | 1,282 |  |  |  |  |  |  |  | 3 | 75 | 93 | 89 | 509 | 179 |
-| Groenlandia | GRL | 152 |  |  |  |  |  |  | 1 |  | 7 | 11 | 31 | 74 | 14 |
-| Guam | GUM | 24 |  |  |  |  |  |  |  |  |  |  | 4 | 6 | 3 |
-| Guatemala | GTM | 152 |  |  |  |  |  |  |  |  | 2 | 15 | 10 | 38 | 72 |
-| Guernsey | GGY | 217 |  |  |  |  |  |  |  |  |  | 4 |  | 102 | 109 |
-| Guinea | GIN | 84 |  |  |  |  |  |  |  |  | 1 | 11 | 32 | 10 | 12 |
-| Guinea Ecuatorial | GNQ | 38 |  |  |  |  |  |  |  |  | 1 |  | 2 | 11 | 18 |
-| Guinea-Bisáu | GNB | 6 |  |  |  |  |  |  |  |  |  |  | 2 | 2 | 2 |
-| Guyana | GUY | 243 |  |  |  |  |  |  |  |  | 3 | 20 | 30 | 46 | 54 |
-| Haití | HTI | 345 |  |  |  |  |  |  |  |  | 4 | 18 | 102 | 62 | 118 |
-| Honduras | HND | 234 |  |  |  |  |  |  |  |  |  | 26 | 47 | 61 | 83 |
-| Hong Kong | HKG | 44 |  |  |  |  |  |  |  |  |  |  |  | 21 | 12 |
-| Hungría | HUN | 997 |  |  |  |  |  |  |  | 3 | 39 | 28 | 66 | 284 | 102 |
-| India | IND | 1,616 |  |  |  |  |  |  | 5 | 4 | 63 | 41 | 321 | 573 | 150 |
-| Indonesia | IDN | 1,435 | 1 |  |  |  |  |  | 1 | 1 | 15 | 117 | 76 | 174 | 213 |
-| Irak | IRQ | 494 |  |  |  |  | 1 |  |  | 3 | 32 | 24 | 25 | 92 | 145 |
-| Irlanda | IRL | 1,568 |  |  |  |  |  |  |  | 1 | 31 | 65 | 100 | 574 | 33 |
-| Irán | IRN | 442 |  |  |  |  |  |  |  | 5 | 40 | 17 | 65 | 159 | 68 |
-| Isla Norfolk | NFK | 1,324 |  |  |  |  |  |  |  |  |  | 1 | 35 | 1,076 | 206 |
-| Isla Santa Elena | SHN | 102 |  |  |  |  |  |  |  |  | 1 | 2 | 5 | 82 | 5 |
-| Isla de Man | IMN | 29 |  |  |  |  |  |  |  |  |  |  | 2 | 19 |  |
-| Islandia | ISL | 107 |  |  |  |  |  |  |  |  | 6 | 8 | 10 | 38 | 19 |
+| Gabón | GAB | 78 |  |  |  |  |  |  |  |  | 2 | 8 | 10 | 14 | 16 |
+| Gambia | GMB | 38 |  |  |  |  |  |  |  |  |  | 2 | 15 | 13 | 4 |
+| Georgia | GEO | 254 |  |  |  |  |  |  |  | 1 | 11 | 5 | 53 | 62 | 43 |
+| Ghana | GHA | 87 |  |  |  |  |  |  | 1 |  | 2 | 8 | 8 | 9 | 20 |
+| Granada | GRD | 369 | 1 |  |  |  |  | 2 |  |  |  | 19 | 63 | 211 | 27 |
+| Grecia | GRC | 1,753 | 18 |  |  |  |  | 1 | 2 | 3 | 88 | 133 | 115 | 611 | 242 |
+| Groenlandia | GRL | 180 |  |  |  |  |  |  | 1 |  | 8 | 14 | 35 | 77 | 17 |
+| Guam | GUM | 153 |  |  |  |  |  |  |  |  |  | 4 | 15 | 9 | 111 |
+| Guatemala | GTM | 192 | 1 | 1 |  |  |  |  |  |  | 3 | 16 | 12 | 45 | 81 |
+| Guernsey | GGY | 224 |  |  |  |  |  |  |  |  |  | 4 |  | 102 | 109 |
+| Guinea | GIN | 114 |  |  |  |  |  |  |  |  | 1 | 11 | 36 | 13 | 13 |
+| Guinea Ecuatorial | GNQ | 40 |  |  |  |  |  |  |  |  | 1 | 2 | 2 | 11 | 18 |
+| Guinea-Bisáu | GNB | 10 |  |  |  |  |  |  |  |  | 1 |  | 3 | 2 | 2 |
+| Guyana | GUY | 330 |  |  |  |  |  |  |  |  | 6 | 31 | 48 | 68 | 55 |
+| Haití | HTI | 379 |  |  |  |  |  | 1 |  |  | 5 | 23 | 112 | 63 | 122 |
+| Honduras | HND | 259 |  |  |  |  |  |  |  |  |  | 28 | 50 | 65 | 93 |
+| Hong Kong | HKG | 48 |  |  |  |  |  |  |  |  |  |  |  | 22 | 13 |
+| Hungría | HUN | 1,238 | 1 |  |  |  |  |  | 1 | 4 | 53 | 47 | 84 | 344 | 134 |
+| India | IND | 2,289 | 2 |  |  |  |  |  | 6 | 5 | 70 | 92 | 383 | 789 | 240 |
+| Indonesia | IDN | 1,886 | 3 |  |  |  |  |  | 1 | 1 | 22 | 251 | 319 | 182 | 225 |
+| Irak | IRQ | 606 | 7 |  |  |  | 1 |  |  | 5 | 37 | 35 | 28 | 117 | 169 |
+| Irlanda | IRL | 1,861 | 4 | 1 | 2 | 2 |  |  |  | 2 | 45 | 84 | 117 | 613 | 48 |
+| Irán | IRN | 581 | 2 |  |  |  |  |  | 2 | 5 | 40 | 26 | 97 | 189 | 86 |
+| Isla Norfolk | NFK | 1,341 |  |  |  |  |  |  |  |  |  | 2 | 36 | 1,080 | 206 |
+| Isla Santa Elena | SHN | 117 |  |  |  |  |  |  |  |  | 1 | 8 | 7 | 85 | 5 |
+| Isla de Man | IMN | 35 |  |  |  |  |  |  |  |  |  |  | 2 | 19 |  |
+| Islandia | ISL | 180 | 1 |  |  |  |  |  |  |  | 10 | 14 | 17 | 52 | 25 |
 | Islas Caimán | CYM | 9 |  |  |  |  |  |  |  |  |  |  | 1 | 1 | 7 |
-| Islas Feroe | FRO | 4 |  |  |  |  |  |  |  |  |  | 1 | 1 | 2 |  |
+| Islas Feroe | FRO | 81 | 1 |  |  |  |  |  | 1 |  |  | 9 | 12 | 25 | 12 |
 | Islas Georgias del Sur y Sandwich del Sur | SGS | 2 |  |  |  |  |  |  |  |  |  |  |  |  | 1 |
-| Islas Malvinas | FLK | 33 |  |  |  |  |  |  |  |  |  | 11 | 10 | 6 | 3 |
-| Islas Marianas del Norte | MNP | 25 |  |  |  |  |  |  |  |  |  |  |  | 2 | 20 |
-| Islas Marshall | MHL | 17 |  |  |  |  |  |  |  |  |  |  |  | 3 | 14 |
+| Islas Malvinas | FLK | 43 |  |  |  |  |  |  |  |  |  | 11 | 11 | 6 | 4 |
+| Islas Marianas del Norte | MNP | 42 |  |  |  |  |  |  |  |  | 2 |  | 7 | 2 | 24 |
+| Islas Marshall | MHL | 61 | 2 |  |  |  |  |  |  |  |  |  |  | 19 | 34 |
 | Islas Pitcairn | PCN | 10 |  |  |  |  |  |  |  |  |  |  | 1 | 1 | 8 |
-| Islas Salomón | SLB | 35 |  |  |  |  |  |  |  |  | 1 | 2 | 1 | 5 | 12 |
+| Islas Salomón | SLB | 39 |  |  |  |  |  |  |  |  | 1 | 2 | 2 | 6 | 13 |
 | Islas Turcas y Caicos | TCA | 6 |  |  |  |  |  |  |  |  |  |  | 2 | 2 | 2 |
 | Islas Vírgenes Británicas | VGB | 9 |  |  |  |  |  |  |  |  |  |  | 3 | 1 | 5 |
-| Islas Vírgenes de los Estados Unidos | VIR | 101 |  |  |  |  |  |  |  |  |  | 1 | 49 | 2 | 44 |
-| Israel | ISR | 1,241 |  |  |  |  |  | 1 | 2 | 9 | 53 | 61 | 156 | 428 | 112 |
-| Italia | ITA | 5,132 | 2 |  |  | 2 | 4 | 1 |  | 12 | 217 | 340 | 306 | 1,300 | 469 |
-| Jamaica | JAM | 828 |  |  |  |  |  |  |  | 1 | 1 | 15 | 199 | 543 | 46 |
-| Japón | JPN | 1,117 |  |  |  |  |  |  |  | 2 | 7 | 41 | 131 | 294 | 229 |
+| Islas Vírgenes de los Estados Unidos | VIR | 102 |  |  |  |  |  |  |  |  |  | 1 | 49 | 3 | 44 |
+| Israel | ISR | 1,437 |  |  | 1 | 1 | 1 | 2 | 3 | 17 | 53 | 63 | 169 | 469 | 158 |
+| Italia | ITA | 6,184 | 28 | 3 |  | 3 | 5 | 5 | 2 | 50 | 248 | 399 | 433 | 1,434 | 546 |
+| Jamaica | JAM | 889 | 1 |  |  |  |  |  |  | 1 | 1 | 19 | 203 | 552 | 55 |
+| Japón | JPN | 1,340 | 3 |  |  |  |  |  |  | 2 | 9 | 69 | 151 | 330 | 252 |
 | Jersey | JEY | 13 |  |  |  |  |  |  |  |  |  | 4 |  | 8 |  |
 | Jordania | JOR | 380 |  |  |  |  |  |  |  | 1 | 37 | 18 | 22 | 148 | 27 |
-| Kazajistán | KAZ | 111 |  |  |  |  |  |  |  | 1 | 15 | 15 | 4 | 22 | 22 |
-| Kenia | KEN | 219 |  |  |  |  |  |  |  |  | 2 | 4 | 1 | 21 | 152 |
-| Kirguistán | KGZ | 42 |  |  |  |  |  |  |  |  | 7 | 2 |  | 15 | 10 |
-| Kiribati | KIR | 22 |  |  |  |  |  |  |  |  |  |  |  | 14 | 8 |
-| Kosovo | KOS | 51 |  |  |  |  |  |  |  |  | 1 | 2 | 2 |  | 28 |
-| Kuwait | KWT | 67 |  |  |  |  |  |  |  | 3 | 7 | 5 | 12 | 12 | 13 |
-| Laos | LAO | 64 |  |  |  |  |  |  |  | 1 | 3 |  |  | 8 | 17 |
-| Lesoto | LSO | 90 |  |  |  |  |  |  |  |  |  |  | 1 | 12 | 72 |
-| Letonia | LVA | 192 |  |  |  |  |  |  |  | 2 | 12 | 11 | 11 | 18 | 75 |
-| Liberia | LBR | 132 |  |  |  |  |  |  |  |  | 2 | 2 | 4 | 68 | 38 |
-| Libia | LBY | 267 |  |  |  |  |  |  |  | 6 | 22 | 17 | 13 | 33 | 103 |
-| Liechtenstein | LIE | 13 |  |  |  |  |  |  |  | 1 |  | 1 |  | 3 |  |
-| Lituania | LTU | 279 |  |  |  |  |  |  |  | 2 | 13 | 14 | 41 | 20 | 48 |
-| Luxemburgo | LUX | 273 |  |  |  |  |  |  |  |  | 6 | 22 | 44 | 35 | 19 |
-| Líbano | LBN | 668 |  |  |  |  |  |  |  | 1 | 17 | 6 | 15 | 447 | 117 |
-| Macao | MAC | 79 |  |  |  |  |  |  |  |  |  | 1 | 13 | 18 | 33 |
-| Macedonia del Norte | MKD | 115 |  |  |  |  |  |  |  | 2 | 13 | 11 | 5 | 19 | 24 |
-| Madagascar | MDG | 162 |  |  |  |  |  |  |  |  | 5 | 9 | 27 | 46 | 36 |
-| Malasia | MYS | 202 |  |  |  |  |  |  |  |  | 4 | 5 | 5 | 22 | 33 |
-| Malaui | MWI | 34 |  |  |  |  |  |  |  |  | 1 |  | 2 | 13 | 14 |
-| Maldivas | MDV | 12 |  |  |  |  |  |  |  |  |  |  | 4 |  | 7 |
-| Malta | MLT | 154 |  |  |  |  |  |  |  |  | 10 | 16 | 64 | 33 | 8 |
-| Malí | MLI | 98 |  |  |  |  |  |  | 1 | 2 | 4 | 5 | 7 | 12 | 17 |
-| Marruecos | MAR | 416 |  |  |  |  |  |  |  | 1 | 11 | 32 | 56 | 98 | 115 |
-| Mauricio | MUS | 72 |  |  |  |  |  |  |  |  |  | 1 | 8 | 22 | 9 |
-| Mauritania | MRT | 75 |  |  |  |  |  |  |  |  | 6 | 3 | 12 | 13 | 14 |
-| Moldavia | MDA | 109 |  |  |  |  |  |  |  | 1 | 5 | 8 | 18 | 25 | 10 |
-| Mongolia | MNG | 93 |  |  |  |  |  |  |  |  | 1 | 9 | 4 | 29 | 36 |
-| Montenegro | MNE | 103 |  |  |  |  |  |  |  |  | 8 | 8 | 5 | 22 | 19 |
+| Kazajistán | KAZ | 150 |  |  |  |  |  |  |  | 1 | 15 | 16 | 10 | 35 | 31 |
+| Kenia | KEN | 230 |  |  |  |  |  |  |  |  | 2 | 4 | 2 | 26 | 154 |
+| Kirguistán | KGZ | 54 |  |  |  |  |  |  |  |  | 7 | 2 |  | 23 | 11 |
+| Kiribati | KIR | 25 |  |  |  |  |  |  |  |  |  |  |  | 15 | 9 |
+| Kosovo | KOS | 60 |  |  |  |  |  |  |  |  | 1 | 2 | 2 | 3 | 33 |
+| Kuwait | KWT | 78 |  |  |  |  |  |  |  | 3 | 7 | 5 | 12 | 15 | 21 |
+| Laos | LAO | 68 |  |  |  |  |  |  |  | 1 | 3 |  |  | 9 | 19 |
+| Lesoto | LSO | 91 |  |  |  | 1 |  |  |  |  |  |  | 1 | 12 | 72 |
+| Letonia | LVA | 259 | 1 |  |  |  |  |  |  | 2 | 14 | 23 | 24 | 26 | 93 |
+| Liberia | LBR | 153 |  |  |  |  |  |  |  |  | 2 | 3 | 5 | 72 | 38 |
+| Libia | LBY | 323 | 4 |  |  |  |  |  |  | 6 | 25 | 19 | 16 | 45 | 122 |
+| Liechtenstein | LIE | 21 |  |  |  |  |  |  |  | 1 |  | 1 |  | 6 |  |
+| Lituania | LTU | 300 |  |  |  |  |  |  |  | 3 | 13 | 15 | 46 | 20 | 50 |
+| Luxemburgo | LUX | 382 |  |  |  |  |  |  |  | 1 | 13 | 35 | 63 | 61 | 33 |
+| Líbano | LBN | 700 | 2 |  |  | 1 | 1 |  |  | 2 | 17 | 6 | 15 | 454 | 123 |
+| Macao | MAC | 90 |  |  |  |  |  |  |  |  |  | 5 | 17 | 19 | 34 |
+| Macedonia del Norte | MKD | 119 |  |  |  |  |  |  |  | 2 | 13 | 11 | 5 | 19 | 26 |
+| Madagascar | MDG | 242 |  |  |  |  |  |  |  |  | 9 | 19 | 50 | 60 | 42 |
+| Malasia | MYS | 246 | 4 |  |  |  |  |  |  |  | 8 | 6 | 10 | 30 | 45 |
+| Malaui | MWI | 37 | 1 |  |  |  |  |  |  |  | 1 |  | 2 | 14 | 14 |
+| Maldivas | MDV | 68 |  |  |  |  |  |  |  |  | 1 | 8 | 24 | 9 | 14 |
+| Malta | MLT | 202 | 1 |  |  |  |  |  | 1 |  | 16 | 17 | 65 | 44 | 11 |
+| Malí | MLI | 121 |  |  |  |  |  |  | 3 | 2 | 4 | 5 | 8 | 26 | 20 |
+| Marruecos | MAR | 508 | 1 |  |  |  |  | 1 |  | 1 | 14 | 41 | 66 | 120 | 132 |
+| Mauricio | MUS | 170 | 2 |  |  | 1 |  |  |  |  | 5 | 16 | 29 | 45 | 14 |
+| Mauritania | MRT | 87 |  |  |  |  |  |  |  |  | 10 | 3 | 13 | 15 | 15 |
+| Moldavia | MDA | 125 |  |  |  |  |  |  |  | 1 | 5 | 9 | 20 | 25 | 13 |
+| Mongolia | MNG | 135 |  |  |  |  |  |  |  |  | 3 | 11 | 7 | 34 | 61 |
+| Montenegro | MNE | 139 |  |  |  |  |  |  |  |  | 8 | 9 | 5 | 27 | 24 |
 | Montserrat | MSR | 130 |  |  |  |  |  |  |  |  |  |  |  | 105 | 21 |
-| Mozambique | MOZ | 177 |  |  |  |  |  |  |  |  | 6 | 6 | 15 | 52 | 45 |
-| México | MEX | 3,129 |  |  |  |  |  |  |  | 3 | 54 | 103 | 316 | 902 | 1,260 |
-| Mónaco | MCO | 10 |  |  |  |  |  |  |  |  |  |  | 3 | 2 | 4 |
-| Namibia | NAM | 132 |  |  |  |  |  |  |  |  | 3 |  | 6 | 41 | 28 |
-| Nauru | NRU | 6 |  |  |  |  |  |  |  |  |  |  |  |  | 5 |
-| Nepal | NPL | 46 |  |  |  |  |  |  |  | 1 | 3 | 2 |  | 8 | 14 |
-| Nicaragua | NIC | 282 |  |  |  |  |  |  |  |  |  | 24 | 22 | 154 | 67 |
-| Nigeria | NGA | 119 |  |  |  |  |  |  |  |  | 3 | 8 | 7 | 8 | 53 |
-| Noruega | NOR | 832 |  |  |  |  |  |  |  | 2 | 5 | 19 | 24 | 267 | 26 |
-| Nueva Caledonia | NCL | 9 |  |  |  |  |  |  |  |  |  |  | 1 | 3 | 5 |
-| Nueva Zelanda | NZL | 195 |  |  |  |  |  |  |  |  |  |  | 3 | 132 | 21 |
+| Mozambique | MOZ | 227 | 1 |  |  |  |  |  |  |  | 8 | 13 | 28 | 62 | 53 |
+| México | MEX | 3,546 | 1 |  |  |  |  | 1 | 1 | 3 | 59 | 116 | 350 | 1,045 | 1,277 |
+| Mónaco | MCO | 43 | 1 |  |  |  |  |  |  |  |  | 6 | 9 | 14 | 7 |
+| Namibia | NAM | 137 |  |  |  |  |  |  |  |  | 3 |  | 8 | 41 | 29 |
+| Nauru | NRU | 17 |  |  |  |  |  |  |  |  |  |  |  | 3 | 11 |
+| Nepal | NPL | 85 |  |  |  |  |  |  |  | 1 | 3 | 2 | 1 | 20 | 30 |
+| Nicaragua | NIC | 308 |  |  |  |  |  |  |  |  | 2 | 25 | 23 | 158 | 69 |
+| Nigeria | NGA | 134 |  |  |  |  |  |  |  |  | 3 | 10 | 8 | 16 | 56 |
+| Niue | NIU | 7 |  |  |  |  |  |  |  |  |  |  |  | 1 | 5 |
+| Noruega | NOR | 1,160 |  |  |  |  |  |  |  | 2 | 20 | 54 | 96 | 353 | 61 |
+| Nueva Caledonia | NCL | 13 |  |  |  |  |  |  |  |  |  |  | 1 | 3 | 6 |
+| Nueva Zelanda | NZL | 415 | 2 |  |  | 1 |  |  |  |  | 1 |  | 18 | 229 | 80 |
 | Níger | NER | 70 |  |  |  |  |  |  |  |  | 4 | 5 | 3 | 5 | 26 |
-| Omán | OMN | 76 |  |  |  |  |  |  |  | 4 | 12 | 6 | 13 | 16 | 9 |
+| Omán | OMN | 90 |  |  |  |  |  |  |  | 4 | 12 | 8 | 20 | 17 | 10 |
 | PSX | PSX | 298 |  |  |  |  |  |  |  | 1 | 17 | 8 | 7 | 106 | 2 |
-| Pakistán | PAK | 382 |  |  |  |  |  |  |  |  | 28 | 7 | 10 | 99 | 116 |
-| Palaos | PLW | 40 |  |  |  |  |  |  |  |  |  | 1 | 2 | 9 | 19 |
-| Palestina | PSE | 1,073 |  |  |  |  |  |  |  | 6 | 42 | 33 | 67 | 492 | 178 |
-| Panamá | PAN | 304 |  |  |  |  |  |  |  |  | 2 | 42 | 44 | 73 | 99 |
-| Papúa Nueva Guinea | PNG | 65 |  |  |  |  |  |  |  |  | 1 | 4 | 2 | 14 | 33 |
-| Paraguay | PRY | 195 |  |  |  |  |  |  |  |  |  | 12 | 42 | 65 | 56 |
-| Países Bajos | NLD | 18,181 |  |  | 1 |  |  |  |  | 1 | 94 | 352 | 452 | 412 | 1,023 |
-| Perú | PER | 734 |  |  |  |  |  |  |  |  | 19 | 46 | 65 | 329 | 216 |
-| Polinesia Francesa | PYF | 69 |  |  |  |  |  |  |  |  |  | 1 | 35 | 26 | 5 |
-| Polonia | POL | 2,798 |  |  |  |  | 1 |  | 1 | 6 | 41 | 52 | 155 | 606 | 472 |
-| Portugal | PRT | 2,428 | 1 |  |  |  |  |  |  | 2 | 50 | 129 | 463 | 976 | 206 |
-| Puerto Rico | PRI | 1,046 |  |  |  |  |  |  |  | 1 | 1 | 10 | 70 | 38 | 902 |
-| Reino Unido | GBR | 8,921 |  |  |  |  | 2 | 8 |  | 1 | 55 | 429 | 1,204 | 2,254 | 485 |
-| República Centroafricana | CAF | 155 |  |  |  |  |  |  |  |  |  | 2 | 3 | 8 | 112 |
-| República Checa | CZE | 1,090 |  |  |  |  |  |  |  | 1 | 16 | 31 | 57 | 190 | 213 |
-| República Democrática del Congo | COD | 224 |  |  |  |  |  |  |  |  | 3 | 6 | 9 | 31 | 128 |
-| República Dominicana | DOM | 224 |  |  |  |  |  |  |  |  | 4 | 22 | 65 | 45 | 49 |
+| Pakistán | PAK | 418 |  |  |  |  |  |  |  |  | 28 | 7 | 11 | 107 | 130 |
+| Palaos | PLW | 53 |  |  |  |  |  |  |  |  |  | 1 | 10 | 12 | 20 |
+| Palestina | PSE | 1,206 | 4 |  |  |  | 1 | 1 | 1 | 10 | 44 | 37 | 71 | 518 | 194 |
+| Panamá | PAN | 344 |  |  |  |  |  |  |  |  | 2 | 42 | 44 | 79 | 110 |
+| Papúa Nueva Guinea | PNG | 152 |  |  |  |  |  |  |  |  | 2 | 4 | 4 | 38 | 77 |
+| Paraguay | PRY | 288 |  |  |  |  |  |  |  |  | 1 | 14 | 45 | 80 | 56 |
+| Países Bajos | NLD | 18,740 | 2 |  | 5 |  |  |  | 1 | 1 | 108 | 469 | 554 | 455 | 1,031 |
+| Perú | PER | 918 | 1 |  |  |  |  |  |  |  | 20 | 52 | 78 | 357 | 228 |
+| Polinesia Francesa | PYF | 70 |  |  |  |  |  |  |  |  |  | 1 | 35 | 26 | 5 |
+| Polonia | POL | 3,185 | 1 |  | 2 | 1 | 1 |  | 1 | 8 | 45 | 70 | 223 | 679 | 524 |
+| Portugal | PRT | 2,664 | 3 |  |  |  |  |  |  | 3 | 57 | 137 | 489 | 1,028 | 221 |
+| Puerto Rico | PRI | 1,069 |  |  |  |  |  |  |  | 1 | 1 | 18 | 70 | 40 | 905 |
+| Reino Unido | GBR | 10,397 | 5 | 1 | 3 | 3 | 3 | 12 |  | 7 | 60 | 468 | 1,333 | 2,651 | 519 |
+| República Centroafricana | CAF | 160 |  |  |  |  |  |  |  |  |  | 2 | 3 | 10 | 114 |
+| República Checa | CZE | 1,205 | 1 |  |  |  |  |  |  | 1 | 16 | 31 | 64 | 218 | 229 |
+| República Democrática del Congo | COD | 225 |  |  |  |  |  |  |  |  | 3 | 6 | 9 | 31 | 128 |
+| República Dominicana | DOM | 243 |  |  |  |  |  |  |  |  | 4 | 24 | 66 | 46 | 58 |
 | República Turca del Norte de Chipre | CYN | 15 |  |  |  |  |  |  |  |  | 2 | 5 |  |  |  |
-| República de China | TWN | 155 |  |  |  |  |  |  |  |  | 1 | 11 | 3 | 43 | 64 |
-| República del Congo | COG | 154 |  |  |  |  |  |  |  | 1 | 3 | 5 | 16 | 43 | 51 |
-| Ruanda | RWA | 24 |  |  |  |  |  |  |  |  |  |  |  | 3 | 17 |
-| Rumania | ROU | 1,021 |  |  |  |  |  |  |  | 3 | 37 | 21 | 41 | 162 | 172 |
-| Rusia | RUS | 4,118 |  |  |  |  |  |  |  | 5 | 63 | 107 | 234 | 1,582 | 1,181 |
+| República de China | TWN | 194 |  |  |  |  |  |  |  |  | 2 | 17 | 9 | 49 | 80 |
+| República del Congo | COG | 217 | 2 |  |  |  |  |  |  | 1 | 3 | 9 | 29 | 66 | 59 |
+| Ruanda | RWA | 42 | 1 |  |  |  |  |  |  |  |  |  |  | 4 | 31 |
+| Rumania | ROU | 1,106 |  |  |  |  |  |  |  | 3 | 38 | 26 | 52 | 185 | 199 |
+| Rusia | RUS | 4,705 | 4 |  |  |  |  |  | 1 | 6 | 71 | 129 | 276 | 1,733 | 1,245 |
 | SAH | SAH | 4 |  |  |  |  |  |  |  |  |  | 2 |  | 1 |  |
 | SDS | SDS | 82 |  |  |  |  |  |  |  |  |  | 1 |  | 10 | 19 |
-| Sahara Occidental | ESH | 24 |  |  |  |  |  |  | 1 |  |  | 2 |  | 9 | 11 |
-| Samoa | WSM | 39 |  |  |  |  |  |  |  |  |  |  | 3 | 21 | 15 |
-| Samoa Estadounidense | ASM | 24 |  |  |  |  |  |  |  |  |  |  |  | 13 | 6 |
-| San Bartolomé | BLM | 5 |  |  |  |  |  |  |  |  |  |  | 3 | 2 |  |
-| San Cristóbal y Nieves | KNA | 18 |  |  |  |  |  |  |  |  |  | 2 | 12 | 1 | 3 |
-| San Marino | SMR | 2 |  |  |  |  |  |  |  |  |  |  |  | 1 | 1 |
-| San Martín | MAF | 42 |  |  |  |  |  |  |  |  |  |  | 5 | 26 | 6 |
-| San Martín | SXM | 17 |  |  |  |  |  |  |  | 1 |  |  | 4 | 8 | 1 |
-| San Pedro y Miquelón | SPM | 7 |  |  |  |  |  |  |  |  |  |  | 1 | 5 | 1 |
-| San Vicente y las Granadinas | VCT | 19 |  |  |  |  |  |  |  |  |  |  | 6 | 10 | 3 |
-| Santa Lucía | LCA | 28 |  |  |  |  |  |  |  |  |  | 1 | 19 | 4 | 4 |
-| Santo Tomé y Príncipe | STP | 10 |  |  |  |  |  |  |  |  |  | 1 | 8 |  | 1 |
-| Senegal | SEN | 82 |  |  |  |  |  |  |  |  | 2 | 3 | 28 | 20 | 10 |
-| Serbia | SRB | 483 |  |  |  |  |  |  |  | 4 | 26 | 14 | 27 | 128 | 66 |
-| Seychelles | SYC | 2 |  |  |  |  |  |  |  |  |  |  |  | 2 |  |
-| Sierra Leona | SLE | 135 |  |  |  |  |  |  |  |  | 2 | 3 | 10 | 14 | 97 |
-| Singapur | SGP | 40 |  |  |  |  |  |  |  | 1 |  |  | 1 | 19 | 5 |
-| Siria | SYR | 746 |  |  |  |  |  |  |  | 4 | 41 | 31 | 58 | 372 | 85 |
-| Somalia | SOM | 169 |  |  |  |  |  |  |  | 1 | 11 | 7 | 6 | 14 | 98 |
-| Somalilandia | SOL | 213 |  |  |  |  |  |  |  |  | 2 | 4 |  | 32 | 161 |
-| Sri Lanka | LKA | 176 |  |  |  |  |  |  | 2 | 2 | 11 | 13 | 17 | 48 | 18 |
-| Suazilandia | SWZ | 42 |  |  |  |  |  |  |  |  |  |  |  | 3 | 37 |
-| Sudáfrica | ZAF | 547 |  |  |  |  |  |  |  |  | 4 | 3 | 22 | 221 | 159 |
-| Sudán | SDN | 463 |  |  |  |  |  |  |  | 2 | 9 | 15 | 13 | 78 | 248 |
+| Sahara Occidental | ESH | 35 |  |  |  |  |  |  | 1 |  |  | 2 | 1 | 16 | 13 |
+| Samoa | WSM | 67 | 1 |  |  |  |  |  |  |  |  |  | 6 | 31 | 25 |
+| Samoa Estadounidense | ASM | 25 |  |  |  |  |  |  |  |  |  |  |  | 13 | 7 |
+| San Bartolomé | BLM | 6 |  |  |  |  |  |  |  |  |  |  | 3 | 2 |  |
+| San Cristóbal y Nieves | KNA | 34 |  |  |  |  |  |  |  |  |  | 5 | 17 | 2 | 3 |
+| San Marino | SMR | 8 |  |  | 1 |  |  |  |  |  |  | 1 | 1 | 1 | 2 |
+| San Martín | MAF | 57 |  |  |  |  |  |  |  |  |  |  | 7 | 32 | 7 |
+| San Martín | SXM | 27 |  |  |  |  |  |  |  | 1 |  |  | 6 | 14 | 2 |
+| San Pedro y Miquelón | SPM | 8 |  |  |  |  |  |  |  |  |  |  | 1 | 5 | 1 |
+| San Vicente y las Granadinas | VCT | 23 | 1 |  |  |  |  |  |  |  |  |  | 6 | 11 | 4 |
+| Santa Lucía | LCA | 31 |  |  |  |  |  |  |  |  |  | 1 | 19 | 4 | 5 |
+| Santo Tomé y Príncipe | STP | 28 |  |  |  | 1 |  |  |  |  |  | 10 | 10 | 4 | 1 |
+| Senegal | SEN | 122 |  |  |  |  |  |  |  |  | 2 | 4 | 42 | 31 | 11 |
+| Serbia | SRB | 519 |  |  |  |  |  |  |  | 4 | 26 | 15 | 27 | 142 | 72 |
+| Seychelles | SYC | 3 |  |  |  |  |  |  |  |  |  |  |  | 3 |  |
+| Sierra Leona | SLE | 155 |  |  |  |  |  |  |  | 1 | 2 | 7 | 18 | 17 | 98 |
+| Singapur | SGP | 64 |  |  |  |  |  |  |  | 1 | 2 | 1 | 1 | 23 | 8 |
+| Siria | SYR | 899 | 1 |  |  |  | 1 |  |  | 4 | 41 | 31 | 64 | 470 | 95 |
+| Somalia | SOM | 189 |  |  |  |  |  |  |  | 1 | 11 | 7 | 6 | 19 | 101 |
+| Somalilandia | SOL | 222 |  |  |  |  |  |  |  |  | 2 | 4 |  | 32 | 168 |
+| Sri Lanka | LKA | 259 |  |  |  |  |  |  | 2 | 2 | 14 | 39 | 29 | 56 | 23 |
+| Suazilandia | SWZ | 45 |  |  |  | 1 |  |  |  |  |  |  |  | 3 | 38 |
+| Sudáfrica | ZAF | 699 | 5 |  |  |  |  | 1 |  |  | 5 | 27 | 45 | 261 | 170 |
+| Sudán | SDN | 486 | 1 | 3 |  |  |  |  |  | 2 | 9 | 15 | 14 | 81 | 250 |
 | Sudán del Sur | SSD | 202 |  |  |  |  |  |  |  |  | 1 | 4 | 2 | 17 | 89 |
-| Suecia | SWE | 1,159 |  |  |  |  |  |  |  | 2 | 13 | 31 | 45 | 248 | 43 |
-| Suiza | CHE | 1,976 | 1 |  |  |  |  |  |  | 3 | 48 | 49 | 90 | 375 | 145 |
-| Surinam | SUR | 371 |  |  |  |  |  |  |  |  | 3 | 14 | 23 | 17 | 38 |
-| Tailandia | THA | 150 |  |  |  |  |  |  |  |  | 5 | 3 | 11 | 48 | 36 |
-| Tanzania | TZA | 202 |  |  |  |  |  |  |  |  | 3 | 2 | 2 | 48 | 81 |
-| Tayikistán | TJK | 47 |  |  |  |  |  |  |  |  | 6 |  |  | 20 | 11 |
+| Suecia | SWE | 1,381 | 1 |  |  |  |  |  |  | 3 | 13 | 55 | 68 | 303 | 53 |
+| Suiza | CHE | 2,318 | 3 |  |  |  |  |  |  | 4 | 56 | 61 | 135 | 482 | 162 |
+| Surinam | SUR | 480 |  |  |  |  |  |  |  |  | 6 | 24 | 41 | 55 | 62 |
+| Tailandia | THA | 227 | 1 |  |  |  |  |  | 1 | 1 | 9 | 15 | 22 | 64 | 57 |
+| Tanzania | TZA | 214 | 1 |  |  |  |  |  |  |  | 4 | 2 | 3 | 51 | 85 |
+| Tayikistán | TJK | 61 |  |  |  |  |  |  |  |  | 6 |  |  | 29 | 15 |
 | Territorio Británico del Océano Índico | IOT | 1 |  |  |  |  |  |  |  |  |  |  |  |  | 1 |
 | Territorios Australianos del Océano Índico | IOA | 1 |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | Tierras Australes y Antárticas Francesas | ATF | 4 |  |  |  |  |  |  |  |  |  |  |  | 1 |  |
 | Timor Oriental | TLS | 15 |  |  |  |  |  |  |  |  |  |  |  |  | 2 |
-| Togo | TGO | 36 |  |  |  |  |  |  |  |  |  | 1 | 2 | 2 | 12 |
-| Tonga | TON | 12 |  |  |  |  |  |  |  |  |  | 1 | 1 | 5 | 4 |
-| Trinidad y Tobago | TTO | 60 |  |  |  |  |  |  |  |  |  | 12 | 21 | 6 | 20 |
-| Turkmenistán | TKM | 112 |  |  |  |  |  |  |  |  | 14 | 5 | 3 | 46 | 20 |
-| Turquía | TUR | 1,388 |  |  |  |  |  |  | 1 | 3 | 59 | 57 | 124 | 568 | 233 |
-| Tuvalu | TUV | 8 |  |  |  |  |  |  |  |  |  |  |  | 5 | 3 |
-| Túnez | TUN | 436 |  |  |  |  |  |  |  | 2 | 26 | 7 | 15 | 164 | 158 |
+| Togo | TGO | 48 |  |  |  |  |  |  |  |  | 1 | 1 | 2 | 7 | 15 |
+| Tonga | TON | 44 |  |  |  |  |  |  |  |  |  | 4 | 7 | 13 | 10 |
+| Trinidad y Tobago | TTO | 102 |  |  |  |  |  |  |  |  | 1 | 19 | 35 | 12 | 32 |
+| Turkmenistán | TKM | 124 |  |  |  |  |  |  |  |  | 14 | 5 | 3 | 49 | 20 |
+| Turquía | TUR | 1,942 | 12 |  |  | 1 |  | 1 | 5 | 7 | 73 | 78 | 175 | 717 | 299 |
+| Tuvalu | TUV | 14 |  |  |  |  |  |  |  |  |  |  |  | 8 | 4 |
+| Túnez | TUN | 525 | 3 |  |  |  |  | 1 | 1 | 2 | 31 | 9 | 18 | 187 | 163 |
 | UMI | UMI | 2 |  |  |  |  |  |  |  |  |  |  |  | 2 |  |
 | USG | USG | 3 |  |  |  |  |  |  |  |  |  |  | 1 | 1 |  |
-| Ucrania | UKR | 687 |  |  |  |  |  |  | 2 | 4 | 30 | 48 | 49 | 90 | 84 |
-| Uganda | UGA | 198 |  |  |  |  |  |  |  |  | 1 | 3 | 3 | 14 | 146 |
-| Uruguay | URY | 256 |  |  |  |  |  |  |  |  | 1 | 22 | 45 | 90 | 68 |
-| Uzbekistán | UZB | 102 |  |  |  |  |  |  |  |  | 7 | 4 | 2 | 48 | 26 |
-| Vanuatu | VUT | 12 |  |  |  |  |  |  |  |  |  |  |  | 2 | 10 |
-| Venezuela | VEN | 410 |  |  |  |  |  |  |  |  | 9 | 69 | 104 | 83 | 72 |
-| Vietnam | VNM | 245 |  |  |  |  |  |  |  | 1 | 4 | 3 | 6 | 26 | 51 |
-| Yemen | YEM | 397 |  |  |  |  |  |  |  | 4 | 16 | 11 | 14 | 35 | 271 |
-| Yibuti | DJI | 50 |  |  |  |  |  |  |  |  | 2 | 2 | 3 | 26 | 15 |
-| Zambia | ZMB | 101 |  |  |  |  |  |  |  |  | 1 | 3 | 4 | 19 | 45 |
-| Zimbabue | ZWE | 107 |  |  |  |  |  |  |  |  | 2 | 1 | 5 | 25 | 43 |
-| Åland | ALA | 2 |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Ucrania | UKR | 753 | 1 |  |  |  |  |  | 4 | 4 | 30 | 58 | 59 | 96 | 97 |
+| Uganda | UGA | 248 |  |  |  |  |  |  |  |  | 1 | 3 | 3 | 15 | 192 |
+| Uruguay | URY | 313 |  |  |  |  |  |  |  |  | 3 | 22 | 47 | 105 | 69 |
+| Uzbekistán | UZB | 121 |  |  |  |  |  |  |  |  | 7 | 4 | 4 | 56 | 31 |
+| Vanuatu | VUT | 15 |  |  |  |  |  |  |  |  |  |  |  | 2 | 13 |
+| Venezuela | VEN | 498 |  |  |  |  |  |  |  | 1 | 11 | 83 | 115 | 104 | 75 |
+| Vietnam | VNM | 331 |  |  |  |  |  |  |  | 2 | 8 | 5 | 17 | 44 | 82 |
+| Yemen | YEM | 417 |  |  |  |  |  |  |  | 5 | 17 | 14 | 16 | 39 | 276 |
+| Yibuti | DJI | 54 |  |  |  |  |  |  |  |  | 2 | 2 | 3 | 27 | 18 |
+| Zambia | ZMB | 105 |  |  |  |  |  |  |  |  | 1 | 3 | 4 | 20 | 45 |
+| Zimbabue | ZWE | 110 |  |  |  |  |  |  |  |  | 2 | 1 | 6 | 26 | 43 |
+| Åland | ALA | 4 |  |  |  |  |  |  |  |  |  |  |  | 1 |  |
