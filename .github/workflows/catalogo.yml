@@ -59,6 +59,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          if [ -f catalogo/PAUSA ]; then echo "En pausa (catalogo/PAUSA): no se relanza."; exit 0; fi
           gh workflow run biblioteca.yml --ref main
           pendiente=$(python - <<'PY'
           import gzip, json, pathlib
