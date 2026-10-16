@@ -2,20 +2,20 @@
  "USA": {
   "nombre_es": "Estados Unidos",
   "continente": "North America",
-  "total": 349091,
+  "total": 352211,
   "por_siglo": {
    "6": 2,
    "15": 2,
    "16": 26,
    "17": 516,
-   "18": 4940,
-   "19": 103781,
-   "20": 208371,
+   "18": 4956,
+   "19": 106516,
+   "20": 208740,
    "sin siglo": 31453
   },
   "por_tipo": {
    "topográfico": 181425,
-   "general": 156873,
+   "general": 159993,
    "plano urbano": 2678,
    "militar": 2422,
    "ferroviario/viario": 2016,
@@ -27,13 +27,13 @@
   "por_via": {
    "coordenadas": 112139,
    "region": 233,
-   "historico": 119287,
-   "nombre": 117432
+   "historico": 121769,
+   "nombre": 118070
   },
   "por_fuente": {
    "allmaps": 26538,
    "bne": 1,
-   "commons": 77868,
+   "commons": 80988,
    "dc": 8739,
    "europeana": 1498,
    "ia": 318,
@@ -128,7 +128,7 @@
  "FRA": {
   "nombre_es": "Francia",
   "continente": "Europe",
-  "total": 11939,
+  "total": 11941,
   "por_siglo": {
    "12": 1,
    "13": 1,
@@ -137,12 +137,12 @@
    "16": 135,
    "17": 468,
    "18": 1487,
-   "19": 3939,
+   "19": 3941,
    "20": 613,
    "sin siglo": 5291
   },
   "por_tipo": {
-   "general": 9351,
+   "general": 9353,
    "plano urbano": 1093,
    "militar": 601,
    "topográfico": 448,
@@ -156,13 +156,13 @@
   "por_via": {
    "coordenadas": 2089,
    "region": 75,
-   "historico": 1262,
+   "historico": 1264,
    "nombre": 8513
   },
   "por_fuente": {
    "allmaps": 1705,
    "bne": 4,
-   "commons": 771,
+   "commons": 773,
    "dc": 508,
    "europeana": 7556,
    "ia": 76,
@@ -174,7 +174,7 @@
  "GBR": {
   "nombre_es": "Reino Unido",
   "continente": "Europe",
-  "total": 8288,
+  "total": 8310,
   "por_siglo": {
    "12": 2,
    "13": 8,
@@ -182,12 +182,12 @@
    "16": 54,
    "17": 428,
    "18": 644,
-   "19": 2208,
+   "19": 2230,
    "20": 466,
    "sin siglo": 4477
   },
   "por_tipo": {
-   "general": 6720,
+   "general": 6742,
    "topográfico": 548,
    "plano urbano": 293,
    "ferroviario/viario": 258,
@@ -200,13 +200,13 @@
   },
   "por_via": {
    "coordenadas": 724,
-   "historico": 6526,
+   "historico": 6548,
    "region": 8,
    "nombre": 1030
   },
   "por_fuente": {
    "allmaps": 3361,
-   "commons": 1070,
+   "commons": 1092,
    "dc": 270,
    "europeana": 2917,
    "ia": 51,
@@ -307,13 +307,13 @@
  "ITA": {
   "nombre_es": "Italia",
   "continente": "Europe",
-  "total": 4751,
+  "total": 4753,
   "por_siglo": {
    "6": 2,
    "12": 2,
    "13": 1,
    "15": 10,
-   "16": 189,
+   "16": 191,
    "17": 337,
    "18": 305,
    "19": 1284,
@@ -328,20 +328,20 @@
    "ferroviario/viario": 52,
    "militar": 39,
    "carta náutica": 24,
-   "mapamundi": 13,
+   "mapamundi": 15,
    "ptolemaico": 11,
    "portulano": 7
   },
   "por_via": {
    "coordenadas": 1130,
    "region": 25,
-   "historico": 1464,
+   "historico": 1466,
    "nombre": 2132
   },
   "por_fuente": {
    "allmaps": 937,
    "bne": 2,
-   "commons": 564,
+   "commons": 566,
    "dc": 277,
    "europeana": 2162,
    "ia": 16,
@@ -480,18 +480,18 @@
  "MEX": {
   "nombre_es": "México",
   "continente": "North America",
-  "total": 3023,
+  "total": 3100,
   "por_siglo": {
    "15": 3,
    "16": 52,
    "17": 103,
    "18": 305,
-   "19": 868,
-   "20": 1202,
+   "19": 890,
+   "20": 1257,
    "sin siglo": 490
   },
   "por_tipo": {
-   "general": 1667,
+   "general": 1744,
    "topográfico": 918,
    "plano urbano": 204,
    "ferroviario/viario": 70,
@@ -505,11 +505,11 @@
    "coordenadas": 1130,
    "region": 18,
    "nombre": 1664,
-   "historico": 211
+   "historico": 288
   },
   "por_fuente": {
    "allmaps": 354,
-   "commons": 388,
+   "commons": 465,
    "dc": 237,
    "europeana": 327,
    "ia": 13,
@@ -899,19 +899,19 @@
  "IND": {
   "nombre_es": "India",
   "continente": "Asia",
-  "total": 1423,
+  "total": 1424,
   "por_siglo": {
    "14": 5,
    "15": 2,
    "16": 59,
    "17": 40,
    "18": 155,
-   "19": 555,
+   "19": 556,
    "20": 148,
    "sin siglo": 459
   },
   "por_tipo": {
-   "general": 1222,
+   "general": 1223,
    "histórico/temático": 56,
    "topográfico": 39,
    "ferroviario/viario": 22,
@@ -926,11 +926,11 @@
    "coordenadas": 199,
    "region": 24,
    "nombre": 1021,
-   "historico": 179
+   "historico": 180
   },
   "por_fuente": {
    "allmaps": 179,
-   "commons": 326,
+   "commons": 327,
    "dc": 52,
    "europeana": 564,
    "ia": 26,
@@ -942,19 +942,19 @@
  "TUR": {
   "nombre_es": "Turquía",
   "continente": "Asia",
-  "total": 1285,
+  "total": 1341,
   "por_siglo": {
    "14": 1,
    "15": 3,
    "16": 59,
    "17": 56,
    "18": 119,
-   "19": 525,
-   "20": 186,
+   "19": 545,
+   "20": 222,
    "sin siglo": 336
   },
   "por_tipo": {
-   "general": 1016,
+   "general": 1072,
    "histórico/temático": 79,
    "topográfico": 66,
    "militar": 44,
@@ -968,11 +968,11 @@
    "coordenadas": 384,
    "region": 11,
    "nombre": 657,
-   "historico": 233
+   "historico": 289
   },
   "por_fuente": {
    "allmaps": 203,
-   "commons": 126,
+   "commons": 182,
    "dc": 101,
    "europeana": 428,
    "ia": 9,
@@ -1069,16 +1069,16 @@
  "NFK": {
   "nombre_es": "Isla Norfolk",
   "continente": "Oceania",
-  "total": 1151,
+  "total": 1185,
   "por_siglo": {
    "17": 1,
    "18": 33,
-   "19": 915,
+   "19": 949,
    "20": 196,
    "sin siglo": 6
   },
   "por_tipo": {
-   "general": 1031,
+   "general": 1065,
    "plano urbano": 72,
    "ferroviario/viario": 27,
    "militar": 10,
@@ -1086,10 +1086,10 @@
    "topográfico": 5
   },
   "por_via": {
-   "nombre": 1151
+   "nombre": 1185
   },
   "por_fuente": {
-   "commons": 747,
+   "commons": 781,
    "dc": 166,
    "europeana": 34,
    "ia": 6,
@@ -3965,11 +3965,11 @@
  "LKA": {
   "nombre_es": "Sri Lanka",
   "continente": "Asia",
-  "total": 162,
+  "total": 163,
   "por_siglo": {
    "14": 2,
    "15": 1,
-   "16": 8,
+   "16": 9,
    "17": 12,
    "18": 16,
    "19": 48,
@@ -3980,20 +3980,20 @@
    "general": 126,
    "topográfico": 24,
    "histórico/temático": 5,
+   "mapamundi": 3,
    "ptolemaico": 2,
-   "mapamundi": 2,
    "portulano": 1,
    "ferroviario/viario": 1,
    "carta náutica": 1
   },
   "por_via": {
    "coordenadas": 43,
-   "historico": 69,
+   "historico": 70,
    "nombre": 50
   },
   "por_fuente": {
    "allmaps": 42,
-   "commons": 13,
+   "commons": 14,
    "dc": 3,
    "europeana": 65,
    "loc": 13,
@@ -6486,6 +6486,36 @@
    "proveedores": 4
   }
  },
+ "VAT": {
+  "nombre_es": "Ciudad del Vaticano",
+  "continente": "Europe",
+  "total": 39,
+  "por_siglo": {
+   "16": 1,
+   "17": 24,
+   "18": 1,
+   "19": 3,
+   "20": 3,
+   "sin siglo": 7
+  },
+  "por_tipo": {
+   "plano urbano": 28,
+   "general": 10,
+   "topográfico": 1
+  },
+  "por_via": {
+   "coordenadas": 2,
+   "nombre": 37
+  },
+  "por_fuente": {
+   "allmaps": 2,
+   "commons": 2,
+   "dc": 1,
+   "europeana": 31,
+   "ia": 2,
+   "loc": 1
+  }
+ },
  "BTN": {
   "nombre_es": "Bután",
   "continente": "Asia",
@@ -6543,35 +6573,6 @@
    "loc": 4,
    "ogm": 5,
    "proveedores": 6
-  }
- },
- "VAT": {
-  "nombre_es": "Ciudad del Vaticano",
-  "continente": "Europe",
-  "total": 38,
-  "por_siglo": {
-   "17": 24,
-   "18": 1,
-   "19": 3,
-   "20": 3,
-   "sin siglo": 7
-  },
-  "por_tipo": {
-   "plano urbano": 28,
-   "general": 9,
-   "topográfico": 1
-  },
-  "por_via": {
-   "coordenadas": 2,
-   "nombre": 36
-  },
-  "por_fuente": {
-   "allmaps": 2,
-   "commons": 1,
-   "dc": 1,
-   "europeana": 31,
-   "ia": 2,
-   "loc": 1
   }
  },
  "SWZ": {
