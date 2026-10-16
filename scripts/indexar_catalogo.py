@@ -23,6 +23,11 @@ RE_MAPA = re.compile(r"(?i)\b(map|maps|mapa|mapas|mappa|carte|cartes|karte|karte
 RE_NO_MAPA = re.compile(r"(?i)postcard|carte postale|cartes postales|ansichtskarte|postkarte|vykort|"
                         r"\bfa[țt][ăa]\s*:|\bvedere\b|fotograf|photograph|\bphoto\b|portrait|retrato|bildnis")
 
+# Páginas de atlas que no son mapas (formato de la colección David Rumsey: "(Text Page) …", "(Title Page) …").
+RE_NO_MAPA_PAGINA = re.compile(r"(?i)^\((?:text|title) page|^\((?:covers?|front cover|back cover|binding|spine|"
+                               r"index(?! map)|contents|table of contents|frontispiece|endsheets?|advertisement\w*|text|"
+                               r"statistics|view|views|illustration\w*|portrait|page)\b")
+
 
 # Fuentes generalistas: solo se admite el registro si el título indica que es un mapa.
 FUENTES_GENERALISTAS = {"europeana", "ia"}
@@ -74,6 +79,8 @@ def main():
                 r.setdefault("fuente", fuente)
                 r["lugares"] = [a_texto(x) for x in (r.get("lugares") or []) if x][:12]
                 if fuente in FUENTES_GENERALISTAS and (not RE_MAPA.search(r.get("t") or "") or RE_NO_MAPA.search(r.get("t") or "")):
+                    continue
+                if RE_NO_MAPA_PAGINA.search(r.get("t") or ""):
                     continue
                 if fuente == "commons":
                     r.setdefault("url", "https://commons.wikimedia.org/wiki/File:" + r["t"].replace(" ", "_"))
