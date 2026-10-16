@@ -24,7 +24,7 @@ RE_NO_MAPA = re.compile(r"(?i)postcard|carte postale|cartes postales|ansichtskar
                         r"\bfa[țt][ăa]\s*:|\bvedere\b|fotograf|photograph|\bphoto\b|portrait|retrato|bildnis")
 
 # Páginas de atlas que no son mapas (formato de la colección David Rumsey: "(Text Page) …", "(Title Page) …").
-RE_NO_MAPA_PAGINA = re.compile(r"(?i)^\((?:text|title) page|^\((?:covers?|front cover|back cover|binding|spine|"
+RE_NO_MAPA_PAGINA = re.compile(r"(?i)^\((?:text|title|half title|section title) page|^\((?:composite text|statistical table|diagram)\b|^\((?:covers?|front cover|back cover|binding|spine|"
                                r"index(?! map)|contents|table of contents|frontispiece|endsheets?|advertisement\w*|text|"
                                r"statistics|view|views|illustration\w*|portrait|page)\b")
 
