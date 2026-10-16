@@ -2,20 +2,20 @@
  "USA": {
   "nombre_es": "Estados Unidos",
   "continente": "North America",
-  "total": 356992,
+  "total": 360329,
   "por_siglo": {
    "6": 3,
    "15": 4,
    "16": 29,
    "17": 516,
    "18": 4965,
-   "19": 110893,
-   "20": 209122,
+   "19": 113822,
+   "20": 209530,
    "sin siglo": 31460
   },
   "por_tipo": {
    "topográfico": 181425,
-   "general": 164761,
+   "general": 168098,
    "plano urbano": 2679,
    "militar": 2424,
    "ferroviario/viario": 2016,
@@ -27,13 +27,13 @@
   "por_via": {
    "coordenadas": 112139,
    "region": 233,
-   "historico": 125344,
-   "nombre": 119276
+   "historico": 127927,
+   "nombre": 120030
   },
   "por_fuente": {
    "allmaps": 26538,
    "bne": 1,
-   "commons": 85769,
+   "commons": 89106,
    "dc": 8739,
    "europeana": 1498,
    "ia": 318,
@@ -86,19 +86,19 @@
  "DEU": {
   "nombre_es": "Alemania",
   "continente": "Europe",
-  "total": 12799,
+  "total": 12965,
   "por_siglo": {
    "6": 1,
    "15": 4,
    "16": 96,
    "17": 208,
    "18": 334,
-   "19": 1341,
+   "19": 1507,
    "20": 814,
    "sin siglo": 10001
   },
   "por_tipo": {
-   "general": 9892,
+   "general": 10058,
    "topográfico": 1637,
    "militar": 388,
    "ferroviario/viario": 356,
@@ -111,12 +111,12 @@
   "por_via": {
    "coordenadas": 3603,
    "region": 61,
-   "historico": 6109,
+   "historico": 6275,
    "nombre": 3026
   },
   "por_fuente": {
    "allmaps": 3198,
-   "commons": 592,
+   "commons": 758,
    "dc": 329,
    "europeana": 7641,
    "ia": 81,
@@ -128,7 +128,7 @@
  "FRA": {
   "nombre_es": "Francia",
   "continente": "Europe",
-  "total": 11964,
+  "total": 11966,
   "por_siglo": {
    "10": 1,
    "12": 1,
@@ -138,12 +138,12 @@
    "16": 138,
    "17": 468,
    "18": 1488,
-   "19": 3949,
+   "19": 3951,
    "20": 619,
    "sin siglo": 5295
   },
   "por_tipo": {
-   "general": 9369,
+   "general": 9371,
    "plano urbano": 1093,
    "militar": 601,
    "topográfico": 448,
@@ -157,13 +157,13 @@
   "por_via": {
    "coordenadas": 2089,
    "region": 75,
-   "historico": 1272,
+   "historico": 1274,
    "nombre": 8528
   },
   "por_fuente": {
    "allmaps": 1705,
    "bne": 4,
-   "commons": 796,
+   "commons": 798,
    "dc": 508,
    "europeana": 7556,
    "ia": 76,
@@ -523,19 +523,19 @@
  "POL": {
   "nombre_es": "Polonia",
   "continente": "Europe",
-  "total": 2692,
+  "total": 2792,
   "por_siglo": {
    "14": 1,
    "15": 6,
    "16": 41,
    "17": 52,
    "18": 155,
-   "19": 525,
-   "20": 448,
+   "19": 603,
+   "20": 470,
    "sin siglo": 1464
   },
   "por_tipo": {
-   "general": 2055,
+   "general": 2155,
    "topográfico": 284,
    "plano urbano": 159,
    "histórico/temático": 88,
@@ -548,12 +548,12 @@
   "por_via": {
    "coordenadas": 1205,
    "region": 28,
-   "historico": 526,
+   "historico": 626,
    "nombre": 933
   },
   "por_fuente": {
    "allmaps": 974,
-   "commons": 30,
+   "commons": 130,
    "dc": 143,
    "europeana": 1234,
    "ia": 55,
@@ -608,19 +608,19 @@
  "CHE": {
   "nombre_es": "Suiza",
   "continente": "Europe",
-  "total": 1960,
+  "total": 1961,
   "por_siglo": {
    "6": 1,
    "15": 3,
    "16": 48,
    "17": 49,
    "18": 89,
-   "19": 372,
+   "19": 373,
    "20": 139,
    "sin siglo": 1259
   },
   "por_tipo": {
-   "general": 1695,
+   "general": 1696,
    "topográfico": 114,
    "plano urbano": 67,
    "ferroviario/viario": 33,
@@ -633,13 +633,13 @@
   "por_via": {
    "coordenadas": 720,
    "region": 36,
-   "nombre": 1199,
+   "nombre": 1200,
    "historico": 5
   },
   "por_fuente": {
    "allmaps": 496,
    "bne": 1,
-   "commons": 51,
+   "commons": 52,
    "dc": 120,
    "europeana": 960,
    "ia": 7,
@@ -690,7 +690,7 @@
  "EGY": {
   "nombre_es": "Egipto",
   "continente": "Africa",
-  "total": 1899,
+  "total": 1907,
   "por_siglo": {
    "12": 1,
    "13": 1,
@@ -698,12 +698,12 @@
    "16": 44,
    "17": 39,
    "18": 114,
-   "19": 759,
+   "19": 767,
    "20": 750,
    "sin siglo": 188
   },
   "por_tipo": {
-   "general": 1702,
+   "general": 1710,
    "topográfico": 47,
    "plano urbano": 39,
    "histórico/temático": 36,
@@ -718,11 +718,11 @@
    "coordenadas": 176,
    "region": 28,
    "nombre": 630,
-   "historico": 1065
+   "historico": 1073
   },
   "por_fuente": {
    "allmaps": 124,
-   "commons": 1069,
+   "commons": 1077,
    "dc": 35,
    "europeana": 352,
    "ia": 10,
@@ -983,6 +983,36 @@
    "proveedores": 28
   }
  },
+ "NFK": {
+  "nombre_es": "Isla Norfolk",
+  "continente": "Oceania",
+  "total": 1303,
+  "por_siglo": {
+   "17": 1,
+   "18": 33,
+   "19": 1067,
+   "20": 196,
+   "sin siglo": 6
+  },
+  "por_tipo": {
+   "general": 1183,
+   "plano urbano": 72,
+   "ferroviario/viario": 27,
+   "militar": 10,
+   "histórico/temático": 6,
+   "topográfico": 5
+  },
+  "por_via": {
+   "nombre": 1303
+  },
+  "por_fuente": {
+   "commons": 899,
+   "dc": 166,
+   "europeana": 34,
+   "ia": 6,
+   "loc": 198
+  }
+ },
  "GRC": {
   "nombre_es": "Grecia",
   "continente": "Europe",
@@ -1066,36 +1096,6 @@
    "loc": 61,
    "ogm": 243,
    "proveedores": 17
-  }
- },
- "NFK": {
-  "nombre_es": "Isla Norfolk",
-  "continente": "Oceania",
-  "total": 1193,
-  "por_siglo": {
-   "17": 1,
-   "18": 33,
-   "19": 957,
-   "20": 196,
-   "sin siglo": 6
-  },
-  "por_tipo": {
-   "general": 1073,
-   "plano urbano": 72,
-   "ferroviario/viario": 27,
-   "militar": 10,
-   "histórico/temático": 6,
-   "topográfico": 5
-  },
-  "por_via": {
-   "nombre": 1193
-  },
-  "por_fuente": {
-   "commons": 789,
-   "dc": 166,
-   "europeana": 34,
-   "ia": 6,
-   "loc": 198
   }
  },
  "SWE": {
@@ -1182,18 +1182,18 @@
  "CZE": {
   "nombre_es": "República Checa",
   "continente": "Europe",
-  "total": 1089,
+  "total": 1090,
   "por_siglo": {
    "15": 1,
    "16": 16,
    "17": 31,
    "18": 57,
-   "19": 189,
+   "19": 190,
    "20": 213,
    "sin siglo": 582
   },
   "por_tipo": {
-   "general": 787,
+   "general": 788,
    "topográfico": 178,
    "histórico/temático": 48,
    "plano urbano": 37,
@@ -1206,13 +1206,13 @@
   "por_via": {
    "coordenadas": 819,
    "region": 23,
-   "historico": 174,
+   "historico": 175,
    "nombre": 73
   },
   "por_fuente": {
    "allmaps": 482,
    "bne": 1,
-   "commons": 56,
+   "commons": 57,
    "dc": 104,
    "europeana": 168,
    "ia": 1,
