@@ -2,7 +2,7 @@
  "USA": {
   "nombre_es": "Estados Unidos",
   "continente": "North America",
-  "total": 376632,
+  "total": 376702,
   "por_siglo": {
    "5": 1,
    "6": 11,
@@ -15,32 +15,32 @@
    "15": 4,
    "16": 39,
    "17": 690,
-   "18": 5474,
-   "19": 119708,
-   "20": 214177,
-   "sin siglo": 36480
+   "18": 5479,
+   "19": 119749,
+   "20": 214199,
+   "sin siglo": 36482
   },
   "por_tipo": {
    "topográfico": 181952,
-   "general": 176406,
-   "histórico/temático": 7738,
-   "plano urbano": 2899,
+   "general": 176461,
+   "histórico/temático": 7742,
+   "plano urbano": 2906,
    "militar": 2833,
    "ferroviario/viario": 2406,
-   "carta náutica": 1374,
-   "mapamundi": 1023,
+   "carta náutica": 1375,
+   "mapamundi": 1026,
    "portulano": 1
   },
   "por_via": {
    "coordenadas": 112139,
    "region": 233,
-   "historico": 134061,
-   "nombre": 130199
+   "historico": 134081,
+   "nombre": 130249
   },
   "por_fuente": {
    "allmaps": 26538,
    "bne": 1,
-   "commons": 105409,
+   "commons": 105479,
    "dc": 8739,
    "europeana": 1498,
    "ia": 318,
@@ -52,7 +52,7 @@
  "FRA": {
   "nombre_es": "Francia",
   "continente": "Europe",
-  "total": 21495,
+  "total": 22074,
   "por_siglo": {
    "5": 3,
    "6": 8,
@@ -65,35 +65,35 @@
    "13": 20,
    "14": 20,
    "15": 17,
-   "16": 289,
-   "17": 1322,
-   "18": 3212,
-   "19": 6469,
-   "20": 1201,
-   "sin siglo": 8899
+   "16": 292,
+   "17": 1373,
+   "18": 3396,
+   "19": 6676,
+   "20": 1250,
+   "sin siglo": 8984
   },
   "por_tipo": {
-   "general": 13575,
-   "histórico/temático": 3461,
-   "plano urbano": 1871,
-   "topográfico": 1185,
-   "militar": 730,
-   "ferroviario/viario": 411,
-   "carta náutica": 140,
-   "mapamundi": 89,
+   "general": 13874,
+   "histórico/temático": 3463,
+   "plano urbano": 2093,
+   "topográfico": 1208,
+   "militar": 748,
+   "ferroviario/viario": 418,
+   "carta náutica": 145,
+   "mapamundi": 92,
    "portulano": 17,
    "ptolemaico": 16
   },
   "por_via": {
    "coordenadas": 2089,
    "region": 75,
-   "historico": 6049,
-   "nombre": 13282
+   "historico": 6500,
+   "nombre": 13410
   },
   "por_fuente": {
    "allmaps": 1705,
    "bne": 4,
-   "commons": 10327,
+   "commons": 10906,
    "dc": 508,
    "europeana": 7556,
    "ia": 76,
@@ -105,22 +105,22 @@
  "NLD": {
   "nombre_es": "Países Bajos",
   "continente": "Europe",
-  "total": 19600,
+  "total": 19617,
   "por_siglo": {
    "7": 1,
    "10": 5,
    "14": 1,
    "15": 1,
-   "16": 127,
-   "17": 559,
-   "18": 729,
-   "19": 569,
-   "20": 1038,
-   "sin siglo": 16570
+   "16": 128,
+   "17": 562,
+   "18": 737,
+   "19": 570,
+   "20": 1039,
+   "sin siglo": 16573
   },
   "por_tipo": {
-   "general": 17087,
-   "plano urbano": 1196,
+   "general": 17100,
+   "plano urbano": 1200,
    "histórico/temático": 599,
    "topográfico": 461,
    "militar": 144,
@@ -131,13 +131,13 @@
   },
   "por_via": {
    "coordenadas": 9420,
-   "historico": 4725,
+   "historico": 4740,
    "region": 137,
-   "nombre": 5318
+   "nombre": 5320
   },
   "por_fuente": {
    "allmaps": 10956,
-   "commons": 1604,
+   "commons": 1621,
    "dc": 120,
    "europeana": 6625,
    "ia": 11,
@@ -149,7 +149,7 @@
  "DEU": {
   "nombre_es": "Alemania",
   "continente": "Europe",
-  "total": 15469,
+  "total": 15504,
   "por_siglo": {
    "6": 2,
    "7": 2,
@@ -161,20 +161,20 @@
    "13": 3,
    "14": 2,
    "15": 12,
-   "16": 147,
-   "17": 392,
-   "18": 590,
-   "19": 2108,
-   "20": 979,
-   "sin siglo": 11217
+   "16": 154,
+   "17": 400,
+   "18": 597,
+   "19": 2119,
+   "20": 980,
+   "sin siglo": 11218
   },
   "por_tipo": {
-   "general": 10768,
+   "general": 10792,
    "topográfico": 1723,
-   "histórico/temático": 1685,
+   "histórico/temático": 1687,
+   "ferroviario/viario": 408,
    "militar": 407,
-   "ferroviario/viario": 403,
-   "plano urbano": 376,
+   "plano urbano": 380,
    "mapamundi": 48,
    "carta náutica": 39,
    "ptolemaico": 20
@@ -182,12 +182,12 @@
   "por_via": {
    "coordenadas": 3603,
    "region": 61,
-   "historico": 7282,
-   "nombre": 4523
+   "historico": 7300,
+   "nombre": 4540
   },
   "por_fuente": {
    "allmaps": 3198,
-   "commons": 3262,
+   "commons": 3297,
    "dc": 329,
    "europeana": 7641,
    "ia": 81,
@@ -199,7 +199,7 @@
  "GBR": {
   "nombre_es": "Reino Unido",
   "continente": "Europe",
-  "total": 13027,
+  "total": 13061,
   "por_siglo": {
    "5": 2,
    "6": 3,
@@ -210,20 +210,20 @@
    "11": 3,
    "12": 3,
    "13": 13,
-   "15": 8,
+   "15": 9,
    "16": 74,
-   "17": 496,
-   "18": 1471,
-   "19": 3226,
-   "20": 535,
-   "sin siglo": 7185
+   "17": 501,
+   "18": 1486,
+   "19": 3227,
+   "20": 537,
+   "sin siglo": 7195
   },
   "por_tipo": {
-   "general": 7585,
-   "histórico/temático": 2499,
+   "general": 7591,
+   "histórico/temático": 2501,
    "topográfico": 1697,
-   "plano urbano": 337,
-   "ferroviario/viario": 288,
+   "plano urbano": 362,
+   "ferroviario/viario": 289,
    "mapamundi": 224,
    "militar": 191,
    "carta náutica": 185,
@@ -232,13 +232,13 @@
   },
   "por_via": {
    "coordenadas": 724,
-   "historico": 11148,
+   "historico": 11182,
    "region": 8,
    "nombre": 1147
   },
   "por_fuente": {
    "allmaps": 3361,
-   "commons": 5809,
+   "commons": 5843,
    "dc": 270,
    "europeana": 2917,
    "ia": 51,
@@ -250,7 +250,7 @@
  "ESP": {
   "nombre_es": "España",
   "continente": "Europe",
-  "total": 8586,
+  "total": 8656,
   "por_siglo": {
    "5": 5,
    "6": 2,
@@ -261,21 +261,21 @@
    "12": 16,
    "13": 9,
    "14": 10,
-   "15": 22,
-   "16": 123,
-   "17": 414,
-   "18": 1639,
-   "19": 2932,
-   "20": 1007,
-   "sin siglo": 2363
+   "15": 23,
+   "16": 125,
+   "17": 434,
+   "18": 1657,
+   "19": 2944,
+   "20": 1010,
+   "sin siglo": 2377
   },
   "por_tipo": {
-   "general": 4953,
-   "plano urbano": 1311,
-   "topográfico": 984,
+   "general": 4988,
+   "plano urbano": 1344,
+   "topográfico": 985,
    "histórico/temático": 907,
    "carta náutica": 125,
-   "militar": 108,
+   "militar": 109,
    "ferroviario/viario": 108,
    "mapamundi": 54,
    "ptolemaico": 20,
@@ -284,13 +284,13 @@
   "por_via": {
    "coordenadas": 518,
    "region": 3,
-   "nombre": 6206,
-   "historico": 1859
+   "nombre": 6253,
+   "historico": 1882
   },
   "por_fuente": {
    "allmaps": 343,
    "bne": 14,
-   "commons": 1906,
+   "commons": 1976,
    "dc": 86,
    "europeana": 4332,
    "ia": 7,
@@ -302,7 +302,7 @@
  "ITA": {
   "nombre_es": "Italia",
   "continente": "Europe",
-  "total": 8336,
+  "total": 8427,
   "por_siglo": {
    "6": 5,
    "7": 18,
@@ -312,22 +312,22 @@
    "12": 6,
    "13": 8,
    "14": 3,
-   "15": 59,
-   "16": 381,
-   "17": 540,
-   "18": 761,
-   "19": 1928,
-   "20": 599,
-   "sin siglo": 4012
+   "15": 64,
+   "16": 398,
+   "17": 554,
+   "18": 774,
+   "19": 1957,
+   "20": 602,
+   "sin siglo": 4022
   },
   "por_tipo": {
-   "general": 4981,
-   "histórico/temático": 1899,
-   "plano urbano": 713,
-   "topográfico": 371,
+   "general": 5036,
+   "histórico/temático": 1900,
+   "plano urbano": 742,
+   "topográfico": 375,
    "ferroviario/viario": 102,
    "ptolemaico": 72,
-   "militar": 69,
+   "militar": 71,
    "carta náutica": 47,
    "mapamundi": 46,
    "portulano": 36
@@ -335,13 +335,13 @@
   "por_via": {
    "coordenadas": 1130,
    "region": 25,
-   "historico": 3512,
-   "nombre": 3669
+   "historico": 3592,
+   "nombre": 3680
   },
   "por_fuente": {
    "allmaps": 937,
    "bne": 2,
-   "commons": 4149,
+   "commons": 4240,
    "dc": 277,
    "europeana": 2162,
    "ia": 16,
@@ -353,23 +353,23 @@
  "CAN": {
   "nombre_es": "Canadá",
   "continente": "North America",
-  "total": 6879,
+  "total": 6901,
   "por_siglo": {
    "6": 1,
    "8": 7,
    "14": 2,
    "16": 22,
-   "17": 142,
-   "18": 1631,
-   "19": 1829,
-   "20": 1856,
-   "sin siglo": 1389
+   "17": 145,
+   "18": 1641,
+   "19": 1832,
+   "20": 1859,
+   "sin siglo": 1392
   },
   "por_tipo": {
-   "general": 3791,
-   "topográfico": 1448,
-   "histórico/temático": 804,
-   "plano urbano": 324,
+   "general": 3797,
+   "topográfico": 1449,
+   "histórico/temático": 807,
+   "plano urbano": 336,
    "ferroviario/viario": 301,
    "carta náutica": 117,
    "militar": 62,
@@ -379,13 +379,13 @@
   "por_via": {
    "coordenadas": 1879,
    "region": 11,
-   "historico": 1445,
-   "nombre": 3544
+   "historico": 1461,
+   "nombre": 3550
   },
   "por_fuente": {
    "allmaps": 661,
    "bne": 1,
-   "commons": 2312,
+   "commons": 2334,
    "dc": 1289,
    "europeana": 282,
    "ia": 323,
@@ -397,26 +397,27 @@
  "BEL": {
   "nombre_es": "Bélgica",
   "continente": "Europe",
-  "total": 6106,
+  "total": 6158,
   "por_siglo": {
    "6": 1,
+   "7": 1,
    "10": 1,
    "14": 1,
    "15": 4,
    "16": 74,
-   "17": 259,
-   "18": 573,
-   "19": 844,
-   "20": 336,
-   "sin siglo": 4013
+   "17": 262,
+   "18": 587,
+   "19": 869,
+   "20": 338,
+   "sin siglo": 4020
   },
   "por_tipo": {
-   "general": 4613,
+   "general": 4644,
    "histórico/temático": 653,
-   "topográfico": 322,
-   "plano urbano": 289,
-   "militar": 152,
-   "ferroviario/viario": 48,
+   "topográfico": 323,
+   "plano urbano": 300,
+   "militar": 158,
+   "ferroviario/viario": 51,
    "carta náutica": 14,
    "mapamundi": 11,
    "ptolemaico": 4
@@ -424,12 +425,12 @@
   "por_via": {
    "coordenadas": 2696,
    "region": 48,
-   "nombre": 1959,
-   "historico": 1403
+   "nombre": 1966,
+   "historico": 1448
   },
   "por_fuente": {
    "allmaps": 2550,
-   "commons": 1564,
+   "commons": 1616,
    "dc": 142,
    "europeana": 1558,
    "ia": 18,
@@ -441,7 +442,7 @@
  "RUS": {
   "nombre_es": "Rusia",
   "continente": "Europe",
-  "total": 5512,
+  "total": 5516,
   "por_siglo": {
    "6": 2,
    "7": 2,
@@ -451,18 +452,18 @@
    "15": 7,
    "16": 86,
    "17": 164,
-   "18": 383,
-   "19": 1928,
+   "18": 384,
+   "19": 1931,
    "20": 1260,
    "sin siglo": 1676
   },
   "por_tipo": {
-   "general": 3694,
-   "histórico/temático": 1067,
+   "general": 3695,
+   "histórico/temático": 1068,
    "topográfico": 463,
    "militar": 94,
-   "plano urbano": 72,
-   "ferroviario/viario": 48,
+   "plano urbano": 73,
+   "ferroviario/viario": 49,
    "mapamundi": 37,
    "carta náutica": 25,
    "ptolemaico": 11,
@@ -471,12 +472,12 @@
   "por_via": {
    "coordenadas": 596,
    "region": 80,
-   "historico": 1358,
-   "nombre": 3478
+   "historico": 1357,
+   "nombre": 3483
   },
   "por_fuente": {
    "allmaps": 367,
-   "commons": 2193,
+   "commons": 2197,
    "dc": 160,
    "europeana": 1069,
    "ia": 28,
@@ -488,7 +489,7 @@
  "CHN": {
   "nombre_es": "China",
   "continente": "Asia",
-  "total": 4587,
+  "total": 4631,
   "por_siglo": {
    "5": 2,
    "9": 1,
@@ -496,20 +497,20 @@
    "13": 2,
    "14": 4,
    "15": 5,
-   "16": 47,
-   "17": 157,
-   "18": 473,
-   "19": 1719,
-   "20": 1283,
-   "sin siglo": 885
+   "16": 48,
+   "17": 159,
+   "18": 485,
+   "19": 1743,
+   "20": 1285,
+   "sin siglo": 888
   },
   "por_tipo": {
-   "general": 3349,
+   "general": 3369,
    "histórico/temático": 585,
-   "topográfico": 277,
-   "carta náutica": 138,
+   "topográfico": 288,
+   "carta náutica": 140,
+   "plano urbano": 83,
    "ferroviario/viario": 75,
-   "plano urbano": 72,
    "militar": 52,
    "mapamundi": 22,
    "ptolemaico": 13,
@@ -518,12 +519,12 @@
   "por_via": {
    "coordenadas": 373,
    "region": 26,
-   "nombre": 2395,
-   "historico": 1793
+   "nombre": 2397,
+   "historico": 1835
   },
   "por_fuente": {
    "allmaps": 267,
-   "commons": 2576,
+   "commons": 2620,
    "dc": 115,
    "europeana": 496,
    "ia": 18,
@@ -535,25 +536,25 @@
  "MEX": {
   "nombre_es": "México",
   "continente": "North America",
-  "total": 4128,
+  "total": 4145,
   "por_siglo": {
    "5": 1,
    "8": 2,
    "13": 1,
    "14": 2,
    "15": 3,
-   "16": 68,
-   "17": 138,
-   "18": 410,
-   "19": 1241,
-   "20": 1282,
-   "sin siglo": 980
+   "16": 69,
+   "17": 141,
+   "18": 412,
+   "19": 1249,
+   "20": 1284,
+   "sin siglo": 981
   },
   "por_tipo": {
-   "general": 2051,
+   "general": 2058,
    "topográfico": 957,
    "histórico/temático": 590,
-   "plano urbano": 250,
+   "plano urbano": 260,
    "ferroviario/viario": 104,
    "militar": 82,
    "carta náutica": 68,
@@ -564,12 +565,12 @@
   "por_via": {
    "coordenadas": 1130,
    "region": 18,
-   "nombre": 2658,
-   "historico": 322
+   "nombre": 2671,
+   "historico": 326
   },
   "por_fuente": {
    "allmaps": 354,
-   "commons": 1493,
+   "commons": 1510,
    "dc": 237,
    "europeana": 327,
    "ia": 13,
@@ -581,27 +582,27 @@
  "POL": {
   "nombre_es": "Polonia",
   "continente": "Europe",
-  "total": 3567,
+  "total": 3589,
   "por_siglo": {
    "7": 1,
    "8": 1,
    "10": 2,
    "11": 1,
-   "12": 2,
+   "12": 3,
    "14": 2,
    "15": 8,
-   "16": 59,
-   "17": 101,
-   "18": 287,
+   "16": 61,
+   "17": 103,
+   "18": 296,
    "19": 761,
-   "20": 541,
+   "20": 549,
    "sin siglo": 1801
   },
   "por_tipo": {
-   "general": 2503,
-   "histórico/temático": 463,
+   "general": 2521,
+   "histórico/temático": 464,
    "topográfico": 305,
-   "plano urbano": 169,
+   "plano urbano": 172,
    "militar": 62,
    "ferroviario/viario": 40,
    "carta náutica": 12,
@@ -611,12 +612,12 @@
   "por_via": {
    "coordenadas": 1205,
    "region": 28,
-   "historico": 783,
-   "nombre": 1551
+   "historico": 785,
+   "nombre": 1571
   },
   "por_fuente": {
    "allmaps": 974,
-   "commons": 905,
+   "commons": 927,
    "dc": 143,
    "europeana": 1234,
    "ia": 55,
@@ -628,26 +629,26 @@
  "PRT": {
   "nombre_es": "Portugal",
   "continente": "Europe",
-  "total": 3238,
+  "total": 3254,
   "por_siglo": {
    "7": 1,
    "8": 1,
    "13": 1,
    "14": 1,
    "15": 10,
-   "16": 62,
+   "16": 63,
    "17": 163,
-   "18": 548,
-   "19": 1216,
+   "18": 553,
+   "19": 1223,
    "20": 228,
-   "sin siglo": 1007
+   "sin siglo": 1010
   },
   "por_tipo": {
-   "general": 2157,
+   "general": 2165,
    "histórico/temático": 504,
-   "plano urbano": 196,
+   "plano urbano": 202,
    "topográfico": 124,
-   "carta náutica": 105,
+   "carta náutica": 107,
    "ferroviario/viario": 68,
    "militar": 61,
    "portulano": 12,
@@ -656,13 +657,13 @@
   "por_via": {
    "coordenadas": 106,
    "region": 11,
-   "historico": 433,
-   "nombre": 2688
+   "historico": 440,
+   "nombre": 2697
   },
   "por_fuente": {
    "allmaps": 96,
    "bne": 2,
-   "commons": 1039,
+   "commons": 1055,
    "dc": 42,
    "europeana": 1516,
    "ia": 2,
@@ -674,27 +675,27 @@
  "IND": {
   "nombre_es": "India",
   "continente": "Asia",
-  "total": 2990,
+  "total": 3019,
   "por_siglo": {
    "5": 2,
    "8": 1,
    "14": 7,
    "15": 7,
    "16": 88,
-   "17": 147,
-   "18": 484,
-   "19": 930,
+   "17": 149,
+   "18": 505,
+   "19": 932,
    "20": 258,
-   "sin siglo": 1066
+   "sin siglo": 1070
   },
   "por_tipo": {
-   "general": 1861,
+   "general": 1869,
    "histórico/temático": 770,
    "topográfico": 96,
+   "plano urbano": 74,
    "ferroviario/viario": 69,
-   "plano urbano": 55,
-   "carta náutica": 51,
-   "militar": 33,
+   "carta náutica": 52,
+   "militar": 34,
    "mapamundi": 32,
    "ptolemaico": 15,
    "portulano": 8
@@ -702,12 +703,12 @@
   "por_via": {
    "coordenadas": 199,
    "region": 24,
-   "nombre": 2335,
-   "historico": 432
+   "nombre": 2344,
+   "historico": 452
   },
   "por_fuente": {
    "allmaps": 179,
-   "commons": 1893,
+   "commons": 1922,
    "dc": 52,
    "europeana": 564,
    "ia": 26,
@@ -719,26 +720,26 @@
  "CHE": {
   "nombre_es": "Suiza",
   "continente": "Europe",
-  "total": 2721,
+  "total": 2728,
   "por_siglo": {
    "6": 2,
    "7": 1,
    "13": 1,
    "14": 1,
    "15": 5,
-   "16": 60,
+   "16": 61,
    "17": 72,
    "18": 177,
-   "19": 597,
-   "20": 182,
+   "19": 602,
+   "20": 183,
    "sin siglo": 1623
   },
   "por_tipo": {
-   "general": 2009,
+   "general": 2014,
    "histórico/temático": 413,
    "topográfico": 127,
    "plano urbano": 68,
-   "ferroviario/viario": 60,
+   "ferroviario/viario": 62,
    "militar": 24,
    "carta náutica": 9,
    "mapamundi": 6,
@@ -747,13 +748,13 @@
   "por_via": {
    "coordenadas": 720,
    "region": 36,
-   "nombre": 1946,
+   "nombre": 1953,
    "historico": 19
   },
   "por_fuente": {
    "allmaps": 496,
    "bne": 1,
-   "commons": 812,
+   "commons": 819,
    "dc": 120,
    "europeana": 960,
    "ia": 7,
@@ -765,7 +766,7 @@
  "TUR": {
   "nombre_es": "Turquía",
   "continente": "Asia",
-  "total": 2691,
+  "total": 2716,
   "por_siglo": {
    "5": 3,
    "6": 1,
@@ -775,18 +776,18 @@
    "13": 1,
    "14": 7,
    "15": 8,
-   "16": 111,
-   "17": 151,
-   "18": 285,
-   "19": 915,
-   "20": 335,
-   "sin siglo": 863
+   "16": 112,
+   "17": 156,
+   "18": 295,
+   "19": 918,
+   "20": 336,
+   "sin siglo": 868
   },
   "por_tipo": {
-   "general": 1539,
+   "general": 1552,
    "histórico/temático": 815,
+   "plano urbano": 99,
    "topográfico": 92,
-   "plano urbano": 87,
    "militar": 79,
    "ferroviario/viario": 32,
    "carta náutica": 21,
@@ -796,12 +797,12 @@
   "por_via": {
    "coordenadas": 384,
    "region": 11,
-   "nombre": 1525,
-   "historico": 771
+   "nombre": 1529,
+   "historico": 792
   },
   "por_fuente": {
    "allmaps": 203,
-   "commons": 1532,
+   "commons": 1557,
    "dc": 101,
    "europeana": 428,
    "ia": 9,
@@ -813,7 +814,7 @@
  "EGY": {
   "nombre_es": "Egipto",
   "continente": "Africa",
-  "total": 2546,
+  "total": 2558,
   "por_siglo": {
    "6": 1,
    "7": 7,
@@ -823,18 +824,18 @@
    "14": 2,
    "15": 6,
    "16": 65,
-   "17": 52,
+   "17": 57,
    "18": 179,
-   "19": 925,
-   "20": 810,
-   "sin siglo": 493
+   "19": 928,
+   "20": 813,
+   "sin siglo": 494
   },
   "por_tipo": {
-   "general": 1929,
+   "general": 1937,
    "histórico/temático": 332,
    "topográfico": 118,
-   "plano urbano": 46,
-   "militar": 33,
+   "plano urbano": 47,
+   "militar": 36,
    "carta náutica": 31,
    "ferroviario/viario": 29,
    "mapamundi": 16,
@@ -844,12 +845,12 @@
   "por_via": {
    "coordenadas": 176,
    "region": 28,
-   "nombre": 1165,
-   "historico": 1177
+   "nombre": 1171,
+   "historico": 1183
   },
   "por_fuente": {
    "allmaps": 124,
-   "commons": 1716,
+   "commons": 1728,
    "dc": 35,
    "europeana": 352,
    "ia": 10,
@@ -861,37 +862,37 @@
  "AUS": {
   "nombre_es": "Australia",
   "continente": "Oceania",
-  "total": 2526,
+  "total": 2535,
   "por_siglo": {
    "6": 4,
    "8": 1,
    "14": 1,
    "16": 8,
    "17": 19,
-   "18": 51,
-   "19": 449,
-   "20": 111,
+   "18": 54,
+   "19": 454,
+   "20": 112,
    "sin siglo": 1882
   },
   "por_tipo": {
-   "general": 2047,
+   "general": 2049,
    "histórico/temático": 290,
-   "carta náutica": 74,
+   "carta náutica": 76,
    "topográfico": 36,
+   "plano urbano": 31,
    "ferroviario/viario": 29,
-   "plano urbano": 27,
-   "mapamundi": 22,
+   "mapamundi": 23,
    "portulano": 1
   },
   "por_via": {
    "coordenadas": 1540,
    "region": 4,
-   "historico": 212,
-   "nombre": 770
+   "historico": 218,
+   "nombre": 773
   },
   "por_fuente": {
    "allmaps": 1533,
-   "commons": 607,
+   "commons": 616,
    "dc": 19,
    "europeana": 263,
    "ia": 7,
@@ -903,7 +904,7 @@
  "AUT": {
   "nombre_es": "Austria",
   "continente": "Europe",
-  "total": 2487,
+  "total": 2500,
   "por_siglo": {
    "6": 2,
    "9": 1,
@@ -911,16 +912,16 @@
    "15": 4,
    "16": 50,
    "17": 73,
-   "18": 143,
-   "19": 599,
-   "20": 291,
-   "sin siglo": 1323
+   "18": 146,
+   "19": 605,
+   "20": 292,
+   "sin siglo": 1326
   },
   "por_tipo": {
-   "general": 1485,
-   "histórico/temático": 610,
+   "general": 1494,
+   "histórico/temático": 611,
    "topográfico": 227,
-   "plano urbano": 92,
+   "plano urbano": 95,
    "militar": 35,
    "ferroviario/viario": 21,
    "mapamundi": 10,
@@ -930,12 +931,12 @@
   "por_via": {
    "coordenadas": 768,
    "region": 71,
-   "nombre": 891,
-   "historico": 757
+   "nombre": 894,
+   "historico": 767
   },
   "por_fuente": {
    "allmaps": 583,
-   "commons": 1002,
+   "commons": 1015,
    "dc": 139,
    "europeana": 390,
    "ia": 13,
@@ -947,25 +948,25 @@
  "BRA": {
   "nombre_es": "Brasil",
   "continente": "South America",
-  "total": 2402,
+  "total": 2457,
   "por_siglo": {
    "5": 1,
    "7": 1,
    "8": 1,
    "15": 3,
-   "16": 27,
-   "17": 249,
-   "18": 312,
-   "19": 582,
-   "20": 475,
-   "sin siglo": 751
+   "16": 28,
+   "17": 251,
+   "18": 341,
+   "19": 595,
+   "20": 478,
+   "sin siglo": 758
   },
   "por_tipo": {
-   "general": 1625,
+   "general": 1639,
+   "plano urbano": 320,
    "histórico/temático": 299,
-   "plano urbano": 281,
    "topográfico": 78,
-   "carta náutica": 63,
+   "carta náutica": 65,
    "ferroviario/viario": 18,
    "portulano": 18,
    "mapamundi": 13,
@@ -974,13 +975,13 @@
   "por_via": {
    "coordenadas": 230,
    "region": 26,
-   "historico": 342,
-   "nombre": 1804
+   "historico": 382,
+   "nombre": 1819
   },
   "por_fuente": {
    "allmaps": 123,
    "bne": 3,
-   "commons": 1222,
+   "commons": 1277,
    "dc": 65,
    "europeana": 288,
    "ia": 5,
@@ -992,7 +993,7 @@
  "IRL": {
   "nombre_es": "Irlanda",
   "continente": "Europe",
-  "total": 2389,
+  "total": 2398,
   "por_siglo": {
    "5": 1,
    "6": 1,
@@ -1004,19 +1005,19 @@
    "14": 1,
    "15": 4,
    "16": 87,
-   "17": 119,
-   "18": 167,
-   "19": 749,
-   "20": 63,
-   "sin siglo": 1189
+   "17": 120,
+   "18": 170,
+   "19": 751,
+   "20": 64,
+   "sin siglo": 1191
   },
   "por_tipo": {
-   "general": 1422,
+   "general": 1428,
    "histórico/temático": 499,
    "topográfico": 298,
    "ferroviario/viario": 51,
    "carta náutica": 47,
-   "plano urbano": 38,
+   "plano urbano": 41,
    "mapamundi": 15,
    "ptolemaico": 8,
    "militar": 6,
@@ -1025,12 +1026,12 @@
   "por_via": {
    "coordenadas": 261,
    "region": 5,
-   "historico": 261,
-   "nombre": 1862
+   "historico": 266,
+   "nombre": 1866
   },
   "por_fuente": {
    "allmaps": 232,
-   "commons": 882,
+   "commons": 891,
    "dc": 65,
    "europeana": 878,
    "ia": 14,
@@ -1042,7 +1043,7 @@
  "GRC": {
   "nombre_es": "Grecia",
   "continente": "Europe",
-  "total": 2359,
+  "total": 2366,
   "por_siglo": {
    "5": 1,
    "6": 2,
@@ -1051,19 +1052,19 @@
    "10": 1,
    "13": 1,
    "14": 3,
-   "15": 10,
+   "15": 11,
    "16": 130,
-   "17": 225,
-   "18": 184,
-   "19": 759,
+   "17": 226,
+   "18": 188,
+   "19": 760,
    "20": 254,
    "sin siglo": 773
   },
   "por_tipo": {
-   "general": 1511,
+   "general": 1517,
    "histórico/temático": 628,
    "topográfico": 82,
-   "plano urbano": 45,
+   "plano urbano": 46,
    "militar": 38,
    "carta náutica": 20,
    "mapamundi": 15,
@@ -1074,12 +1075,12 @@
   "por_via": {
    "coordenadas": 274,
    "region": 24,
-   "historico": 588,
-   "nombre": 1473
+   "historico": 592,
+   "nombre": 1476
   },
   "por_fuente": {
    "allmaps": 171,
-   "commons": 1258,
+   "commons": 1265,
    "dc": 92,
    "europeana": 503,
    "ia": 11,
@@ -1091,25 +1092,25 @@
  "IDN": {
   "nombre_es": "Indonesia",
   "continente": "Asia",
-  "total": 2111,
+  "total": 2181,
   "por_siglo": {
    "5": 2,
    "6": 2,
    "14": 1,
    "15": 2,
    "16": 28,
-   "17": 272,
-   "18": 397,
-   "19": 199,
+   "17": 274,
+   "18": 461,
+   "19": 201,
    "20": 243,
-   "sin siglo": 965
+   "sin siglo": 967
   },
   "por_tipo": {
-   "general": 1737,
-   "carta náutica": 129,
+   "general": 1743,
+   "carta náutica": 155,
    "histórico/temático": 109,
+   "plano urbano": 88,
    "topográfico": 62,
-   "plano urbano": 50,
    "militar": 9,
    "ferroviario/viario": 9,
    "mapamundi": 4,
@@ -1118,12 +1119,12 @@
   "por_via": {
    "coordenadas": 736,
    "region": 30,
-   "historico": 1055,
+   "historico": 1125,
    "nombre": 290
   },
   "por_fuente": {
    "allmaps": 710,
-   "commons": 959,
+   "commons": 1029,
    "dc": 36,
    "europeana": 217,
    "ia": 8,
@@ -1135,39 +1136,39 @@
  "SWE": {
   "nombre_es": "Suecia",
   "continente": "Europe",
-  "total": 1720,
+  "total": 1737,
   "por_siglo": {
    "7": 1,
    "8": 1,
    "14": 1,
    "15": 3,
    "16": 15,
-   "17": 67,
-   "18": 96,
-   "19": 395,
-   "20": 55,
-   "sin siglo": 1086
+   "17": 69,
+   "18": 106,
+   "19": 396,
+   "20": 56,
+   "sin siglo": 1089
   },
   "por_tipo": {
-   "general": 1123,
+   "general": 1131,
    "histórico/temático": 423,
    "topográfico": 109,
-   "plano urbano": 33,
+   "plano urbano": 40,
    "carta náutica": 13,
-   "militar": 11,
+   "militar": 12,
    "ferroviario/viario": 6,
-   "ptolemaico": 1,
-   "mapamundi": 1
+   "mapamundi": 2,
+   "ptolemaico": 1
   },
   "por_via": {
    "coordenadas": 163,
    "region": 9,
-   "nombre": 1450,
-   "historico": 98
+   "nombre": 1463,
+   "historico": 102
   },
   "por_fuente": {
    "allmaps": 133,
-   "commons": 576,
+   "commons": 593,
    "dc": 35,
    "europeana": 912,
    "ia": 1,
@@ -1179,26 +1180,26 @@
  "ISR": {
   "nombre_es": "Israel",
   "continente": "Asia",
-  "total": 1637,
+  "total": 1652,
   "por_siglo": {
    "10": 2,
    "11": 2,
    "12": 2,
    "13": 2,
-   "14": 4,
+   "14": 5,
    "15": 21,
-   "16": 78,
-   "17": 88,
-   "18": 196,
-   "19": 496,
+   "16": 79,
+   "17": 96,
+   "18": 198,
+   "19": 499,
    "20": 166,
    "sin siglo": 580
   },
   "por_tipo": {
-   "general": 1161,
+   "general": 1172,
    "histórico/temático": 195,
-   "plano urbano": 145,
-   "topográfico": 93,
+   "plano urbano": 148,
+   "topográfico": 94,
    "mapamundi": 13,
    "ferroviario/viario": 12,
    "militar": 6,
@@ -1209,12 +1210,12 @@
   "por_via": {
    "coordenadas": 360,
    "region": 13,
-   "historico": 729,
-   "nombre": 535
+   "historico": 736,
+   "nombre": 543
   },
   "por_fuente": {
    "allmaps": 345,
-   "commons": 458,
+   "commons": 473,
    "dc": 24,
    "europeana": 482,
    "ia": 7,
@@ -1223,71 +1224,29 @@
    "proveedores": 17
   }
  },
- "HUN": {
-  "nombre_es": "Hungría",
-  "continente": "Europe",
-  "total": 1609,
-  "por_siglo": {
-   "14": 2,
-   "15": 4,
-   "16": 60,
-   "17": 113,
-   "18": 126,
-   "19": 388,
-   "20": 153,
-   "sin siglo": 763
-  },
-  "por_tipo": {
-   "general": 1089,
-   "histórico/temático": 342,
-   "topográfico": 64,
-   "militar": 48,
-   "ferroviario/viario": 28,
-   "plano urbano": 24,
-   "mapamundi": 8,
-   "ptolemaico": 5,
-   "carta náutica": 1
-  },
-  "por_via": {
-   "coordenadas": 683,
-   "region": 2,
-   "historico": 30,
-   "nombre": 894
-  },
-  "por_fuente": {
-   "allmaps": 340,
-   "commons": 627,
-   "dc": 119,
-   "europeana": 276,
-   "ia": 7,
-   "loc": 18,
-   "ogm": 208,
-   "proveedores": 14
-  }
- },
  "JPN": {
   "nombre_es": "Japón",
   "continente": "Asia",
-  "total": 1605,
+  "total": 1613,
   "por_siglo": {
    "5": 2,
    "7": 1,
    "14": 1,
    "15": 3,
    "16": 12,
-   "17": 99,
+   "17": 100,
    "18": 198,
-   "19": 377,
-   "20": 286,
+   "19": 382,
+   "20": 288,
    "sin siglo": 626
   },
   "por_tipo": {
-   "general": 1108,
+   "general": 1111,
    "histórico/temático": 301,
    "topográfico": 79,
    "carta náutica": 50,
    "ferroviario/viario": 21,
-   "plano urbano": 16,
+   "plano urbano": 21,
    "mapamundi": 15,
    "militar": 12,
    "portulano": 2,
@@ -1297,11 +1256,11 @@
    "coordenadas": 375,
    "region": 2,
    "historico": 185,
-   "nombre": 1043
+   "nombre": 1051
   },
   "por_fuente": {
    "allmaps": 374,
-   "commons": 651,
+   "commons": 659,
    "dc": 92,
    "europeana": 102,
    "ia": 25,
@@ -1309,10 +1268,52 @@
    "ogm": 227
   }
  },
+ "HUN": {
+  "nombre_es": "Hungría",
+  "continente": "Europe",
+  "total": 1611,
+  "por_siglo": {
+   "14": 2,
+   "15": 4,
+   "16": 60,
+   "17": 113,
+   "18": 126,
+   "19": 388,
+   "20": 155,
+   "sin siglo": 763
+  },
+  "por_tipo": {
+   "general": 1090,
+   "histórico/temático": 342,
+   "topográfico": 64,
+   "militar": 48,
+   "ferroviario/viario": 28,
+   "plano urbano": 25,
+   "mapamundi": 8,
+   "ptolemaico": 5,
+   "carta náutica": 1
+  },
+  "por_via": {
+   "coordenadas": 683,
+   "region": 2,
+   "historico": 30,
+   "nombre": 896
+  },
+  "por_fuente": {
+   "allmaps": 340,
+   "commons": 629,
+   "dc": 119,
+   "europeana": 276,
+   "ia": 7,
+   "loc": 18,
+   "ogm": 208,
+   "proveedores": 14
+  }
+ },
  "PSE": {
   "nombre_es": "Palestina",
   "continente": "Asia",
-  "total": 1537,
+  "total": 1541,
   "por_siglo": {
    "5": 1,
    "6": 1,
@@ -1325,12 +1326,12 @@
    "16": 49,
    "17": 47,
    "18": 93,
-   "19": 594,
-   "20": 213,
+   "19": 596,
+   "20": 215,
    "sin siglo": 522
   },
   "por_tipo": {
-   "general": 1028,
+   "general": 1032,
    "histórico/temático": 298,
    "topográfico": 149,
    "ferroviario/viario": 19,
@@ -1343,12 +1344,12 @@
   },
   "por_via": {
    "coordenadas": 240,
-   "nombre": 1136,
+   "nombre": 1140,
    "historico": 161
   },
   "por_fuente": {
    "allmaps": 189,
-   "commons": 630,
+   "commons": 634,
    "dc": 18,
    "europeana": 438,
    "ia": 8,
@@ -1360,20 +1361,20 @@
  "DNK": {
   "nombre_es": "Dinamarca",
   "continente": "Europe",
-  "total": 1506,
+  "total": 1509,
   "por_siglo": {
    "5": 3,
    "6": 2,
    "14": 3,
    "16": 13,
    "17": 75,
-   "18": 79,
+   "18": 81,
    "19": 427,
-   "20": 89,
+   "20": 90,
    "sin siglo": 815
   },
   "por_tipo": {
-   "general": 1091,
+   "general": 1094,
    "histórico/temático": 299,
    "topográfico": 43,
    "militar": 31,
@@ -1387,11 +1388,11 @@
    "coordenadas": 136,
    "region": 12,
    "nombre": 1258,
-   "historico": 100
+   "historico": 103
   },
   "por_fuente": {
    "allmaps": 127,
-   "commons": 521,
+   "commons": 524,
    "dc": 52,
    "europeana": 747,
    "ia": 1,
@@ -1403,7 +1404,7 @@
  "NOR": {
   "nombre_es": "Noruega",
   "continente": "Europe",
-  "total": 1403,
+  "total": 1405,
   "por_siglo": {
    "7": 1,
    "14": 1,
@@ -1411,12 +1412,12 @@
    "16": 21,
    "17": 56,
    "18": 107,
-   "19": 417,
+   "19": 419,
    "20": 64,
    "sin siglo": 734
   },
   "por_tipo": {
-   "general": 1011,
+   "general": 1012,
    "histórico/temático": 299,
    "topográfico": 32,
    "plano urbano": 23,
@@ -1424,17 +1425,18 @@
    "militar": 8,
    "ferroviario/viario": 5,
    "portulano": 2,
+   "mapamundi": 1,
    "ptolemaico": 1
   },
   "por_via": {
    "coordenadas": 106,
    "region": 6,
-   "nombre": 1291
+   "nombre": 1293
   },
   "por_fuente": {
    "allmaps": 94,
    "bne": 1,
-   "commons": 637,
+   "commons": 639,
    "dc": 23,
    "europeana": 590,
    "loc": 22,
@@ -1445,7 +1447,7 @@
  "CUB": {
   "nombre_es": "Cuba",
   "continente": "North America",
-  "total": 1371,
+  "total": 1392,
   "por_siglo": {
    "6": 5,
    "7": 4,
@@ -1454,15 +1456,15 @@
    "10": 5,
    "15": 1,
    "16": 15,
-   "17": 118,
-   "18": 250,
-   "19": 301,
+   "17": 120,
+   "18": 260,
+   "19": 308,
    "20": 328,
-   "sin siglo": 328
+   "sin siglo": 330
   },
   "por_tipo": {
-   "general": 816,
-   "plano urbano": 264,
+   "general": 820,
+   "plano urbano": 281,
    "histórico/temático": 121,
    "mapamundi": 83,
    "topográfico": 37,
@@ -1474,12 +1476,12 @@
   "por_via": {
    "coordenadas": 100,
    "region": 2,
-   "nombre": 1092,
-   "historico": 177
+   "nombre": 1099,
+   "historico": 191
   },
   "por_fuente": {
    "allmaps": 88,
-   "commons": 797,
+   "commons": 818,
    "dc": 97,
    "europeana": 120,
    "ia": 3,
@@ -1522,22 +1524,22 @@
  "CZE": {
   "nombre_es": "República Checa",
   "continente": "Europe",
-  "total": 1321,
+  "total": 1331,
   "por_siglo": {
    "6": 2,
    "15": 1,
    "16": 19,
-   "17": 38,
-   "18": 94,
-   "19": 234,
-   "20": 230,
+   "17": 41,
+   "18": 97,
+   "19": 236,
+   "20": 232,
    "sin siglo": 703
   },
   "por_tipo": {
-   "general": 857,
+   "general": 864,
    "topográfico": 193,
    "histórico/temático": 174,
-   "plano urbano": 48,
+   "plano urbano": 51,
    "militar": 28,
    "ferroviario/viario": 13,
    "mapamundi": 4,
@@ -1547,13 +1549,13 @@
   "por_via": {
    "coordenadas": 819,
    "region": 23,
-   "historico": 369,
+   "historico": 379,
    "nombre": 110
   },
   "por_fuente": {
    "allmaps": 482,
    "bne": 1,
-   "commons": 288,
+   "commons": 298,
    "dc": 104,
    "europeana": 168,
    "ia": 1,
@@ -1565,20 +1567,20 @@
  "PER": {
   "nombre_es": "Perú",
   "continente": "South America",
-  "total": 1203,
+  "total": 1237,
   "por_siglo": {
    "6": 1,
    "16": 26,
    "17": 69,
-   "18": 120,
-   "19": 445,
+   "18": 131,
+   "19": 453,
    "20": 230,
-   "sin siglo": 312
+   "sin siglo": 327
   },
   "por_tipo": {
-   "general": 755,
+   "general": 772,
    "histórico/temático": 239,
-   "plano urbano": 136,
+   "plano urbano": 153,
    "topográfico": 41,
    "ferroviario/viario": 15,
    "carta náutica": 7,
@@ -1589,12 +1591,12 @@
   "por_via": {
    "region": 3,
    "coordenadas": 45,
-   "nombre": 1139,
-   "historico": 16
+   "nombre": 1172,
+   "historico": 17
   },
   "por_fuente": {
    "allmaps": 27,
-   "commons": 756,
+   "commons": 790,
    "dc": 47,
    "europeana": 142,
    "ia": 3,
@@ -1606,19 +1608,19 @@
  "ROU": {
   "nombre_es": "Rumania",
   "continente": "Europe",
-  "total": 1180,
+  "total": 1182,
   "por_siglo": {
    "15": 3,
    "16": 51,
    "17": 32,
-   "18": 54,
-   "19": 193,
+   "18": 55,
+   "19": 194,
    "20": 207,
    "sin siglo": 640
   },
   "por_tipo": {
-   "general": 948,
-   "histórico/temático": 103,
+   "general": 949,
+   "histórico/temático": 104,
    "topográfico": 47,
    "militar": 34,
    "plano urbano": 17,
@@ -1629,13 +1631,13 @@
   },
   "por_via": {
    "coordenadas": 542,
-   "historico": 87,
-   "nombre": 548,
+   "historico": 88,
+   "nombre": 549,
    "region": 3
   },
   "por_fuente": {
    "allmaps": 306,
-   "commons": 176,
+   "commons": 178,
    "dc": 101,
    "europeana": 396,
    "ia": 3,
@@ -1680,62 +1682,25 @@
    "ogm": 13
   }
  },
- "PRI": {
-  "nombre_es": "Puerto Rico",
-  "continente": "North America",
-  "total": 1084,
-  "por_siglo": {
-   "15": 1,
-   "16": 2,
-   "17": 20,
-   "18": 71,
-   "19": 40,
-   "20": 906,
-   "sin siglo": 44
-  },
-  "por_tipo": {
-   "topográfico": 770,
-   "general": 139,
-   "mapamundi": 81,
-   "plano urbano": 49,
-   "histórico/temático": 22,
-   "carta náutica": 12,
-   "ferroviario/viario": 6,
-   "militar": 5
-  },
-  "por_via": {
-   "coordenadas": 15,
-   "nombre": 1069
-  },
-  "por_fuente": {
-   "allmaps": 15,
-   "commons": 182,
-   "dc": 30,
-   "europeana": 17,
-   "loc": 74,
-   "ogm": 759,
-   "proveedores": 7
-  }
- },
  "CHL": {
   "nombre_es": "Chile",
   "continente": "South America",
-  "total": 1081,
+  "total": 1095,
   "por_siglo": {
    "15": 2,
    "16": 8,
    "17": 142,
-   "18": 197,
-   "19": 344,
-   "20": 149,
-   "sin siglo": 239
+   "18": 203,
+   "19": 347,
+   "20": 150,
+   "sin siglo": 243
   },
   "por_tipo": {
-   "general": 641,
+   "general": 644,
    "histórico/temático": 192,
-   "plano urbano": 178,
+   "plano urbano": 188,
    "topográfico": 29,
-   "carta náutica": 16,
+   "carta náutica": 17,
    "ferroviario/viario": 11,
    "militar": 6,
    "mapamundi": 5,
@@ -1744,12 +1709,12 @@
   "por_via": {
    "coordenadas": 59,
    "region": 4,
-   "nombre": 932,
-   "historico": 86
+   "nombre": 942,
+   "historico": 90
   },
   "por_fuente": {
    "allmaps": 30,
-   "commons": 541,
+   "commons": 555,
    "dc": 91,
    "europeana": 154,
    "ia": 2,
@@ -1758,10 +1723,47 @@
    "proveedores": 27
   }
  },
+ "PRI": {
+  "nombre_es": "Puerto Rico",
+  "continente": "North America",
+  "total": 1095,
+  "por_siglo": {
+   "15": 1,
+   "16": 2,
+   "17": 20,
+   "18": 75,
+   "19": 41,
+   "20": 906,
+   "sin siglo": 50
+  },
+  "por_tipo": {
+   "topográfico": 770,
+   "general": 141,
+   "mapamundi": 81,
+   "plano urbano": 58,
+   "histórico/temático": 22,
+   "carta náutica": 12,
+   "ferroviario/viario": 6,
+   "militar": 5
+  },
+  "por_via": {
+   "coordenadas": 15,
+   "nombre": 1080
+  },
+  "por_fuente": {
+   "allmaps": 15,
+   "commons": 193,
+   "dc": 30,
+   "europeana": 17,
+   "loc": 74,
+   "ogm": 759,
+   "proveedores": 7
+  }
+ },
  "SYR": {
   "nombre_es": "Siria",
   "continente": "Asia",
-  "total": 1041,
+  "total": 1046,
   "por_siglo": {
    "7": 2,
    "11": 1,
@@ -1771,17 +1773,17 @@
    "16": 47,
    "17": 36,
    "18": 83,
-   "19": 511,
-   "20": 113,
+   "19": 514,
+   "20": 115,
    "sin siglo": 242
   },
   "por_tipo": {
-   "general": 751,
+   "general": 754,
    "histórico/temático": 132,
    "topográfico": 99,
    "militar": 14,
+   "plano urbano": 14,
    "ferroviario/viario": 14,
-   "plano urbano": 12,
    "mapamundi": 7,
    "carta náutica": 6,
    "ptolemaico": 6
@@ -1789,12 +1791,12 @@
   "por_via": {
    "coordenadas": 331,
    "region": 24,
-   "historico": 80,
-   "nombre": 606
+   "historico": 81,
+   "nombre": 610
   },
   "por_fuente": {
    "allmaps": 123,
-   "commons": 395,
+   "commons": 400,
    "dc": 41,
    "europeana": 180,
    "ia": 5,
@@ -1806,22 +1808,22 @@
  "ARG": {
   "nombre_es": "Argentina",
   "continente": "South America",
-  "total": 978,
+  "total": 1000,
   "por_siglo": {
    "16": 8,
    "17": 108,
-   "18": 112,
-   "19": 204,
-   "20": 375,
-   "sin siglo": 171
+   "18": 123,
+   "19": 207,
+   "20": 382,
+   "sin siglo": 172
   },
   "por_tipo": {
-   "general": 535,
-   "plano urbano": 313,
-   "histórico/temático": 80,
+   "general": 540,
+   "plano urbano": 327,
+   "histórico/temático": 81,
    "topográfico": 16,
    "carta náutica": 15,
-   "ferroviario/viario": 13,
+   "ferroviario/viario": 15,
    "mapamundi": 3,
    "ptolemaico": 2,
    "portulano": 1
@@ -1829,13 +1831,13 @@
   "por_via": {
    "region": 5,
    "coordenadas": 69,
-   "historico": 181,
-   "nombre": 723
+   "historico": 195,
+   "nombre": 731
   },
   "por_fuente": {
    "allmaps": 36,
    "bne": 2,
-   "commons": 409,
+   "commons": 431,
    "dc": 67,
    "europeana": 140,
    "ia": 2,
@@ -1847,23 +1849,23 @@
  "HRV": {
   "nombre_es": "Croacia",
   "continente": "Europe",
-  "total": 966,
+  "total": 969,
   "por_siglo": {
    "7": 5,
    "14": 2,
    "15": 9,
    "16": 59,
    "17": 49,
-   "18": 62,
-   "19": 230,
+   "18": 63,
+   "19": 231,
    "20": 89,
-   "sin siglo": 461
+   "sin siglo": 462
   },
   "por_tipo": {
    "general": 753,
    "histórico/temático": 123,
    "topográfico": 34,
-   "plano urbano": 18,
+   "plano urbano": 21,
    "militar": 12,
    "carta náutica": 10,
    "ferroviario/viario": 7,
@@ -1874,11 +1876,11 @@
    "coordenadas": 546,
    "region": 8,
    "nombre": 312,
-   "historico": 100
+   "historico": 103
   },
   "por_fuente": {
    "allmaps": 295,
-   "commons": 252,
+   "commons": 255,
    "dc": 79,
    "europeana": 131,
    "ia": 1,
@@ -1890,21 +1892,21 @@
  "JAM": {
   "nombre_es": "Jamaica",
   "continente": "North America",
-  "total": 959,
+  "total": 963,
   "por_siglo": {
    "6": 1,
    "15": 1,
    "16": 1,
-   "17": 26,
-   "18": 223,
+   "17": 27,
+   "18": 224,
    "19": 560,
    "20": 55,
-   "sin siglo": 92
+   "sin siglo": 94
   },
   "por_tipo": {
    "general": 813,
    "histórico/temático": 71,
-   "plano urbano": 30,
+   "plano urbano": 34,
    "carta náutica": 21,
    "topográfico": 12,
    "militar": 7,
@@ -1912,11 +1914,11 @@
   },
   "por_via": {
    "coordenadas": 12,
-   "nombre": 947
+   "nombre": 951
   },
   "por_fuente": {
    "allmaps": 12,
-   "commons": 726,
+   "commons": 730,
    "dc": 71,
    "europeana": 19,
    "ia": 3,
@@ -1925,65 +1927,27 @@
    "proveedores": 4
   }
  },
- "KOR": {
-  "nombre_es": "Corea del Sur",
-  "continente": "Asia",
-  "total": 859,
-  "por_siglo": {
-   "7": 1,
-   "16": 6,
-   "17": 15,
-   "18": 70,
-   "19": 152,
-   "20": 225,
-   "sin siglo": 390
-  },
-  "por_tipo": {
-   "general": 472,
-   "histórico/temático": 335,
-   "topográfico": 21,
-   "plano urbano": 12,
-   "mapamundi": 6,
-   "ferroviario/viario": 6,
-   "militar": 4,
-   "carta náutica": 3
-  },
-  "por_via": {
-   "coordenadas": 43,
-   "historico": 770,
-   "nombre": 46
-  },
-  "por_fuente": {
-   "allmaps": 28,
-   "commons": 587,
-   "dc": 27,
-   "europeana": 54,
-   "ia": 4,
-   "loc": 102,
-   "ogm": 57
-  }
- },
  "DZA": {
   "nombre_es": "Argelia",
   "continente": "Africa",
-  "total": 841,
+  "total": 869,
   "por_siglo": {
    "7": 2,
    "13": 1,
    "14": 1,
    "15": 3,
-   "16": 24,
+   "16": 25,
    "17": 44,
-   "18": 44,
-   "19": 361,
-   "20": 153,
-   "sin siglo": 208
+   "18": 47,
+   "19": 379,
+   "20": 154,
+   "sin siglo": 213
   },
   "por_tipo": {
-   "general": 627,
+   "general": 648,
    "histórico/temático": 66,
-   "plano urbano": 53,
-   "topográfico": 33,
+   "plano urbano": 58,
+   "topográfico": 35,
    "ferroviario/viario": 19,
    "carta náutica": 13,
    "ptolemaico": 9,
@@ -1994,13 +1958,13 @@
   "por_via": {
    "coordenadas": 150,
    "region": 8,
-   "historico": 233,
-   "nombre": 450
+   "historico": 254,
+   "nombre": 457
   },
   "por_fuente": {
    "allmaps": 83,
    "bne": 1,
-   "commons": 536,
+   "commons": 564,
    "dc": 19,
    "europeana": 81,
    "ia": 1,
@@ -2009,10 +1973,92 @@
    "proveedores": 13
   }
  },
+ "KOR": {
+  "nombre_es": "Corea del Sur",
+  "continente": "Asia",
+  "total": 861,
+  "por_siglo": {
+   "7": 1,
+   "16": 6,
+   "17": 15,
+   "18": 70,
+   "19": 153,
+   "20": 226,
+   "sin siglo": 390
+  },
+  "por_tipo": {
+   "general": 474,
+   "histórico/temático": 335,
+   "topográfico": 21,
+   "plano urbano": 12,
+   "mapamundi": 6,
+   "ferroviario/viario": 6,
+   "militar": 4,
+   "carta náutica": 3
+  },
+  "por_via": {
+   "coordenadas": 43,
+   "historico": 772,
+   "nombre": 46
+  },
+  "por_fuente": {
+   "allmaps": 28,
+   "commons": 589,
+   "dc": 27,
+   "europeana": 54,
+   "ia": 4,
+   "loc": 102,
+   "ogm": 57
+  }
+ },
+ "IRN": {
+  "nombre_es": "Irán",
+  "continente": "Asia",
+  "total": 813,
+  "por_siglo": {
+   "5": 2,
+   "6": 1,
+   "14": 3,
+   "15": 5,
+   "16": 48,
+   "17": 49,
+   "18": 139,
+   "19": 257,
+   "20": 89,
+   "sin siglo": 220
+  },
+  "por_tipo": {
+   "general": 516,
+   "histórico/temático": 217,
+   "topográfico": 26,
+   "ferroviario/viario": 16,
+   "carta náutica": 9,
+   "plano urbano": 9,
+   "militar": 8,
+   "ptolemaico": 8,
+   "mapamundi": 4
+  },
+  "por_via": {
+   "coordenadas": 122,
+   "region": 6,
+   "historico": 363,
+   "nombre": 322
+  },
+  "por_fuente": {
+   "allmaps": 48,
+   "commons": 469,
+   "dc": 26,
+   "europeana": 57,
+   "ia": 2,
+   "loc": 84,
+   "ogm": 122,
+   "proveedores": 5
+  }
+ },
  "UKR": {
   "nombre_es": "Ucrania",
   "continente": "Europe",
-  "total": 807,
+  "total": 809,
   "por_siglo": {
    "7": 1,
    "14": 4,
@@ -2020,7 +2066,7 @@
    "16": 32,
    "17": 78,
    "18": 75,
-   "19": 99,
+   "19": 101,
    "20": 98,
    "sin siglo": 416
   },
@@ -2029,7 +2075,7 @@
    "histórico/temático": 61,
    "topográfico": 35,
    "militar": 33,
-   "plano urbano": 14,
+   "plano urbano": 16,
    "ptolemaico": 6,
    "portulano": 2,
    "carta náutica": 2,
@@ -2039,12 +2085,12 @@
   "por_via": {
    "coordenadas": 341,
    "region": 18,
-   "historico": 144,
+   "historico": 146,
    "nombre": 304
   },
   "por_fuente": {
    "allmaps": 235,
-   "commons": 140,
+   "commons": 142,
    "dc": 65,
    "europeana": 188,
    "ia": 20,
@@ -2053,60 +2099,16 @@
    "proveedores": 6
   }
  },
- "IRN": {
-  "nombre_es": "Irán",
-  "continente": "Asia",
-  "total": 803,
-  "por_siglo": {
-   "5": 2,
-   "6": 1,
-   "14": 3,
-   "15": 5,
-   "16": 48,
-   "17": 47,
-   "18": 134,
-   "19": 257,
-   "20": 89,
-   "sin siglo": 217
-  },
-  "por_tipo": {
-   "general": 513,
-   "histórico/temático": 217,
-   "topográfico": 26,
-   "ferroviario/viario": 16,
-   "militar": 8,
-   "carta náutica": 8,
-   "ptolemaico": 8,
-   "mapamundi": 4,
-   "plano urbano": 3
-  },
-  "por_via": {
-   "coordenadas": 122,
-   "region": 6,
-   "historico": 353,
-   "nombre": 322
-  },
-  "por_fuente": {
-   "allmaps": 48,
-   "commons": 459,
-   "dc": 26,
-   "europeana": 57,
-   "ia": 2,
-   "loc": 84,
-   "ogm": 122,
-   "proveedores": 5
-  }
- },
  "ZAF": {
   "nombre_es": "Sudáfrica",
   "continente": "Africa",
-  "total": 775,
+  "total": 777,
   "por_siglo": {
    "6": 5,
    "13": 1,
    "16": 6,
    "17": 28,
-   "18": 49,
+   "18": 51,
    "19": 300,
    "20": 176,
    "sin siglo": 210
@@ -2116,7 +2118,7 @@
    "histórico/temático": 86,
    "topográfico": 71,
    "militar": 28,
-   "plano urbano": 14,
+   "plano urbano": 16,
    "ferroviario/viario": 13,
    "carta náutica": 11,
    "mapamundi": 7
@@ -2124,12 +2126,12 @@
   "por_via": {
    "coordenadas": 120,
    "nombre": 495,
-   "historico": 156,
+   "historico": 158,
    "region": 4
   },
   "por_fuente": {
    "allmaps": 51,
-   "commons": 257,
+   "commons": 259,
    "dc": 24,
    "europeana": 162,
    "ia": 7,
@@ -2141,7 +2143,7 @@
  "LBN": {
   "nombre_es": "Líbano",
   "continente": "Asia",
-  "total": 746,
+  "total": 747,
   "por_siglo": {
    "5": 1,
    "7": 2,
@@ -2152,11 +2154,11 @@
    "17": 7,
    "18": 15,
    "19": 470,
-   "20": 134,
+   "20": 135,
    "sin siglo": 96
   },
   "por_tipo": {
-   "general": 615,
+   "general": 616,
    "topográfico": 76,
    "histórico/temático": 37,
    "plano urbano": 8,
@@ -2168,12 +2170,12 @@
   "por_via": {
    "region": 4,
    "coordenadas": 166,
-   "nombre": 562,
+   "nombre": 563,
    "historico": 14
   },
   "por_fuente": {
    "allmaps": 54,
-   "commons": 415,
+   "commons": 416,
    "dc": 14,
    "europeana": 28,
    "ia": 2,
@@ -2185,21 +2187,21 @@
  "PHL": {
   "nombre_es": "Filipinas",
   "continente": "Asia",
-  "total": 697,
+  "total": 724,
   "por_siglo": {
    "16": 10,
    "17": 25,
-   "18": 108,
+   "18": 135,
    "19": 226,
    "20": 191,
    "sin siglo": 137
   },
   "por_tipo": {
    "general": 324,
-   "plano urbano": 136,
+   "plano urbano": 150,
    "mapamundi": 81,
    "histórico/temático": 67,
-   "carta náutica": 44,
+   "carta náutica": 57,
    "topográfico": 32,
    "militar": 9,
    "ferroviario/viario": 3,
@@ -2208,11 +2210,11 @@
   "por_via": {
    "coordenadas": 27,
    "nombre": 620,
-   "historico": 50
+   "historico": 77
   },
   "por_fuente": {
    "allmaps": 21,
-   "commons": 447,
+   "commons": 474,
    "dc": 49,
    "europeana": 54,
    "ia": 4,
@@ -2224,19 +2226,19 @@
  "COL": {
   "nombre_es": "Colombia",
   "continente": "South America",
-  "total": 693,
+  "total": 701,
   "por_siglo": {
    "16": 10,
    "17": 55,
-   "18": 116,
-   "19": 159,
-   "20": 153,
-   "sin siglo": 200
+   "18": 117,
+   "19": 160,
+   "20": 154,
+   "sin siglo": 205
   },
   "por_tipo": {
-   "general": 391,
+   "general": 394,
    "histórico/temático": 141,
-   "plano urbano": 117,
+   "plano urbano": 122,
    "topográfico": 22,
    "mapamundi": 7,
    "carta náutica": 7,
@@ -2246,12 +2248,12 @@
   "por_via": {
    "coordenadas": 69,
    "region": 4,
-   "nombre": 473,
-   "historico": 147
+   "nombre": 475,
+   "historico": 153
   },
   "por_fuente": {
    "allmaps": 42,
-   "commons": 277,
+   "commons": 285,
    "dc": 49,
    "europeana": 97,
    "ia": 3,
@@ -2263,14 +2265,14 @@
  "SAU": {
   "nombre_es": "Arabia Saudita",
   "continente": "Asia",
-  "total": 689,
+  "total": 698,
   "por_siglo": {
    "5": 1,
    "15": 6,
    "16": 51,
    "17": 43,
-   "18": 79,
-   "19": 198,
+   "18": 87,
+   "19": 199,
    "20": 149,
    "sin siglo": 162
   },
@@ -2278,7 +2280,7 @@
    "general": 440,
    "histórico/temático": 121,
    "topográfico": 80,
-   "plano urbano": 12,
+   "plano urbano": 21,
    "ptolemaico": 9,
    "militar": 8,
    "ferroviario/viario": 8,
@@ -2290,11 +2292,11 @@
    "coordenadas": 198,
    "region": 46,
    "nombre": 135,
-   "historico": 310
+   "historico": 319
   },
   "por_fuente": {
    "allmaps": 78,
-   "commons": 269,
+   "commons": 278,
    "dc": 22,
    "europeana": 40,
    "ia": 1,
@@ -2306,7 +2308,7 @@
  "MAR": {
   "nombre_es": "Marruecos",
   "continente": "Africa",
-  "total": 675,
+  "total": 680,
   "por_siglo": {
    "7": 1,
    "13": 1,
@@ -2314,15 +2316,15 @@
    "16": 15,
    "17": 48,
    "18": 75,
-   "19": 162,
-   "20": 207,
+   "19": 163,
+   "20": 211,
    "sin siglo": 164
   },
   "por_tipo": {
-   "general": 434,
+   "general": 436,
    "histórico/temático": 97,
+   "plano urbano": 49,
    "topográfico": 47,
-   "plano urbano": 46,
    "carta náutica": 20,
    "ferroviario/viario": 16,
    "militar": 5,
@@ -2333,13 +2335,13 @@
   "por_via": {
    "coordenadas": 91,
    "region": 7,
-   "nombre": 545,
+   "nombre": 550,
    "historico": 32
   },
   "por_fuente": {
    "allmaps": 63,
    "bne": 4,
-   "commons": 269,
+   "commons": 274,
    "dc": 24,
    "europeana": 191,
    "ia": 7,
@@ -2394,7 +2396,7 @@
  "TUN": {
   "nombre_es": "Túnez",
   "continente": "Africa",
-  "total": 632,
+  "total": 638,
   "por_siglo": {
    "6": 1,
    "7": 2,
@@ -2402,17 +2404,17 @@
    "14": 1,
    "15": 2,
    "16": 32,
-   "17": 24,
-   "18": 29,
-   "19": 222,
+   "17": 26,
+   "18": 32,
+   "19": 223,
    "20": 180,
    "sin siglo": 138
   },
   "por_tipo": {
-   "general": 474,
+   "general": 475,
    "topográfico": 53,
    "histórico/temático": 47,
-   "plano urbano": 19,
+   "plano urbano": 24,
    "militar": 10,
    "carta náutica": 8,
    "portulano": 7,
@@ -2422,12 +2424,12 @@
   },
   "por_via": {
    "coordenadas": 137,
-   "nombre": 214,
-   "historico": 281
+   "nombre": 215,
+   "historico": 286
   },
   "por_fuente": {
    "allmaps": 53,
-   "commons": 388,
+   "commons": 394,
    "dc": 26,
    "europeana": 44,
    "loc": 13,
@@ -2438,7 +2440,7 @@
  "ETH": {
   "nombre_es": "Etiopía",
   "continente": "Africa",
-  "total": 595,
+  "total": 597,
   "por_siglo": {
    "6": 7,
    "7": 1,
@@ -2447,7 +2449,7 @@
    "15": 1,
    "16": 16,
    "17": 28,
-   "18": 32,
+   "18": 34,
    "19": 162,
    "20": 240,
    "sin siglo": 106
@@ -2459,19 +2461,19 @@
    "militar": 18,
    "mapamundi": 6,
    "carta náutica": 6,
-   "plano urbano": 4,
+   "plano urbano": 6,
    "ptolemaico": 4,
    "ferroviario/viario": 2
   },
   "por_via": {
    "coordenadas": 163,
    "region": 4,
-   "historico": 108,
+   "historico": 110,
    "nombre": 320
   },
   "por_fuente": {
    "allmaps": 43,
-   "commons": 272,
+   "commons": 274,
    "dc": 8,
    "europeana": 53,
    "ia": 1,
@@ -2483,19 +2485,19 @@
  "VEN": {
   "nombre_es": "Venezuela",
   "continente": "South America",
-  "total": 582,
+  "total": 586,
   "por_siglo": {
    "15": 1,
    "16": 12,
    "17": 84,
-   "18": 125,
-   "19": 124,
+   "18": 128,
+   "19": 125,
    "20": 79,
    "sin siglo": 157
   },
   "por_tipo": {
    "general": 321,
-   "plano urbano": 117,
+   "plano urbano": 121,
    "histórico/temático": 109,
    "topográfico": 24,
    "carta náutica": 4,
@@ -2506,11 +2508,11 @@
    "coordenadas": 86,
    "region": 2,
    "nombre": 424,
-   "historico": 70
+   "historico": 74
   },
   "por_fuente": {
    "allmaps": 48,
-   "commons": 200,
+   "commons": 204,
    "dc": 33,
    "europeana": 141,
    "ia": 2,
@@ -2562,7 +2564,7 @@
  "SDN": {
   "nombre_es": "Sudán",
   "continente": "Africa",
-  "total": 558,
+  "total": 559,
   "por_siglo": {
    "7": 1,
    "9": 3,
@@ -2571,7 +2573,7 @@
    "17": 19,
    "18": 16,
    "19": 119,
-   "20": 255,
+   "20": 256,
    "sin siglo": 134
   },
   "por_tipo": {
@@ -2581,19 +2583,19 @@
    "ferroviario/viario": 7,
    "mapamundi": 4,
    "ptolemaico": 4,
-   "plano urbano": 2,
+   "plano urbano": 3,
    "militar": 2,
    "carta náutica": 1
   },
   "por_via": {
    "coordenadas": 158,
    "region": 9,
-   "nombre": 332,
+   "nombre": 333,
    "historico": 59
   },
   "por_fuente": {
    "allmaps": 59,
-   "commons": 222,
+   "commons": 223,
    "dc": 12,
    "europeana": 46,
    "loc": 53,
@@ -2604,20 +2606,20 @@
  "BGR": {
   "nombre_es": "Bulgaria",
   "continente": "Europe",
-  "total": 545,
+  "total": 548,
   "por_siglo": {
    "14": 1,
    "15": 2,
    "16": 28,
    "17": 23,
    "18": 49,
-   "19": 142,
+   "19": 145,
    "20": 87,
    "sin siglo": 213
   },
   "por_tipo": {
    "general": 418,
-   "histórico/temático": 53,
+   "histórico/temático": 56,
    "militar": 36,
    "topográfico": 16,
    "ferroviario/viario": 7,
@@ -2629,13 +2631,13 @@
   },
   "por_via": {
    "coordenadas": 273,
-   "nombre": 248,
-   "historico": 23,
+   "nombre": 249,
+   "historico": 25,
    "region": 1
   },
   "por_fuente": {
    "allmaps": 115,
-   "commons": 157,
+   "commons": 160,
    "dc": 69,
    "europeana": 62,
    "ia": 2,
@@ -2647,18 +2649,18 @@
  "SVK": {
   "nombre_es": "Eslovaquia",
   "continente": "Europe",
-  "total": 539,
+  "total": 540,
   "por_siglo": {
    "15": 2,
    "16": 17,
    "17": 15,
    "18": 23,
    "19": 103,
-   "20": 125,
+   "20": 126,
    "sin siglo": 254
   },
   "por_tipo": {
-   "general": 442,
+   "general": 443,
    "histórico/temático": 45,
    "topográfico": 30,
    "plano urbano": 6,
@@ -2670,11 +2672,11 @@
   "por_via": {
    "coordenadas": 429,
    "region": 6,
-   "nombre": 104
+   "nombre": 105
   },
   "por_fuente": {
    "allmaps": 236,
-   "commons": 51,
+   "commons": 52,
    "dc": 63,
    "europeana": 39,
    "loc": 6,
@@ -2684,21 +2686,21 @@
  "LUX": {
   "nombre_es": "Luxemburgo",
   "continente": "Europe",
-  "total": 533,
+  "total": 540,
   "por_siglo": {
    "14": 1,
    "15": 1,
    "16": 15,
-   "17": 58,
-   "18": 96,
+   "17": 61,
+   "18": 98,
    "19": 104,
-   "20": 58,
+   "20": 60,
    "sin siglo": 200
   },
   "por_tipo": {
-   "general": 336,
+   "general": 341,
    "histórico/temático": 54,
-   "plano urbano": 52,
+   "plano urbano": 54,
    "ferroviario/viario": 47,
    "topográfico": 33,
    "militar": 11
@@ -2706,11 +2708,11 @@
   "por_via": {
    "region": 4,
    "coordenadas": 147,
-   "nombre": 382
+   "nombre": 389
   },
   "por_fuente": {
    "allmaps": 117,
-   "commons": 263,
+   "commons": 270,
    "dc": 25,
    "europeana": 85,
    "ia": 1,
@@ -2722,19 +2724,19 @@
  "AFG": {
   "nombre_es": "Afganistán",
   "continente": "Asia",
-  "total": 532,
+  "total": 533,
   "por_siglo": {
    "5": 1,
    "14": 1,
    "16": 21,
    "17": 7,
    "18": 12,
-   "19": 223,
+   "19": 224,
    "20": 113,
    "sin siglo": 154
   },
   "por_tipo": {
-   "general": 400,
+   "general": 401,
    "histórico/temático": 80,
    "topográfico": 18,
    "ferroviario/viario": 12,
@@ -2744,12 +2746,12 @@
   },
   "por_via": {
    "coordenadas": 62,
-   "nombre": 460,
+   "nombre": 461,
    "historico": 10
   },
   "por_fuente": {
    "allmaps": 20,
-   "commons": 300,
+   "commons": 301,
    "dc": 8,
    "europeana": 26,
    "loc": 107,
@@ -2759,17 +2761,17 @@
  "SUR": {
   "nombre_es": "Surinam",
   "continente": "South America",
-  "total": 511,
+  "total": 514,
   "por_siglo": {
    "16": 6,
-   "17": 27,
-   "18": 56,
+   "17": 28,
+   "18": 58,
    "19": 63,
    "20": 63,
    "sin siglo": 296
   },
   "por_tipo": {
-   "general": 481,
+   "general": 484,
    "plano urbano": 10,
    "histórico/temático": 7,
    "carta náutica": 6,
@@ -2779,16 +2781,95 @@
   },
   "por_via": {
    "coordenadas": 287,
-   "nombre": 224
+   "nombre": 227
   },
   "por_fuente": {
    "allmaps": 270,
-   "commons": 153,
+   "commons": 156,
    "dc": 17,
    "europeana": 19,
    "loc": 31,
    "ogm": 20,
    "proveedores": 1
+  }
+ },
+ "GRD": {
+  "nombre_es": "Granada",
+  "continente": "North America",
+  "total": 490,
+  "por_siglo": {
+   "7": 1,
+   "13": 3,
+   "16": 2,
+   "17": 34,
+   "18": 89,
+   "19": 229,
+   "20": 30,
+   "sin siglo": 102
+  },
+  "por_tipo": {
+   "general": 285,
+   "plano urbano": 89,
+   "histórico/temático": 86,
+   "topográfico": 26,
+   "mapamundi": 1,
+   "militar": 1,
+   "carta náutica": 1,
+   "ferroviario/viario": 1
+  },
+  "por_via": {
+   "coordenadas": 1,
+   "nombre": 489
+  },
+  "por_fuente": {
+   "allmaps": 1,
+   "bne": 1,
+   "commons": 331,
+   "dc": 12,
+   "europeana": 73,
+   "loc": 42,
+   "ogm": 3,
+   "proveedores": 27
+  }
+ },
+ "MDG": {
+  "nombre_es": "Madagascar",
+  "continente": "Africa",
+  "total": 478,
+  "por_siglo": {
+   "5": 1,
+   "15": 1,
+   "16": 15,
+   "17": 32,
+   "18": 138,
+   "19": 100,
+   "20": 50,
+   "sin siglo": 141
+  },
+  "por_tipo": {
+   "general": 314,
+   "histórico/temático": 58,
+   "plano urbano": 57,
+   "carta náutica": 31,
+   "topográfico": 12,
+   "ferroviario/viario": 2,
+   "mapamundi": 2,
+   "portulano": 1,
+   "militar": 1
+  },
+  "por_via": {
+   "coordenadas": 19,
+   "nombre": 459
+  },
+  "por_fuente": {
+   "allmaps": 12,
+   "commons": 331,
+   "dc": 12,
+   "europeana": 28,
+   "ia": 2,
+   "loc": 4,
+   "ogm": 82,
+   "proveedores": 7
   }
  },
  "NZL": {
@@ -2826,45 +2907,6 @@
    "europeana": 123,
    "loc": 6,
    "ogm": 25
-  }
- },
- "GRD": {
-  "nombre_es": "Granada",
-  "continente": "North America",
-  "total": 472,
-  "por_siglo": {
-   "7": 1,
-   "13": 3,
-   "16": 2,
-   "17": 31,
-   "18": 82,
-   "19": 228,
-   "20": 30,
-   "sin siglo": 95
-  },
-  "por_tipo": {
-   "general": 281,
-   "histórico/temático": 86,
-   "plano urbano": 75,
-   "topográfico": 26,
-   "mapamundi": 1,
-   "militar": 1,
-   "carta náutica": 1,
-   "ferroviario/viario": 1
-  },
-  "por_via": {
-   "coordenadas": 1,
-   "nombre": 471
-  },
-  "por_fuente": {
-   "allmaps": 1,
-   "bne": 1,
-   "commons": 313,
-   "dc": 12,
-   "europeana": 73,
-   "loc": 42,
-   "ogm": 3,
-   "proveedores": 27
   }
  },
  "BIH": {
@@ -2905,50 +2947,10 @@
    "ogm": 147
   }
  },
- "MDG": {
-  "nombre_es": "Madagascar",
-  "continente": "Africa",
-  "total": 455,
-  "por_siglo": {
-   "5": 1,
-   "15": 1,
-   "16": 15,
-   "17": 32,
-   "18": 124,
-   "19": 100,
-   "20": 50,
-   "sin siglo": 132
-  },
-  "por_tipo": {
-   "general": 311,
-   "histórico/temático": 58,
-   "plano urbano": 37,
-   "carta náutica": 31,
-   "topográfico": 12,
-   "ferroviario/viario": 2,
-   "mapamundi": 2,
-   "portulano": 1,
-   "militar": 1
-  },
-  "por_via": {
-   "coordenadas": 19,
-   "nombre": 436
-  },
-  "por_fuente": {
-   "allmaps": 12,
-   "commons": 308,
-   "dc": 12,
-   "europeana": 28,
-   "ia": 2,
-   "loc": 4,
-   "ogm": 82,
-   "proveedores": 7
-  }
- },
  "ARM": {
   "nombre_es": "Armenia",
   "continente": "Asia",
-  "total": 453,
+  "total": 454,
   "por_siglo": {
    "6": 1,
    "7": 1,
@@ -2959,12 +2961,12 @@
    "16": 22,
    "17": 18,
    "18": 36,
-   "19": 188,
+   "19": 189,
    "20": 105,
    "sin siglo": 77
   },
   "por_tipo": {
-   "general": 357,
+   "general": 358,
    "histórico/temático": 60,
    "militar": 18,
    "topográfico": 9,
@@ -2973,11 +2975,11 @@
   },
   "por_via": {
    "coordenadas": 20,
-   "nombre": 433
+   "nombre": 434
   },
   "por_fuente": {
    "allmaps": 11,
-   "commons": 356,
+   "commons": 357,
    "dc": 10,
    "europeana": 26,
    "ia": 1,
@@ -2989,12 +2991,12 @@
  "YEM": {
   "nombre_es": "Yemen",
   "continente": "Asia",
-  "total": 442,
+  "total": 444,
   "por_siglo": {
    "15": 5,
    "16": 25,
    "17": 16,
-   "18": 20,
+   "18": 22,
    "19": 46,
    "20": 276,
    "sin siglo": 54
@@ -3002,7 +3004,7 @@
   "por_tipo": {
    "general": 306,
    "topográfico": 71,
-   "plano urbano": 34,
+   "plano urbano": 36,
    "histórico/temático": 18,
    "ptolemaico": 4,
    "carta náutica": 3,
@@ -3012,12 +3014,12 @@
   },
   "por_via": {
    "coordenadas": 119,
-   "historico": 151,
+   "historico": 153,
    "nombre": 172
   },
   "por_fuente": {
    "allmaps": 28,
-   "commons": 234,
+   "commons": 236,
    "dc": 9,
    "europeana": 12,
    "ia": 1,
@@ -3029,22 +3031,22 @@
  "GUY": {
   "nombre_es": "Guyana",
   "continente": "South America",
-  "total": 442,
+  "total": 444,
   "por_siglo": {
    "16": 8,
    "17": 35,
-   "18": 81,
+   "18": 83,
    "19": 99,
    "20": 64,
    "sin siglo": 155
   },
   "por_tipo": {
-   "general": 313,
+   "general": 314,
    "histórico/temático": 78,
    "carta náutica": 13,
    "militar": 12,
    "topográfico": 11,
-   "plano urbano": 8,
+   "plano urbano": 9,
    "mapamundi": 4,
    "ferroviario/viario": 2,
    "portulano": 1
@@ -3052,12 +3054,12 @@
   "por_via": {
    "coordenadas": 82,
    "region": 4,
-   "nombre": 245,
-   "historico": 111
+   "nombre": 246,
+   "historico": 112
   },
   "por_fuente": {
    "allmaps": 81,
-   "commons": 219,
+   "commons": 221,
    "dc": 27,
    "europeana": 30,
    "ia": 1,
@@ -3066,20 +3068,59 @@
    "proveedores": 3
   }
  },
+ "PAN": {
+  "nombre_es": "Panamá",
+  "continente": "North America",
+  "total": 436,
+  "por_siglo": {
+   "16": 3,
+   "17": 51,
+   "18": 63,
+   "19": 106,
+   "20": 115,
+   "sin siglo": 98
+  },
+  "por_tipo": {
+   "general": 292,
+   "histórico/temático": 50,
+   "plano urbano": 39,
+   "ferroviario/viario": 26,
+   "topográfico": 14,
+   "carta náutica": 7,
+   "mapamundi": 5,
+   "militar": 3
+  },
+  "por_via": {
+   "coordenadas": 50,
+   "nombre": 375,
+   "historico": 10,
+   "region": 1
+  },
+  "por_fuente": {
+   "allmaps": 23,
+   "commons": 165,
+   "dc": 44,
+   "europeana": 47,
+   "ia": 2,
+   "loc": 107,
+   "ogm": 39,
+   "proveedores": 9
+  }
+ },
  "PAK": {
   "nombre_es": "Pakistán",
   "continente": "Asia",
-  "total": 433,
+  "total": 434,
   "por_siglo": {
    "16": 28,
    "17": 7,
    "18": 11,
    "19": 112,
-   "20": 130,
+   "20": 131,
    "sin siglo": 145
   },
   "por_tipo": {
-   "general": 357,
+   "general": 358,
    "histórico/temático": 28,
    "topográfico": 17,
    "ptolemaico": 8,
@@ -3093,11 +3134,11 @@
    "coordenadas": 102,
    "region": 3,
    "nombre": 248,
-   "historico": 80
+   "historico": 81
   },
   "por_fuente": {
    "allmaps": 43,
-   "commons": 174,
+   "commons": 175,
    "dc": 9,
    "europeana": 61,
    "ia": 1,
@@ -3105,59 +3146,20 @@
    "ogm": 84
   }
  },
- "PAN": {
-  "nombre_es": "Panamá",
-  "continente": "North America",
-  "total": 429,
-  "por_siglo": {
-   "16": 3,
-   "17": 51,
-   "18": 62,
-   "19": 101,
-   "20": 115,
-   "sin siglo": 97
-  },
-  "por_tipo": {
-   "general": 287,
-   "histórico/temático": 50,
-   "plano urbano": 38,
-   "ferroviario/viario": 26,
-   "topográfico": 14,
-   "carta náutica": 7,
-   "mapamundi": 4,
-   "militar": 3
-  },
-  "por_via": {
-   "coordenadas": 50,
-   "nombre": 368,
-   "historico": 10,
-   "region": 1
-  },
-  "por_fuente": {
-   "allmaps": 23,
-   "commons": 158,
-   "dc": 44,
-   "europeana": 47,
-   "ia": 2,
-   "loc": 107,
-   "ogm": 39,
-   "proveedores": 9
-  }
- },
  "ERI": {
   "nombre_es": "Eritrea",
   "continente": "Africa",
-  "total": 426,
+  "total": 428,
   "por_siglo": {
    "16": 1,
    "17": 7,
-   "18": 7,
+   "18": 9,
    "19": 107,
    "20": 276,
    "sin siglo": 28
   },
   "por_tipo": {
-   "general": 407,
+   "general": 409,
    "topográfico": 7,
    "histórico/temático": 3,
    "carta náutica": 2,
@@ -3170,11 +3172,11 @@
   "por_via": {
    "coordenadas": 37,
    "region": 1,
-   "nombre": 388
+   "nombre": 390
   },
   "por_fuente": {
    "allmaps": 14,
-   "commons": 344,
+   "commons": 346,
    "dc": 1,
    "europeana": 1,
    "ia": 1,
@@ -3185,35 +3187,35 @@
  "ECU": {
   "nombre_es": "Ecuador",
   "continente": "South America",
-  "total": 415,
+  "total": 423,
   "por_siglo": {
    "15": 1,
    "16": 8,
    "17": 24,
-   "18": 77,
-   "19": 104,
-   "20": 92,
+   "18": 81,
+   "19": 107,
+   "20": 93,
    "sin siglo": 109
   },
   "por_tipo": {
-   "general": 232,
+   "general": 233,
+   "plano urbano": 69,
    "histórico/temático": 68,
-   "plano urbano": 63,
    "topográfico": 28,
-   "mapamundi": 13,
+   "mapamundi": 14,
    "ferroviario/viario": 7,
    "carta náutica": 4
   },
   "por_via": {
    "region": 3,
    "coordenadas": 46,
-   "historico": 59,
-   "nombre": 307
+   "historico": 66,
+   "nombre": 308
   },
   "por_fuente": {
    "allmaps": 19,
    "bne": 1,
-   "commons": 197,
+   "commons": 205,
    "dc": 15,
    "europeana": 39,
    "ia": 1,
@@ -3264,22 +3266,22 @@
  "LBY": {
   "nombre_es": "Libia",
   "continente": "Africa",
-  "total": 386,
+  "total": 397,
   "por_siglo": {
    "7": 4,
    "15": 9,
    "16": 25,
-   "17": 34,
-   "18": 31,
+   "17": 36,
+   "18": 35,
    "19": 49,
-   "20": 123,
-   "sin siglo": 111
+   "20": 125,
+   "sin siglo": 114
   },
   "por_tipo": {
-   "general": 248,
+   "general": 251,
    "histórico/temático": 45,
    "topográfico": 42,
-   "plano urbano": 17,
+   "plano urbano": 25,
    "ptolemaico": 12,
    "carta náutica": 9,
    "portulano": 7,
@@ -3289,18 +3291,97 @@
   "por_via": {
    "coordenadas": 94,
    "region": 29,
-   "historico": 70,
-   "nombre": 193
+   "historico": 79,
+   "nombre": 195
   },
   "por_fuente": {
    "allmaps": 60,
-   "commons": 148,
+   "commons": 159,
    "dc": 18,
    "europeana": 16,
    "ia": 1,
    "loc": 12,
    "ogm": 129,
    "proveedores": 2
+  }
+ },
+ "MLT": {
+  "nombre_es": "Malta",
+  "continente": "Europe",
+  "total": 388,
+  "por_siglo": {
+   "5": 1,
+   "7": 1,
+   "13": 1,
+   "14": 1,
+   "15": 2,
+   "16": 30,
+   "17": 36,
+   "18": 106,
+   "19": 90,
+   "20": 12,
+   "sin siglo": 108
+  },
+  "por_tipo": {
+   "general": 248,
+   "histórico/temático": 69,
+   "plano urbano": 46,
+   "carta náutica": 9,
+   "topográfico": 6,
+   "mapamundi": 5,
+   "militar": 4,
+   "portulano": 1
+  },
+  "por_via": {
+   "coordenadas": 14,
+   "nombre": 371,
+   "historico": 3
+  },
+  "por_fuente": {
+   "allmaps": 14,
+   "commons": 246,
+   "dc": 4,
+   "europeana": 68,
+   "ia": 3,
+   "loc": 7,
+   "ogm": 26,
+   "proveedores": 20
+  }
+ },
+ "URY": {
+  "nombre_es": "Uruguay",
+  "continente": "South America",
+  "total": 383,
+  "por_siglo": {
+   "16": 4,
+   "17": 22,
+   "18": 55,
+   "19": 135,
+   "20": 77,
+   "sin siglo": 90
+  },
+  "por_tipo": {
+   "general": 210,
+   "plano urbano": 89,
+   "histórico/temático": 59,
+   "topográfico": 14,
+   "ferroviario/viario": 7,
+   "mapamundi": 2,
+   "carta náutica": 2
+  },
+  "por_via": {
+   "coordenadas": 22,
+   "nombre": 282,
+   "historico": 79
+  },
+  "por_fuente": {
+   "allmaps": 8,
+   "commons": 185,
+   "dc": 11,
+   "europeana": 82,
+   "loc": 58,
+   "ogm": 25,
+   "proveedores": 14
   }
  },
  "JOR": {
@@ -3341,101 +3422,22 @@
    "ogm": 229
   }
  },
- "URY": {
-  "nombre_es": "Uruguay",
-  "continente": "South America",
-  "total": 372,
-  "por_siglo": {
-   "16": 4,
-   "17": 22,
-   "18": 53,
-   "19": 132,
-   "20": 71,
-   "sin siglo": 90
-  },
-  "por_tipo": {
-   "general": 204,
-   "plano urbano": 84,
-   "histórico/temático": 59,
-   "topográfico": 14,
-   "ferroviario/viario": 7,
-   "mapamundi": 2,
-   "carta náutica": 2
-  },
-  "por_via": {
-   "coordenadas": 22,
-   "nombre": 274,
-   "historico": 76
-  },
-  "por_fuente": {
-   "allmaps": 8,
-   "commons": 174,
-   "dc": 11,
-   "europeana": 82,
-   "loc": 58,
-   "ogm": 25,
-   "proveedores": 14
-  }
- },
- "MLT": {
-  "nombre_es": "Malta",
-  "continente": "Europe",
-  "total": 364,
-  "por_siglo": {
-   "5": 1,
-   "7": 1,
-   "13": 1,
-   "14": 1,
-   "15": 2,
-   "16": 30,
-   "17": 34,
-   "18": 92,
-   "19": 88,
-   "20": 12,
-   "sin siglo": 102
-  },
-  "por_tipo": {
-   "general": 228,
-   "histórico/temático": 69,
-   "plano urbano": 44,
-   "carta náutica": 9,
-   "topográfico": 6,
-   "militar": 4,
-   "mapamundi": 3,
-   "portulano": 1
-  },
-  "por_via": {
-   "coordenadas": 14,
-   "nombre": 347,
-   "historico": 3
-  },
-  "por_fuente": {
-   "allmaps": 14,
-   "commons": 222,
-   "dc": 4,
-   "europeana": 68,
-   "ia": 3,
-   "loc": 7,
-   "ogm": 26,
-   "proveedores": 20
-  }
- },
  "PRY": {
   "nombre_es": "Paraguay",
   "continente": "South America",
-  "total": 363,
+  "total": 366,
   "por_siglo": {
    "16": 1,
    "17": 20,
    "18": 64,
-   "19": 102,
-   "20": 57,
+   "19": 104,
+   "20": 58,
    "sin siglo": 119
   },
   "por_tipo": {
-   "general": 212,
+   "general": 214,
    "histórico/temático": 104,
-   "plano urbano": 18,
+   "plano urbano": 19,
    "topográfico": 17,
    "ferroviario/viario": 5,
    "carta náutica": 4,
@@ -3443,12 +3445,12 @@
   },
   "por_via": {
    "coordenadas": 43,
-   "nombre": 318,
+   "nombre": 321,
    "historico": 2
   },
   "por_fuente": {
    "allmaps": 12,
-   "commons": 195,
+   "commons": 198,
    "dc": 20,
    "europeana": 41,
    "loc": 47,
@@ -3459,13 +3461,13 @@
  "ALB": {
   "nombre_es": "Albania",
   "continente": "Europe",
-  "total": 358,
+  "total": 359,
   "por_siglo": {
    "6": 1,
    "13": 2,
    "14": 2,
    "15": 7,
-   "16": 27,
+   "16": 28,
    "17": 35,
    "18": 30,
    "19": 87,
@@ -3473,7 +3475,7 @@
    "sin siglo": 102
   },
   "por_tipo": {
-   "general": 278,
+   "general": 279,
    "histórico/temático": 41,
    "topográfico": 19,
    "portulano": 6,
@@ -3485,11 +3487,11 @@
   "por_via": {
    "coordenadas": 144,
    "region": 4,
-   "nombre": 210
+   "nombre": 211
   },
   "por_fuente": {
    "allmaps": 62,
-   "commons": 129,
+   "commons": 130,
    "dc": 27,
    "europeana": 33,
    "ia": 1,
@@ -3540,21 +3542,21 @@
  "NIC": {
   "nombre_es": "Nicaragua",
   "continente": "North America",
-  "total": 340,
+  "total": 343,
   "por_siglo": {
    "16": 2,
    "17": 25,
-   "18": 26,
-   "19": 172,
+   "18": 27,
+   "19": 173,
    "20": 69,
-   "sin siglo": 46
+   "sin siglo": 47
   },
   "por_tipo": {
-   "general": 251,
+   "general": 253,
    "ferroviario/viario": 22,
    "histórico/temático": 22,
    "topográfico": 22,
-   "plano urbano": 11,
+   "plano urbano": 12,
    "carta náutica": 7,
    "militar": 3,
    "ptolemaico": 1,
@@ -3563,16 +3565,92 @@
   "por_via": {
    "coordenadas": 37,
    "region": 5,
-   "nombre": 298
+   "nombre": 301
   },
   "por_fuente": {
    "allmaps": 12,
-   "commons": 169,
+   "commons": 172,
    "dc": 20,
    "europeana": 37,
    "loc": 70,
    "ogm": 30,
    "proveedores": 2
+  }
+ },
+ "BOL": {
+  "nombre_es": "Bolivia",
+  "continente": "South America",
+  "total": 327,
+  "por_siglo": {
+   "16": 5,
+   "17": 19,
+   "18": 11,
+   "19": 99,
+   "20": 88,
+   "sin siglo": 105
+  },
+  "por_tipo": {
+   "general": 218,
+   "histórico/temático": 88,
+   "topográfico": 9,
+   "mapamundi": 5,
+   "plano urbano": 3,
+   "ferroviario/viario": 3,
+   "carta náutica": 1
+  },
+  "por_via": {
+   "coordenadas": 49,
+   "historico": 26,
+   "nombre": 250,
+   "region": 2
+  },
+  "por_fuente": {
+   "allmaps": 16,
+   "commons": 164,
+   "dc": 21,
+   "europeana": 13,
+   "loc": 60,
+   "ogm": 47,
+   "proveedores": 6
+  }
+ },
+ "COG": {
+  "nombre_es": "República del Congo",
+  "continente": "Africa",
+  "total": 327,
+  "por_siglo": {
+   "8": 2,
+   "14": 1,
+   "15": 1,
+   "16": 8,
+   "17": 14,
+   "18": 37,
+   "19": 119,
+   "20": 80,
+   "sin siglo": 65
+  },
+  "por_tipo": {
+   "general": 257,
+   "histórico/temático": 35,
+   "ferroviario/viario": 15,
+   "topográfico": 10,
+   "carta náutica": 6,
+   "plano urbano": 3,
+   "militar": 1
+  },
+  "por_via": {
+   "coordenadas": 25,
+   "nombre": 302
+  },
+  "por_fuente": {
+   "allmaps": 9,
+   "commons": 198,
+   "dc": 4,
+   "europeana": 34,
+   "ia": 4,
+   "loc": 25,
+   "ogm": 49,
+   "proveedores": 4
   }
  },
  "SVN": {
@@ -3609,97 +3687,21 @@
    "ogm": 126
   }
  },
- "COG": {
-  "nombre_es": "República del Congo",
-  "continente": "Africa",
-  "total": 324,
-  "por_siglo": {
-   "8": 2,
-   "14": 1,
-   "15": 1,
-   "16": 8,
-   "17": 12,
-   "18": 37,
-   "19": 119,
-   "20": 80,
-   "sin siglo": 64
-  },
-  "por_tipo": {
-   "general": 254,
-   "histórico/temático": 35,
-   "ferroviario/viario": 15,
-   "topográfico": 10,
-   "carta náutica": 6,
-   "plano urbano": 3,
-   "militar": 1
-  },
-  "por_via": {
-   "coordenadas": 25,
-   "nombre": 299
-  },
-  "por_fuente": {
-   "allmaps": 9,
-   "commons": 195,
-   "dc": 4,
-   "europeana": 34,
-   "ia": 4,
-   "loc": 25,
-   "ogm": 49,
-   "proveedores": 4
-  }
- },
- "BOL": {
-  "nombre_es": "Bolivia",
-  "continente": "South America",
-  "total": 323,
-  "por_siglo": {
-   "16": 5,
-   "17": 19,
-   "18": 11,
-   "19": 96,
-   "20": 88,
-   "sin siglo": 104
-  },
-  "por_tipo": {
-   "general": 214,
-   "histórico/temático": 88,
-   "topográfico": 9,
-   "mapamundi": 5,
-   "plano urbano": 3,
-   "ferroviario/viario": 3,
-   "carta náutica": 1
-  },
-  "por_via": {
-   "coordenadas": 49,
-   "historico": 25,
-   "nombre": 247,
-   "region": 2
-  },
-  "por_fuente": {
-   "allmaps": 16,
-   "commons": 160,
-   "dc": 21,
-   "europeana": 13,
-   "loc": 60,
-   "ogm": 47,
-   "proveedores": 6
-  }
- },
  "LTU": {
   "nombre_es": "Lituania",
   "continente": "Europe",
-  "total": 319,
+  "total": 321,
   "por_siglo": {
    "15": 3,
    "16": 13,
-   "17": 16,
-   "18": 48,
+   "17": 17,
+   "18": 49,
    "19": 22,
    "20": 50,
    "sin siglo": 167
   },
   "por_tipo": {
-   "general": 244,
+   "general": 246,
    "histórico/temático": 30,
    "topográfico": 19,
    "plano urbano": 12,
@@ -3712,11 +3714,11 @@
   "por_via": {
    "coordenadas": 162,
    "region": 2,
-   "nombre": 155
+   "nombre": 157
   },
   "por_fuente": {
    "allmaps": 105,
-   "commons": 58,
+   "commons": 60,
    "dc": 33,
    "europeana": 64,
    "loc": 17,
@@ -3760,6 +3762,47 @@
    "ogm": 73
   }
  },
+ "LKA": {
+  "nombre_es": "Sri Lanka",
+  "continente": "Asia",
+  "total": 299,
+  "por_siglo": {
+   "14": 2,
+   "15": 2,
+   "16": 18,
+   "17": 42,
+   "18": 38,
+   "19": 60,
+   "20": 26,
+   "sin siglo": 111
+  },
+  "por_tipo": {
+   "general": 221,
+   "histórico/temático": 33,
+   "topográfico": 24,
+   "carta náutica": 8,
+   "mapamundi": 5,
+   "ptolemaico": 3,
+   "militar": 2,
+   "portulano": 1,
+   "plano urbano": 1,
+   "ferroviario/viario": 1
+  },
+  "por_via": {
+   "coordenadas": 43,
+   "historico": 164,
+   "nombre": 92
+  },
+  "por_fuente": {
+   "allmaps": 42,
+   "commons": 150,
+   "dc": 3,
+   "europeana": 65,
+   "loc": 13,
+   "ogm": 24,
+   "proveedores": 2
+  }
+ },
  "PSX": {
   "nombre_es": "PSX",
   "continente": null,
@@ -3789,46 +3832,6 @@
    "allmaps": 157,
    "dc": 8,
    "ogm": 133
-  }
- },
- "LKA": {
-  "nombre_es": "Sri Lanka",
-  "continente": "Asia",
-  "total": 298,
-  "por_siglo": {
-   "14": 2,
-   "15": 2,
-   "16": 18,
-   "17": 42,
-   "18": 37,
-   "19": 60,
-   "20": 26,
-   "sin siglo": 111
-  },
-  "por_tipo": {
-   "general": 221,
-   "histórico/temático": 33,
-   "topográfico": 24,
-   "carta náutica": 8,
-   "mapamundi": 5,
-   "ptolemaico": 3,
-   "militar": 2,
-   "portulano": 1,
-   "ferroviario/viario": 1
-  },
-  "por_via": {
-   "coordenadas": 43,
-   "historico": 163,
-   "nombre": 92
-  },
-  "por_fuente": {
-   "allmaps": 42,
-   "commons": 149,
-   "dc": 3,
-   "europeana": 65,
-   "loc": 13,
-   "ogm": 24,
-   "proveedores": 2
   }
  },
  "CYP": {
@@ -3909,6 +3912,45 @@
    "proveedores": 1
   }
  },
+ "ISL": {
+  "nombre_es": "Islandia",
+  "continente": "Europe",
+  "total": 289,
+  "por_siglo": {
+   "5": 1,
+   "15": 1,
+   "16": 22,
+   "17": 23,
+   "18": 34,
+   "19": 81,
+   "20": 28,
+   "sin siglo": 99
+  },
+  "por_tipo": {
+   "general": 167,
+   "histórico/temático": 86,
+   "plano urbano": 17,
+   "carta náutica": 8,
+   "topográfico": 6,
+   "mapamundi": 2,
+   "portulano": 2,
+   "ferroviario/viario": 1
+  },
+  "por_via": {
+   "coordenadas": 25,
+   "nombre": 264
+  },
+  "por_fuente": {
+   "allmaps": 25,
+   "commons": 200,
+   "dc": 3,
+   "europeana": 39,
+   "ia": 1,
+   "loc": 8,
+   "ogm": 11,
+   "proveedores": 2
+  }
+ },
  "GEO": {
   "nombre_es": "Georgia",
   "continente": "Asia",
@@ -3979,80 +4021,41 @@
    "proveedores": 3
   }
  },
- "ISL": {
-  "nombre_es": "Islandia",
-  "continente": "Europe",
-  "total": 279,
-  "por_siglo": {
-   "5": 1,
-   "15": 1,
-   "16": 22,
-   "17": 23,
-   "18": 32,
-   "19": 73,
-   "20": 28,
-   "sin siglo": 99
-  },
-  "por_tipo": {
-   "general": 161,
-   "histórico/temático": 86,
-   "plano urbano": 14,
-   "carta náutica": 8,
-   "topográfico": 5,
-   "mapamundi": 2,
-   "portulano": 2,
-   "ferroviario/viario": 1
-  },
-  "por_via": {
-   "coordenadas": 25,
-   "nombre": 254
-  },
-  "por_fuente": {
-   "allmaps": 25,
-   "commons": 190,
-   "dc": 3,
-   "europeana": 39,
-   "ia": 1,
-   "loc": 8,
-   "ogm": 11,
-   "proveedores": 2
-  }
- },
  "THA": {
   "nombre_es": "Tailandia",
   "continente": "Asia",
-  "total": 266,
+  "total": 271,
   "por_siglo": {
    "6": 1,
    "14": 2,
    "15": 1,
    "16": 13,
-   "17": 21,
-   "18": 27,
+   "17": 23,
+   "18": 29,
    "19": 70,
-   "20": 60,
+   "20": 61,
    "sin siglo": 71
   },
   "por_tipo": {
-   "general": 215,
+   "general": 216,
    "histórico/temático": 17,
    "topográfico": 14,
    "ferroviario/viario": 6,
+   "plano urbano": 6,
    "carta náutica": 5,
    "mapamundi": 2,
    "militar": 2,
    "ptolemaico": 2,
-   "plano urbano": 2,
    "portulano": 1
   },
   "por_via": {
    "coordenadas": 57,
    "nombre": 100,
-   "historico": 109
+   "historico": 114
   },
   "por_fuente": {
    "allmaps": 32,
-   "commons": 135,
+   "commons": 140,
    "dc": 7,
    "europeana": 39,
    "ia": 3,
@@ -4064,21 +4067,21 @@
  "MOZ": {
   "nombre_es": "Mozambique",
   "continente": "Africa",
-  "total": 266,
+  "total": 269,
   "por_siglo": {
    "7": 1,
    "16": 11,
    "17": 16,
-   "18": 36,
-   "19": 70,
+   "18": 38,
+   "19": 71,
    "20": 54,
    "sin siglo": 78
   },
   "por_tipo": {
-   "general": 195,
+   "general": 197,
    "carta náutica": 22,
    "histórico/temático": 21,
-   "plano urbano": 12,
+   "plano urbano": 13,
    "ferroviario/viario": 8,
    "militar": 4,
    "topográfico": 3,
@@ -4087,12 +4090,12 @@
   "por_via": {
    "coordenadas": 71,
    "region": 17,
-   "nombre": 159,
+   "nombre": 162,
    "historico": 19
   },
   "por_fuente": {
    "allmaps": 26,
-   "commons": 99,
+   "commons": 102,
    "dc": 11,
    "europeana": 25,
    "ia": 1,
@@ -4254,16 +4257,16 @@
  "GGY": {
   "nombre_es": "Guernsey",
   "continente": "Europe",
-  "total": 246,
+  "total": 247,
   "por_siglo": {
    "17": 4,
    "18": 6,
    "19": 104,
    "20": 111,
-   "sin siglo": 21
+   "sin siglo": 22
   },
   "por_tipo": {
-   "general": 173,
+   "general": 174,
    "plano urbano": 47,
    "histórico/temático": 15,
    "carta náutica": 6,
@@ -4272,11 +4275,11 @@
    "militar": 1
   },
   "por_via": {
-   "nombre": 243,
+   "nombre": 244,
    "coordenadas": 3
   },
   "por_fuente": {
-   "commons": 161,
+   "commons": 162,
    "europeana": 55,
    "ia": 1,
    "loc": 24,
@@ -4286,18 +4289,18 @@
  "AGO": {
   "nombre_es": "Angola",
   "continente": "Africa",
-  "total": 243,
+  "total": 246,
   "por_siglo": {
    "15": 1,
    "16": 4,
-   "17": 14,
+   "17": 16,
    "18": 28,
    "19": 66,
    "20": 92,
-   "sin siglo": 38
+   "sin siglo": 39
   },
   "por_tipo": {
-   "general": 202,
+   "general": 205,
    "carta náutica": 16,
    "histórico/temático": 11,
    "plano urbano": 6,
@@ -4306,12 +4309,12 @@
   },
   "por_via": {
    "coordenadas": 52,
-   "nombre": 189,
+   "nombre": 192,
    "region": 2
   },
   "por_fuente": {
    "allmaps": 13,
-   "commons": 127,
+   "commons": 130,
    "dc": 8,
    "europeana": 25,
    "loc": 21,
@@ -4322,13 +4325,13 @@
  "MMR": {
   "nombre_es": "Birmania",
   "continente": "Asia",
-  "total": 242,
+  "total": 244,
   "por_siglo": {
    "6": 1,
    "15": 1,
    "16": 11,
    "17": 9,
-   "18": 26,
+   "18": 28,
    "19": 64,
    "20": 70,
    "sin siglo": 60
@@ -4341,18 +4344,18 @@
    "ferroviario/viario": 7,
    "ptolemaico": 6,
    "militar": 4,
-   "mapamundi": 2,
-   "plano urbano": 1
+   "plano urbano": 3,
+   "mapamundi": 2
   },
   "por_via": {
    "coordenadas": 81,
    "region": 5,
-   "historico": 63,
+   "historico": 65,
    "nombre": 93
   },
   "por_fuente": {
    "allmaps": 38,
-   "commons": 107,
+   "commons": 109,
    "dc": 11,
    "europeana": 14,
    "ia": 1,
@@ -4363,22 +4366,22 @@
  "GTM": {
   "nombre_es": "Guatemala",
   "continente": "North America",
-  "total": 240,
+  "total": 243,
   "por_siglo": {
    "7": 1,
    "9": 1,
    "16": 3,
    "17": 17,
    "18": 12,
-   "19": 60,
+   "19": 62,
    "20": 82,
-   "sin siglo": 64
+   "sin siglo": 65
   },
   "por_tipo": {
    "general": 165,
    "histórico/temático": 56,
    "topográfico": 7,
-   "plano urbano": 4,
+   "plano urbano": 7,
    "carta náutica": 3,
    "ferroviario/viario": 3,
    "mapamundi": 1,
@@ -4386,17 +4389,93 @@
   },
   "por_via": {
    "coordenadas": 37,
-   "nombre": 201,
+   "nombre": 204,
    "region": 2
   },
   "por_fuente": {
    "allmaps": 7,
-   "commons": 113,
+   "commons": 116,
    "dc": 15,
    "europeana": 9,
    "loc": 59,
    "ogm": 35,
    "proveedores": 2
+  }
+ },
+ "SEN": {
+  "nombre_es": "Senegal",
+  "continente": "Africa",
+  "total": 233,
+  "por_siglo": {
+   "16": 2,
+   "17": 12,
+   "18": 80,
+   "19": 79,
+   "20": 15,
+   "sin siglo": 45
+  },
+  "por_tipo": {
+   "general": 173,
+   "histórico/temático": 18,
+   "plano urbano": 17,
+   "topográfico": 10,
+   "ferroviario/viario": 8,
+   "carta náutica": 4,
+   "mapamundi": 2,
+   "ptolemaico": 1
+  },
+  "por_via": {
+   "coordenadas": 32,
+   "nombre": 201
+  },
+  "por_fuente": {
+   "allmaps": 14,
+   "commons": 158,
+   "dc": 8,
+   "europeana": 10,
+   "loc": 9,
+   "ogm": 30,
+   "proveedores": 4
+  }
+ },
+ "MUS": {
+  "nombre_es": "Mauricio",
+  "continente": "Seven seas (open ocean)",
+  "total": 232,
+  "por_siglo": {
+   "6": 2,
+   "11": 1,
+   "15": 1,
+   "16": 7,
+   "17": 20,
+   "18": 42,
+   "19": 65,
+   "20": 26,
+   "sin siglo": 68
+  },
+  "por_tipo": {
+   "general": 171,
+   "carta náutica": 16,
+   "topográfico": 16,
+   "plano urbano": 14,
+   "histórico/temático": 10,
+   "ferroviario/viario": 2,
+   "mapamundi": 2,
+   "militar": 1
+  },
+  "por_via": {
+   "coordenadas": 1,
+   "nombre": 231
+  },
+  "por_fuente": {
+   "allmaps": 1,
+   "commons": 169,
+   "dc": 3,
+   "europeana": 46,
+   "ia": 2,
+   "loc": 6,
+   "ogm": 4,
+   "proveedores": 1
   }
  },
  "KEN": {
@@ -4474,42 +4553,6 @@
    "proveedores": 2
   }
  },
- "SEN": {
-  "nombre_es": "Senegal",
-  "continente": "Africa",
-  "total": 226,
-  "por_siglo": {
-   "16": 2,
-   "17": 10,
-   "18": 76,
-   "19": 78,
-   "20": 15,
-   "sin siglo": 45
-  },
-  "por_tipo": {
-   "general": 173,
-   "histórico/temático": 18,
-   "topográfico": 10,
-   "plano urbano": 10,
-   "ferroviario/viario": 8,
-   "carta náutica": 4,
-   "mapamundi": 2,
-   "ptolemaico": 1
-  },
-  "por_via": {
-   "coordenadas": 32,
-   "nombre": 194
-  },
-  "por_fuente": {
-   "allmaps": 14,
-   "commons": 151,
-   "dc": 8,
-   "europeana": 10,
-   "loc": 9,
-   "ogm": 30,
-   "proveedores": 4
-  }
- },
  "COD": {
   "nombre_es": "República Democrática del Congo",
   "continente": "Africa",
@@ -4578,45 +4621,6 @@
    "ia": 1,
    "loc": 4,
    "ogm": 30
-  }
- },
- "MUS": {
-  "nombre_es": "Mauricio",
-  "continente": "Seven seas (open ocean)",
-  "total": 219,
-  "por_siglo": {
-   "6": 2,
-   "11": 1,
-   "15": 1,
-   "16": 7,
-   "17": 20,
-   "18": 36,
-   "19": 62,
-   "20": 26,
-   "sin siglo": 64
-  },
-  "por_tipo": {
-   "general": 167,
-   "carta náutica": 16,
-   "topográfico": 16,
-   "histórico/temático": 10,
-   "plano urbano": 7,
-   "ferroviario/viario": 2,
-   "militar": 1
-  },
-  "por_via": {
-   "coordenadas": 1,
-   "nombre": 218
-  },
-  "por_fuente": {
-   "allmaps": 1,
-   "commons": 156,
-   "dc": 3,
-   "europeana": 46,
-   "ia": 2,
-   "loc": 6,
-   "ogm": 4,
-   "proveedores": 1
   }
  },
  "TZA": {
@@ -4792,10 +4796,10 @@
  "SLV": {
   "nombre_es": "El Salvador",
   "continente": "North America",
-  "total": 197,
+  "total": 198,
   "por_siglo": {
    "13": 1,
-   "16": 1,
+   "16": 2,
    "17": 10,
    "18": 8,
    "19": 96,
@@ -4803,7 +4807,7 @@
    "sin siglo": 20
   },
   "por_tipo": {
-   "general": 139,
+   "general": 140,
    "topográfico": 19,
    "ferroviario/viario": 15,
    "histórico/temático": 10,
@@ -4815,12 +4819,12 @@
   },
   "por_via": {
    "coordenadas": 15,
-   "nombre": 181,
+   "nombre": 182,
    "region": 1
   },
   "por_fuente": {
    "allmaps": 6,
-   "commons": 94,
+   "commons": 95,
    "dc": 8,
    "europeana": 34,
    "ia": 1,
@@ -4865,22 +4869,22 @@
  "SLE": {
   "nombre_es": "Sierra Leona",
   "continente": "Africa",
-  "total": 188,
+  "total": 190,
   "por_siglo": {
    "15": 1,
    "16": 2,
    "17": 10,
    "18": 22,
-   "19": 19,
-   "20": 98,
+   "19": 20,
+   "20": 99,
    "sin siglo": 36
   },
   "por_tipo": {
    "general": 157,
    "topográfico": 10,
    "histórico/temático": 9,
+   "plano urbano": 6,
    "carta náutica": 4,
-   "plano urbano": 4,
    "portulano": 1,
    "militar": 1,
    "ptolemaico": 1,
@@ -4888,12 +4892,12 @@
   },
   "por_via": {
    "coordenadas": 12,
-   "nombre": 174,
+   "nombre": 176,
    "region": 2
   },
   "por_fuente": {
    "allmaps": 2,
-   "commons": 132,
+   "commons": 134,
    "dc": 4,
    "europeana": 7,
    "ia": 1,
@@ -5039,27 +5043,27 @@
  "GUM": {
   "nombre_es": "Guam",
   "continente": "Oceania",
-  "total": 155,
+  "total": 158,
   "por_siglo": {
    "17": 4,
-   "18": 16,
+   "18": 19,
    "19": 10,
    "20": 111,
    "sin siglo": 14
   },
   "por_tipo": {
-   "general": 125,
+   "general": 127,
    "topográfico": 13,
-   "plano urbano": 9,
+   "plano urbano": 10,
    "carta náutica": 6,
    "ferroviario/viario": 1,
    "militar": 1
   },
   "por_via": {
-   "nombre": 155
+   "nombre": 158
   },
   "por_fuente": {
-   "commons": 131,
+   "commons": 134,
    "europeana": 5,
    "loc": 7,
    "ogm": 12
@@ -5203,6 +5207,42 @@
    "proveedores": 5
   }
  },
+ "KHM": {
+  "nombre_es": "Camboya",
+  "continente": "Asia",
+  "total": 142,
+  "por_siglo": {
+   "16": 3,
+   "17": 13,
+   "18": 6,
+   "19": 27,
+   "20": 58,
+   "sin siglo": 35
+  },
+  "por_tipo": {
+   "general": 115,
+   "histórico/temático": 8,
+   "topográfico": 8,
+   "ferroviario/viario": 5,
+   "militar": 3,
+   "carta náutica": 1,
+   "plano urbano": 1,
+   "mapamundi": 1
+  },
+  "por_via": {
+   "coordenadas": 46,
+   "nombre": 96
+  },
+  "por_fuente": {
+   "allmaps": 30,
+   "commons": 69,
+   "dc": 5,
+   "europeana": 8,
+   "ia": 1,
+   "loc": 12,
+   "ogm": 17
+  }
+ },
  "MDA": {
   "nombre_es": "Moldavia",
   "continente": "Europe",
@@ -5238,42 +5278,6 @@
    "loc": 12,
    "ogm": 24,
    "proveedores": 3
-  }
- },
- "KHM": {
-  "nombre_es": "Camboya",
-  "continente": "Asia",
-  "total": 141,
-  "por_siglo": {
-   "16": 3,
-   "17": 13,
-   "18": 6,
-   "19": 27,
-   "20": 57,
-   "sin siglo": 35
-  },
-  "por_tipo": {
-   "general": 114,
-   "histórico/temático": 8,
-   "topográfico": 8,
-   "ferroviario/viario": 5,
-   "militar": 3,
-   "carta náutica": 1,
-   "plano urbano": 1,
-   "mapamundi": 1
-  },
-  "por_via": {
-   "coordenadas": 46,
-   "nombre": 95
-  },
-  "por_fuente": {
-   "allmaps": 30,
-   "commons": 68,
-   "dc": 5,
-   "europeana": 8,
-   "ia": 1,
-   "loc": 12,
-   "ogm": 17
   }
  },
  "AZE": {
@@ -5417,6 +5421,40 @@
    "ogm": 57
   }
  },
+ "BRB": {
+  "nombre_es": "Barbados",
+  "continente": "North America",
+  "total": 135,
+  "por_siglo": {
+   "17": 12,
+   "18": 47,
+   "19": 16,
+   "20": 30,
+   "sin siglo": 30
+  },
+  "por_tipo": {
+   "general": 100,
+   "histórico/temático": 14,
+   "topográfico": 7,
+   "militar": 6,
+   "plano urbano": 4,
+   "carta náutica": 3,
+   "ferroviario/viario": 1
+  },
+  "por_via": {
+   "coordenadas": 14,
+   "nombre": 121
+  },
+  "por_fuente": {
+   "allmaps": 14,
+   "commons": 69,
+   "dc": 17,
+   "europeana": 7,
+   "loc": 26,
+   "ogm": 1,
+   "proveedores": 1
+  }
+ },
  "UZB": {
   "nombre_es": "Uzbekistán",
   "continente": "Asia",
@@ -5486,38 +5524,39 @@
    "proveedores": 1
   }
  },
- "BRB": {
-  "nombre_es": "Barbados",
-  "continente": "North America",
+ "CMR": {
+  "nombre_es": "Camerún",
+  "continente": "Africa",
   "total": 133,
   "por_siglo": {
-   "17": 12,
-   "18": 45,
-   "19": 16,
-   "20": 30,
-   "sin siglo": 30
+   "16": 2,
+   "17": 6,
+   "18": 8,
+   "19": 14,
+   "20": 55,
+   "sin siglo": 48
   },
   "por_tipo": {
-   "general": 100,
-   "histórico/temático": 14,
+   "general": 115,
+   "histórico/temático": 7,
    "topográfico": 7,
-   "militar": 6,
-   "carta náutica": 3,
-   "plano urbano": 2,
+   "carta náutica": 2,
+   "militar": 1,
    "ferroviario/viario": 1
   },
   "por_via": {
-   "coordenadas": 14,
-   "nombre": 119
+   "coordenadas": 67,
+   "region": 8,
+   "nombre": 58
   },
   "por_fuente": {
-   "allmaps": 14,
-   "commons": 67,
-   "dc": 17,
-   "europeana": 7,
-   "loc": 26,
-   "ogm": 1,
-   "proveedores": 1
+   "allmaps": 19,
+   "commons": 40,
+   "dc": 3,
+   "europeana": 6,
+   "ia": 1,
+   "loc": 5,
+   "ogm": 59
   }
  },
  "TKM": {
@@ -5581,41 +5620,6 @@
    "proveedores": 13
   }
  },
- "CMR": {
-  "nombre_es": "Camerún",
-  "continente": "Africa",
-  "total": 132,
-  "por_siglo": {
-   "16": 2,
-   "17": 6,
-   "18": 8,
-   "19": 14,
-   "20": 54,
-   "sin siglo": 48
-  },
-  "por_tipo": {
-   "general": 114,
-   "histórico/temático": 7,
-   "topográfico": 7,
-   "carta náutica": 2,
-   "militar": 1,
-   "ferroviario/viario": 1
-  },
-  "por_via": {
-   "coordenadas": 67,
-   "region": 8,
-   "nombre": 57
-  },
-  "por_fuente": {
-   "allmaps": 19,
-   "commons": 39,
-   "dc": 3,
-   "europeana": 6,
-   "ia": 1,
-   "loc": 5,
-   "ogm": 59
-  }
- },
  "CPV": {
   "nombre_es": "Cabo Verde",
   "continente": "Africa",
@@ -5655,17 +5659,17 @@
  "BMU": {
   "nombre_es": "Bermudas",
   "continente": "North America",
-  "total": 127,
+  "total": 132,
   "por_siglo": {
    "16": 1,
    "17": 13,
-   "18": 34,
-   "19": 29,
+   "18": 36,
+   "19": 30,
    "20": 16,
-   "sin siglo": 34
+   "sin siglo": 36
   },
   "por_tipo": {
-   "general": 86,
+   "general": 91,
    "histórico/temático": 26,
    "carta náutica": 11,
    "militar": 3,
@@ -5673,11 +5677,11 @@
   },
   "por_via": {
    "coordenadas": 2,
-   "nombre": 125
+   "nombre": 130
   },
   "por_fuente": {
    "allmaps": 2,
-   "commons": 77,
+   "commons": 82,
    "dc": 22,
    "europeana": 9,
    "loc": 15,
@@ -5821,17 +5825,17 @@
  "MAC": {
   "nombre_es": "Macao",
   "continente": "Asia",
-  "total": 111,
+  "total": 114,
   "por_siglo": {
-   "17": 6,
+   "17": 7,
    "18": 26,
-   "19": 24,
+   "19": 25,
    "20": 36,
-   "sin siglo": 19
+   "sin siglo": 20
   },
   "por_tipo": {
-   "general": 58,
-   "plano urbano": 19,
+   "general": 60,
+   "plano urbano": 20,
    "carta náutica": 18,
    "histórico/temático": 7,
    "militar": 5,
@@ -5840,10 +5844,10 @@
    "mapamundi": 1
   },
   "por_via": {
-   "nombre": 111
+   "nombre": 114
   },
   "por_fuente": {
-   "commons": 74,
+   "commons": 77,
    "europeana": 10,
    "loc": 25,
    "ogm": 1,
@@ -5917,6 +5921,42 @@
    "ogm": 74
   }
  },
+ "OMN": {
+  "nombre_es": "Omán",
+  "continente": "Asia",
+  "total": 107,
+  "por_siglo": {
+   "15": 4,
+   "16": 12,
+   "17": 10,
+   "18": 31,
+   "19": 18,
+   "20": 11,
+   "sin siglo": 21
+  },
+  "por_tipo": {
+   "general": 88,
+   "plano urbano": 6,
+   "carta náutica": 4,
+   "topográfico": 4,
+   "histórico/temático": 3,
+   "ferroviario/viario": 1,
+   "ptolemaico": 1
+  },
+  "por_via": {
+   "coordenadas": 26,
+   "nombre": 69,
+   "historico": 12
+  },
+  "por_fuente": {
+   "allmaps": 13,
+   "commons": 34,
+   "dc": 6,
+   "europeana": 1,
+   "loc": 43,
+   "ogm": 10
+  }
+ },
  "ZMB": {
   "nombre_es": "Zambia",
   "continente": "Africa",
@@ -5954,17 +5994,17 @@
  "CUW": {
   "nombre_es": "Curazao",
   "continente": "North America",
-  "total": 104,
+  "total": 105,
   "por_siglo": {
    "16": 1,
    "17": 2,
-   "18": 26,
+   "18": 27,
    "19": 12,
    "20": 2,
    "sin siglo": 61
   },
   "por_tipo": {
-   "general": 89,
+   "general": 90,
    "histórico/temático": 9,
    "plano urbano": 5,
    "topográfico": 1
@@ -5972,11 +6012,11 @@
   "por_via": {
    "coordenadas": 43,
    "region": 4,
-   "nombre": 57
+   "nombre": 58
   },
   "por_fuente": {
    "allmaps": 47,
-   "commons": 35,
+   "commons": 36,
    "dc": 5,
    "europeana": 4,
    "ia": 5,
@@ -6047,42 +6087,6 @@
    "dc": 50,
    "loc": 18,
    "ogm": 29
-  }
- },
- "OMN": {
-  "nombre_es": "Omán",
-  "continente": "Asia",
-  "total": 101,
-  "por_siglo": {
-   "15": 4,
-   "16": 12,
-   "17": 10,
-   "18": 25,
-   "19": 18,
-   "20": 11,
-   "sin siglo": 21
-  },
-  "por_tipo": {
-   "general": 83,
-   "plano urbano": 5,
-   "carta náutica": 4,
-   "topográfico": 4,
-   "histórico/temático": 3,
-   "ferroviario/viario": 1,
-   "ptolemaico": 1
-  },
-  "por_via": {
-   "coordenadas": 26,
-   "nombre": 69,
-   "historico": 6
-  },
-  "por_fuente": {
-   "allmaps": 13,
-   "commons": 28,
-   "dc": 6,
-   "europeana": 1,
-   "loc": 43,
-   "ogm": 10
   }
  },
  "QAT": {
@@ -6182,6 +6186,39 @@
    "europeana": 1,
    "loc": 6,
    "ogm": 29
+  }
+ },
+ "MAF": {
+  "nombre_es": "San Martín",
+  "continente": "North America",
+  "total": 91,
+  "por_siglo": {
+   "17": 3,
+   "18": 15,
+   "19": 40,
+   "20": 8,
+   "sin siglo": 25
+  },
+  "por_tipo": {
+   "general": 54,
+   "plano urbano": 16,
+   "histórico/temático": 14,
+   "topográfico": 3,
+   "militar": 2,
+   "ptolemaico": 1,
+   "ferroviario/viario": 1
+  },
+  "por_via": {
+   "coordenadas": 2,
+   "nombre": 89
+  },
+  "por_fuente": {
+   "allmaps": 2,
+   "commons": 64,
+   "dc": 4,
+   "europeana": 9,
+   "loc": 11,
+   "ogm": 1
   }
  },
  "LSO": {
@@ -6345,14 +6382,14 @@
  "SGP": {
   "nombre_es": "Singapur",
   "continente": "Asia",
-  "total": 82,
+  "total": 84,
   "por_siglo": {
    "15": 1,
    "16": 2,
    "17": 1,
    "18": 1,
    "19": 29,
-   "20": 17,
+   "20": 19,
    "sin siglo": 31
   },
   "por_tipo": {
@@ -6360,15 +6397,16 @@
    "histórico/temático": 15,
    "carta náutica": 8,
    "topográfico": 3,
+   "plano urbano": 2,
    "mapamundi": 1
   },
   "por_via": {
    "coordenadas": 5,
-   "nombre": 77
+   "nombre": 79
   },
   "por_fuente": {
    "allmaps": 5,
-   "commons": 49,
+   "commons": 51,
    "dc": 3,
    "europeana": 16,
    "ia": 2,
@@ -6462,39 +6500,6 @@
    "loc": 3,
    "ogm": 11,
    "proveedores": 2
-  }
- },
- "MAF": {
-  "nombre_es": "San Martín",
-  "continente": "North America",
-  "total": 81,
-  "por_siglo": {
-   "17": 2,
-   "18": 12,
-   "19": 39,
-   "20": 8,
-   "sin siglo": 20
-  },
-  "por_tipo": {
-   "general": 50,
-   "histórico/temático": 14,
-   "plano urbano": 11,
-   "topográfico": 3,
-   "ptolemaico": 1,
-   "militar": 1,
-   "ferroviario/viario": 1
-  },
-  "por_via": {
-   "coordenadas": 2,
-   "nombre": 79
-  },
-  "por_fuente": {
-   "allmaps": 2,
-   "commons": 54,
-   "dc": 4,
-   "europeana": 9,
-   "loc": 11,
-   "ogm": 1
   }
  },
  "VAT": {
@@ -6624,11 +6629,11 @@
  "MDV": {
   "nombre_es": "Maldivas",
   "continente": "Seven seas (open ocean)",
-  "total": 76,
+  "total": 77,
   "por_siglo": {
    "16": 1,
    "17": 8,
-   "18": 29,
+   "18": 30,
    "19": 9,
    "20": 14,
    "sin siglo": 15
@@ -6637,13 +6642,13 @@
    "general": 58,
    "histórico/temático": 9,
    "carta náutica": 7,
-   "plano urbano": 2
+   "plano urbano": 3
   },
   "por_via": {
-   "nombre": 76
+   "nombre": 77
   },
   "por_fuente": {
-   "commons": 68,
+   "commons": 69,
    "europeana": 3,
    "loc": 2,
    "ogm": 2,
@@ -6745,6 +6750,34 @@
    "ogm": 2
   }
  },
+ "MCO": {
+  "nombre_es": "Mónaco",
+  "continente": "Europe",
+  "total": 71,
+  "por_siglo": {
+   "8": 1,
+   "17": 7,
+   "18": 12,
+   "19": 20,
+   "20": 9,
+   "sin siglo": 22
+  },
+  "por_tipo": {
+   "general": 52,
+   "plano urbano": 13,
+   "histórico/temático": 3,
+   "carta náutica": 2,
+   "portulano": 1
+  },
+  "por_via": {
+   "nombre": 71
+  },
+  "por_fuente": {
+   "commons": 67,
+   "europeana": 2,
+   "loc": 2
+  }
+ },
  "PYF": {
   "nombre_es": "Polinesia Francesa",
   "continente": "Oceania",
@@ -6834,32 +6867,36 @@
    "ogm": 27
   }
  },
- "MCO": {
-  "nombre_es": "Mónaco",
-  "continente": "Europe",
-  "total": 69,
+ "HKG": {
+  "nombre_es": "Hong Kong",
+  "continente": "Asia",
+  "total": 65,
   "por_siglo": {
-   "8": 1,
-   "17": 7,
-   "18": 12,
-   "19": 20,
-   "20": 7,
-   "sin siglo": 22
+   "19": 27,
+   "20": 25,
+   "sin siglo": 13
   },
   "por_tipo": {
-   "general": 50,
-   "plano urbano": 13,
-   "histórico/temático": 3,
-   "carta náutica": 2,
-   "portulano": 1
+   "general": 28,
+   "carta náutica": 12,
+   "militar": 10,
+   "plano urbano": 7,
+   "histórico/temático": 5,
+   "topográfico": 3
   },
   "por_via": {
-   "nombre": 69
+   "coordenadas": 10,
+   "nombre": 55
   },
   "por_fuente": {
-   "commons": 65,
-   "europeana": 2,
-   "loc": 2
+   "allmaps": 7,
+   "commons": 29,
+   "dc": 4,
+   "europeana": 9,
+   "ia": 2,
+   "loc": 8,
+   "ogm": 5,
+   "proveedores": 1
   }
  },
  "MHL": {
@@ -6887,38 +6924,6 @@
    "dc": 2,
    "loc": 4,
    "ogm": 6
-  }
- },
- "HKG": {
-  "nombre_es": "Hong Kong",
-  "continente": "Asia",
-  "total": 63,
-  "por_siglo": {
-   "19": 26,
-   "20": 24,
-   "sin siglo": 13
-  },
-  "por_tipo": {
-   "general": 28,
-   "carta náutica": 12,
-   "militar": 10,
-   "histórico/temático": 5,
-   "plano urbano": 5,
-   "topográfico": 3
-  },
-  "por_via": {
-   "coordenadas": 10,
-   "nombre": 53
-  },
-  "por_fuente": {
-   "allmaps": 7,
-   "commons": 27,
-   "dc": 4,
-   "europeana": 9,
-   "ia": 2,
-   "loc": 8,
-   "ogm": 5,
-   "proveedores": 1
   }
  },
  "TJK": {
@@ -7323,6 +7328,38 @@
    "ogm": 34
   }
  },
+ "SXM": {
+  "nombre_es": "San Martín",
+  "continente": "North America",
+  "total": 45,
+  "por_siglo": {
+   "15": 1,
+   "17": 2,
+   "18": 9,
+   "19": 20,
+   "20": 3,
+   "sin siglo": 10
+  },
+  "por_tipo": {
+   "general": 22,
+   "plano urbano": 13,
+   "histórico/temático": 7,
+   "militar": 2,
+   "ferroviario/viario": 1
+  },
+  "por_via": {
+   "coordenadas": 2,
+   "nombre": 43
+  },
+  "por_fuente": {
+   "allmaps": 2,
+   "commons": 29,
+   "dc": 3,
+   "europeana": 9,
+   "ia": 1,
+   "ogm": 1
+  }
+ },
  "BDI": {
   "nombre_es": "Burundi",
   "continente": "Africa",
@@ -7470,6 +7507,33 @@
    "ogm": 17
   }
  },
+ "LCA": {
+  "nombre_es": "Santa Lucía",
+  "continente": "North America",
+  "total": 42,
+  "por_siglo": {
+   "17": 1,
+   "18": 21,
+   "19": 6,
+   "20": 5,
+   "sin siglo": 9
+  },
+  "por_tipo": {
+   "general": 24,
+   "plano urbano": 11,
+   "histórico/temático": 6,
+   "topográfico": 1
+  },
+  "por_via": {
+   "nombre": 42
+  },
+  "por_fuente": {
+   "commons": 24,
+   "dc": 5,
+   "europeana": 4,
+   "loc": 9
+  }
+ },
  "GNQ": {
   "nombre_es": "Guinea Ecuatorial",
   "continente": "Africa",
@@ -7532,33 +7596,6 @@
    "loc": 9
   }
  },
- "LCA": {
-  "nombre_es": "Santa Lucía",
-  "continente": "North America",
-  "total": 40,
-  "por_siglo": {
-   "17": 1,
-   "18": 21,
-   "19": 6,
-   "20": 5,
-   "sin siglo": 7
-  },
-  "por_tipo": {
-   "general": 22,
-   "plano urbano": 11,
-   "histórico/temático": 6,
-   "topográfico": 1
-  },
-  "por_via": {
-   "nombre": 40
-  },
-  "por_fuente": {
-   "commons": 22,
-   "dc": 5,
-   "europeana": 4,
-   "loc": 9
-  }
- },
  "ESH": {
   "nombre_es": "Sahara Occidental",
   "continente": "Africa",
@@ -7590,36 +7627,32 @@
    "ogm": 5
   }
  },
- "SXM": {
-  "nombre_es": "San Martín",
+ "DMA": {
+  "nombre_es": "Dominica",
   "continente": "North America",
   "total": 38,
   "por_siglo": {
-   "15": 1,
-   "17": 1,
-   "18": 7,
-   "19": 19,
-   "20": 3,
-   "sin siglo": 7
+   "17": 3,
+   "18": 24,
+   "19": 2,
+   "sin siglo": 9
   },
   "por_tipo": {
    "general": 21,
-   "plano urbano": 8,
-   "histórico/temático": 7,
-   "militar": 1,
-   "ferroviario/viario": 1
+   "plano urbano": 13,
+   "histórico/temático": 3,
+   "topográfico": 1
   },
   "por_via": {
-   "coordenadas": 2,
-   "nombre": 36
+   "coordenadas": 5,
+   "nombre": 33
   },
   "por_fuente": {
-   "allmaps": 2,
-   "commons": 22,
-   "dc": 3,
-   "europeana": 9,
-   "ia": 1,
-   "ogm": 1
+   "allmaps": 1,
+   "commons": 25,
+   "dc": 9,
+   "europeana": 2,
+   "loc": 1
   }
  },
  "MWI": {
@@ -7648,34 +7681,6 @@
    "allmaps": 4,
    "commons": 3,
    "ogm": 30
-  }
- },
- "DMA": {
-  "nombre_es": "Dominica",
-  "continente": "North America",
-  "total": 34,
-  "por_siglo": {
-   "17": 3,
-   "18": 22,
-   "19": 2,
-   "sin siglo": 7
-  },
-  "por_tipo": {
-   "general": 20,
-   "plano urbano": 10,
-   "histórico/temático": 3,
-   "topográfico": 1
-  },
-  "por_via": {
-   "coordenadas": 5,
-   "nombre": 29
-  },
-  "por_fuente": {
-   "allmaps": 1,
-   "commons": 21,
-   "dc": 9,
-   "europeana": 2,
-   "loc": 1
   }
  },
  "KNA": {
@@ -7708,16 +7713,16 @@
  "NCL": {
   "nombre_es": "Nueva Caledonia",
   "continente": "Oceania",
-  "total": 31,
+  "total": 32,
   "por_siglo": {
    "17": 1,
    "18": 3,
    "19": 9,
    "20": 10,
-   "sin siglo": 8
+   "sin siglo": 9
   },
   "por_tipo": {
-   "general": 18,
+   "general": 19,
    "histórico/temático": 9,
    "mapamundi": 1,
    "ferroviario/viario": 1,
@@ -7725,10 +7730,10 @@
    "topográfico": 1
   },
   "por_via": {
-   "nombre": 31
+   "nombre": 32
   },
   "por_fuente": {
-   "commons": 22,
+   "commons": 23,
    "dc": 2,
    "europeana": 1,
    "loc": 1,
@@ -7816,23 +7821,23 @@
  "COM": {
   "nombre_es": "Comoras",
   "continente": "Africa",
-  "total": 26,
+  "total": 27,
   "por_siglo": {
    "17": 1,
-   "18": 4,
+   "18": 5,
    "19": 10,
    "20": 9,
    "sin siglo": 2
   },
   "por_tipo": {
-   "general": 23,
+   "general": 24,
    "carta náutica": 3
   },
   "por_via": {
-   "nombre": 26
+   "nombre": 27
   },
   "por_fuente": {
-   "commons": 21,
+   "commons": 22,
    "loc": 2,
    "ogm": 3
   }
