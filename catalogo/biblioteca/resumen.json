@@ -1,11 +1,11 @@
 {
- "mapas_analizados": 706055,
- "con_pais": 453236,
- "sin_pais": 252819,
+ "mapas_analizados": 706092,
+ "con_pais": 453276,
+ "sin_pais": 252816,
  "paises_con_mapas": 243,
  "por_tipo": {
-  "general": 453381,
-  "topográfico": 201676,
+  "general": 453417,
+  "topográfico": 201677,
   "plano urbano": 23300,
   "militar": 8358,
   "histórico/temático": 6634,
@@ -16,7 +16,7 @@
   "ptolemaico": 161
  },
  "por_escala": {
-  "desconocida": 436259,
+  "desconocida": 436296,
   "local o ciudad": 245025,
   "provincia o comarca": 14152,
   "región o país": 6100,
