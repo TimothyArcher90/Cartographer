@@ -2,11 +2,11 @@
 
 Documento generado por `scripts/comprender.py`. No editar a mano.
 
-- Mapas analizados: **717,180** · con país asignado: **456,556** · sin país: 260,624
+- Mapas analizados: **730,546** · con país asignado: **461,373** · sin país: 269,173
   (sobre todo mapamundis, cartas oceánicas o registros sin datos de lugar).
 - Países con mapas: **243**.
-- Tipos: general 464,192, topográfico 201,689, plano urbano 23,300, militar 8,358, histórico/temático 6,635, mapamundi 4,729, ferroviario/viario 4,397, carta náutica 3,272, portulano 446, ptolemaico 162.
-- Escalas: desconocida 447,384, local o ciudad 245,025, provincia o comarca 14,152, región o país 6,100, continente 2,997, mundo 1,522.
+- Tipos: general 477,554, topográfico 201,690, plano urbano 23,300, militar 8,358, histórico/temático 6,637, mapamundi 4,730, ferroviario/viario 4,397, carta náutica 3,272, portulano 446, ptolemaico 162.
+- Escalas: desconocida 460,750, local o ciudad 245,025, provincia o comarca 14,152, región o país 6,100, continente 2,997, mundo 1,522.
 
 Cómo se asigna un país: por **nombre** actual (25+ idiomas, Natural Earth), por **nombre histórico**
 (`catalogo/nombres_historicos.json`) o por **coordenadas** de la cobertura del mapa. Cada mapa guarda
@@ -20,19 +20,19 @@ Mapas de un país: `catalogo/biblioteca/paises/<ISO3>.jsonl.gz` o
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Afganistán | AFG | 365 |  |  |  |  |  |  |  |  | 19 | 6 | 9 | 142 | 100 |
 | Albania | ALB | 259 |  |  |  |  |  |  | 1 | 3 | 21 | 22 | 19 | 63 | 47 |
-| Alemania | DEU | 12,795 | 1 |  |  |  |  |  |  | 4 | 95 | 207 | 334 | 1,340 | 814 |
+| Alemania | DEU | 12,796 | 1 |  |  |  |  |  |  | 4 | 95 | 208 | 334 | 1,340 | 814 |
 | Andorra | AND | 27 |  |  |  |  |  |  |  |  |  |  | 1 | 2 | 18 |
 | Angola | AGO | 188 |  |  |  |  |  |  |  |  | 2 | 9 | 13 | 48 | 88 |
 | Anguila | AIA | 7 |  |  |  |  |  |  |  |  |  |  | 6 | 1 |  |
 | Antigua y Barbuda | ATG | 26 |  |  |  |  |  |  |  |  |  | 1 | 13 | 10 | 1 |
 | Antártida | ATA | 86 |  |  |  |  |  |  |  |  |  | 8 | 11 | 9 | 48 |
-| Arabia Saudita | SAU | 474 |  |  |  |  |  |  |  | 6 | 44 | 31 | 51 | 134 | 115 |
+| Arabia Saudita | SAU | 484 |  |  |  |  |  |  |  | 6 | 44 | 31 | 51 | 144 | 115 |
 | Argelia | DZA | 388 |  |  |  |  |  |  |  | 2 | 19 | 21 | 33 | 100 | 101 |
 | Argentina | ARG | 746 |  |  |  |  |  |  |  |  | 5 | 98 | 95 | 124 | 351 |
 | Armenia | ARM | 139 |  |  |  |  |  |  | 1 | 1 | 10 | 7 | 14 | 61 | 21 |
 | Aruba | ABW | 22 |  |  |  |  |  |  |  |  |  |  | 2 | 6 | 4 |
 | Australia | AUS | 1,944 |  |  |  |  |  |  |  |  | 1 | 7 | 18 | 270 | 60 |
-| Austria | AUT | 1,563 | 1 |  |  |  |  |  |  | 2 | 36 | 36 | 63 | 373 | 248 |
+| Austria | AUT | 1,579 | 1 |  |  |  |  |  |  | 2 | 36 | 36 | 63 | 383 | 254 |
 | Azerbaiyán | AZE | 94 |  |  |  |  |  |  |  | 1 | 8 | 4 | 5 | 30 | 22 |
 | Bahamas | BHS | 125 |  |  |  |  |  |  |  |  |  | 4 | 51 | 49 | 16 |
 | Bangladés | BGD | 53 |  |  |  |  |  |  |  | 1 | 3 | 5 | 4 | 7 | 8 |
@@ -59,7 +59,7 @@ Mapas de un país: `catalogo/biblioteca/paises/<ISO3>.jsonl.gz` o
 | Canadá | CAN | 5,285 |  |  |  |  |  |  |  |  | 12 | 80 | 1,305 | 1,530 | 1,550 |
 | Catar | QAT | 55 |  |  |  |  |  |  |  | 3 | 8 | 7 | 11 | 13 | 10 |
 | Chad | TCD | 67 |  |  |  |  |  |  |  |  |  | 3 | 4 | 10 | 29 |
-| Chile | CHL | 589 |  |  |  |  |  |  |  | 2 | 4 | 108 | 134 | 157 | 127 |
+| Chile | CHL | 653 |  |  |  |  |  |  |  | 2 | 4 | 108 | 134 | 221 | 127 |
 | China | CHN | 3,440 |  |  |  |  | 8 | 1 | 2 | 4 | 33 | 96 | 334 | 1,386 | 1,100 |
 | Chipre | CYP | 177 |  |  |  |  |  |  |  | 1 | 10 | 13 | 11 | 18 | 91 |
 | Ciudad del Vaticano | VAT | 40 |  |  |  |  |  |  |  |  | 1 | 24 | 1 | 3 | 3 |
@@ -84,7 +84,7 @@ Mapas de un país: `catalogo/biblioteca/paises/<ISO3>.jsonl.gz` o
 | Eslovenia | SVN | 300 |  |  |  |  |  |  |  | 2 | 20 | 6 | 3 | 15 | 106 |
 | España | ESP | 6,889 | 6 |  |  |  | 1 | 1 | 6 | 13 | 94 | 285 | 1,364 | 2,639 | 890 |
 | Estados Federados de Micronesia | FSM | 44 |  |  |  |  |  |  |  |  |  | 1 | 1 | 11 | 25 |
-| Estados Unidos | USA | 352,218 | 2 |  |  |  |  |  |  | 4 | 26 | 516 | 4,957 | 106,518 | 208,741 |
+| Estados Unidos | USA | 356,918 | 2 |  |  |  |  |  |  | 4 | 26 | 516 | 4,957 | 110,844 | 209,115 |
 | Estonia | EST | 954 |  |  |  |  |  |  |  |  | 2 | 11 | 14 | 79 | 489 |
 | Etiopía | ETH | 420 |  |  |  |  |  | 1 |  | 1 | 10 | 15 | 12 | 104 | 202 |
 | Filipinas | PHL | 365 |  |  |  |  |  |  |  |  | 4 | 5 | 56 | 72 | 179 |
@@ -115,7 +115,7 @@ Mapas de un país: `catalogo/biblioteca/paises/<ISO3>.jsonl.gz` o
 | Irak | IRQ | 484 |  |  |  |  | 1 |  |  | 3 | 30 | 23 | 25 | 92 | 139 |
 | Irlanda | IRL | 1,561 |  |  |  |  |  |  |  | 1 | 28 | 65 | 99 | 573 | 31 |
 | Irán | IRN | 435 |  |  |  |  |  |  |  | 5 | 38 | 17 | 61 | 158 | 68 |
-| Isla Norfolk | NFK | 1,185 |  |  |  |  |  |  |  |  |  | 1 | 33 | 949 | 196 |
+| Isla Norfolk | NFK | 1,193 |  |  |  |  |  |  |  |  |  | 1 | 33 | 957 | 196 |
 | Isla Santa Elena | SHN | 100 |  |  |  |  |  |  |  |  | 1 | 2 | 5 | 80 | 5 |
 | Isla de Man | IMN | 29 |  |  |  |  |  |  |  |  |  |  | 2 | 19 |  |
 | Islandia | ISL | 104 |  |  |  |  |  |  |  |  | 4 | 8 | 10 | 38 | 18 |
@@ -131,7 +131,7 @@ Mapas de un país: `catalogo/biblioteca/paises/<ISO3>.jsonl.gz` o
 | Islas Vírgenes Británicas | VGB | 9 |  |  |  |  |  |  |  |  |  |  | 3 | 1 | 5 |
 | Islas Vírgenes de los Estados Unidos | VIR | 101 |  |  |  |  |  |  |  |  |  | 1 | 49 | 2 | 44 |
 | Israel | ISR | 1,230 |  |  |  |  |  | 1 | 1 | 9 | 51 | 61 | 154 | 426 | 109 |
-| Italia | ITA | 4,756 | 2 |  |  |  | 2 | 1 |  | 10 | 193 | 338 | 305 | 1,284 | 357 |
+| Italia | ITA | 4,760 | 2 |  |  |  | 2 | 1 |  | 10 | 193 | 338 | 305 | 1,288 | 357 |
 | Jamaica | JAM | 744 |  |  |  |  |  |  |  | 1 | 1 | 15 | 115 | 543 | 46 |
 | Japón | JPN | 1,103 |  |  |  |  |  |  |  | 1 | 4 | 41 | 129 | 291 | 225 |
 | Jersey | JEY | 13 |  |  |  |  |  |  |  |  |  | 4 |  | 8 |  |
@@ -146,7 +146,7 @@ Mapas de un país: `catalogo/biblioteca/paises/<ISO3>.jsonl.gz` o
 | Lesoto | LSO | 90 |  |  |  |  |  |  |  |  |  |  | 1 | 12 | 72 |
 | Letonia | LVA | 191 |  |  |  |  |  |  |  | 2 | 11 | 11 | 11 | 18 | 75 |
 | Liberia | LBR | 129 |  |  |  |  |  |  |  |  | 1 | 2 | 4 | 66 | 38 |
-| Libia | LBY | 258 |  |  |  |  |  |  |  | 6 | 21 | 17 | 11 | 32 | 98 |
+| Libia | LBY | 262 |  |  |  |  |  |  |  | 6 | 21 | 17 | 11 | 32 | 102 |
 | Liechtenstein | LIE | 12 |  |  |  |  |  |  |  | 1 |  | 1 |  | 2 |  |
 | Lituania | LTU | 276 |  |  |  |  |  |  |  | 2 | 11 | 14 | 41 | 20 | 48 |
 | Luxemburgo | LUX | 272 |  |  |  |  |  |  |  |  | 6 | 22 | 43 | 35 | 19 |
@@ -231,7 +231,7 @@ Mapas de un país: `catalogo/biblioteca/paises/<ISO3>.jsonl.gz` o
 | Sudán | SDN | 344 |  |  |  |  |  |  |  | 2 | 8 | 15 | 12 | 78 | 138 |
 | Sudán del Sur | SSD | 200 |  |  |  |  |  |  |  |  | 1 | 4 | 2 | 17 | 89 |
 | Suecia | SWE | 1,147 |  |  |  |  |  |  |  | 2 | 13 | 31 | 44 | 245 | 35 |
-| Suiza | CHE | 1,923 | 1 |  |  |  |  |  |  | 3 | 41 | 49 | 89 | 348 | 136 |
+| Suiza | CHE | 1,947 | 1 |  |  |  |  |  |  | 3 | 41 | 49 | 89 | 372 | 136 |
 | Surinam | SUR | 361 |  |  |  |  |  |  |  |  | 3 | 14 | 23 | 17 | 28 |
 | Tailandia | THA | 137 |  |  |  |  |  |  |  |  | 5 | 3 | 11 | 47 | 32 |
 | Tanzania | TZA | 195 |  |  |  |  |  |  |  |  | 2 | 2 | 2 | 48 | 79 |

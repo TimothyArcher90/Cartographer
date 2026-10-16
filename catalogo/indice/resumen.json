@@ -1,10 +1,10 @@
 {
- "mapas": 717180,
+ "mapas": 730546,
  "lugares_distintos": 38920,
  "por_fuente": {
   "allmaps": 54056,
   "bne": 125,
-  "commons": 282024,
+  "commons": 295390,
   "dc": 13402,
   "europeana": 100209,
   "ia": 8001,
@@ -26,27 +26,27 @@
   "14": 164,
   "15": 234,
   "16": 2017,
-  "17": 7557,
-  "18": 21672,
-  "19": 225799,
-  "20": 340893,
-  "sin siglo": 118566
+  "17": 7558,
+  "18": 21674,
+  "19": 234008,
+  "20": 346041,
+  "sin siglo": 118572
  },
  "licencias": {
-  "Public domain": 281465,
+  "Public domain": 294822,
   "Dominio público / sin restricciones conocidas": 258639,
   "Sin restricciones conocidas (Library of Congress; comprobar el registro)": 60013,
   "Georreferencia CC0 (Allmaps); la imagen conserva la licencia de su institución (verificar)": 54056,
-  "CC0": 14985,
+  "CC0": 14986,
   "Dominio público por antigüedad (anterior a 1900; inferido, verificar)": 14610,
-  "CC BY 4.0": 10675,
-  "CC BY-SA 4.0": 10259,
+  "CC BY 4.0": 10677,
+  "CC BY-SA 4.0": 10263,
   "CC BY-SA 3.0": 7706,
   "CC BY 3.0": 4352,
   "CC BY 2.5": 141,
   "CC BY 4.0 (obras de dominio público de la BNE; citar 'Biblioteca Nacional de España')": 125,
   "No restrictions": 105,
-  "CC BY 2.0": 32,
+  "CC BY 2.0": 33,
   "CC BY-SA 2.0": 8,
   "CC BY 3.0 rs": 3,
   "CC BY-SA 2.5": 1,
@@ -54,6 +54,7 @@
   "Attribution": 1,
   "CC BY 1.0": 1,
   "CC BY-SA 3.0 rs": 1,
-  "CC BY-SA 3.0 igo": 1
+  "CC BY-SA 3.0 igo": 1,
+  "CC BY-SA 2.0 de": 1
  }
 }
