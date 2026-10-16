@@ -2,37 +2,37 @@
 "USA-3559": {
 "nombre": "Nueva York",
 "pais": "USA",
-"total": 37720
+"total": 38901
 },
 "USA-3521": {
 "nombre": "California",
 "pais": "USA",
-"total": 23134
+"total": 25451
 },
 "USA-3536": {
 "nombre": "Texas",
 "pais": "USA",
-"total": 21495
+"total": 21781
 },
 "USA-3560": {
 "nombre": "Pensilvania",
 "pais": "USA",
-"total": 20318
+"total": 20825
 },
 "USA-3513": {
 "nombre": "Massachusetts",
 "pais": "USA",
-"total": 20101
+"total": 20283
 },
 "USA-3558": {
 "nombre": "Nueva Jersey",
 "pais": "USA",
-"total": 12907
+"total": 13028
 },
 "USA-3552": {
 "nombre": "Virginia",
 "pais": "USA",
-"total": 12433
+"total": 12710
 },
 "USA-3546": {
 "nombre": "Illinois",
@@ -42,17 +42,17 @@
 "USA-3556": {
 "nombre": "Washington D. C.",
 "pais": "USA",
-"total": 11599
+"total": 11643
 },
 "USA-3519": {
 "nombre": "Washington",
 "pais": "USA",
-"total": 11570
+"total": 11614
 },
 "USA-3531": {
 "nombre": "Misuri",
 "pais": "USA",
-"total": 9311
+"total": 9863
 },
 "USA-3522": {
 "nombre": "Colorado",
@@ -67,17 +67,17 @@
 "USA-3549": {
 "nombre": "Carolina del Norte",
 "pais": "USA",
-"total": 7100
-},
-"USA-3542": {
-"nombre": "Florida",
-"pais": "USA",
-"total": 6966
+"total": 7160
 },
 "USA-3535": {
 "nombre": "Luisiana",
 "pais": "USA",
-"total": 6954
+"total": 7048
+},
+"USA-3542": {
+"nombre": "Florida",
+"pais": "USA",
+"total": 7034
 },
 "USA-3515": {
 "nombre": "Montana",
@@ -112,7 +112,7 @@
 "USA-3524": {
 "nombre": "Nuevo México",
 "pais": "USA",
-"total": 5531
+"total": 5577
 },
 "USA-3527": {
 "nombre": "Wyoming",
@@ -122,12 +122,12 @@
 "USA-3547": {
 "nombre": "Indiana",
 "pais": "USA",
-"total": 5416
+"total": 5440
 },
 "USA-3544": {
 "nombre": "Misisipi",
 "pais": "USA",
-"total": 5340
+"total": 5372
 },
 "USA-3530": {
 "nombre": "Kansas",
@@ -137,7 +137,7 @@
 "FRA-5333": {
 "nombre": "París",
 "pais": "FRA",
-"total": 5279
+"total": 5285
 },
 "USA-3514": {
 "nombre": "Minnesota",
@@ -152,7 +152,7 @@
 "USA-3554": {
 "nombre": "Virginia Occidental",
 "pais": "USA",
-"total": 5004
+"total": 5028
 },
 "USA-3523": {
 "nombre": "Nevada",
@@ -204,6 +204,11 @@
 "pais": "USA",
 "total": 4253
 },
+"USA-3538": {
+"nombre": "Nuevo Hampshire",
+"pais": "USA",
+"total": 4229
+},
 "USA-3541": {
 "nombre": "Alabama",
 "pais": "USA",
@@ -219,15 +224,10 @@
 "pais": "USA",
 "total": 4167
 },
-"USA-3538": {
-"nombre": "Nuevo Hampshire",
-"pais": "USA",
-"total": 4165
-},
 "USA-3545": {
 "nombre": "Carolina del Sur",
 "pais": "USA",
-"total": 4061
+"total": 4079
 },
 "USA-3532": {
 "nombre": "Nebraska",
@@ -804,6 +804,11 @@
 "pais": "BEL",
 "total": 197
 },
+"ITA-5397": {
+"nombre": "Nápoles",
+"pais": "ITA",
+"total": 196
+},
 "ESP-5814": {
 "nombre": "Castellón",
 "pais": "ESP",
@@ -812,11 +817,6 @@
 "AUT-2326": {
 "nombre": "Alta Austria",
 "pais": "AUT",
-"total": 195
-},
-"ITA-5397": {
-"nombre": "Nápoles",
-"pais": "ITA",
 "total": 195
 },
 "ESP-5839": {
@@ -957,7 +957,7 @@
 "FRA-5338": {
 "nombre": "Ródano",
 "pais": "FRA",
-"total": 159
+"total": 160
 },
 "ESP-5811": {
 "nombre": "Cáceres",
@@ -1739,6 +1739,11 @@
 "pais": "JPN",
 "total": 75
 },
+"SHN-4864": {
+"nombre": "Isla Santa Elena",
+"pais": "SHN",
+"total": 75
+},
 "SWE-194": {
 "nombre": "Estocolmo",
 "pais": "SWE",
@@ -1879,71 +1884,6 @@
 "pais": "BRA",
 "total": 70
 },
-"MLT-5934": {
-"nombre": "Pembroke",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5960": {
-"nombre": "Tarxien",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5943": {
-"nombre": "Santa Venera",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5973": {
-"nombre": "Żurrieq",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5959": {
-"nombre": "Fgura",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5940": {
-"nombre": "Msida",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5965": {
-"nombre": "Santa Luċija",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5951": {
-"nombre": "Birgu",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5937": {
-"nombre": "San Ġwann",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5944": {
-"nombre": "Ħamrun",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5964": {
-"nombre": "Luqa",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5962": {
-"nombre": "Marsaskala",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5954": {
-"nombre": "Floriana",
-"pais": "MLT",
-"total": 70
-},
 "MLT-5947": {
 "nombre": "Dingli",
 "pais": "MLT",
@@ -1954,113 +1894,8 @@
 "pais": "MLT",
 "total": 70
 },
-"MLT-5969": {
-"nombre": "Mqabba",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5971": {
-"nombre": "Safi",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5953": {
-"nombre": "Senglea",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5924": {
-"nombre": "Mġarr",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5938": {
-"nombre": "Gżira",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5963": {
-"nombre": "Marsaxlokk",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5920": {
-"nombre": "Attard",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5922": {
-"nombre": "Mtarfa",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5942": {
-"nombre": "Pietà",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5966": {
-"nombre": "Gudja",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5949": {
-"nombre": "La Valeta",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5921": {
-"nombre": "Mdina",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5946": {
-"nombre": "Żebbuġ",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5968": {
-"nombre": "Birżebbuġa",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5927": {
-"nombre": "Mosta",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5932": {
-"nombre": "Għargħur",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5945": {
-"nombre": "Qormi",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5926": {
-"nombre": "San Pawl il-Baħar",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5929": {
-"nombre": "Lija",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5957": {
-"nombre": "Marsa",
-"pais": "MLT",
-"total": 70
-},
 "MLT-5967": {
 "nombre": "Għaxaq",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5958": {
-"nombre": "Paola",
 "pais": "MLT",
 "total": 70
 },
@@ -2069,13 +1904,8 @@
 "pais": "MLT",
 "total": 70
 },
-"MLT-5931": {
-"nombre": "Iklin",
-"pais": "MLT",
-"total": 70
-},
-"MLT-5939": {
-"nombre": "Birkirkara",
+"MLT-5953": {
+"nombre": "Senglea",
 "pais": "MLT",
 "total": 70
 },
@@ -2084,8 +1914,8 @@
 "pais": "MLT",
 "total": 70
 },
-"MLT-5972": {
-"nombre": "Qrendi",
+"MLT-5958": {
+"nombre": "Paola",
 "pais": "MLT",
 "total": 70
 },
@@ -2094,8 +1924,53 @@
 "pais": "MLT",
 "total": 70
 },
-"MLT-5930": {
-"nombre": "Balzan",
+"MLT-5972": {
+"nombre": "Qrendi",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5973": {
+"nombre": "Żurrieq",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5971": {
+"nombre": "Safi",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5932": {
+"nombre": "Għargħur",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5920": {
+"nombre": "Attard",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5954": {
+"nombre": "Floriana",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5949": {
+"nombre": "La Valeta",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5968": {
+"nombre": "Birżebbuġa",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5965": {
+"nombre": "Santa Luċija",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5929": {
+"nombre": "Lija",
 "pais": "MLT",
 "total": 70
 },
@@ -2104,14 +1979,149 @@
 "pais": "MLT",
 "total": 70
 },
+"MLT-5962": {
+"nombre": "Marsaskala",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5921": {
+"nombre": "Mdina",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5926": {
+"nombre": "San Pawl il-Baħar",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5959": {
+"nombre": "Fgura",
+"pais": "MLT",
+"total": 70
+},
 "MLT-5933": {
 "nombre": "Swieqi",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5957": {
+"nombre": "Marsa",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5964": {
+"nombre": "Luqa",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5943": {
+"nombre": "Santa Venera",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5944": {
+"nombre": "Ħamrun",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5969": {
+"nombre": "Mqabba",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5960": {
+"nombre": "Tarxien",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5951": {
+"nombre": "Birgu",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5924": {
+"nombre": "Mġarr",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5963": {
+"nombre": "Marsaxlokk",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5930": {
+"nombre": "Balzan",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5938": {
+"nombre": "Gżira",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5966": {
+"nombre": "Gudja",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5946": {
+"nombre": "Żebbuġ",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5934": {
+"nombre": "Pembroke",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5939": {
+"nombre": "Birkirkara",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5931": {
+"nombre": "Iklin",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5940": {
+"nombre": "Msida",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5937": {
+"nombre": "San Ġwann",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5945": {
+"nombre": "Qormi",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5942": {
+"nombre": "Pietà",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5922": {
+"nombre": "Mtarfa",
+"pais": "MLT",
+"total": 70
+},
+"MLT-5927": {
+"nombre": "Mosta",
 "pais": "MLT",
 "total": 70
 },
 "GBR-2038": {
 "nombre": "Municipio de Milton Keynes",
 "pais": "GBR",
+"total": 69
+},
+"RUS-2336": {
+"nombre": "Leningrado",
+"pais": "RUS",
 "total": 69
 },
 "SAU-1098": {
@@ -2214,6 +2224,11 @@
 "pais": "LSO",
 "total": 66
 },
+"GBR-2047": {
+"nombre": "Somerset",
+"pais": "GBR",
+"total": 65
+},
 "GBR-2746": {
 "nombre": "Argyll and Bute",
 "pais": "GBR",
@@ -2263,11 +2278,6 @@
 "nombre": "Macedonia Central",
 "pais": "GRC",
 "total": 65
-},
-"GBR-2047": {
-"nombre": "Somerset",
-"pais": "GBR",
-"total": 64
 },
 "GBR-2059": {
 "nombre": "Derbyshire",
@@ -2362,11 +2372,6 @@
 "GBR-2779": {
 "nombre": "Shropshire",
 "pais": "GBR",
-"total": 61
-},
-"RUS-2336": {
-"nombre": "Leningrado",
-"pais": "RUS",
 "total": 61
 },
 "ITA-5463": {
@@ -2704,6 +2709,11 @@
 "pais": "ARG",
 "total": 52
 },
+"RUS-2337": {
+"nombre": "San Petersburgo",
+"pais": "RUS",
+"total": 52
+},
 "ITA-5413": {
 "nombre": "Catania",
 "pais": "ITA",
@@ -3024,11 +3034,6 @@
 "pais": "AUS",
 "total": 44
 },
-"RUS-2337": {
-"nombre": "San Petersburgo",
-"pais": "RUS",
-"total": 44
-},
 "BRA-612": {
 "nombre": "Río Grande del Sur",
 "pais": "BRA",
@@ -3262,6 +3267,11 @@
 "SDN-882": {
 "nombre": "Kordofán del Sur",
 "pais": "SDN",
+"total": 40
+},
+"MAF-5145": {
+"nombre": "San Martín",
+"pais": "MAF",
 "total": 40
 },
 "MDG-5866": {
@@ -3909,11 +3919,6 @@
 "pais": "BLR",
 "total": 30
 },
-"MAF-5145": {
-"nombre": "San Martín",
-"pais": "MAF",
-"total": 30
-},
 "ITA-5420": {
 "nombre": "L'Aquila",
 "pais": "ITA",
@@ -4347,11 +4352,6 @@
 "NAM-3339": {
 "nombre": "Hardap",
 "pais": "NAM",
-"total": 25
-},
-"SHN-4864": {
-"nombre": "Isla Santa Elena",
-"pais": "SHN",
 "total": 25
 },
 "COD-1461": {
@@ -7159,6 +7159,11 @@
 "pais": "TUR",
 "total": 10
 },
+"BGR-2235": {
+"nombre": "Plovdiv",
+"pais": "BGR",
+"total": 10
+},
 "BGR-2244": {
 "nombre": "Sofía",
 "pais": "BGR",
@@ -7527,11 +7532,6 @@
 "BIH-4808": {
 "nombre": "Trebinje",
 "pais": "BIH",
-"total": 9
-},
-"BGR-2235": {
-"nombre": "Plovdiv",
-"pais": "BGR",
 "total": 9
 },
 "TWN-1166": {
@@ -8384,6 +8384,11 @@
 "pais": "SVN",
 "total": 7
 },
+"BGR-2254": {
+"nombre": "Burgas",
+"pais": "BGR",
+"total": 7
+},
 "RUS-2356": {
 "nombre": "Kostromá",
 "pais": "RUS",
@@ -8927,11 +8932,6 @@
 "GBR-2100": {
 "nombre": "Coleraine",
 "pais": "GBR",
-"total": 6
-},
-"BGR-2254": {
-"nombre": "Burgas",
-"pais": "BGR",
 "total": 6
 },
 "AFG-1749": {
@@ -10454,6 +10454,11 @@
 "pais": "TUR",
 "total": 4
 },
+"BGR-2248": {
+"nombre": "Pleven",
+"pais": "BGR",
+"total": 4
+},
 "BGR-2253": {
 "nombre": "Vidin",
 "pais": "BGR",
@@ -10537,6 +10542,11 @@
 "MYS-4831": {
 "nombre": "Kuala Lumpur",
 "pais": "MYS",
+"total": 4
+},
+"BGR-2260": {
+"nombre": "Varna",
+"pais": "BGR",
 "total": 4
 },
 "SEN-759": {
@@ -11554,11 +11564,6 @@
 "pais": "BGR",
 "total": 3
 },
-"BGR-2248": {
-"nombre": "Pleven",
-"pais": "BGR",
-"total": 3
-},
 "SRB-832": {
 "nombre": "Pomoravski",
 "pais": "SRB",
@@ -11617,6 +11622,11 @@
 "EST-1655": {
 "nombre": "Ida-Viru",
 "pais": "EST",
+"total": 3
+},
+"BGR-2261": {
+"nombre": "Silistra",
+"pais": "BGR",
 "total": 3
 },
 "PRK-3308": {
@@ -11757,11 +11767,6 @@
 "PYF-4967": {
 "nombre": "Islas Marquesas",
 "pais": "PYF",
-"total": 3
-},
-"BGR-2260": {
-"nombre": "Varna",
-"pais": "BGR",
 "total": 3
 },
 "VEN-41": {
@@ -12644,6 +12649,11 @@
 "pais": "BGR",
 "total": 2
 },
+"BGR-2255": {
+"nombre": "Yambol",
+"pais": "BGR",
+"total": 2
+},
 "BEN-2174": {
 "nombre": "Atlantique",
 "pais": "BEN",
@@ -13161,11 +13171,6 @@
 },
 "BGR-2258": {
 "nombre": "Shumen",
-"pais": "BGR",
-"total": 2
-},
-"BGR-2261": {
-"nombre": "Silistra",
 "pais": "BGR",
 "total": 2
 },
@@ -14286,11 +14291,6 @@
 },
 "BGR-2232": {
 "nombre": "Haskovo",
-"pais": "BGR",
-"total": 1
-},
-"BGR-2255": {
-"nombre": "Yambol",
 "pais": "BGR",
 "total": 1
 },
@@ -15729,13 +15729,13 @@
 "pais": "ZMB",
 "total": 1
 },
-"BWA-5504": {
-"nombre": "Selebi-Phikwe",
+"BWA-5505": {
+"nombre": "Ciudad del Sowa",
 "pais": "BWA",
 "total": 1
 },
-"BWA-5505": {
-"nombre": "Ciudad del Sowa",
+"BWA-5504": {
+"nombre": "Selebi-Phikwe",
 "pais": "BWA",
 "total": 1
 },

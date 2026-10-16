@@ -2,11 +2,11 @@
 
 Documento generado por `scripts/comprender.py`. No editar a mano.
 
-- Mapas analizados: **690,064** · con país asignado: **446,818** · sin país: 243,246
+- Mapas analizados: **706,055** · con país asignado: **453,236** · sin país: 252,819
   (sobre todo mapamundis, cartas oceánicas o registros sin datos de lugar).
 - Países con mapas: **243**.
-- Tipos: general 437,390, topográfico 201,676, plano urbano 23,300, militar 8,358, histórico/temático 6,634, mapamundi 4,440, ferroviario/viario 4,397, carta náutica 3,262, portulano 446, ptolemaico 161.
-- Escalas: desconocida 420,268, local o ciudad 245,025, provincia o comarca 14,152, región o país 6,100, continente 2,997, mundo 1,522.
+- Tipos: general 453,381, topográfico 201,676, plano urbano 23,300, militar 8,358, histórico/temático 6,634, mapamundi 4,440, ferroviario/viario 4,397, carta náutica 3,262, portulano 446, ptolemaico 161.
+- Escalas: desconocida 436,259, local o ciudad 245,025, provincia o comarca 14,152, región o país 6,100, continente 2,997, mundo 1,522.
 
 Cómo se asigna un país: por **nombre** actual (25+ idiomas, Natural Earth), por **nombre histórico**
 (`catalogo/nombres_historicos.json`) o por **coordenadas** de la cobertura del mapa. Cada mapa guarda
@@ -48,7 +48,7 @@ Mapas de un país: `catalogo/biblioteca/paises/<ISO3>.jsonl.gz` o
 | Botsuana | BWA | 157 |  |  |  |  |  |  |  |  | 1 |  | 5 | 46 | 55 |
 | Brasil | BRA | 1,544 |  |  |  |  |  |  |  | 3 | 15 | 191 | 239 | 459 | 417 |
 | Brunéi | BRN | 17 |  |  |  |  |  |  |  |  |  |  |  | 6 | 4 |
-| Bulgaria | BGR | 400 |  |  |  |  |  |  | 1 | 2 | 21 | 19 | 42 | 121 | 70 |
+| Bulgaria | BGR | 440 |  |  |  |  |  |  | 1 | 2 | 21 | 19 | 42 | 123 | 70 |
 | Burkina Faso | BFA | 54 |  |  |  |  |  |  |  |  | 1 | 5 | 3 | 7 | 13 |
 | Burundi | BDI | 37 |  |  |  |  |  |  |  |  |  |  |  | 3 | 30 |
 | Bután | BTN | 38 |  |  |  |  |  |  |  |  |  |  | 1 | 9 | 11 |
@@ -84,13 +84,13 @@ Mapas de un país: `catalogo/biblioteca/paises/<ISO3>.jsonl.gz` o
 | Eslovenia | SVN | 300 |  |  |  |  |  |  |  | 2 | 20 | 6 | 3 | 15 | 106 |
 | España | ESP | 6,888 | 6 |  |  |  | 1 | 1 | 6 | 13 | 94 | 285 | 1,364 | 2,638 | 890 |
 | Estados Federados de Micronesia | FSM | 44 |  |  |  |  |  |  |  |  |  | 1 | 1 | 11 | 25 |
-| Estados Unidos | USA | 342,956 | 2 |  |  |  |  |  |  | 2 | 26 | 516 | 4,940 | 97,832 | 208,185 |
+| Estados Unidos | USA | 349,091 | 2 |  |  |  |  |  |  | 2 | 26 | 516 | 4,940 | 103,781 | 208,371 |
 | Estonia | EST | 954 |  |  |  |  |  |  |  |  | 2 | 11 | 14 | 79 | 489 |
 | Etiopía | ETH | 420 |  |  |  |  |  | 1 |  | 1 | 10 | 15 | 12 | 104 | 202 |
 | Filipinas | PHL | 365 |  |  |  |  |  |  |  |  | 4 | 5 | 56 | 72 | 179 |
 | Finlandia | FIN | 201 |  |  |  |  |  |  |  | 1 | 8 | 15 | 18 | 32 | 29 |
 | Fiyi | FJI | 43 |  |  |  |  |  |  |  |  |  | 1 |  | 29 | 10 |
-| Francia | FRA | 11,907 |  |  |  |  | 1 | 1 | 1 | 2 | 135 | 468 | 1,487 | 3,923 | 613 |
+| Francia | FRA | 11,938 |  |  |  |  | 1 | 1 | 1 | 3 | 135 | 468 | 1,487 | 3,938 | 613 |
 | GIB | GIB | 5 |  |  |  |  |  |  |  |  |  |  | 5 |  |  |
 | Gabón | GAB | 55 |  |  |  |  |  |  |  |  | 1 | 5 | 7 | 6 | 12 |
 | Gambia | GMB | 27 |  |  |  |  |  |  |  |  |  | 2 | 11 | 9 | 4 |
@@ -116,7 +116,7 @@ Mapas de un país: `catalogo/biblioteca/paises/<ISO3>.jsonl.gz` o
 | Irlanda | IRL | 1,561 |  |  |  |  |  |  |  | 1 | 28 | 65 | 99 | 573 | 31 |
 | Irán | IRN | 435 |  |  |  |  |  |  |  | 5 | 38 | 17 | 61 | 158 | 68 |
 | Isla Norfolk | NFK | 1,151 |  |  |  |  |  |  |  |  |  | 1 | 33 | 915 | 196 |
-| Isla Santa Elena | SHN | 50 |  |  |  |  |  |  |  |  | 1 | 2 | 5 | 30 | 5 |
+| Isla Santa Elena | SHN | 100 |  |  |  |  |  |  |  |  | 1 | 2 | 5 | 80 | 5 |
 | Isla de Man | IMN | 29 |  |  |  |  |  |  |  |  |  |  | 2 | 19 |  |
 | Islandia | ISL | 103 |  |  |  |  |  |  |  |  | 3 | 8 | 10 | 38 | 18 |
 | Islas Caimán | CYM | 9 |  |  |  |  |  |  |  |  |  |  | 1 | 1 | 7 |
@@ -131,7 +131,7 @@ Mapas de un país: `catalogo/biblioteca/paises/<ISO3>.jsonl.gz` o
 | Islas Vírgenes Británicas | VGB | 9 |  |  |  |  |  |  |  |  |  |  | 3 | 1 | 5 |
 | Islas Vírgenes de los Estados Unidos | VIR | 101 |  |  |  |  |  |  |  |  |  | 1 | 49 | 2 | 44 |
 | Israel | ISR | 1,230 |  |  |  |  |  | 1 | 1 | 9 | 51 | 61 | 154 | 426 | 109 |
-| Italia | ITA | 4,614 | 2 |  |  |  | 1 | 1 |  | 10 | 189 | 337 | 305 | 1,168 | 357 |
+| Italia | ITA | 4,722 | 2 |  |  |  | 1 | 1 |  | 10 | 189 | 337 | 305 | 1,276 | 357 |
 | Jamaica | JAM | 744 |  |  |  |  |  |  |  | 1 | 1 | 15 | 115 | 543 | 46 |
 | Japón | JPN | 1,103 |  |  |  |  |  |  |  | 1 | 4 | 41 | 129 | 291 | 225 |
 | Jersey | JEY | 13 |  |  |  |  |  |  |  |  |  | 4 |  | 8 |  |
@@ -192,7 +192,7 @@ Mapas de un país: `catalogo/biblioteca/paises/<ISO3>.jsonl.gz` o
 | Polonia | POL | 2,689 |  |  |  |  |  |  | 1 | 6 | 40 | 52 | 155 | 525 | 448 |
 | Portugal | PRT | 2,416 | 1 |  |  |  |  |  |  | 2 | 48 | 129 | 461 | 970 | 204 |
 | Puerto Rico | PRI | 1,040 |  |  |  |  |  |  |  | 1 |  | 10 | 70 | 38 | 897 |
-| Reino Unido | GBR | 8,231 |  |  |  |  | 2 | 8 |  | 1 | 54 | 428 | 644 | 2,185 | 432 |
+| Reino Unido | GBR | 8,286 |  |  |  |  | 2 | 8 |  | 1 | 54 | 428 | 644 | 2,206 | 466 |
 | República Centroafricana | CAF | 155 |  |  |  |  |  |  |  |  |  | 2 | 3 | 8 | 112 |
 | República Checa | CZE | 1,089 |  |  |  |  |  |  |  | 1 | 16 | 31 | 57 | 189 | 213 |
 | República Democrática del Congo | COD | 224 |  |  |  |  |  |  |  |  | 3 | 6 | 9 | 31 | 128 |
@@ -202,7 +202,7 @@ Mapas de un país: `catalogo/biblioteca/paises/<ISO3>.jsonl.gz` o
 | República del Congo | COG | 150 |  |  |  |  |  |  |  | 1 | 1 | 5 | 16 | 43 | 49 |
 | Ruanda | RWA | 24 |  |  |  |  |  |  |  |  |  |  |  | 3 | 17 |
 | Rumania | ROU | 1,017 |  |  |  |  |  |  |  | 3 | 37 | 21 | 41 | 160 | 172 |
-| Rusia | RUS | 3,991 |  |  |  |  |  |  |  | 5 | 59 | 106 | 229 | 1,551 | 1,096 |
+| Rusia | RUS | 3,999 |  |  |  |  |  |  |  | 5 | 59 | 106 | 229 | 1,559 | 1,096 |
 | SAH | SAH | 4 |  |  |  |  |  |  |  |  |  | 2 |  | 1 |  |
 | SDS | SDS | 82 |  |  |  |  |  |  |  |  |  | 1 |  | 10 | 19 |
 | Sahara Occidental | ESH | 18 |  |  |  |  |  |  | 1 |  |  | 2 |  | 9 | 5 |
@@ -211,7 +211,7 @@ Mapas de un país: `catalogo/biblioteca/paises/<ISO3>.jsonl.gz` o
 | San Bartolomé | BLM | 5 |  |  |  |  |  |  |  |  |  |  | 3 | 2 |  |
 | San Cristóbal y Nieves | KNA | 18 |  |  |  |  |  |  |  |  |  | 2 | 12 | 1 | 3 |
 | San Marino | SMR | 2 |  |  |  |  |  |  |  |  |  |  |  | 1 | 1 |
-| San Martín | MAF | 30 |  |  |  |  |  |  |  |  |  |  | 5 | 16 | 6 |
+| San Martín | MAF | 40 |  |  |  |  |  |  |  |  |  |  | 5 | 26 | 6 |
 | San Martín | SXM | 17 |  |  |  |  |  |  |  | 1 |  |  | 4 | 8 | 1 |
 | San Pedro y Miquelón | SPM | 7 |  |  |  |  |  |  |  |  |  |  | 1 | 5 | 1 |
 | San Vicente y las Granadinas | VCT | 19 |  |  |  |  |  |  |  |  |  |  | 6 | 10 | 3 |
