@@ -764,15 +764,15 @@
 "pais": "ESP",
 "total": 209
 },
+"ITA-5397": {
+"nombre": "Nápoles",
+"pais": "ITA",
+"total": 204
+},
 "ESP-5847": {
 "nombre": "Teruel",
 "pais": "ESP",
 "total": 204
-},
-"ITA-5397": {
-"nombre": "Nápoles",
-"pais": "ITA",
-"total": 203
 },
 "ESP-5810": {
 "nombre": "Burgos",
@@ -1204,6 +1204,11 @@
 "pais": "FRA",
 "total": 124
 },
+"DZA-2195": {
+"nombre": "Argel",
+"pais": "DZA",
+"total": 123
+},
 "GBR-2140": {
 "nombre": "Yorkshire del Norte",
 "pais": "GBR",
@@ -1212,11 +1217,6 @@
 "ESP-5802": {
 "nombre": "Albacete",
 "pais": "ESP",
-"total": 122
-},
-"DZA-2195": {
-"nombre": "Argel",
-"pais": "DZA",
 "total": 122
 },
 "GBR-2064": {
@@ -1714,6 +1714,21 @@
 "pais": "GBR",
 "total": 76
 },
+"MLT-5956": {
+"nombre": "Żabbar",
+"pais": "MLT",
+"total": 76
+},
+"MLT-5936": {
+"nombre": "Sliema",
+"pais": "MLT",
+"total": 76
+},
+"MLT-5935": {
+"nombre": "San Julián",
+"pais": "MLT",
+"total": 76
+},
 "POL-3151": {
 "nombre": "Lublin",
 "pais": "POL",
@@ -1744,18 +1759,8 @@
 "pais": "GBR",
 "total": 75
 },
-"MLT-5956": {
-"nombre": "Żabbar",
-"pais": "MLT",
-"total": 75
-},
-"MLT-5936": {
-"nombre": "Sliema",
-"pais": "MLT",
-"total": 75
-},
-"MLT-5935": {
-"nombre": "San Julián",
+"MLT-5950": {
+"nombre": "Kalkara",
 "pais": "MLT",
 "total": 75
 },
@@ -1774,38 +1779,263 @@
 "pais": "JPN",
 "total": 75
 },
+"MLT-5948": {
+"nombre": "Siġġiewi",
+"pais": "MLT",
+"total": 75
+},
+"MLT-5928": {
+"nombre": "Naxxar",
+"pais": "MLT",
+"total": 75
+},
 "SHN-4864": {
 "nombre": "Isla Santa Elena",
 "pais": "SHN",
 "total": 75
 },
-"MLT-5950": {
-"nombre": "Kalkara",
+"MLT-5923": {
+"nombre": "Rabat",
 "pais": "MLT",
-"total": 74
+"total": 75
+},
+"MLT-5925": {
+"nombre": "Mellieħa",
+"pais": "MLT",
+"total": 75
 },
 "BRA-601": {
 "nombre": "Minas Gerais",
 "pais": "BRA",
 "total": 74
 },
-"MLT-5948": {
-"nombre": "Siġġiewi",
+"MLT-5949": {
+"nombre": "La Valeta",
 "pais": "MLT",
 "total": 74
 },
-"MLT-5928": {
-"nombre": "Naxxar",
+"MLT-5963": {
+"nombre": "Marsaxlokk",
 "pais": "MLT",
 "total": 74
 },
-"MLT-5923": {
-"nombre": "Rabat",
+"MLT-5920": {
+"nombre": "Attard",
 "pais": "MLT",
 "total": 74
 },
-"MLT-5925": {
-"nombre": "Mellieħa",
+"MLT-5926": {
+"nombre": "San Pawl il-Baħar",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5962": {
+"nombre": "Marsaskala",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5943": {
+"nombre": "Santa Venera",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5932": {
+"nombre": "Għargħur",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5960": {
+"nombre": "Tarxien",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5947": {
+"nombre": "Dingli",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5971": {
+"nombre": "Safi",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5934": {
+"nombre": "Pembroke",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5933": {
+"nombre": "Swieqi",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5959": {
+"nombre": "Fgura",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5954": {
+"nombre": "Floriana",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5931": {
+"nombre": "Iklin",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5930": {
+"nombre": "Balzan",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5969": {
+"nombre": "Mqabba",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5966": {
+"nombre": "Gudja",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5929": {
+"nombre": "Lija",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5942": {
+"nombre": "Pietà",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5972": {
+"nombre": "Qrendi",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5951": {
+"nombre": "Birgu",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5961": {
+"nombre": "Żejtun",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5938": {
+"nombre": "Gżira",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5944": {
+"nombre": "Ħamrun",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5946": {
+"nombre": "Żebbuġ",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5970": {
+"nombre": "Kirkop",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5952": {
+"nombre": "Xgħajra",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5965": {
+"nombre": "Santa Luċija",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5945": {
+"nombre": "Qormi",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5964": {
+"nombre": "Luqa",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5958": {
+"nombre": "Paola",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5955": {
+"nombre": "Bormla",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5924": {
+"nombre": "Mġarr",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5922": {
+"nombre": "Mtarfa",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5957": {
+"nombre": "Marsa",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5940": {
+"nombre": "Msida",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5927": {
+"nombre": "Mosta",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5973": {
+"nombre": "Żurrieq",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5967": {
+"nombre": "Għaxaq",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5968": {
+"nombre": "Birżebbuġa",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5953": {
+"nombre": "Senglea",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5939": {
+"nombre": "Birkirkara",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5921": {
+"nombre": "Mdina",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5937": {
+"nombre": "San Ġwann",
+"pais": "MLT",
+"total": 74
+},
+"MLT-5941": {
+"nombre": "Ta' Xbiex",
 "pais": "MLT",
 "total": 74
 },
@@ -1817,236 +2047,6 @@
 "CHN-1809": {
 "nombre": "Sichuan",
 "pais": "CHN",
-"total": 73
-},
-"MLT-5949": {
-"nombre": "La Valeta",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5946": {
-"nombre": "Żebbuġ",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5921": {
-"nombre": "Mdina",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5945": {
-"nombre": "Qormi",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5967": {
-"nombre": "Għaxaq",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5966": {
-"nombre": "Gudja",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5971": {
-"nombre": "Safi",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5951": {
-"nombre": "Birgu",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5934": {
-"nombre": "Pembroke",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5964": {
-"nombre": "Luqa",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5947": {
-"nombre": "Dingli",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5960": {
-"nombre": "Tarxien",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5937": {
-"nombre": "San Ġwann",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5954": {
-"nombre": "Floriana",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5924": {
-"nombre": "Mġarr",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5941": {
-"nombre": "Ta' Xbiex",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5927": {
-"nombre": "Mosta",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5930": {
-"nombre": "Balzan",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5972": {
-"nombre": "Qrendi",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5920": {
-"nombre": "Attard",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5959": {
-"nombre": "Fgura",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5957": {
-"nombre": "Marsa",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5961": {
-"nombre": "Żejtun",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5965": {
-"nombre": "Santa Luċija",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5962": {
-"nombre": "Marsaskala",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5932": {
-"nombre": "Għargħur",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5955": {
-"nombre": "Bormla",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5940": {
-"nombre": "Msida",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5952": {
-"nombre": "Xgħajra",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5942": {
-"nombre": "Pietà",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5922": {
-"nombre": "Mtarfa",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5943": {
-"nombre": "Santa Venera",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5968": {
-"nombre": "Birżebbuġa",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5944": {
-"nombre": "Ħamrun",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5963": {
-"nombre": "Marsaxlokk",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5929": {
-"nombre": "Lija",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5973": {
-"nombre": "Żurrieq",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5938": {
-"nombre": "Gżira",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5926": {
-"nombre": "San Pawl il-Baħar",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5931": {
-"nombre": "Iklin",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5970": {
-"nombre": "Kirkop",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5958": {
-"nombre": "Paola",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5933": {
-"nombre": "Swieqi",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5953": {
-"nombre": "Senglea",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5969": {
-"nombre": "Mqabba",
-"pais": "MLT",
-"total": 73
-},
-"MLT-5939": {
-"nombre": "Birkirkara",
-"pais": "MLT",
 "total": 73
 },
 "CHN-1811": {
@@ -2384,6 +2384,11 @@
 "pais": "IND",
 "total": 62
 },
+"FRA-5281": {
+"nombre": "Córcega del Sur",
+"pais": "FRA",
+"total": 62
+},
 "LBY-2965": {
 "nombre": "Al Kufrah",
 "pais": "LBY",
@@ -2404,11 +2409,6 @@
 "pais": "ITA",
 "total": 61
 },
-"FRA-5281": {
-"nombre": "Córcega del Sur",
-"pais": "FRA",
-"total": 61
-},
 "GBR-2051": {
 "nombre": "Dorset",
 "pais": "GBR",
@@ -2427,6 +2427,11 @@
 "ITA-5455": {
 "nombre": "Udine",
 "pais": "ITA",
+"total": 60
+},
+"FRA-5297": {
+"nombre": "Alta Córcega",
+"pais": "FRA",
 "total": 60
 },
 "ITA-5379": {
@@ -2456,11 +2461,6 @@
 },
 "FRA-5322": {
 "nombre": "Mancha",
-"pais": "FRA",
-"total": 59
-},
-"FRA-5297": {
-"nombre": "Alta Córcega",
 "pais": "FRA",
 "total": 59
 },
@@ -2534,12 +2534,12 @@
 "pais": "SAU",
 "total": 57
 },
-"TTO-5090": {
+"TTO-50": {
 "nombre": "Tobago",
 "pais": "TTO",
 "total": 57
 },
-"TTO-50": {
+"TTO-5090": {
 "nombre": "Tobago",
 "pais": "TTO",
 "total": 57
@@ -9774,12 +9774,12 @@
 "pais": "PHL",
 "total": 5
 },
-"MDG-5868": {
+"MDG-5860": {
 "nombre": "Toamasina",
 "pais": "MDG",
 "total": 5
 },
-"MDG-5860": {
+"MDG-5868": {
 "nombre": "Toamasina",
 "pais": "MDG",
 "total": 5
@@ -13254,11 +13254,6 @@
 "pais": "ARM",
 "total": 2
 },
-"UGA-5617": {
-"nombre": "Lwengo",
-"pais": "UGA",
-"total": 2
-},
 "UGA-5620": {
 "nombre": "Kalungu",
 "pais": "UGA",
@@ -13266,6 +13261,11 @@
 },
 "UGA-5619": {
 "nombre": "Bukomansimbi",
+"pais": "UGA",
+"total": 2
+},
+"UGA-5617": {
+"nombre": "Lwengo",
 "pais": "UGA",
 "total": 2
 },

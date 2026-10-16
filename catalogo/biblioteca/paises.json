@@ -128,7 +128,7 @@
  "FRA": {
   "nombre_es": "Francia",
   "continente": "Europe",
-  "total": 11966,
+  "total": 11967,
   "por_siglo": {
    "10": 1,
    "12": 1,
@@ -138,7 +138,7 @@
    "16": 138,
    "17": 468,
    "18": 1488,
-   "19": 3951,
+   "19": 3952,
    "20": 619,
    "sin siglo": 5295
   },
@@ -149,7 +149,7 @@
    "topográfico": 448,
    "histórico/temático": 220,
    "ferroviario/viario": 101,
-   "carta náutica": 74,
+   "carta náutica": 75,
    "mapamundi": 35,
    "portulano": 13,
    "ptolemaico": 10
@@ -157,13 +157,13 @@
   "por_via": {
    "coordenadas": 2089,
    "region": 75,
-   "historico": 1274,
+   "historico": 1275,
    "nombre": 8528
   },
   "por_fuente": {
    "allmaps": 1705,
    "bne": 4,
-   "commons": 798,
+   "commons": 799,
    "dc": 508,
    "europeana": 7556,
    "ia": 76,
@@ -219,7 +219,7 @@
  "ESP": {
   "nombre_es": "España",
   "continente": "Europe",
-  "total": 6890,
+  "total": 6891,
   "por_siglo": {
    "5": 5,
    "7": 1,
@@ -231,7 +231,7 @@
    "17": 285,
    "18": 1364,
    "19": 2639,
-   "20": 890,
+   "20": 891,
    "sin siglo": 1590
   },
   "por_tipo": {
@@ -239,7 +239,7 @@
    "plano urbano": 1263,
    "topográfico": 915,
    "histórico/temático": 119,
-   "carta náutica": 101,
+   "carta náutica": 102,
    "militar": 98,
    "ferroviario/viario": 74,
    "mapamundi": 24,
@@ -249,13 +249,13 @@
   "por_via": {
    "coordenadas": 518,
    "region": 3,
-   "nombre": 5035,
+   "nombre": 5036,
    "historico": 1334
   },
   "por_fuente": {
    "allmaps": 343,
    "bne": 14,
-   "commons": 210,
+   "commons": 211,
    "dc": 86,
    "europeana": 4332,
    "ia": 7,
@@ -308,7 +308,7 @@
  "ITA": {
   "nombre_es": "Italia",
   "continente": "Europe",
-  "total": 5101,
+  "total": 5102,
   "por_siglo": {
    "6": 2,
    "11": 2,
@@ -319,7 +319,7 @@
    "17": 340,
    "18": 306,
    "19": 1290,
-   "20": 461,
+   "20": 462,
    "sin siglo": 2479
   },
   "por_tipo": {
@@ -330,20 +330,20 @@
    "ferroviario/viario": 52,
    "militar": 39,
    "mapamundi": 28,
-   "carta náutica": 24,
+   "carta náutica": 25,
    "ptolemaico": 11,
    "portulano": 7
   },
   "por_via": {
    "coordenadas": 1130,
    "region": 25,
-   "historico": 1728,
+   "historico": 1729,
    "nombre": 2218
   },
   "por_fuente": {
    "allmaps": 937,
    "bne": 2,
-   "commons": 914,
+   "commons": 915,
    "dc": 277,
    "europeana": 2162,
    "ia": 16,
@@ -860,19 +860,19 @@
  "IND": {
   "nombre_es": "India",
   "continente": "Asia",
-  "total": 1433,
+  "total": 1434,
   "por_siglo": {
    "14": 5,
    "15": 2,
    "16": 61,
    "17": 40,
    "18": 159,
-   "19": 558,
+   "19": 559,
    "20": 149,
    "sin siglo": 459
   },
   "por_tipo": {
-   "general": 1230,
+   "general": 1231,
    "histórico/temático": 57,
    "topográfico": 39,
    "carta náutica": 22,
@@ -886,12 +886,12 @@
   "por_via": {
    "coordenadas": 199,
    "region": 24,
-   "nombre": 1029,
+   "nombre": 1030,
    "historico": 181
   },
   "por_fuente": {
    "allmaps": 179,
-   "commons": 336,
+   "commons": 337,
    "dc": 52,
    "europeana": 564,
    "ia": 26,
@@ -1016,18 +1016,18 @@
  "GRC": {
   "nombre_es": "Grecia",
   "continente": "Europe",
-  "total": 1276,
+  "total": 1277,
   "por_siglo": {
    "15": 3,
    "16": 75,
-   "17": 92,
+   "17": 93,
    "18": 89,
    "19": 506,
    "20": 177,
    "sin siglo": 334
   },
   "por_tipo": {
-   "general": 1066,
+   "general": 1067,
    "histórico/temático": 63,
    "topográfico": 50,
    "plano urbano": 38,
@@ -1041,12 +1041,12 @@
   "por_via": {
    "coordenadas": 274,
    "region": 24,
-   "historico": 269,
+   "historico": 270,
    "nombre": 709
   },
   "por_fuente": {
    "allmaps": 171,
-   "commons": 175,
+   "commons": 176,
    "dc": 92,
    "europeana": 503,
    "ia": 11,
@@ -2453,18 +2453,18 @@
  "DZA": {
   "nombre_es": "Argelia",
   "continente": "Africa",
-  "total": 390,
+  "total": 391,
   "por_siglo": {
    "15": 2,
    "16": 20,
    "17": 21,
    "18": 33,
-   "19": 100,
+   "19": 101,
    "20": 102,
    "sin siglo": 112
   },
   "por_tipo": {
-   "general": 315,
+   "general": 316,
    "plano urbano": 28,
    "topográfico": 20,
    "ptolemaico": 9,
@@ -2478,13 +2478,13 @@
   "por_via": {
    "coordenadas": 150,
    "region": 8,
-   "historico": 97,
+   "historico": 98,
    "nombre": 135
   },
   "por_fuente": {
    "allmaps": 83,
    "bne": 1,
-   "commons": 85,
+   "commons": 86,
    "dc": 19,
    "europeana": 81,
    "ia": 1,
@@ -4138,6 +4138,41 @@
    "proveedores": 7
   }
  },
+ "MLT": {
+  "nombre_es": "Malta",
+  "continente": "Europe",
+  "total": 152,
+  "por_siglo": {
+   "16": 10,
+   "17": 16,
+   "18": 64,
+   "19": 31,
+   "20": 8,
+   "sin siglo": 23
+  },
+  "por_tipo": {
+   "general": 113,
+   "plano urbano": 23,
+   "topográfico": 6,
+   "carta náutica": 6,
+   "histórico/temático": 3,
+   "militar": 1
+  },
+  "por_via": {
+   "coordenadas": 14,
+   "nombre": 138
+  },
+  "por_fuente": {
+   "allmaps": 14,
+   "commons": 10,
+   "dc": 4,
+   "europeana": 68,
+   "ia": 3,
+   "loc": 7,
+   "ogm": 26,
+   "proveedores": 20
+  }
+ },
  "GTM": {
   "nombre_es": "Guatemala",
   "continente": "North America",
@@ -4210,41 +4245,6 @@
    "ia": 1,
    "loc": 12,
    "ogm": 59
-  }
- },
- "MLT": {
-  "nombre_es": "Malta",
-  "continente": "Europe",
-  "total": 151,
-  "por_siglo": {
-   "16": 10,
-   "17": 15,
-   "18": 64,
-   "19": 31,
-   "20": 8,
-   "sin siglo": 23
-  },
-  "por_tipo": {
-   "general": 112,
-   "plano urbano": 23,
-   "topográfico": 6,
-   "carta náutica": 6,
-   "histórico/temático": 3,
-   "militar": 1
-  },
-  "por_via": {
-   "coordenadas": 14,
-   "nombre": 137
-  },
-  "por_fuente": {
-   "allmaps": 14,
-   "commons": 9,
-   "dc": 4,
-   "europeana": 68,
-   "ia": 3,
-   "loc": 7,
-   "ogm": 26,
-   "proveedores": 20
   }
  },
  "COG": {
