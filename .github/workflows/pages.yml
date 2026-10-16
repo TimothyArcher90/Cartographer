@@ -4,6 +4,8 @@ on:
     branches: [main]
     paths: ["studio/**", "catalogo/biblioteca/**", "paquetes/cartographer/epocas/**", "visor/vendor/**", ".github/workflows/pages.yml"]
   workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
 permissions:
   contents: write
 concurrency:
