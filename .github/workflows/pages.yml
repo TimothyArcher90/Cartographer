@@ -2,7 +2,7 @@ name: Estudio web (GitHub Pages)
 on:
   push:
     branches: [main]
-    paths: ["studio/**", "catalogo/biblioteca/**", "paquetes/cartographer/epocas/**", "visor/vendor/**", ".github/workflows/pages.yml"]
+    paths: ["studio/**", "scripts/construir_cartografos.py", "catalogo/biblioteca/**", "paquetes/cartographer/epocas/**", "visor/vendor/**", ".github/workflows/pages.yml"]
   workflow_dispatch:
   schedule:
     - cron: "17 */6 * * *"
@@ -19,7 +19,7 @@ jobs:
       - name: Armar el sitio
         run: |
           mkdir -p sitio/biblioteca
-          cp studio/index.html studio/app.js sitio/
+          cp studio/*.html studio/app.js sitio/
           cp -r studio/datos visor/vendor paquetes/cartographer/epocas sitio/
           cp -r catalogo/biblioteca/paises sitio/biblioteca/
           touch sitio/.nojekyll

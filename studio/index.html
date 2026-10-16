@@ -3,77 +3,105 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Cartographer Estudio</title>
-<link rel="stylesheet" href="vendor/maplibre-gl.css">
+<title>Cartographer Galería</title>
 <style>
-:root{--bg:#14171c;--panel:#1d2128;--borde:#2c323c;--texto:#e8e4da;--suave:#9aa3ad;--acento:#d9a441}
-*{box-sizing:border-box}html,body{margin:0;height:100%;background:var(--bg);color:var(--texto);font:14px system-ui,sans-serif}
-#app{display:grid;grid-template-columns:340px 1fr;height:100%}
-aside{background:var(--panel);border-right:1px solid var(--borde);overflow:auto;padding:12px}
-#mapa{position:relative}
-h1{font-size:17px;margin:0 0 8px;color:var(--acento)}h2{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--suave);margin:16px 0 6px}
-input,select,button{font:inherit;color:var(--texto);background:#262b33;border:1px solid var(--borde);border-radius:6px;padding:6px 8px}
-button{cursor:pointer}button.activo{background:var(--acento);color:#14171c}
-.fila{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin:4px 0}.fila input[type=text]{flex:1;min-width:0}
-#resultados{display:grid;grid-template-columns:1fr 1fr;gap:6px;max-height:340px;overflow:auto}
-.ficha{background:#262b33;border:1px solid var(--borde);border-radius:6px;padding:4px;cursor:pointer;font-size:11px}
-.ficha img{width:100%;height:90px;object-fit:cover;background:#111;display:block;border-radius:4px}
-.ficha:hover{border-color:var(--acento)}.nota{color:var(--suave);font-size:12px}
-#capas li,#claves li{display:flex;gap:6px;align-items:center;font-size:12px;margin:3px 0}#capas,#claves{list-style:none;padding:0;margin:0}
-#capas li span,#claves li span{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.etq{position:absolute;pointer-events:none;font:600 11px Georgia,serif;color:#3a2e1c;text-shadow:0 0 3px #f4ead2;white-space:nowrap;transform:translate(-50%,-50%)}
-.etq.libre{font-size:15px;color:#7a1f1f}
-#rec{position:absolute;top:10px;right:60px;background:#b22;color:#fff;padding:4px 10px;border-radius:12px;display:none}
-@media (max-width:760px){#app{grid-template-columns:1fr;grid-template-rows:55% 45%}aside{order:2}}
+:root{--bg:#121212;--panel:#1c1c1c;--borde:#333;--texto:#f1ece1;--suave:#a39e93;--acento:#d9a441}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--texto);font:15px Georgia,serif}
+header{position:sticky;top:0;z-index:5;background:rgba(18,18,18,.96);border-bottom:1px solid var(--borde);padding:12px 16px}
+h1{margin:0 0 8px;font-size:22px;color:var(--acento);letter-spacing:.03em}h1 a{color:var(--suave);font-size:13px;margin-left:12px}
+.fila{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+input,select,button{font:14px system-ui,sans-serif;color:var(--texto);background:#262626;border:1px solid var(--borde);border-radius:6px;padding:8px 10px}
+input[type=text]{flex:1;min-width:180px}button{cursor:pointer}button.on{background:var(--acento);color:#111}
+#estado{color:var(--suave);font:13px system-ui;margin-top:6px}
+#cartos{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}#cartos button{padding:4px 9px;font-size:12px}
+main{padding:16px;columns:4 300px;column-gap:14px}
+figure{break-inside:avoid;margin:0 0 14px;background:var(--panel);border:1px solid var(--borde);border-radius:8px;overflow:hidden;cursor:zoom-in}
+figure img{width:100%;display:block;background:#0c0c0c;min-height:120px}
+figcaption{padding:8px 10px;font-size:13px;line-height:1.35}figcaption b{color:var(--acento)}figcaption small{display:block;color:var(--suave);font:11px system-ui;margin-top:4px}
+#visor{position:fixed;inset:0;background:rgba(0,0,0,.94);display:none;z-index:10;flex-direction:column}
+#visor.ab{display:flex}#visor .img{flex:1;overflow:auto;display:flex;align-items:center;justify-content:center;cursor:zoom-in}
+#visor img{max-width:100%;max-height:100%}#visor.z img{max-width:none;max-height:none}
+#visor .pie{padding:10px 16px;font-size:14px;border-top:1px solid var(--borde)}#visor .pie a{color:var(--acento)}
+#cerrar{position:absolute;top:10px;right:14px;font-size:22px}
+#mas{display:block;margin:10px auto 40px}
 </style>
 </head>
 <body>
-<div id="app">
-<aside>
-  <h1>Cartographer · Estudio</h1>
-  <p class="nota">Mapas históricos reales y libres. Las imágenes se leen de cada archivo original.</p>
-
-  <h2>Buscar en el acervo</h2>
-  <div class="fila"><input id="q" type="text" placeholder="Turquía, Colombia, Anatolia…" list="sugerencias"><button id="buscar">Buscar</button></div>
-  <datalist id="sugerencias"></datalist>
-  <div class="fila">Siglo <select id="siglo"><option value="">todos</option></select>
-    Tipo <select id="tipo"><option value="">todos</option></select></div>
-  <div class="fila"><label><input type="checkbox" id="solobbox"> solo con ubicación</label></div>
-  <div id="estado" class="nota"></div>
-  <div id="resultados"></div>
-
-  <h2>Fronteras de época</h2>
-  <div class="fila"><select id="epoca"><option value="">ninguna</option><option value="0100">Año 100</option><option value="1000">Año 1000</option><option value="1492">Año 1492</option></select>
-    <label><input type="checkbox" id="actuales" checked> actuales</label></div>
-
-  <h2>Capas superpuestas</h2>
-  <ul id="capas"></ul>
-
-  <h2>Editar</h2>
-  <div class="fila" id="herramientas">
-    <button data-h="navegar" class="activo">Navegar</button><button data-h="punto">Marcador</button>
-    <button data-h="ruta">Ruta</button><button data-h="area">Área</button><button data-h="texto">Texto</button><button data-h="pintar">Pintar país</button>
+<header>
+  <h1>Cartographer · Mapas históricos reales <a href="estudio.html">abrir estudio de edición →</a></h1>
+  <div class="fila">
+    <input id="q" type="text" placeholder="País o región: Colombia, Turquía, Anatolia, Castilla…" list="sug">
+    <datalist id="sug"></datalist>
+    <select id="siglo"><option value="">Todos los siglos</option></select>
+    <input id="filtro" type="text" placeholder="Filtrar por palabra del título (Mercator, mapa, plano…)" style="flex:.7">
+    <label style="font:13px system-ui"><input type="checkbox" id="antiguos" checked> solo hasta 1900</label>
+    <button id="ir">Buscar</button>
   </div>
-  <div class="fila">Color <input type="color" id="color" value="#b23a2a"><button id="terminar">Terminar trazo</button><button id="deshacer">Deshacer</button></div>
-  <div class="fila"><label><input type="checkbox" id="extruir"> Extruir áreas (3D)</label></div>
-
-  <h2>3D y cámara</h2>
-  <div class="fila"><label><input type="checkbox" id="relieve"> Relieve</label> Exageración <input type="range" id="exag" min="0.5" max="4" step="0.1" value="1.5"></div>
-  <div class="fila">Inclinación <input type="range" id="pitch" min="0" max="80" value="0"> Giro <input type="range" id="bearing" min="-180" max="180" value="0"></div>
-
-  <h2>Animación</h2>
-  <div class="fila"><button id="clave">+ Fotograma clave</button> Duración <input type="number" id="dur" value="3" min="0.5" step="0.5" style="width:60px"> s</div>
-  <ul id="claves"></ul>
-  <div class="fila"><button id="reproducir">▶ Reproducir</button><button id="grabar">● Exportar vídeo</button></div>
-  <div class="fila">Formato <select id="formato"><option value="">ventana</option><option value="1080x1920">9:16 vertical</option><option value="1920x1080">16:9</option><option value="1080x1080">1:1</option></select></div>
-
-  <h2>Proyecto</h2>
-  <div class="fila"><button id="guardar">Descargar</button><label class="nota"><input type="file" id="abrir" accept=".json" hidden><button onclick="document.getElementById('abrir').click()">Abrir…</button></label><button id="nuevo">Nuevo</button><button id="png">PNG</button></div>
-  <p class="nota">Cada mapa conserva su licencia y enlace. Lo marcado «verificar» debe comprobarse antes de publicar.</p>
-</aside>
-<div id="mapa"><div id="rec">● grabando</div></div>
-</div>
-<script src="vendor/maplibre-gl.js"></script>
-<script src="app.js"></script>
+  <div id="cartos"></div>
+  <div id="estado">Escribe un país o elige un cartógrafo.</div>
+</header>
+<main id="galeria"></main>
+<button id="mas" hidden>Cargar más</button>
+<div id="visor"><button id="cerrar">✕</button><div class="img"><img alt=""></div><div class="pie"></div></div>
+<script>
+const $=(i)=>document.getElementById(i);
+const norm=(t)=>t.normalize('NFKD').replace(/[̀-ͯ]/g,'').toLowerCase().trim();
+const romano=(n)=>{let r='';for(const[k,s]of[[10,'X'],[9,'IX'],[5,'V'],[4,'IV'],[1,'I']])while(n>=k){r+=s;n-=k}return r};
+let NOMBRES={},PAISES={},lista=[],pos=0;const PAGINA=60;
+async function json(u){const r=await fetch(u);return r.json()}
+async function jsonlGz(u){const r=await fetch(u);if(!r.ok)return[];const b=new Uint8Array(await r.arrayBuffer());
+  const t=(b[0]===0x1f&&b[1]===0x8b)?await new Response(new Blob([b]).stream().pipeThrough(new DecompressionStream('gzip'))).text():new TextDecoder().decode(b);
+  return t.split('\n').filter(Boolean).map(JSON.parse)}
+function grande(m){
+  if(m.iiif)return m.iiif.replace(/\/info\.json$/,'')+'/full/1600,/0/default.jpg';
+  const t=m.th||'';
+  if(/upload\.wikimedia|thumb\.wikimedia/.test(t))return t.replace(/\/\d+px-([^/]+)$/,'/1600px-$1');
+  return t}
+function mini(m){if(m.th)return m.th;if(m.iiif)return m.iiif.replace(/\/info\.json$/,'')+'/full/500,/0/default.jpg';return''}
+function resolver(q){const n=norm(q);if(NOMBRES[n])return NOMBRES[n];
+  const iso=Object.keys(PAISES).find(k=>norm(PAISES[k].nombre)===n);if(iso)return{iso:[iso]};
+  const k=Object.keys(NOMBRES).find(k=>k.startsWith(n));return k?NOMBRES[k]:null}
+function filtrar(ms){const s=+$('siglo').value,f=norm($('filtro').value),ant=$('antiguos').checked;
+  return ms.filter(m=>(m.th||m.iiif)&&(!s||(m.siglos||[]).includes(s)||(m.anio&&Math.ceil(m.anio/100)===s))
+    &&(!ant||!m.anio||m.anio<=1900)&&(!f||norm(m.t+' '+(m.autor||'')).includes(f)))
+   .sort((a,b)=>(b.relevancia||0)-(a.relevancia||0)||(a.anio||9999)-(b.anio||9999))}
+async function buscarPais(){const r=resolver($('q').value);
+  if(!r){$('estado').textContent='No reconozco ese lugar. Prueba con el nombre del país.';return}
+  const isos=[...new Set([...(r.iso||[]),...(r.region||[]).map(x=>x[1])])];
+  $('estado').textContent='Cargando…';let ms=[];for(const i of isos)ms=ms.concat(await jsonlGz('biblioteca/paises/'+i+'.jsonl.gz'));
+  const regs=new Set((r.region||[]).map(x=>x[0]));if(regs.size&&!(r.iso||[]).length)ms=ms.filter(m=>(m.regiones||[]).some(x=>regs.has(x)));
+  mostrar(filtrar(ms),(r.iso||[]).map(i=>PAISES[i]?.nombre||i).concat((r.region||[]).map(x=>x[2])).slice(0,3).join(', '))}
+async function buscarCarto(k,nombre){document.querySelectorAll('#cartos button').forEach(b=>b.classList.toggle('on',b.dataset.k===k));
+  $('estado').textContent='Cargando…';mostrar(filtrar(await json('datos/cartografos/'+k+'.json')),nombre)}
+function mostrar(ms,titulo){lista=ms;pos=0;$('galeria').innerHTML='';
+  $('estado').textContent=`${titulo}: ${ms.length.toLocaleString('es')} mapas con imagen`;pintar()}
+function pintar(){const g=$('galeria');
+  for(const m of lista.slice(pos,pos+PAGINA)){const f=document.createElement('figure');
+    f.innerHTML='<img loading="lazy" alt=""><figcaption><b></b> <span></span><small></small></figcaption>';
+    const img=f.querySelector('img');img.src=mini(m);img.onerror=()=>f.remove();
+    f.querySelector('b').textContent=m.anio||'s/f';f.querySelector('span').textContent=m.t.slice(0,140);
+    f.querySelector('small').textContent=[m.autor&&!/^https?:/.test(m.autor)?m.autor.slice(0,60):'',m.fuente,m.lic].filter(Boolean).join(' · ');
+    f.onclick=()=>abrir(m);g.appendChild(f)}
+  pos+=PAGINA;$('mas').hidden=pos>=lista.length}
+function abrir(m){const v=$('visor');v.classList.add('ab');v.classList.remove('z');const img=v.querySelector('img');
+  img.src=mini(m);const g=grande(m);if(g&&g!==img.src){const p=new Image();p.onload=()=>img.src=g;p.src=g}
+  v.querySelector('.pie').innerHTML='';const pie=v.querySelector('.pie');
+  pie.append(`${m.anio||'sin fecha'} · ${m.t}`);pie.appendChild(document.createElement('br'));
+  const s=document.createElement('small');s.textContent=`Licencia: ${m.lic} · `;const a=document.createElement('a');
+  a.href=m.url;a.target='_blank';a.rel='noopener';a.textContent='ver en el archivo original (máxima calidad)';s.appendChild(a);pie.appendChild(s)}
+$('cerrar').onclick=()=>$('visor').classList.remove('ab');
+$('visor').querySelector('.img').onclick=()=>$('visor').classList.toggle('z');
+document.onkeydown=(e)=>e.key==='Escape'&&$('visor').classList.remove('ab');
+$('ir').onclick=buscarPais;$('q').onkeydown=(e)=>e.key==='Enter'&&buscarPais();$('mas').onclick=pintar;
+$('siglo').onchange=$('antiguos').onchange=()=>$('q').value&&buscarPais();
+$('filtro').onkeydown=(e)=>e.key==='Enter'&&buscarPais();
+(async()=>{[NOMBRES,PAISES]=await Promise.all([json('datos/nombres.json'),json('datos/paises.json')]);
+  for(let s=1;s<=20;s++)$('siglo').add(new Option('Siglo '+romano(s),s));
+  for(const i of Object.keys(PAISES).sort((a,b)=>PAISES[b].total-PAISES[a].total))$('sug').appendChild(new Option(PAISES[i].nombre));
+  const C=await json('datos/cartografos.json');
+  for(const[k,v]of Object.entries(C).sort((a,b)=>b[1].total-a[1].total)){const b=document.createElement('button');b.dataset.k=k;
+    b.textContent=`${v.nombre} (${v.total})`;b.onclick=()=>buscarCarto(k,v.nombre);$('cartos').appendChild(b)}
+  const h=new URLSearchParams(location.search).get('q');if(h){$('q').value=h;buscarPais()}})();
+</script>
 </body>
 </html>
