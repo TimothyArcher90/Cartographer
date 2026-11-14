@@ -1,0 +1,122 @@
+{
+"mercator": {
+"nombre": "Gerardus Mercator",
+"total": 1965
+},
+"ortelius": {
+"nombre": "Abraham Ortelius",
+"total": 966
+},
+"blaeu": {
+"nombre": "Blaeu (Willem y Joan)",
+"total": 3340
+},
+"hondius": {
+"nombre": "Hondius",
+"total": 1033
+},
+"janssonius": {
+"nombre": "Jan Janssonius",
+"total": 430
+},
+"ptolomeo": {
+"nombre": "Claudio Ptolomeo (ediciones)",
+"total": 1019
+},
+"munster": {
+"nombre": "Sebastian Münster",
+"total": 497
+},
+"waldseemuller": {
+"nombre": "Martin Waldseemüller",
+"total": 140
+},
+"sanson": {
+"nombre": "Nicolas Sanson",
+"total": 2165
+},
+"delisle": {
+"nombre": "Guillaume de L'Isle",
+"total": 2302
+},
+"danville": {
+"nombre": "Jean-Baptiste d'Anville",
+"total": 2117
+},
+"homann": {
+"nombre": "Johann Baptist Homann",
+"total": 1244
+},
+"seutter": {
+"nombre": "Matthäus Seutter",
+"total": 597
+},
+"visscher": {
+"nombre": "Nicolaes Visscher",
+"total": 757
+},
+"dewit": {
+"nombre": "Frederik de Wit",
+"total": 337
+},
+"speed": {
+"nombre": "John Speed",
+"total": 248
+},
+"cassini": {
+"nombre": "Cassini",
+"total": 742
+},
+"coronelli": {
+"nombre": "Vincenzo Coronelli",
+"total": 512
+},
+"bellin": {
+"nombre": "Jacques-Nicolas Bellin",
+"total": 2729
+},
+"vaugondy": {
+"nombre": "Robert de Vaugondy",
+"total": 665
+},
+"arrowsmith": {
+"nombre": "Aaron Arrowsmith",
+"total": 1006
+},
+"cary": {
+"nombre": "John Cary",
+"total": 368
+},
+"lopez": {
+"nombre": "Tomás López",
+"total": 230
+},
+"codazzi": {
+"nombre": "Agustín Codazzi",
+"total": 154
+},
+"humboldt": {
+"nombre": "Alexander von Humboldt",
+"total": 732
+},
+"piri-reis": {
+"nombre": "Piri Reis",
+"total": 29
+},
+"delacosa": {
+"nombre": "Juan de la Cosa",
+"total": 40
+},
+"mitchell": {
+"nombre": "Samuel Augustus Mitchell",
+"total": 2104
+},
+"colton": {
+"nombre": "Colton",
+"total": 2649
+},
+"stieler": {
+"nombre": "Adolf Stieler",
+"total": 1236
+}
+}
